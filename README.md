@@ -1,7 +1,6 @@
 # SDNURoboticsAILab.github.io
    
       The websites of Shan Dong Normal unvisity Robotics AI Lab
-   <br></br>
       哈哈哈哈哈哈哈哈哈哈哈哈哈哈这里有个彩蛋不知道谁能够找到
    
       
