@@ -1,8 +1,12 @@
-# SDNURoboticsAILab.github.io
-   
-The websites of Shan Dong Normal unvisity Robotics AI Lab
-哈哈哈哈哈哈哈哈哈哈哈哈哈哈这里有个彩蛋不知道谁能够找到
-   
-      
-<span style="color:white">W9XZXJZ5ZlZ5YVdFb9YNcNd9dhc9YNd5C=W13l2lWf22Wf2yGplh2l3fGfGp1h2vW0g=</span>
-   
+echo "java config..."
+sudo mkdir /usr/local/java
+sudo tar -xzvf jdk-8u391-linux-aarch64.tar.gz -C /usr/local/java
+cat << EOF >> /etc/profile
+JAVA_HOME=/usr/local/java/jdk1.8.0_391
+PATH=$PATH:$JAVA_HOME/bin
+JRE_HOME=/usr/local/java/jdk1.8.0_181/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+EOF
+source /etc/profile
+echo "java config done."
