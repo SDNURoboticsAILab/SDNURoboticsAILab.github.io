@@ -1,0 +1,4 @@
+site_name: My Docs
+docs_dir: 'mdfile'
+site_dir: 'docs'
+
