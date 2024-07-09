@@ -1,4 +1,5 @@
-site_name: My Docs
+site_name: Robotics AI Lab
 docs_dir: 'mdfile'
 site_dir: 'docs'
 
+nav:
