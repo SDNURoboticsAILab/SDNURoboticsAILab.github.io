@@ -3,3 +3,6 @@ docs_dir: 'mdfile'
 site_dir: 'docs'
 
 nav:
+
+theme:
+  name: material
