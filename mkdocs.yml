@@ -1,8 +1,142 @@
-site_name: Robotics AI Lab
+#[Info]
+site_name: SDNU机器人与人工智能实验室
 docs_dir: 'mdfile'
 site_dir: 'docs'
+site_description: >-
+  山东师范大学信息科学与工程学院机器人与人工智能实验室
 
+repo_name: SDNURoboticsAILab.github.io
+repo_url: https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io
+
+copyright: Copyright &copy; 2024-present <a href="https://github.com/SDNURoboticsAILab" target="_blank" rel="noopener noreferrer">Robotics and AI Lab, SDNU</a>
+
+#[Navigation]
 nav:
+  - 介绍: index.md
+  - 竞赛目录:
+    - 机器人世界杯: contest/RoboCup.md
+  - 教学资源:
+    - resource/Linux/Linux.md
+    - resource/Python/Python.md
+  - 社会活动: social/social.md
+  - 历届获奖: awards/awards.md
 
+#[UI]
 theme:
   name: material
+  static_templates:
+    - 404.html
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  features:
+    - navigation.instant # 现在页面不会跳转,而是类似单页应用,搜索和各种跳转都是在当前页面完成,对美观有很大帮助
+    - navigation.tabs # 页面上方的标签页
+    - navigation.tracking # 页面滚动时，导航栏高亮当前页面
+    - navigation.sections # 使导航栏分块
+    - navigation.expand # 默认展开导航
+    - navigation.prune # 只渲染当前页面的导航
+    - toc.follow # 滚动的时候侧边栏自动跟随
+    - navigation.top # 返回顶部按钮
+    - search.suggest # 补全建议
+    - search.highlight # 搜索结果高亮
+    - navigation.footer # 页脚提示下一章
+    - content.code.copy # 代码段上的赋值按钮
+
+  # open/close comment
+  custom_dir: overrides
+
+#[Plugins]
+plugins:
+  # Translation plugin
+  - i18n:
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+
+        - locale: en
+          name: English
+          build: true
+          site_name: Robotics and AI Lab, SDNU
+          nav_translations:
+            介绍: Introduction
+            竞赛目录: Contest Category
+            机器人世界杯: RoboCup
+            教学资源: Learning Resource
+            社会活动: Social Activities
+            历届获奖: Previous Awards
+
+  # Search plugin
+  - search:
+      lang:
+        - zh
+        - en
+
+  # Minify html, speed up the loading speed
+  - minify:
+      minify_html: true
+
+extra_javascript:
+  # 使用mathjax
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - attr_list
+  - admonition # 那些提醒
+  - footnotes # 脚注
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true # 显示行号
+      use_pygments: true # 代码高亮
+      pygments_lang_class: true
+      auto_title: true # 显示编程语言名称
+      linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

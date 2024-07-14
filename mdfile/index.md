@@ -1,17 +1,57 @@
-# Welcome to MkDocs
+# 中文主页
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+```cpp title="test.cpp"
+#include <stdio.h>  // 引用头文件
 
-## Commands
+int main() {                // 定义 main 函数
+  printf("Hello, world!");  // 输出 Hello, world!
+  return 0;                 // 返回 0，结束 main 函数
+}
+```
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! note
 
-## Project layout
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! success
+
+	shhshshshs
+	sss
+	ss
+
+!!! failure 
+
+	这是 failure 类型的提示框" 失败！ 
+
+!!! bug "gubggub"
+
+	这是 bug 类型的提示框" 发现一个 bug，请尽快修复！
+
+
+
+## 1
+
+## 2
+
+## 3
+
+## 4
+
+## 5
+
+## 6
+
+## 7
+
+## 8
+
+## 9
+
+## 10
+
+$$
+E = mc^2
+$$
+
