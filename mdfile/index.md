@@ -55,3 +55,4 @@ $$
 E = mc^2
 $$
 
+![favicon](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/favicon.png)
