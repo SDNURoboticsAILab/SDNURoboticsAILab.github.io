@@ -16,10 +16,12 @@ nav:
   - 竞赛目录:
     - 机器人世界杯: contest/RoboCup.md
   - 教学资源:
-    - resource/Linux/Linux.md
-    - resource/Python/Python.md
+    - Linux: resource/Linux/Linux.md
+    - Python: resource/Python/Python.md
   - 社会活动: social/social.md
   - 历届获奖: awards/awards.md
+  - 其他:
+    - 有趣的东西: others/interesting.md
 
 #[UI]
 theme:
@@ -104,6 +106,8 @@ plugins:
             教学资源: Learning Resource
             社会活动: Social Activities
             历届获奖: Previous Awards
+            其他: Others
+            有趣的东西: Something Interesting
 
   # Search plugin
   - search:
@@ -116,7 +120,7 @@ plugins:
       minify_html: true
 
 extra_javascript:
-  # 使用mathjax
+  # 使用mathjax进行数学公式渲染
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 

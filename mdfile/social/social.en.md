@@ -1,2 +1,2 @@
-# social
+# Social Activities
 
