@@ -1,5 +1,7 @@
 # Official website of Robotics and AI Lab, SDNU
 
+> [Simplified Chinese Version](README-zh.md)
+
 ## Deployment
 
 This project is currently deployed on [GitHub Pages](https://sdnuroboticsailab.github.io/) using [MkDocs](https://github.com/mkdocs/mkdocs) and the [Material Theme](https://squidfunk.github.io/mkdocs-material/).

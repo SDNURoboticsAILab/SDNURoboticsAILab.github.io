@@ -28,7 +28,7 @@ theme:
   name: material
   static_templates:
     - 404.html
-  favicon: assets/logo.png
+  favicon: assets/images/logo.png
   icon:
     logo: logo
   font:
