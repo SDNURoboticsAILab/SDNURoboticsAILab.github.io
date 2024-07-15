@@ -1,5 +1,7 @@
 # 山东师范大学机器人与人工智能实验室官方网站
 
+> [英文版](README.)
+
 ## 部署
 
 本项目目前采用 [MkDocs](https://github.com/mkdocs/mkdocs) 及 [Material主题](https://squidfunk.github.io/mkdocs-material/) 部署在 [GitHub Pages](https://sdnuroboticsailab.github.io/) 上。
