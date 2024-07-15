@@ -10,8 +10,6 @@
 
 本站已实现自动部署，无需先本地构建静态页面再 `push`。
 
-
-
 ## 贡献
 
 对于站内任何一部分，你若有想要增添/修正/删减等的内容，欢迎提出 [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)。
@@ -22,9 +20,6 @@
 
 若提交的页面中含有图片，请使用[此图床](https://github.com/SDNURoboticsAILab/ImageBed)，推荐使用 [PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A) + [Typora](https://support.typora.io/Upload-Image/#picgoapp-chinese-language-only) 的方法。
 
-
-
 ## 待办事项
 
 - 完善各个页面
-- 添加 `logo` 和 `favicon`

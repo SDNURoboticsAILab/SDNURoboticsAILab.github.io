@@ -23,4 +23,3 @@ If the pages you submit contain images, please use [this image bed](https://gith
 ## To-Do List
 
 - Improve each page
-- Add `logo` and `favicon`
