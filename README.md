@@ -1,6 +1,6 @@
 # Official website of Robotics and AI Lab, SDNU
 
-> [Simplified Chinese Version](README-zh.md)
+> [简体中文版](README-zh.md)
 
 ## Deployment
 
