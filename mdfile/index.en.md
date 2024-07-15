@@ -1,1 +1,1 @@
-# Welcome to the official website of Robotics and AI Lab, SDNU !
+# Welcome to the official website of Robotics and AI Lab, SDNU

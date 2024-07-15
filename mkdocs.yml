@@ -28,9 +28,9 @@ theme:
   name: material
   static_templates:
     - 404.html
-  favicon: assets/images/logo.png
+  favicon: images/logo.png
   icon:
-    logo: logo
+    logo: images/logo.png
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
@@ -83,7 +83,6 @@ theme:
     - navigation.footer # 页脚提示下一章
     - content.code.copy # 代码段上的赋值按钮
 
-  # open/close comment
   custom_dir: overrides
 
 #[Plugins]
@@ -108,13 +107,11 @@ plugins:
             历届获奖: Previous Awards
             其他: Others
             有趣的东西: Something Interesting
-
   # Search plugin
   - search:
       lang:
         - zh
         - en
-
   # Minify html, speed up the loading speed
   - minify:
       minify_html: true
@@ -123,9 +120,6 @@ extra_javascript:
   # 使用mathjax进行数学公式渲染
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
