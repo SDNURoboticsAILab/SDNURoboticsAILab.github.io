@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Something Interesting
 
 ## Admonition
@@ -8,44 +12,44 @@
 
 !!! abstract
 
-	This is a abstract.
+    This is a abstract.
 
 !!! info
 
-	This is a info.
+    This is a info.
 
 !!! tip
 
-	This is a tip.
+    This is a tip.
 
 !!! success
 
-	This is success.
+    This is success.
 
 !!! question
 
-	This is a question.
+    This is a question.
 
 !!! warning
 
-	This is a warning.
+    This is a warning.
 
 !!! failure
 
-	This is a failure.
+    This is a failure.
 
 !!! danger
 
-	This is a danger.
+    This is a danger.
 
 !!! bug
 
-	This is a bug.
+    This is a bug.
 
 !!! example
 
-	This is a example.
+    This is a example.
 
 !!! quote
 
-	This is a quote.
+    This is a quote.

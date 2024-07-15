@@ -1,2 +1,5 @@
-# Social Activities
+---
+comments: true
+---
 
+# Social Activities

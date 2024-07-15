@@ -1,2 +1,5 @@
-# Previous Awards
+---
+comments: true
+---
 
+# Previous Awards
