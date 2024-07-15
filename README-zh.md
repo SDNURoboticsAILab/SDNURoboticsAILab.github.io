@@ -1,6 +1,6 @@
 # 山东师范大学机器人与人工智能实验室官方网站
 
-> [英文版](README.md)
+> [English Version](README.md)
 
 ## 部署
 
