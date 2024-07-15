@@ -20,7 +20,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-static-i18n
-      - run: pip install mkdocs-minify-plugin
+      - run: pip3 install -U -r requirements.txt
       - run: mkdocs gh-deploy --force
