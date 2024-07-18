@@ -1,0 +1,12 @@
+---
+comments: true
+---
+
+# <center>Ncsrtiecarc</center>  
+> [简体中文版](Ncsrtiecarc.md)
+
+## Competition official website：https://www.saikr.com/vse/47818
+
+## Competition Introduction
+
+The National College Student Robot Technology Innovation Exchange Camp and Robot Competition is a national competition activity jointly organized by the Central Committee of the Communist Youth League and the Ministry of Industry and Information Technology, which is guided, demonstrative, and mass oriented. It is an important carrier for the Communist Youth League to serve college students' scientific and technological innovation. The competition has set up five tracks including industrial robots, personal and household service robots, public service robots, special robots, and robots in other application fields, attracting a total of 1017 entries from 431 universities across the country. The competition is based on local resources, organizing a variety of supporting activities that organically integrate youth, innovation, and local elements. It relies on characteristic exchange activities such as student project roadshows, competition achievement transformation industry negotiations, public open days for works, collective research and learning, and cultural tourism promotion to enhance the effectiveness of the competition's education, promote the integration of excellent innovative achievements of college students with society, market, capital, and industry, and help college students transform their scientific and technological achievements into real productivity. At the same time, the competition will carry out a series of characteristic activities of the College Student Robot Technology Innovation Exchange Camp, including thematic exchanges, scientific and technological research, cultural and tourism promotion, public open days, project roadshows, achievement transformation industry negotiation meetings, opening and closing ceremonies, etc..
