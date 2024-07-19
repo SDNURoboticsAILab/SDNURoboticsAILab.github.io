@@ -2,10 +2,9 @@
 comments: true
 ---
 
-# <center>CaaiRobot</center>
-> [简体中文版](CaaiRobot.md)
+# <center>CRAIC</center>
 
-## Competition official website：http://www.caairobot.coms
+## Competition official website：http://www.caairobot.com
 
 ## Competition Introduction
 

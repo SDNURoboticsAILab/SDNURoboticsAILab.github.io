@@ -2,8 +2,7 @@
 comments: true
 ---
 
-# <center>Iyaic</center>  
-> [简体中文版](Iyaic.md)
+# <center>IYAIC</center>  
 
 ## Competition official website：http://www.iyaic.com
 
