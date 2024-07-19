@@ -3,7 +3,6 @@ comments: true
 ---
 
 # <center>国际青年人工智能大赛</center>  
-> [English Version](Iyaic.en.md)
 
 ## 竞赛官网：http://www.iyaic.com
 

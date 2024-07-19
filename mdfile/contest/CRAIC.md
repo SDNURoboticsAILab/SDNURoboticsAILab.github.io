@@ -3,7 +3,6 @@ comments: true
 ---
 
 # <center>中国机器人及人工智能大赛</center>  
-> [English Version](CaaiRobot.en.md)  
 
 ## 竞赛官网：http://www.caairobot.com
 
