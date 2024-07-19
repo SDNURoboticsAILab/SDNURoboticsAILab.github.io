@@ -2,4 +2,4 @@
 comments: true
 ---
 
-# Linux
+# GNU Make简介
