@@ -18,7 +18,13 @@
 mkdocs serve
 ```
 
-进行测试。
+进行本地服务器测试，或者使用
+
+```bash
+mkdocs build
+```
+
+检查生成的静态页面。
 
 本仓库采用 [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) 的方案自动进行 `commit message` 的审查，请确保 `commit message` 符合 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规范。但也不必过多担心，本仓库已集成 [Commitizen](https://github.com/commitizen/cz-cli) 协助填写 `commit message` 。具体包及版本见 [package.json](package.json) ，在首次 `commit` 前请使用
 
@@ -26,7 +32,7 @@ mkdocs serve
 npm install
 ```
 
-安装所有依赖。
+安装所有依赖，安装成功后可使用 `git cz` 替代 `git commit` 。
 
 若进行修改的是页面，请尽量确保文档遵守 [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) 与 [Markdown 简体中文与西文混排要点](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en)，并且不要忘记修改 [mkdocs.yml](mkdocs.yml) 的 `nav` 部分。
 
