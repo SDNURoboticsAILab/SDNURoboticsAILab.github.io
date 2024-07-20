@@ -32,7 +32,7 @@ jobs:
 
     - name: Check Deployment
       env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         if [ -d "site" ]; then
           echo "Deploy would have succeeded!"
