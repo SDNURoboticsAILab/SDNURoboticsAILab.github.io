@@ -5,8 +5,6 @@
 .vscode
 # dependence
 node_modules/
-package-lock.json
-yarn.lock
 # build
 dist/
 build/
