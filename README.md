@@ -14,7 +14,7 @@ The site has automatic deployment in place, so there is no need to build static 
 
 If you have any content you want to add, correct, or delete on this site, you are welcome to submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-This repository uses the [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) solution to automatically review `commit messages`. Please ensure that your `commit messages` conform to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. However, don't worry too much, as this repository has integrated [Commitizen](https://github.com/commitizen/cz-cli) to assist in writing `commit messages`. For specific packages and versions, see [package.json](package.json). Before committing, please use
+This repository uses the [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) solution to automatically review `commit messages`. Please ensure that your `commit messages` conform to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. However, don't worry too much, as this repository has integrated [Commitizen](https://github.com/commitizen/cz-cli) to assist in writing `commit messages`. For specific packages and versions, see [package.json](package.json). Before first committing, please use
 
 ```bash
 npm install
