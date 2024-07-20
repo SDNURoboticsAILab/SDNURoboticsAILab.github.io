@@ -15,9 +15,41 @@ nav:
   - 介绍: index.md
   - 竞赛目录:
     - 机器人世界杯: contest/RoboCup.md
-  - 教学资源:
-    - Linux: resource/Linux/Linux.md
-    - Python: resource/Python/Python.md
+  - 教学资源: # resource/
+    - 编程基础: # programming/
+      - Python语法基础: # Python/
+        - Python简介: resource/programming/Python/Python_Introduction.md
+      - C++语法基础: # Cplus/
+        - C++简介: resource/programming/Cplus/Cplus_Introduction.md
+      - 面向对象的编程: # OOP/
+        - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
+    - 理论基础: # theory/
+      - 数据结构与算法: # Algorithm&DS
+        - 数据结构与算法简介: resource/theory/Algorithm&DS/Algorithm&DS_Introduction.md
+      - 线性代数相关补充: # Linear_Algebra
+        - 线性代数相关补充简介: resource/theory/Linear_Algebra/Linear_Algebra_Introduction.md
+      - 机器人运动学: # Robot_Kinematics
+        - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
+      - 数字图像处理(基于OpenCV Cplus): # CV
+        - 数字图像处理简介: resource/theory/CV/CV_Introduction.md
+      - 机器学习(基于PyTorch): # Machine_Learning
+        - 机器学习简介: resource/theory/Machine_Learning/Machine_Learning_Introduction.md
+    - 实用软件基础: # software/
+      - Linux指令基础: # Linux/
+        - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
+      - Git版本控制: # Git/
+        - Git版本控制简介: resource/software/Git/Git_Introduction.md
+      - GNU Make编译工具: # GNU_Make/
+        - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
+      - CMake编译工具: # CMake/
+        - CMake编译工具简介: resource/software/CMake/CMake_Introduction.md
+      - GDB调试: # GDB/
+        - GDB调试简介: resource/software/GDB/GDB_Introduction.md
+      - LaTeX: # LaTeX/
+        - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
+      - Docker: # Docker/
+        - Docker简介: resource/software/Docker/Docker_Introduction.md
+      - Misc:
   - 社会活动: social/social.md
   - 历届获奖: awards/awards.md
   - 其他:
