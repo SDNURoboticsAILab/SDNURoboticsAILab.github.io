@@ -1,8 +1,15 @@
+# editor and system files
+.DS_Store
+.editorconfig
 .history
 .vscode
-.DS_Store
+# dependence
 node_modules/
+package-lock.json
+yarn.lock
+# build
 dist/
 build/
+# log
 npm-debug.log
 yarn-error.log
