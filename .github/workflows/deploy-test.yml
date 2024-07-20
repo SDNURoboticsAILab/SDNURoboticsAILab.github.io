@@ -31,8 +31,6 @@ jobs:
       run: mkdocs build
 
     - name: Check Deployment
-      env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         if [ -d "site" ]; then
           echo "Deploy would have succeeded!"
@@ -41,3 +39,5 @@ jobs:
           gh pr close ${{ github.event.pull_request.number }}
           exit 1
         fi
+      env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
