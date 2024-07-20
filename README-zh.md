@@ -14,7 +14,7 @@
 
 对于站内任何一部分，你若有想要增添/修正/删减等的内容，欢迎提出 [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 。
 
-本仓库采用 [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) 的方案自动进行 `commit message` 的审查，请确保 `commit message` 符合 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规范。但也不必过多担心，本仓库已集成 [Commitizen](https://github.com/commitizen/cz-cli) 协助填写 `commit message` 。具体包及版本见 [package.json](package.json) ，在 `commit` 前请使用
+本仓库采用 [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) 的方案自动进行 `commit message` 的审查，请确保 `commit message` 符合 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规范。但也不必过多担心，本仓库已集成 [Commitizen](https://github.com/commitizen/cz-cli) 协助填写 `commit message` 。具体包及版本见 [package.json](package.json) ，在首次 `commit` 前请使用
 
 ```bash
 npm install
