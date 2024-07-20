@@ -2,4 +2,4 @@
 comments: true
 ---
 
-# Linux
+# Python简介
