@@ -15,7 +15,7 @@ nav:
   - 介绍: index.md
   - 竞赛目录:
     - 机器人世界杯: contest/RoboCup.md
-  - 教学资源: # resource/
+  - 教学资源:
     - 编程基础: # programming/
       - Python语法基础: # Python/
         - Python简介: resource/programming/Python/Python_Introduction.md
@@ -49,7 +49,7 @@ nav:
         - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker: # Docker/
         - Docker简介: resource/software/Docker/Docker_Introduction.md
-      - Misc:
+      - Misc
   - 社会活动: social/social.md
   - 历届获奖: awards/awards.md
   - 其他:
