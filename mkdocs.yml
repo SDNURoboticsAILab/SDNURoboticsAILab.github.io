@@ -106,8 +106,8 @@ theme:
     - navigation.tabs # 页面上方的标签页
     - navigation.tracking # 页面滚动时，导航栏高亮当前页面
     - navigation.sections # 使导航栏分块
-    - navigation.expand # 默认展开导航
-    - navigation.prune # 只渲染当前页面的导航
+    # - navigation.expand # 默认展开导航
+    # - navigation.prune # 只渲染当前页面的导航
     - toc.follow # 滚动的时候侧边栏自动跟随
     - navigation.top # 返回顶部按钮
     - search.suggest # 补全建议
@@ -155,6 +155,7 @@ plugins:
   # Minify html, speed up the loading speed
   - minify:
       minify_html: true
+  - git-revision-date-localized
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
@@ -165,6 +166,7 @@ markdown_extensions:
   - attr_list
   - admonition # 那些提醒
   - footnotes # 脚注
+  - toc
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
