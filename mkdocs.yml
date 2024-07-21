@@ -50,7 +50,7 @@ nav:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc
-  - 社会活动: social/social.md
+  - 成员风采: social/social.md
   - 历届获奖: awards/awards.md
   - 其他:
     - 有趣的东西: others/interesting.md
@@ -141,7 +141,7 @@ plugins:
             理论基础: Theoretical Basics
             实用软件基础: Practical Software Basics
 
-            社会活动: Social Activities
+            成员风采: Elegant Demeanour
 
             历届获奖: Previous Awards
 
