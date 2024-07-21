@@ -1,0 +1,42 @@
+name: Deploy Test
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        key: mkdocs-material-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+        path: .cache
+
+    - name: Install dependencies
+      run: |
+        pip3 install -U -r requirements.txt
+
+    - name: Build site
+      run: mkdocs build
+
+    - name: Check Deployment
+      run: |
+        if [ -d "site" ]; then
+          echo "Deploy would have succeeded!"
+        else
+          echo "Deploy would have failed!"
+          exit 1
+        fi
+      env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
