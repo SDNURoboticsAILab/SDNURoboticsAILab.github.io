@@ -4,7 +4,7 @@ comments: true
 
 # <center>国际青年人工智能大赛</center>  
 
-## 竞赛官网：[http://www.iyaic.com](http://www.iyaic.com)
+## 竞赛官网：<http://www.iyaic.com>
 
 ## 竞赛介绍
 

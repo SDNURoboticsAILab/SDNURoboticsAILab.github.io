@@ -4,7 +4,7 @@ comments: true
 
 # <center>IYAIC</center>  
 
-## Competition official website：[http://www.iyaic.com](http://www.iyaic.com)
+## Competition official website：<http://www.iyaic.com>
 
 ## Competition Introduction
 
