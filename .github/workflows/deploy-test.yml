@@ -5,7 +5,6 @@ on:
     branches: [master]
 
 jobs:
-
   build-and-deploy:
     runs-on: ubuntu-latest
 
@@ -27,15 +26,34 @@ jobs:
       run: |
         pip3 install -U -r requirements.txt
 
+    - name: Verify mkdocs installation
+      run: |
+        mkdocs --version
+
+    - name: Clean old build
+      run: |
+        echo "Cleaning old build..."
+        rm -rf docs
+        echo "Old build cleaned."
+
     - name: Build site
-      run: mkdocs build
+      run: |
+        echo "Building the site..."
+        mkdocs build
+        echo "Build complete. Listing current directory structure:"
+        ls -la
+        echo "Listing 'docs' directory structure:"
+        if [ -d "docs" ]; then
+          ls -la docs
+        else
+          echo "'docs' directory does not exist."
+        fi
 
     - name: Check Deployment
       run: |
-        if [ -d "site" ]; then
+        if [ -d "docs" ]; then
           echo "Deploy would have succeeded!"
         else
           echo "Deploy would have failed!"
-          gh pr close ${{ github.event.pull_request.number }}
           exit 1
         fi
