@@ -4,7 +4,7 @@ comments: true
 
 # <center>机器人世界杯</center>
 
-## 竞赛官网：https://www.robocup.org
+## 竞赛官网：[https://www.robocup.org](https://www.robocup.org)
 
 ## 竞赛介绍
 
