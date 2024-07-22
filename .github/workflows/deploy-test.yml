@@ -39,4 +39,4 @@ jobs:
           exit 1
         fi
       env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ github.token }}
