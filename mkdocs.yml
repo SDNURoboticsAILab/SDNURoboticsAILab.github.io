@@ -55,7 +55,13 @@ nav:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc
-  - 成员风采: social/social.md
+  - 成员风采: 
+    - 竞赛一览:
+      - 2023年: social/Competition_Chronicles/2023.md
+      - 2024年: social/Competition_Chronicles/2024.md
+    - 日常印记:
+      - 2023年: social/Daily_Echos/2023.md
+      - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
     - 有趣的东西: others/interesting.md
@@ -152,6 +158,10 @@ plugins:
             实用软件基础: Practical Software Basics
 
             成员风采: Elegant Demeanour
+            竞赛一览: Competition Chronicles
+            日常印记: Daily Echos
+            2023年: 2023year
+            2024年: 2024year
 
             历届获奖: Previous Awards
 
