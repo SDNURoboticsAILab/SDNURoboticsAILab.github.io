@@ -57,3 +57,5 @@ jobs:
           echo "Deploy would have failed!"
           exit 1
         fi
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }}
