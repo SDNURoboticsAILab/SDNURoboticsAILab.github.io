@@ -60,3 +60,11 @@ jobs:
         fi
       env:
         GH_TOKEN: ${{ secrets.GH_PAT }}
+
+    - name: Close PR if build failed
+      if: failure()
+      run: |
+        echo "Closing PR due to build failure..."
+        gh pr close ${{ github.event.pull_request.number }}
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }}
