@@ -4,7 +4,7 @@ comments: true
 
 # <center>RoboCup China Open</center>
 
-## Competition official website：[http://robocup.drct-caa.org.cn](http://robocup.drct-caa.org.cn)
+## Competition official website：<http://robocup.drct-caa.org.cn>
 
 ## Competition Introduction
 

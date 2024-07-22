@@ -4,7 +4,7 @@ comments: true
 
 # <center>CRAIC</center>
 
-## Competition official website：[http://www.caairobot.com](http://www.caairobot.com)
+## Competition official website：<http://www.caairobot.com>
 
 ## Competition Introduction
 
