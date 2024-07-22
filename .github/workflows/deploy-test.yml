@@ -55,16 +55,16 @@ jobs:
           echo "Deploy would have succeeded!"
         else
           echo "Deploy would have failed!"
-          gh pr close ${{ github.event.pull_request.number }}
+          # gh pr close ${{ github.event.pull_request.number }}
           exit 1
         fi
       env:
         GH_TOKEN: ${{ secrets.GH_PAT }}
 
-    - name: Close PR if build failed
-      if: failure()
-      run: |
-        echo "Closing PR due to build failure..."
-        gh pr close ${{ github.event.pull_request.number }}
-      env:
-        GH_TOKEN: ${{ secrets.GH_PAT }}
+    # - name: Close PR if build failed
+    #   if: failure()
+    #   run: |
+    #     echo "Closing PR due to build failure..."
+    #     gh pr close ${{ github.event.pull_request.number }}
+    #   env:
+    #     GH_TOKEN: ${{ secrets.GH_PAT }}
