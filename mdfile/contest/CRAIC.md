@@ -4,7 +4,7 @@ comments: true
 
 # <center>中国机器人及人工智能大赛</center>  
 
-## 竞赛官网：http://www.caairobot.com
+## 竞赛官网：[http://www.caairobot.com](http://www.caairobot.com)
 
 ## 竞赛介绍  
 
