@@ -4,7 +4,7 @@ comments: true
 
 # <center>机器人世界杯中国赛</center>
 
-## 竞赛官网：[http://robocup.drct-caa.org.cn](http://robocup.drct-caa.org.cn)
+## 竞赛官网：<http://robocup.drct-caa.org.cn>
 
 ## 竞赛介绍
 

@@ -4,7 +4,7 @@ comments: true
 
 # <center>RoboCup</center>
 
-## Competition official website：[https://www.robocup.org](https://www.robocup.org)
+## Competition official website：<https://www.robocup.org>
 
 ## Competition Introduction
 
