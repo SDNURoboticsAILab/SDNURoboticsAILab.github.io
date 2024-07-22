@@ -14,7 +14,12 @@ copyright: Copyright &copy; 2024-present <a href="https://github.com/SDNURobotic
 nav:
   - 介绍: index.md
   - 竞赛目录:
+    - 中国机器人及人工智能大赛: contest/CRAIC.md
+    - 国际青年人工智能大赛: contest/IYAIC.md
+    - 机器人世界杯中国赛: contest/RoboCup China Open.md
     - 机器人世界杯: contest/RoboCup.md
+    - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics Innovation Camp by CYL.md
+    
   - 教学资源:
     - 编程基础:
       - Python语法基础:
@@ -51,10 +56,17 @@ nav:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
         - Misc: resource/software/Misc/Misc.md
-  - 成员风采: social/social.md
+  - 成员风采: 
+    - 竞赛一览:
+      - 2023年: social/Competition_Chronicles/2023.md
+      - 2024年: social/Competition_Chronicles/2024.md
+    - 日常印记:
+      - 2023年: social/Daily_Echos/2023.md
+      - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
     - 有趣的东西: others/interesting.md
+
 #[UI]
 theme:
   name: material
@@ -106,8 +118,8 @@ theme:
     - navigation.tabs # 页面上方的标签页
     - navigation.tracking # 页面滚动时，导航栏高亮当前页面
     - navigation.sections # 使导航栏分块
-    - navigation.expand # 默认展开导航
-    - navigation.prune # 只渲染当前页面的导航
+    # - navigation.expand # 默认展开导航
+    # - navigation.prune # 只渲染当前页面的导航
     - toc.follow # 滚动的时候侧边栏自动跟随
     - navigation.top # 返回顶部按钮
     - search.suggest # 补全建议
@@ -134,7 +146,12 @@ plugins:
             介绍: Introduction
 
             竞赛目录: Contest Category
+            中国机器人及人工智能大赛: CRAIC
+            国际青年人工智能大赛: IYAIC
+            机器人世界杯中国赛: RoboCup China Open
             机器人世界杯: RoboCup
+            全国大学生机器人科技创新交流营暨机器人大赛: Robotics Innovation Camp by CYL
+
 
             教学资源: Learning Resource
             编程基础: Programming Basics
@@ -142,6 +159,10 @@ plugins:
             实用软件基础: Practical Software Basics
 
             成员风采: Elegant Demeanour
+            竞赛一览: Competition Chronicles
+            日常印记: Daily Echos
+            2023年: 2023year
+            2024年: 2024year
 
             历届获奖: Previous Awards
 
@@ -155,6 +176,7 @@ plugins:
   # Minify html, speed up the loading speed
   - minify:
       minify_html: true
+  - git-revision-date-localized
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
@@ -165,6 +187,7 @@ markdown_extensions:
   - attr_list
   - admonition # 那些提醒
   - footnotes # 脚注
+  - toc
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
