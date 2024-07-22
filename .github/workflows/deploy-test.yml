@@ -55,6 +55,7 @@ jobs:
           echo "Deploy would have succeeded!"
         else
           echo "Deploy would have failed!"
+          gh pr close ${{ github.event.pull_request.number }}
           exit 1
         fi
       env:
