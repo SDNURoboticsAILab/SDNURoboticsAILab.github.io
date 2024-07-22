@@ -18,7 +18,13 @@ If you have any content you want to add, correct, or delete on this site, you ar
 mkdocs serve
 ```
 
-to test it first.
+to test it on local server, or use
+
+```bash
+mkdocs build
+```
+
+to check the generated static pages.
 
 This repository uses the [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) solution to automatically review `commit messages`. Please ensure that your `commit messages` conform to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. However, don't worry too much, as this repository has integrated [Commitizen](https://github.com/commitizen/cz-cli) to assist in writing `commit messages`. For specific packages and versions, see [package.json](package.json). Before first committing, please use
 
@@ -26,7 +32,7 @@ This repository uses the [commitlint](https://github.com/conventional-changelog/
 npm install
 ```
 
-to install all dependencies.
+to install all dependencies. After successful installation, you can use `git cz` instead of `git commit`.
 
 If you are modifying a page, please ensure that the document complies with [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) and [Markdown Writing with Mixed Chinese and English](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en). Also, don't forget to update the `nav` section of [mkdocs.yml](mkdocs.yml).
 
@@ -37,3 +43,4 @@ If the pages you submit contain images, please use [this image bed](https://gith
 ## To-Do List
 
 - Improve each page
+- Make each page display the last modification time of the page instead of the current repository modification time
