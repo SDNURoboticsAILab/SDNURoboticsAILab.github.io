@@ -49,7 +49,7 @@ nav:
         - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
-      - Misc:
+      - Misc
   - 成员风采: social/social.md
   - 历届获奖: awards/awards.md
   - 其他:
