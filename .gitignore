@@ -1,4 +1,5 @@
 # editor and system files
+.DS_Store
 .DS_Store/
 .editorconfig
 .history/
