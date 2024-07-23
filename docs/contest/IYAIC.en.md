@@ -1,0 +1,17 @@
+---
+comments: true
+---
+
+# <center>IYAIC</center>  
+
+## Competition Official Website：<http://www.iyaic.com>
+
+## Competition Introduction
+
+The IYAIC is currently one of the highest level international youth high-level artificial intelligence competitions with the most participating universities. It is an important platform for youth scientific and technological innovation exchange, and the entries cover the latest artificial intelligence technologies. The competition aims to further stimulate the enthusiasm of young students for innovation, entrepreneurship, and creativity, and build a cooperation platform for international youth to work together to solve cutting-edge problems in the fields of robotics technology and artificial intelligence, as well as to leverage the deep integration of technology and culture and art. The competition has gradually developed into a focus on high-precision technology exchange, industrial technology application, market size impact, and other aspects. It revolves around two major competition directions: scientific research and technology, and popular science creation, in order to promote core technology breakthroughs in the global artificial intelligence technology field; The competition will continue to attract a wide range of young people from around the world to participate, providing a showcase platform for young people from various countries who love "artificial intelligence technology+".
+
+The IYAIC has attracted more than 300 universities from home and abroad to participate in the grand event. The teams from 26 countries including China, South Korea, the United Kingdom, Russia, Germany, Thailand, Singapore, Zambia, Finland, Pakistan, Türkiye, Chad, Vietnam, Canada, Romania, Malaysia, Cambodia, Egypt, Kazakhstan, Serbia, Bulgaria, Poland, Ukraine, Belarus, Macedonia and so on competed together.
+
+The IYAIC will continuously leverage its platform advantages to provide a global open cooperation platform that gathers innovative resources, industrial resources, market resources, capital resources, and talent resources for participants, referees, and participants. It will stimulate the technological research and development potential of the artificial intelligence industry and become an important force in promoting the cultivation of global innovative talents, technological talents, and skilled technical talents.
+
+The IYAIC is developed from the National Competitive Robot Invitation Competition and the University Artificial Intelligence Innovation Competition (guided by the School Department of the Central Committee of the Communist Youth League and hosted by the Network Film and Television Center of the Central Committee of the Communist Youth League), as well as the International Youth Congress (jointly organized by China and Russia) technology special activities. With the gradual expansion of the international influence of the competition, including the Joint Sustainable Development Goals Collaborative Project Working Committee, the Chinese Society for Artificial Intelligence, and international official and academic organizations, the competition continues to receive support for its development. In the near future, the competition will become a world-renowned high-level competition, expanding the depth and breadth of participation, and becoming an important platform for international young friends' technological innovation and cultural exchange.
