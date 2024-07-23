@@ -2,4 +2,3 @@
 comments: true
 ---
 
-# Social Activities

@@ -14,7 +14,12 @@ copyright: Copyright &copy; 2024-present <a href="https://github.com/SDNURobotic
 nav:
   - 介绍: index.md
   - 竞赛目录:
+    - 中国机器人及人工智能大赛: contest/CRAIC.md
+    - 国际青年人工智能大赛: contest/IYAIC.md
+    - 机器人世界杯中国赛: contest/RoboCup China Open.md
     - 机器人世界杯: contest/RoboCup.md
+    - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics Innovation Camp by CYL.md
+    
   - 教学资源:
     - 编程基础:
       - Python语法基础:
@@ -49,8 +54,15 @@ nav:
         - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
-      - Misc
-  - 社会活动: social/social.md
+      - Misc:
+        - Misc: resource/software/Misc/Misc.md
+  - 成员风采: 
+    - 竞赛一览:
+      - 2023年: social/Competition_Chronicles/2023.md
+      - 2024年: social/Competition_Chronicles/2024.md
+    - 日常印记:
+      - 2023年: social/Daily_Echos/2023.md
+      - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
     - 有趣的东西: others/interesting.md
@@ -134,14 +146,22 @@ plugins:
             介绍: Introduction
 
             竞赛目录: Contest Category
+            中国机器人及人工智能大赛: CRAIC
+            国际青年人工智能大赛: IYAIC
+            机器人世界杯中国赛: RoboCup China Open
             机器人世界杯: RoboCup
+            全国大学生机器人科技创新交流营暨机器人大赛: Robotics Innovation Camp by CYL
 
             教学资源: Learning Resource
             编程基础: Programming Basics
             理论基础: Theoretical Basics
             实用软件基础: Practical Software Basics
 
-            社会活动: Social Activities
+            成员风采: Elegant Demeanour
+            竞赛一览: Competition Chronicles
+            日常印记: Daily Echos
+            2023年: 2023year
+            2024年: 2024year
 
             历届获奖: Previous Awards
 
