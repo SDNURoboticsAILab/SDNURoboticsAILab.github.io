@@ -39,6 +39,27 @@ nav:
         - 数字图像处理简介: resource/theory/CV/CV_Introduction.md
       - 机器学习(基于PyTorch):
         - 机器学习简介: resource/theory/Machine_Learning/Machine_Learning_Introduction.md
+    - NAO机器人:
+      - NAO机器人简介:
+        - 基本简述: resource/NAO/Introduction/Basic_Introduction.md
+        - 软件平台简述: resource/NAO/Introduction/Software_Platform.md
+        - 硬件平台简述: resource/NAO/Introduction/Hardware_Platform.md
+        - 运动学数据: resource/NAO/Introduction/Kinematics.md
+        - 致动器和传感器数据: resource/NAO/Introduction/Actuators_and_Sensors.md
+      - NAO机器人使用基础(基于NAOqi):
+        - NAO机器人的基本操作: resource/NAO/Usage/Basic_Operations.md
+        - Choregraphe控制NAO机器人简述: resource/NAO/Usage/Choregraphe_Control.md
+        - Python控制NAO机器人简述: resource/NAO/Usage/Python_Control.md
+        - C++控制NAO机器人简述: resource/NAO/Usage/Cpp_Control.md
+      - NAOqi APIs简述:
+        - NAOqi Core模块讲解: resource/NAO/APIs/NAOqi_Core.md
+        - NAOqi Emotion模块讲解: resource/NAO/APIs/NAOqi_Emotion.md
+        - NAOqi Interaction engines模块讲解: resource/NAO/APIs/NAOqi_Interaction.md
+        - NAOqi Motion模块讲解: resource/NAO/APIs/NAOqi_Motion.md
+        - NAOqi Audio模块讲解: resource/NAO/APIs/NAOqi_Audio.md
+        - NAOqi Vision模块讲解: resource/NAO/APIs/NAOqi_Vision.md
+        - NAOqi People Perception模块讲解: resource/NAO/APIs/NAOqi_People_Perception.md
+        - NAOqi Sensors & LEDs模块讲解: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
