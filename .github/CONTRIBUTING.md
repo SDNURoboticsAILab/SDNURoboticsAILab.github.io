@@ -60,3 +60,5 @@ The PicGo settings are shown in the image below:
 ![PicGo Settings](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/image-20240723141037880.png)
 
 Set the custom domain to <https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master>.
+
+Please contact the repository maintainer to obtain `token`.
