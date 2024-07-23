@@ -1,7 +1,7 @@
 #[Info]
 site_name: SDNU机器人与人工智能实验室
-docs_dir: 'mdfile'
-site_dir: 'docs'
+docs_dir: 'docs'
+site_dir: 'site'
 site_description: >-
   山东师范大学信息科学与工程学院机器人与人工智能实验室
 
