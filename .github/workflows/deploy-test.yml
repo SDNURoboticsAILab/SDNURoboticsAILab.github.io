@@ -33,7 +33,7 @@ jobs:
     - name: Clean old build
       run: |
         echo "Cleaning old build..."
-        rm -rf docs
+        rm -rf site
         echo "Old build cleaned."
 
     - name: Build site
