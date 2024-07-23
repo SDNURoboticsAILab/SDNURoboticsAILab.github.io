@@ -42,16 +42,16 @@ jobs:
         mkdocs build
         echo "Build complete. Listing current directory structure:"
         ls -la
-        echo "Listing 'docs' directory structure:"
-        if [ -d "docs" ]; then
-          ls -la docs
+        echo "Listing 'site' directory structure:"
+        if [ -d "site" ]; then
+          ls -la site
         else
-          echo "'docs' directory does not exist."
+          echo "'site' directory does not exist."
         fi
 
     - name: Check Deployment
       run: |
-        if [ -d "docs" ]; then
+        if [ -d "site" ]; then
           echo "Deploy would have succeeded!"
         else
           echo "Deploy would have failed!"
