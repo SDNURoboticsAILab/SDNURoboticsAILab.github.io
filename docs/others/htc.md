@@ -32,7 +32,7 @@
 
 为了简化提交信息的编写，仓库已集成 [Commitizen](https://github.com/commitizen/cz-cli) 和 [cz-git](https://github.com/Zhengqbbb/cz-git)。
 
-具体包及版本见 [package.json](package.json)。在首次 `commit` 前，请使用以下命令安装所有依赖：
+具体包及版本见 [package.json](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/blob/master/package.json)。在首次 `commit` 前，请使用以下命令安装所有依赖：
 
 ```bash
 npm install
@@ -44,9 +44,9 @@ npm install
 
 若需修改页面，请确保文档遵守 [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) 和 [Markdown 简体中文与西文混排要点](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en)。
 
-此外，请同步更新 [mkdocs.yml](mkdocs.yml) 的 `nav` 部分。
+此外，请同步更新 [mkdocs.yml](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/blob/master/mkdocs.yml) 的 `nav` 部分。
 
-本站支持中英双语，请确保每个页面至少有两个 `Markdown` 文件：`page.md` 和 `page.en.md`，并在 [mkdocs.yml](mkdocs.yml) 的 `i18n` 插件中的 `nav_translations` 部分添加相应的翻译。
+本站支持中英双语，请确保每个页面至少有两个 `Markdown` 文件：`page.md` 和 `page.en.md`，并在 [mkdocs.yml](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/blob/master/mkdocs.yml) 的 `i18n` 插件中的 `nav_translations` 部分添加相应的翻译。
 
 ## 图片
 

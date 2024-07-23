@@ -32,7 +32,7 @@ This repository uses the [commitlint](https://github.com/conventional-changelog/
 
 To simplify the writing of commit messages, the repository has integrated [Commitizen](https://github.com/commitizen/cz-cli) and [cz-git](https://github.com/Zhengqbbb/cz-git).
 
-For specific packages and versions, see [package.json](package.json). Before the first `commit`, please install all dependencies using the following command:
+For specific packages and versions, see [package.json](../package.json). Before the first `commit`, please install all dependencies using the following command:
 
 ```bash
 npm install
@@ -44,9 +44,9 @@ After successful installation, you can use `git cz` instead of `git commit`.
 
 If you need to modify the page, please ensure that the document complies with [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) and [Markdown Writing with Mixed Chinese and Western Text](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en).
 
-In addition, please update the `nav` section of [mkdocs.yml](mkdocs.yml) accordingly.
+In addition, please update the `nav` section of [mkdocs.yml](../mkdocs.yml) accordingly.
 
-This site supports both Chinese and English. Please ensure that each page has at least two `Markdown` files: `page.md` and `page.en.md`, and add the corresponding translation in the `nav_translations` section of the `i18n` plugin in [mkdocs.yml](mkdocs.yml).
+This site supports both Chinese and English. Please ensure that each page has at least two `Markdown` files: `page.md` and `page.en.md`, and add the corresponding translation in the `nav_translations` section of the `i18n` plugin in [mkdocs.yml](../mkdocs.yml).
 
 ## Images
 

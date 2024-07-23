@@ -65,8 +65,8 @@ nav:
       - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
-    - 有趣的东西: others/interesting.md
     - 如何贡献: others/htc.md
+    - 有趣的东西: others/interesting.md
 
 #[UI]
 theme:
@@ -167,8 +167,8 @@ plugins:
             历届获奖: Previous Awards
 
             其他: Others
-            有趣的东西: Something Interesting
             如何贡献: How To Contribute
+            有趣的东西: Something Interesting
   # Search plugin
   - search:
       lang:
