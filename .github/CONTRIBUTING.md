@@ -1,4 +1,4 @@
-# Contribution Guide
+# Contributing Guidelines
 
 Thank you very much for your interest in this project! To collaborate better, please follow the guidelines below.
 
@@ -6,7 +6,7 @@ Thank you very much for your interest in this project! To collaborate better, pl
 
 For any additions, corrections, or deletions within the site, feel free to submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-Please describe the changes and their reasons in detail in the pull request. It is recommended that the title of the pull request follows the [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) specification.
+Please describe the changes and their reasons in detail in the pull request. It is recommended that the title of the pull request follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 Before contributing, you can raise questions or seek help in the [Issues](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/issues) section.
 
@@ -28,7 +28,7 @@ After submitting the pull request, it will automatically check if your content c
 
 ## Commit Messages
 
-This repository uses the [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) scheme to automatically review `commit messages`. Please ensure that `commit messages` comply with the [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) specification.
+This repository uses the [commitlint](https://github.com/conventional-changelog/commitlint) + [husky](https://github.com/typicode/husky) scheme to automatically review `commit messages`. Please ensure that `commit messages` comply with the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 To simplify the writing of commit messages, the repository has integrated [Commitizen](https://github.com/commitizen/cz-cli) and [cz-git](https://github.com/Zhengqbbb/cz-git).
 
