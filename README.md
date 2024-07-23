@@ -18,5 +18,3 @@ Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) carefully or [view it on 
 
 - Improve each page
 - Make each page display the last modification time of the page instead of the current repository modification time
-
-
