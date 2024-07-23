@@ -54,7 +54,8 @@ nav:
         - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
-      - Misc
+      - Misc:
+        - Misc: resource/software/Misc/Misc.md
   - 成员风采: 
     - 竞赛一览:
       - 2023年: social/Competition_Chronicles/2023.md
