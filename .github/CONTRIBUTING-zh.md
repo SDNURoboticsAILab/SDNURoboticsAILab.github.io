@@ -60,3 +60,5 @@ PicGo 的设置如下图所示：
 ![PicGo 设置](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/image-20240723141037880.png)
 
 自定义域名设置为 <https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master>。
+
+`token` 请联系仓库维护者获取。
