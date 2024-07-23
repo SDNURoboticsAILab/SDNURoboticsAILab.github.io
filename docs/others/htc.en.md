@@ -1,4 +1,4 @@
-# Contributing Guideline
+# Contributing Guidelines
 
 Thank you very much for your interest in this project! To collaborate better, please follow the guidelines below.
 
