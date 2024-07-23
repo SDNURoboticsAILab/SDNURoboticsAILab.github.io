@@ -19,7 +19,7 @@ nav:
     - 机器人世界杯中国赛: contest/RoboCup China Open.md
     - 机器人世界杯: contest/RoboCup.md
     - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics Innovation Camp by CYL.md
-    
+
   - 教学资源:
     - 编程基础:
       - Python语法基础:
@@ -56,7 +56,7 @@ nav:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
         - Misc: resource/software/Misc/Misc.md
-  - 成员风采: 
+  - 成员风采:
     - 竞赛一览:
       - 2023年: social/Competition_Chronicles/2023.md
       - 2024年: social/Competition_Chronicles/2024.md
@@ -66,6 +66,7 @@ nav:
   - 历届获奖: awards/awards.md
   - 其他:
     - 有趣的东西: others/interesting.md
+    - 如何贡献: others/htc.md
 
 #[UI]
 theme:
@@ -160,13 +161,14 @@ plugins:
             成员风采: Elegant Demeanour
             竞赛一览: Competition Chronicles
             日常印记: Daily Echos
-            2023年: 2023year
-            2024年: 2024year
+            2023年: 2023
+            2024年: 2024
 
             历届获奖: Previous Awards
 
             其他: Others
             有趣的东西: Something Interesting
+            如何贡献: How To Contribute
   # Search plugin
   - search:
       lang:
