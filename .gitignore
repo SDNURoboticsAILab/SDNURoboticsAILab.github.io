@@ -1,13 +1,14 @@
 # editor and system files
-.DS_Store
+.DS_Store/
 .editorconfig
-.history
-.vscode
+.history/
+.vscode/
 # dependence
 node_modules/
 # build
 dist/
 build/
+site/
 # log
 npm-debug.log
 yarn-error.log
