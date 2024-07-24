@@ -1,5 +1,3 @@
-
-
 # Welcome to the official website of Robotics and AI Lab, SDNU
 
 **Shandong Normal University Robotics and AI Lab**, established in 2021, is based in the **Shandong Artificial Intelligence Base** and is dedicated to diverse research in the fields of robotics technology and artificial intelligence.
