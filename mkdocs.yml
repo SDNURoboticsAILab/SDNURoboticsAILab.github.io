@@ -7,7 +7,6 @@ site_description: >-
 
 repo_name: SDNURoboticsAILab.github.io
 repo_url: https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io
-token: !ENV [MKDOCS_GIT_COMMITTERS_APIKEY, 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]
 
 copyright: Copyright &copy; 2024-present <a href="https://github.com/SDNURoboticsAILab" target="_blank" rel="noopener noreferrer">Robotics and AI Lab, SDNU</a>
 
@@ -271,7 +270,6 @@ plugins:
   - git-committers:
       repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
       branch: master
-      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   # - git-authors
 
 extra_javascript:
