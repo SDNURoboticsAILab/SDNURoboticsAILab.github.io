@@ -290,7 +290,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  #使用timeline
+  #使用时间轴
   - neoteroi.timeline
   # 使用icon图标
   - attr_list
