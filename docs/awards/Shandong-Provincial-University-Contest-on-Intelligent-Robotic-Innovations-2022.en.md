@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>2022 Shandong Provincial University Contest on Intelligent Robotic Innovations Award Certificates</center>  

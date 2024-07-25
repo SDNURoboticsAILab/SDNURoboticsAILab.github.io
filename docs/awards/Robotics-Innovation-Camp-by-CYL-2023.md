@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>2023 年全国大学生机器人科技创新交流营暨机器人大赛获奖证书</center>  
