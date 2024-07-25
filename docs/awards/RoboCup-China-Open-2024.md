@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>2024 年机器人世界杯中国赛获奖证书</center>  

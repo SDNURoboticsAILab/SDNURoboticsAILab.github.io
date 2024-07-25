@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>Shandong Provincial University Contest on Intelligent Robotic Innovations Award</center>  
