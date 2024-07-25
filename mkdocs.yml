@@ -268,11 +268,11 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
-  # - git-committers:
-  #     repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
-  #     branch: master
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
-  - git-authors
+  - git-committers:
+      repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
+      branch: master
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-authors
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
