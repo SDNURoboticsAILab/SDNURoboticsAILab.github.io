@@ -83,7 +83,26 @@ nav:
     - 日常印记:
       - 2023年: social/Daily_Echos/2023.md
       - 2024年: social/Daily_Echos/2024.md
-  - 历届获奖: awards/awards.md
+  - 历届获奖:
+    - 中国机器人及人工智能大赛:
+      - 获奖情况: award/CRAIC.md
+      - 2023 年获奖证书: award/CRAIC-2023.md
+      - 2024 年获奖证书: award/CRAIC-2024.md
+    - 机器人世界杯中国赛:
+      - 获奖情况: award/RoboCup-China-Open.md
+      - 2024 年获奖证书: award/RoboCup-China-Open-2024.md
+    - 全国大学生机器人科技创新交流营暨机器人大赛:
+      - 获奖情况: award/Robotics-Innovation-Camp-by-CYL.md
+      - 2023 年获奖证书: award/Robotics-Innovation-Camp-by-CYL-2023.md
+    - 国际青年人工智能大赛:
+      - 获奖情况: award/IYAIC.md
+      - 2023 年获奖证书: award/IYAIC-2023.md
+    - 山东省高校机器人大赛:
+      - 获奖情况: award/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations.md
+      - 2022 年获奖证书: award/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations-2022.md
+    - 浪曦杯机器人编程大赛:
+      - 获奖情况: award/Robocode.md
+      - 2023 年获奖证书: award/Robocode-2023.md
   - 其他:
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
