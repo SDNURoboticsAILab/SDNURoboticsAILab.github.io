@@ -78,11 +78,11 @@ nav:
         - Misc: resource/software/Misc/Misc.md
   - 成员风采:
     - 竞赛一览:
-      - 2023年: social/Competition_Chronicles/2023.md
-      - 2024年: social/Competition_Chronicles/2024.md
+      - 2023年: memberStyle/Competition_Chronicles/2023.md
+      - 2024年: memberStyle/Competition_Chronicles/2024.md
     - 日常印记:
-      - 2023年: social/Daily_Echos/2023.md
-      - 2024年: social/Daily_Echos/2024.md
+      - 2023年: memberStyle/Daily_Echos/2023.md
+      - 2024年: memberStyle/Daily_Echos/2024.md
   - 历届获奖:
     - 中国机器人及人工智能大赛:
       - 获奖情况: awards/CRAIC.md
@@ -238,7 +238,7 @@ plugins:
             LaTeX简介: Introduction to LaTeX
             Docker简介: Introduction to Docker
 
-            成员风采: Elegant Demeanour
+            成员风采: Member Style
             竞赛一览: Competition Chronicles
             日常印记: Daily Echos
             2023年: 2023
@@ -289,3 +289,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  # 使用icon图标
+  - attr_list
+  #使用表情符号
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - css/neoteroi-mkdocs.css
