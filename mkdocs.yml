@@ -64,7 +64,6 @@ nav:
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
       - Git版本控制:
-        - Git版本控制简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
