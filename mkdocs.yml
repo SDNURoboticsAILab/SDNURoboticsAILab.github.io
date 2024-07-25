@@ -270,6 +270,7 @@ plugins:
   - git-committers:
       repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
       branch: master
+      token: !ENV ['MKDOCS_GIT_COMMITTERS_APIKEY']
   # - git-authors
 
 extra_javascript:
