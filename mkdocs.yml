@@ -289,6 +289,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  #使用timeline
+  - neoteroi.timeline
   # 使用icon图标
   - attr_list
   #使用表情符号
