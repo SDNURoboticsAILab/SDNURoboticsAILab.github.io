@@ -1,26 +1,43 @@
 name: ci
+
 on:
   push:
     branches:
       - master
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
-            fetch-depth: 0
-      - uses: actions/setup-python@v4
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v3
+
+      - name: Set cache key
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip3 install -U -r requirements.txt
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip3 install -U -r requirements.txt
+
+      - name: Deploy to GitHub Pages
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY  }}  # 设置环境变量
+        run: mkdocs gh-deploy --force
