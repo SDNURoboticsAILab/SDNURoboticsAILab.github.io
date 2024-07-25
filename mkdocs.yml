@@ -148,6 +148,8 @@ theme:
     - search.highlight # 搜索结果高亮
     - navigation.footer # 页脚提示下一章
     - content.code.copy # 代码段上的赋值按钮
+    - content.action.edit
+    - content.action.view
 
   custom_dir: overrides
 
@@ -239,7 +241,12 @@ plugins:
   # Minify html, speed up the loading speed
   - minify:
       minify_html: true
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
+      branch: master
+  # - git-authors
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
