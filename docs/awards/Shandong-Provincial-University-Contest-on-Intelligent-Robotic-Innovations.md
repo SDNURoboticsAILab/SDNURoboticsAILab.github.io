@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>山东省高校机器人大赛获奖情况</center>  

@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>2022 年山东省高校机器人大赛获奖证书</center>  

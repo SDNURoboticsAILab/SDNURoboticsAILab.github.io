@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>RoboCup China Open Award</center>  
