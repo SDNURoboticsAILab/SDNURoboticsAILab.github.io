@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 
 # <center>机器人世界杯中国赛获奖情况</center>  
