@@ -269,6 +269,7 @@ plugins:
   - git-committers:
       repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
       branch: master
+      token: !ENV ["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"]
   # - git-authors
 
 extra_javascript:
