@@ -17,4 +17,4 @@ Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) carefully or [view it on 
 ## To-Do List
 
 - Improve each page
-- Make each page display the last modification time of the page instead of the current repository modification time
+- Fix git-committer of each page
