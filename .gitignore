@@ -10,7 +10,6 @@ node_modules/
 dist/
 build/
 site/
-.cache/
 # log
 npm-debug.log
 yarn-error.log
