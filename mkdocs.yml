@@ -114,8 +114,7 @@ theme:
   static_templates:
     - 404.html
   favicon: favicon.ico
-  icon:
-    logo: images/logo.png
+  logo: images/logo.png
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
