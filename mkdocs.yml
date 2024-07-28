@@ -63,7 +63,7 @@ nav:
     - 实用软件基础:
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
-      - Git版本控制系统:
+      - Git版本控制:
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
@@ -104,6 +104,7 @@ nav:
       - 获奖情况: awards/Robocode.md
       - 2023 年获奖证书: awards/Robocode-2023.md
   - 其他:
+    - 机器人实验室新媒体纳新通知: others/accept_news.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
 
@@ -297,14 +298,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  #使用时间轴
-  - neoteroi.timeline
-  # 使用icon图标
-  - attr_list
-  #使用表情符号
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-extra_css:
-  - css/neoteroi-mkdocs.css
+  
