@@ -298,9 +298,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-<<<<<<< HEAD
-  
-=======
   #使用时间轴
   - neoteroi.timeline
   # 使用icon图标
@@ -312,4 +309,3 @@ markdown_extensions:
 
 extra_css:
   - css/neoteroi-mkdocs.css
->>>>>>> 87e5580b1ae68c0170d27cbb1db7e05f9e127050
