@@ -86,6 +86,7 @@ nav:
       - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
+    - 机器人实验室新媒体纳新通知: others/accept_news.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
 
@@ -225,3 +226,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  
