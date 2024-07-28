@@ -64,7 +64,6 @@ nav:
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
       - Git版本控制:
-        - Git版本控制简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
@@ -86,6 +85,7 @@ nav:
       - 2024年: social/Daily_Echos/2024.md
   - 历届获奖: awards/awards.md
   - 其他:
+    - 机器人实验室新媒体纳新通知: others/accept_news.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
 
@@ -225,3 +225,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  
