@@ -45,32 +45,32 @@ nav:
         - 软件平台简述: resource/NAO/Introduction/Software_Platform.md
         - 硬件平台简述: resource/NAO/Introduction/Hardware_Platform.md
         - 运动学数据: resource/NAO/Introduction/Kinematics.md
-        - 致动器和传感器数据: resource/NAO/Introduction/Actuators_and_Sensors.md
+        - 执行器和传感器数据: resource/NAO/Introduction/Actuators_and_Sensors.md
       - NAO机器人使用基础(基于NAOqi):
         - NAO机器人的基本操作: resource/NAO/Usage/Basic_Operations.md
         - Choregraphe控制NAO机器人简述: resource/NAO/Usage/Choregraphe_Control.md
         - Python控制NAO机器人简述: resource/NAO/Usage/Python_Control.md
         - C++控制NAO机器人简述: resource/NAO/Usage/Cpp_Control.md
       - NAOqi APIs简述:
-        - NAOqi Core模块讲解: resource/NAO/APIs/NAOqi_Core.md
-        - NAOqi Emotion模块讲解: resource/NAO/APIs/NAOqi_Emotion.md
-        - NAOqi Interaction engines模块讲解: resource/NAO/APIs/NAOqi_Interaction.md
-        - NAOqi Motion模块讲解: resource/NAO/APIs/NAOqi_Motion.md
-        - NAOqi Audio模块讲解: resource/NAO/APIs/NAOqi_Audio.md
-        - NAOqi Vision模块讲解: resource/NAO/APIs/NAOqi_Vision.md
-        - NAOqi People Perception模块讲解: resource/NAO/APIs/NAOqi_People_Perception.md
-        - NAOqi Sensors & LEDs模块讲解: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
+        - NAOqi Core: resource/NAO/APIs/NAOqi_Core.md
+        - NAOqi Emotion: resource/NAO/APIs/NAOqi_Emotion.md
+        - NAOqi Interaction engines: resource/NAO/APIs/NAOqi_Interaction.md
+        - NAOqi Motion: resource/NAO/APIs/NAOqi_Motion.md
+        - NAOqi Audio: resource/NAO/APIs/NAOqi_Audio.md
+        - NAOqi Vision: resource/NAO/APIs/NAOqi_Vision.md
+        - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
+        - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
-      - Git版本控制:
-        - Git版本控制简介: resource/software/Git/Git_Introduction.md
+      - Git版本控制系统:
+        - Git版本控制系统简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
         - CMake编译工具简介: resource/software/CMake/CMake_Introduction.md
-      - GDB调试:
-        - GDB调试简介: resource/software/GDB/GDB_Introduction.md
+      - GDB调试工具:
+        - GDB调试工具简介: resource/software/GDB/GDB_Introduction.md
       - LaTeX:
         - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
@@ -79,12 +79,31 @@ nav:
         - Misc: resource/software/Misc/Misc.md
   - 成员风采:
     - 竞赛一览:
-      - 2023年: social/Competition_Chronicles/2023.md
-      - 2024年: social/Competition_Chronicles/2024.md
+      - 2023年: memberStyle/Competition_Chronicles/2023.md
+      - 2024年: memberStyle/Competition_Chronicles/2024.md
     - 日常印记:
-      - 2023年: social/Daily_Echos/2023.md
-      - 2024年: social/Daily_Echos/2024.md
-  - 历届获奖: awards/awards.md
+      - 2023年: memberStyle/Daily_Echos/2023.md
+      - 2024年: memberStyle/Daily_Echos/2024.md
+  - 历届获奖:
+    - 中国机器人及人工智能大赛:
+      - 获奖情况: awards/CRAIC.md
+      - 2023 年获奖证书: awards/CRAIC-2023.md
+      - 2024 年获奖证书: awards/CRAIC-2024.md
+    - 机器人世界杯中国赛:
+      - 获奖情况: awards/RoboCup-China-Open.md
+      - 2024 年获奖证书: awards/RoboCup-China-Open-2024.md
+    - 全国大学生机器人科技创新交流营暨机器人大赛:
+      - 获奖情况: awards/Robotics-Innovation-Camp-by-CYL.md
+      - 2023 年获奖证书: awards/Robotics-Innovation-Camp-by-CYL-2023.md
+    - 国际青年人工智能大赛:
+      - 获奖情况: awards/IYAIC.md
+      - 2023 年获奖证书: awards/IYAIC-2023.md
+    - 山东省高校机器人大赛:
+      - 获奖情况: awards/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations.md
+      - 2022 年获奖证书: awards/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations-2022.md
+    - 浪曦杯机器人编程大赛:
+      - 获奖情况: awards/Robocode.md
+      - 2023 年获奖证书: awards/Robocode-2023.md
   - 其他:
     - 机器人实验室新媒体纳新通知: others/accept_news.md
     - 如何贡献: others/htc.md
@@ -95,9 +114,8 @@ theme:
   name: material
   static_templates:
     - 404.html
-  favicon: images/favicon.ico
-  icon:
-    logo: images/logo.png
+  favicon: favicon.ico
+  logo: images/logo.png
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
@@ -149,6 +167,8 @@ theme:
     - search.highlight # 搜索结果高亮
     - navigation.footer # 页脚提示下一章
     - content.code.copy # 代码段上的赋值按钮
+    - content.action.edit
+    - content.action.view
 
   custom_dir: overrides
 
@@ -177,16 +197,62 @@ plugins:
 
             教学资源: Learning Resource
             编程基础: Programming Basics
+            Python语法基础: Python Syntax Basics
+            Python简介: Introduction to Python
+            C++语法基础: C++ Syntax Basics
+            C++简介: Introduction to C++
+            面向对象的编程: Objective Oriented Programming, OOP
+            面向对象的编程简介: Introduction to OOP
             理论基础: Theoretical Basics
+            数据结构与算法: Data Structure & Algorithm
+            数据结构与算法简介: Introduction
+            线性代数相关补充: Linear Algebra Related Supplements
+            线性代数相关补充简介: Introduction
+            机器人运动学: Robot Kinematics
+            机器人运动学简介: Introduction to Robot Kinematics
+            数字图像处理(基于OpenCV C++): Digital Image Processing (based on OpenCV C++)
+            数字图像处理简介: Introduction to Digital Image Processing
+            机器学习(基于PyTorch): Machine Learning (based on PyTorch)
+            机器学习简介: Introduction to ML
+            NAO机器人: NAO Robot
+            NAO机器人简介: Introduction to NAO
+            基本简述: Basics
+            软件平台简述: Software Platform
+            硬件平台简述: Hardware Platform
+            运动学数据: Kinematic Data
+            执行器和传感器数据: Actuator and Sensor Data
+            NAO机器人使用基础(基于NAOqi): NAO Robot Usage Basics (based on NAOqi)
+            NAO机器人的基本操作: Basic Operations
+            Choregraphe控制NAO机器人简述: Using Choregraphe to Control NAO
+            Python控制NAO机器人简述: Using Python to Control NAO
+            C++控制NAO机器人简述: Using C++ to Control NAO
+            NAOqi APIs简述: Introduction to NAOqi APIs
             实用软件基础: Practical Software Basics
+            Linux指令基础: Linux Command Basics
+            Linux指令基础简介: Introduction to Linux
+            Git版本控制系统: Git, Version Control System
+            Git版本控制系统简介: Introduction to Git
+            GNU Make编译工具: GNU Make, Compilation Tool
+            GNU Make编译工具简介: Introduction to GNU Make
+            CMake编译工具: CMake, Compilation Tool
+            CMake编译工具简介: Introduction to CMake
+            GDB调试工具: GDB, Debugging Tool
+            GDB调试工具简介: Introduction to GDB
+            LaTeX简介: Introduction to LaTeX
+            Docker简介: Introduction to Docker
 
-            成员风采: Elegant Demeanour
+            成员风采: Member Style
             竞赛一览: Competition Chronicles
             日常印记: Daily Echos
             2023年: 2023
             2024年: 2024
 
             历届获奖: Previous Awards
+            获奖情况: Awards
+            2023 年获奖证书: 2023 Award Certificates
+            2024 年获奖证书: 2024 Award Certificates
+            山东省高校机器人大赛: Shandong Provincial University Contest on Intelligent Robotic Innovations
+            浪曦杯机器人编程大赛: Robocode
 
             其他: Others
             如何贡献: How To Contribute
@@ -199,7 +265,13 @@ plugins:
   # Minify html, speed up the loading speed
   - minify:
       minify_html: true
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
+      branch: master
+      token: !ENV ['MKDOCS_GIT_COMMITTERS_APIKEY']
+  # - git-authors
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
@@ -226,4 +298,18 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+<<<<<<< HEAD
   
+=======
+  #使用时间轴
+  - neoteroi.timeline
+  # 使用icon图标
+  - attr_list
+  #使用表情符号
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+>>>>>>> 87e5580b1ae68c0170d27cbb1db7e05f9e127050
