@@ -44,6 +44,8 @@ After successful installation, you can use `git cz` instead of `git commit`.
 
 If you need to modify the page, please ensure that the document complies with [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) and [Markdown Writing with Mixed Chinese and Western Text](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en).
 
+Please use [kebab case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) or [snake case](https://en.wikipedia.org/wiki/Letter_case#Snake_case) for document naming.
+
 In addition, please update the `nav` section of [mkdocs.yml](../mkdocs.yml) accordingly.
 
 This site supports both Chinese and English. Please ensure that each page has at least two `Markdown` files: `page.md` and `page.en.md`, and add the corresponding translation in the `nav_translations` section of the `i18n` plugin in [mkdocs.yml](../mkdocs.yml).
