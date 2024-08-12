@@ -232,15 +232,6 @@ plugins:
             Linux指令基础: Linux Command Basics
             Linux终端入门: Getting Started With Linux Terminal
             第1章：在Linux终端中更改目录: Chapter 1: Changing Directories in Linux Terminal
-            第2章：在Linux终端中创建目录: Chapter 2: Making Directories in Linux Terminal
-            第3章：列出目录的内容: Chapter 3: Listing the Contents of a Directory
-            第4章：在Linux中创建文件: Chapter 4: Creating Files in Linux
-            第5章：在Linux中查看文件内容: Chapter 5: View the File Contents in Linux
-            第6章：在Linux中删除文件和文件夹: Chapter 6: Delete Files and Folders in Linux
-            第7章：在Linux中复制文件和目录: Chapter 7: Copy Files and Directories in Linux
-            第8章：移动文件和目录（剪切粘贴操作）: Chapter 8: Move Files and Directories (Cut-Paste Operation)
-            第9章：在Linux终端中编辑文件: Chapter 9: Editing Files in Linux Terminal
-            第10章：在Linux终端中获取帮助: Chapter 10: Getting Help in Linux Terminal
             Git版本控制系统: Git, Version Control System
             Git版本控制系统简介: Introduction to Git
             GNU Make编译工具: GNU Make, Compilation Tool
