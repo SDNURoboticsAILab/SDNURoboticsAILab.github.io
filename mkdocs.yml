@@ -306,6 +306,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #在Markdown中渲染HTML元素
+  - md_in_html
 
 extra_css:
   - css/neoteroi-mkdocs.css
