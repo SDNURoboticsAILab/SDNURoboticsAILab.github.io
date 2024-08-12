@@ -365,18 +365,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/LaTeX/LaTeX_Introduction/"/>
     </url>
     <url>
-        <loc>Noneresource/software/Linux/chapter-1-change-directories/</loc>
+        <loc>Noneresource/software/Linux/Linux_Introduction/</loc>
         <lastmod>2024-08-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/chapter-1-change-directories/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/chapter-1-change-directories/"/>
-    </url>
-    <url>
-        <loc>Noneresource/software/Linux/getting-started-with-linux-terminal/</loc>
-        <lastmod>2024-08-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/getting-started-with-linux-terminal/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/getting-started-with-linux-terminal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/Linux_Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/Linux_Introduction/"/>
     </url>
     <url>
         <loc>Noneresource/software/Misc/Misc/</loc>
@@ -785,18 +778,11 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/LaTeX/LaTeX_Introduction/"/>
     </url>
     <url>
-        <loc>Noneen/resource/software/Linux/chapter-1-change-directories/</loc>
+        <loc>Noneen/resource/software/Linux/Linux_Introduction/</loc>
         <lastmod>2024-08-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/chapter-1-change-directories/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/chapter-1-change-directories/"/>
-    </url>
-    <url>
-        <loc>Noneen/resource/software/Linux/getting-started-with-linux-terminal/</loc>
-        <lastmod>2024-08-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/getting-started-with-linux-terminal/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/getting-started-with-linux-terminal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/software/Linux/Linux_Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/software/Linux/Linux_Introduction/"/>
     </url>
     <url>
         <loc>Noneen/resource/software/Misc/Misc/</loc>
