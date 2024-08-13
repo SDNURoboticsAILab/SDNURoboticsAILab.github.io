@@ -14,7 +14,7 @@ Let's now see how you can delete files and folders in the Linux terminal.
 
 To remove files, you can use the rm command in the following fashion:
 
-```
+```Bash
 rm filename_or_path
 ```
 
@@ -26,7 +26,7 @@ Here's an example where I removed one of the files named `new_file`. When I list
 
 You can also remove multiple files in the same command:
 
-```
+```Bash
 rm file1 file2 file3
 ```
 
@@ -38,31 +38,31 @@ Let me show an example of deleting two files in a single command.
 
 Let's practice what you just learned. Create a directory named practice_delete and switch to it:
 
-```
+```Bash
 mkdir practice_delete && cd practice_delete
 ```
 
 Now create a few empty files:
 
-```
+```Bash
 touch file1 file2 file3
 ```
 
 Delete the file3:
 
-```
+```Bash
 rm file3
 ```
 
 Now, let's do something extra. Run this command and change the permission on file2:
 
-```
+```Bash
 chmod u-w file1 file2
 ```
 
 Try deleting file2 now:
 
-```
+```Bash
 rm file2
 ```
 
@@ -72,7 +72,7 @@ You can **press Y or enter key to confirm the deletion or N to deny the removal.
 
 If you don't want to see this message and still delete it, you can use the force delete option `-f`. Try it by deleting `file1`:
 
-```
+```Bash
 rm -f file1
 ```
 
@@ -90,7 +90,7 @@ The lack of trash bin makes the deletion a permanent jobs of sort. This is why y
 
 There is an interactive mode with option `-i`. With this, you'll be asked to confirm the deletion.
 
-```
+```Bash
 rm -i filename
 ```
 
@@ -108,13 +108,13 @@ Here's an example where I am interactively deleting all the files that match fil
 
 There is a dedicated rmdir command to remove directories in Linux.
 
-```
+```Bash
 rmdir dir_name
 ```
 
 However, it can only delete empty directories. If the directory has any files or subdirectories in it, the rmdir command will throw error.
 
-```
+```Bash
 abhishek@itsfoss:~/practice_delete$ rmdir dir2
 rmdir: failed to remove 'dir2': Directory not empty
 ```
@@ -125,7 +125,7 @@ So, how do you delete a non-empty folder then? Well, you use the same rm command
 
 Yes, the same rm command but with the recursive option `-r`:
 
-```
+```Bash
 rm -r dir_name
 ```
 
@@ -135,26 +135,26 @@ Let's practice what you learned.
 
 Switch to practice_delete folder if you are not already there. Now, create two directories dir1 and dir2.
 
-```
+```Bash
 mkdir dir1 dir2
 ```
 
 Create a file in dir2:
 
-```
+```Bash
 touch dir2/file
 ```
 
 Now try deleting the directories using the rmdir command:
 
-```
+```Bash
 rmdir dir1
 rmdir dir2
 ```
 
 Since the dir2 is not empty, rmdir command will fail. Instead, use the rm command with recursive option:
 
-```
+```Bash
 rm -r dir2
 ```
 
@@ -171,7 +171,7 @@ Here's a replay of all the above command examples to help you out:
 
 Prepare a directory tree that looks like this:
 
-```
+```Text
 .
 ├── dir1
 │   ├── file1
@@ -197,4 +197,6 @@ This is going good. You have learned several basic things like switching directo
 
 In the next chapter, you'll learn about copying files and folders in the terminal. Stay tuned!
 
-*via: https://itsfoss.com/delete-files-folders-linux/*
+>via: https://itsfoss.com/delete-files-folders-linux/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

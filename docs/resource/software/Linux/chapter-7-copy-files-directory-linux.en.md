@@ -34,7 +34,7 @@ Let me show you a few examples of copying files.
 
 To copy one file to another directory, all you have to do is follow the given command syntax:
 
-```
+```Bash
 cp Source_file Destination_directory
 ```
 
@@ -48,7 +48,7 @@ And as you can see, the file has successfully been copied to the Tux directory.
 
 You can choose to rename the file while copying it. Just give a different name to the 'target file'.
 
-```
+```Bash
 cp Source_file Renamed_file
 ```
 
@@ -62,7 +62,7 @@ Why would you do that? Say, you have to edit a config file. A good practice is t
 
 To copy multiple files to another directory, execute the command in the following fashion:
 
-```
+```Bash
 cp File1 File2 File3 FileN Target_directory
 ```
 
@@ -80,13 +80,13 @@ By default, the cp command will override the file if a file with the same name e
 
 To avoid overriding, you can use the `-n` option with the cp command, and it won't override the existing files:
 
-```
+```Bash
 cp -n Source_File Destination_directory
 ```
 
 For example, here, I have tried to copy two files that were already there in my targeted directory and used `-v` option to showcase what is being done by the command:
 
-```
+```Bash
 cp -n -v itsFOSS.txt LHB.txt LU.txt ~/Tux
 ```
 
@@ -98,7 +98,7 @@ But what about when you want to override some files, whereas some should be kept
 
 Well, you can use the cp command in the interactive mode using the `-i` option, and it will ask you each time whether the file should be overridden or not:
 
-```
+```Bash
 cp -i Source_file Destination_directory
 ```
 
@@ -114,7 +114,7 @@ There is mkdir command to make new directories, rmdir to remove (empty) director
 
 You'll have to use the same cp command but with the recursive option `-r` to copy a directory with all its content to another location:
 
-```
+```Bash
 cp -r Source_dir Target_dir
 ```
 
@@ -132,7 +132,7 @@ Here's what you can do:
 
 To copy only the contents of the directory, not the directory itself, you append `/.` at the end of the source directory's name:
 
-```
+```Bash
 cp -r Source_directory/. Destination_directory
 ```
 
@@ -142,7 +142,7 @@ Here, I want to copy the contents of a directory named `IF` which contains the f
 
 And I will execute the following command to copy the file contents of the `IF` directory to `LHB`:
 
-```
+```Bash
 cp -r IF/. LHB
 ```
 
@@ -154,13 +154,13 @@ You can also use Source_directory/* here.
 
 To copy multiple directories, you will have to execute the command in the following way:
 
-```
+```Bash
 cp -r Dir1 Dir2 Dir3 DirN Destiniation_directory
 ```
 
 For example, here, I have copied two directories named `IF` and `LU` to the `LHB`:
 
-```
+```Bash
 cp -r IF LU ~/LHB
 ```
 
@@ -168,7 +168,7 @@ cp -r IF LU ~/LHB
 
 You can do the same when you want to copy files from multiple directories but not the directory itself:
 
-```
+```Bash
 cp -r Dir1/. Dir2/. Dir3/. DirN/. Destination_directory
 ```
 
@@ -193,4 +193,6 @@ That would give you some practice.
 
 It's going well so far. You have learned quite a few things. In the next chapter, you'll see about [moving files and folders with mv command](https://itsfoss.com/move-files-linux/).
 
-*via: https://itsfoss.com/copy-files-directory-linux/*
+>via: https://itsfoss.com/copy-files-directory-linux/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

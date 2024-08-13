@@ -109,8 +109,11 @@ Bash 脚本也是 Linux 学习中不可或缺的一部分。即使你不必编�
 >source: https://itsfoss.com/linux-terminal-basics/
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
 >选题：[lkxed](https://github.com/lkxed/)
+>
 >译者：[geekpi](https://github.com/geekpi)
+>
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

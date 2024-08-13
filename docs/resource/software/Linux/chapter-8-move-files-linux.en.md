@@ -35,7 +35,7 @@ Linux has a dedicated mv command (short for move) for moving files and directori
 
 And [using the mv command](https://linuxhandbook.com/mv-command/?ref=itsfoss.com) is quite simple:
 
-```
+```Bash
 mv source_file destination_directory
 ```
 
@@ -45,7 +45,7 @@ Let's see this with an example. **You should practice along with it by replicati
 
 This is the directory structure in the example:
 
-```
+```Text
 abhishek@itsfoss:~/moving_files$ tree
 .
 ├── dir1
@@ -66,7 +66,7 @@ abhishek@itsfoss:~/moving_files$ tree
 
 Now, let's say I want to move the `file_1` to `dir3`.
 
-```
+```Bash
 mv file_1 dir3
 ```
 
@@ -76,7 +76,7 @@ mv file_1 dir3
 
 You can move multiple files to another location in the same mv command:
 
-```
+```Bash
 mv file1 file2 fileN destination_directory
 ```
 
@@ -100,7 +100,7 @@ Like the cp command, the mv command also has an interactive mode with option `-i
 
 And the purpose is the same. Ask for confirmation before replacing the files at the destination.
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ mv -i file_3 dir1
 mv: overwrite 'dir1/file_3'?
 ```
@@ -115,13 +115,13 @@ The mv command comes with some special options. One of them is the update option
 
 With this, the destination file will only be replaced if the file being moved is newer than it.
 
-```
+```Bash
 mv -u file_name destination_directory
 ```
 
 Here's an example. file_2 was modified at 10:39 and file_3 was modified at 10:06.
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls -l file_2 file_3
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:39 file_2
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:06 file_3
@@ -129,7 +129,7 @@ abhishek@itsfoss:~/moving_files$ ls -l file_2 file_3
 
 In the destination directory dir1, file_2 was last modified at 10:37 and file_3 was modified at 10:39.
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls -l dir1
 total 0
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:37 file_2
@@ -140,7 +140,7 @@ In other words, in the destination directory, the file_2 is older and file_3 is 
 
 It also means that file_3 won't me moved while as file_2 will be updated. You can verify it with the timestamps of the files in the destination directory after running the mv command.
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ mv -u file_2 file_3 dir1
 abhishek@itsfoss:~/moving_files$ ls -l dir1
 total 0
@@ -163,7 +163,7 @@ As you can see, the move command was executed at 10:41 and only the timestamp of
 
 If you are moving multiple files, the last argument must be a directory. Otherwise, you'll encounter this error:
 
-```
+```Text
 target is not a directory
 ```
 
@@ -181,7 +181,7 @@ The cp and rm commands used recusrive option -r to copy and delete folders respe
 
 However, there is no such requirement for the mv command. You can use the mv command as it is for moving directories.
 
-```
+```Bash
 mv dir target_directory
 ```
 
@@ -195,7 +195,7 @@ You can move multiple directories the same way.
 
 If you want to rename a file or directory, you can use the same mv command.
 
-```
+```Bash
 mv filename new_name_in_same_or_new_location
 ```
 
@@ -205,7 +205,7 @@ Let's say you want to rename a file in the same location. Here's an example wher
 
 You can also move and rename the files. You just have to provide the directory path and the file name of the destination. Here, I rename `services` file to `my_services` while moving it to `dir3`.
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls
 dir  dir1  dir3  file_2  file_3  file_one  passwd  services
 abhishek@itsfoss:~/moving_files$ mv services dir3/my_services
@@ -223,7 +223,7 @@ Time to practice what you just learned.
 
 Create a new folder to practice the exercise. In here, create a directory structure like this:
 
-```
+```Text
 .
 ├── dir1
 ├── dir2
@@ -243,4 +243,6 @@ Delete all contents of `dir2` now.
 
 In the penultimate chapter of the Terminal Basics series, you'll learn about editing files in the terminal. Stay tuned.
 
-*via: https://itsfoss.com/move-files-linux/*
+>via: https://itsfoss.com/move-files-linux/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

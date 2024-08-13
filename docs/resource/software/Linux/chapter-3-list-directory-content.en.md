@@ -159,4 +159,6 @@ In the next chapter of the Terminal Basics series, you'll learn about creating f
 
 Do let me know if you have questions or suggestions.
 
-*via: https://itsfoss.com/list-directory-content/*
+>via: https://itsfoss.com/list-directory-content/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

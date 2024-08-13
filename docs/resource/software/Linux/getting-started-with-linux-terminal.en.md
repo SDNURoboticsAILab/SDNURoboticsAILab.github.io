@@ -63,4 +63,4 @@ There is no limit to learning. It's impossible to know it all. Yet, if you know 
 
 >via: https://itsfoss.com/linux-terminal-basics/
 >
->作者：[Abhishek Prakash][https://itsfoss.com/author/abhishek/ ]
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

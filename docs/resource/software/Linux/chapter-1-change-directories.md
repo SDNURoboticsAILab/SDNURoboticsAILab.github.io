@@ -8,7 +8,7 @@ comments: true
 
 Linux 的 [`cd` 命令](https://linux.cn/article-15967-1.html) 让你可以轻松切换文件夹（即目录）。只需提供你要切换到的文件夹路径即可。
 
-```
+```Bash
 cd path_to_directory
 ```
 
@@ -22,7 +22,7 @@ cd path_to_directory
 
 你可以通过下面的方式查看当前所在的位置：
 
-```
+```Bash
 pwd
 ```
 
@@ -65,7 +65,7 @@ pwd
 
 敲入以下命令，你就能看到主目录里的所有文件夹：
 
-```
+```Bash
 ls
 ```
 
@@ -81,7 +81,7 @@ Documents  Music      Public    Videos
 
 假如你希望跳转到 `Documents` 文件夹。由于它就在当前目录下，这里使用相对路径会比较方便：
 
-```
+```Bash
 cd Documents
 ```
 
@@ -99,13 +99,13 @@ cd Documents
 
 但这次我们尝试使用绝对路径。请把下面的 `abhishek` 替换成你的用户名。
 
-```
+```Bash
 cd /home/abhishek/Templates
 ```
 
 此刻你已经在 `Templates` 文件夹里了。如何前往 `Downloads` 文件夹呢？这次我们再使用相对路径：
 
-```
+```Bash
 cd ../Downloads
 ```
 
@@ -209,8 +209,11 @@ mkdir -p sample/dir1/dir2/dir3
 >source: https://itsfoss.com/change-directories/
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
 >选题：[lkxed](https://github.com/lkxed/)
+>
 >译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

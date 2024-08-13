@@ -35,7 +35,7 @@ Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a softw
 
 You won't find man pages for the shell built-ins.
 
-```
+```Bash
 abhishek@tuxedo:~$ man cd
 No manual entry for cd
 ```
@@ -50,7 +50,7 @@ Want to see all the built-in shell commands? Just type `help` to list them all.
 
 Using the man command is simple. Just give it command's name like this:
 
-```
+```Bash
 man command_name
 ```
 
@@ -82,7 +82,7 @@ There is more to man pages than. I cannot cover it all here, but we do have a de
 
 As mentioned earlier, no man pages exist for the built-in shell commands. Instead, you use the help command like this:
 
-```
+```Bash
 help command_name
 ```
 
@@ -127,3 +127,7 @@ This gives you a basic but solid foundation of Linux commands. It may be the end
 You'll find more in-depth guides on 'doing things in Linux command line' on It's FOSS in the future. It may not be in a series (or maybe it will) but you'll have plenty of opportunity for learning.
 
 💬 ***I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.\***
+
+>via: https://itsfoss.com/linux-command-help/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

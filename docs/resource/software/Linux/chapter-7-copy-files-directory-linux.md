@@ -2,195 +2,196 @@
 comments: true
 ---
 
-# 第 7 章：在 Linux 中复制文件和目录
+# 终端基础第 7 章：在 Linux 中复制文件和目录
 
-Learn how to copy files and directories in Linux using the command line in this part of the Terminal Basics series.
+> 在终端基础知识系列的这一部分中，学习如何在 Linux 中使用命令行复制文件和目录。
 
-Copying files is one of the most basic yet crucial tasks you will be doing regularly.
+复制文件是你经常执行的最基本但最重要的任务之一。
 
-Linux has a dedicated cp command for copying both files and directories (folders).
+Linux 有一个专门的 `cp` 命令用于复制文件和目录（文件夹）。
 
-In this part of the Terminal Basics series, you'll learn to copy files and folders in the terminal.
+在终端基础知识系列的这一部分中，你将学习在终端中复制文件和文件夹。
 
-!!! info "📋"
+> 📋 回想一下，以下是你迄今为止在本终端基础知识系列中所学到的内容：
+> - [更改目录](https://linux.cn/article-16304-1.html)
+> - [创建新目录](https://linux.cn/article-15595-1.html)
+> - [列出目录内容][4]
+> - [创建文件][5]
+> - [读取文件][6]
+> - [删除文件和目录][7]
 
-```- Change directories
-Just to recall, here's what you have learned so far in this Terminal Basics series:
-    - [Change directories](https://itsfoss.com/change-directories/)
-    - [Make new directories](https://itsfoss.com/make-directories/)
-    - [List directory contents](https://itsfoss.com/list-directory-content/)
-    - [Create files](https://itsfoss.com/create-files/)
-    - [Reading files](https://itsfoss.com/view-file-contents/)
-    - [Removing files and directories](https://itsfoss.com/delete-files-folders-linux/)
-```
+让我们继续该系列的第七章。
 
-Let's go on with the seventh chapter in the series.
+### 在 Linux 命令行中复制文件
 
-## Copying files in Linux command line
+让我向你展示一些复制文件的示例。
 
-Let me show you a few examples of copying files.
+#### 将文件复制到另一个目录
 
-### Copy a file to another directory
-
-To copy one file to another directory, all you have to do is follow the given command syntax:
+要将一个文件复制到另一目录，你所要做的就是遵循给定的命令语法：
 
 ```
-cp Source_file Destination_directory
+cp 源文件 目标目录
 ```
 
-For example, here, I have copied a file named `Hello.txt` to the directory named `Tux`:
+例如，在这里，我将名为 `Hello.txt` 的文件复制到名为 `Tux` 的目录中：
 
-[![copy file to another directory in linux command line](https://itsfoss.com/content/images/2023/02/copy-file-to-another-directory-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-file-to-another-directory-in-linux-command-line.png)
+![copy file to another directory in linux command line][8]
 
-And as you can see, the file has successfully been copied to the Tux directory.
+正如你所看到的，文件已成功复制到 `Tux` 目录中。
 
-### Copy the file but rename it
+#### 复制文件但重命名
 
-You can choose to rename the file while copying it. Just give a different name to the 'target file'.
+你可以选择在复制文件时重命名该文件。只需为“目标文件”指定一个不同的名称即可。
 
 ```
-cp Source_file Renamed_file
+cp 源文件 改名的文件
 ```
 
-For reference, here, I have copied a file named `Hello.txt` to the same directory by renaming it to `Renamed_Hello.txt`:
+作为参考，在这里，我将名为 `Hello.txt` 的文件复制到同一目录，并将其重命名为 `Renamed_Hello.txt`：
 
-[![rename a file while copying in a same directory in linux terminal](https://itsfoss.com/content/images/2023/02/rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)](https://itsfoss.com/content/images/2023/02/rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)
+![rename a file while copying in a same directory in linux terminal][9]
 
-Why would you do that? Say, you have to edit a config file. A good practice is to make a backup of the config file in the same location before editing it. This way, you can revert to the old configuration if things don't go as planned.
+为什么要这么做？ 比如说，你必须编辑配置文件。一个好的做法是在编辑配置文件之前在同一位置对其进行备份。这样，如果事情没有按计划进行，你可以恢复到旧配置。
 
-### Copy multiple files to another location
+#### 将多个文件复制到另一个位置
 
-To copy multiple files to another directory, execute the command in the following fashion:
+要将多个文件复制到另一个目录，请按以下方式执行命令：
 
 ```
 cp File1 File2 File3 FileN Target_directory
 ```
 
-Here, I copy multiple files to a new location.
+在这里，我将多个文件复制到新位置。
 
-[![copy multiple files using the cp command in linux](https://itsfoss.com/content/images/2023/02/copy-multiple-files-using-the-cp-command-in-linux.png)](https://itsfoss.com/content/images/2023/02/copy-multiple-files-using-the-cp-command-in-linux.png)
+![copy multiple files using the cp command in linux][10]
 
-!!! note "📋"
+> 📋 当你复制多个文件时，仅使用 `cp` 命令无法重命名它们。
 
-    When you are copying multiple files, renaming them would not be possible with just the cp command.
+#### 复制时处理重复文件
 
-### Deal with duplicate files while copying
+默认情况下，如果目标目录中存在同名文件，`cp` 命令将覆盖该文件。
 
-By default, the cp command will override the file if a file with the same name exists in the target directory.
-
-To avoid overriding, you can use the `-n` option with the cp command, and it won't override the existing files:
+为了避免覆盖，你可以在 cp 命令中使用 `-n` 选项，它不会覆盖现有文件：
 
 ```
-cp -n Source_File Destination_directory
+cp -n 源文件 目标目录
 ```
 
-For example, here, I have tried to copy two files that were already there in my targeted directory and used `-v` option to showcase what is being done by the command:
+例如，在这里，我尝试复制目标目录中已有的两个文件，并使用 `-v` 选项来展示该命令正在执行的操作：
 
 ```
 cp -n -v itsFOSS.txt LHB.txt LU.txt ~/Tux
 ```
 
-[![how not to override files while copying in linux using the cp command](https://itsfoss.com/content/images/2023/02/how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)](https://itsfoss.com/content/images/2023/02/how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)
+![how not to override files while copying in linux using the cp command][11]
 
-### Interactively copy files
+#### 交互式复制文件
 
-But what about when you want to override some files, whereas some should be kept intact?
+但是，当你想要覆盖某些文件，而某些文件应该保持不变时该怎么办？
 
-Well, you can use the cp command in the interactive mode using the `-i` option, and it will ask you each time whether the file should be overridden or not:
-
-```
-cp -i Source_file Destination_directory
-```
-
-[![how to use cp command in interactive mode](https://itsfoss.com/content/images/2023/02/how-to-use-cp-command-in-interactive-mode.png)](https://itsfoss.com/content/images/2023/02/how-to-use-cp-command-in-interactive-mode.png)
-
-!!! note "🖥️"
-
-    Practice all the above-discussed examples yourself. You already know about creating files and folders so recreate everything.
-
-## Copy directories in Linux command line
-
-There is mkdir command to make new directories, rmdir to remove (empty) directories. But there is no cpdir command for copying directories.
-
-You'll have to use the same cp command but with the recursive option `-r` to copy a directory with all its content to another location:
+好吧，你可以使用 `-i` 选项在交互模式下使用 `cp` 命令，它每次都会询问你是否应该覆盖该文件：
 
 ```
-cp -r Source_dir Target_dir
+cp -i 源文件 目标目录
 ```
 
-For example, here, I have copied a directory named `IF` to `LHB`:
+![how to use cp command in interactive mode][12]
 
-[![how to copy a directory in linux command line](https://itsfoss.com/content/images/2023/02/how-to-copy-a-directory-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/how-to-copy-a-directory-in-linux-command-line.png)
+> 🖥️ 自己练习上述所有示例。你已经了解如何创建文件和文件夹，因此请重新创建所有内容。
 
-But it copied the entire directory 🤨
+### 在 Linux 命令行中复制目录
 
-So, what do you do when you only want to copy the directory's contents, not the directory itself?
+`mkdir` 命令用于创建新目录，`rmdir` 命令用于删除（空）目录。但没有用于复制目录的 `cpdir` 命令。
 
-Here's what you can do:
-
-### Copy only the contents of a directory (not the directory)
-
-To copy only the contents of the directory, not the directory itself, you append `/.` at the end of the source directory's name:
+你必须使用相同的 `cp` 命令，但使用递归选项 `-r` 将目录及其所有内容复制到另一个位置：
 
 ```
-cp -r Source_directory/. Destination_directory
+cp -r 源目录 目标目录
 ```
 
-Here, I want to copy the contents of a directory named `IF` which contains the following three files:
+例如，在这里，我将名为 `IF` 的目录复制到 `LHB`：
 
-[![check the file contents of directory using the tree command](https://itsfoss.com/content/images/2023/02/check-the-file-contents-of-directory-using-the-tree-command.png)](https://itsfoss.com/content/images/2023/02/check-the-file-contents-of-directory-using-the-tree-command.png)
+![how to copy a directory in linux command line][13]
 
-And I will execute the following command to copy the file contents of the `IF` directory to `LHB`:
+但它复制了整个目录。🤨
+
+那么，当你只想复制目录内容而不是目录本身时该怎么办？
+
+你可以执行以下操作：
+
+#### 仅复制目录的内容（不是目录）
+
+要仅复制目录的内容，而不复制目录本身，请在源目录名称的末尾附加 `/.`：
+
+```
+cp -r 源目录/. 目标目录
+```
+
+在这里，我想复制名为 `IF` 的目录的内容，其中包含以下三个文件：
+
+![check the file contents of directory using the tree command][14]
+
+我将执行以下命令将 `IF` 目录的文件内容复制到 `LHB`：
 
 ```
 cp -r IF/. LHB
 ```
 
-[![copy the file contents of directory not a directory itself in linux command line](https://itsfoss.com/content/images/2023/02/copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)
+![copy the file contents of directory not a directory itself in linux command line][15]
 
-You can also use Source_directory/* here.
+你还可以在此处使用 `源目录/*` 。
 
-### Copy multiple directories
+#### 复制多个目录
 
-To copy multiple directories, you will have to execute the command in the following way:
+要复制多个目录，你必须按以下方式执行命令：
 
 ```
-cp -r Dir1 Dir2 Dir3 DirN Destiniation_directory
+cp -r 目录1 目录2 目录3 目录N 目标目录
 ```
 
-For example, here, I have copied two directories named `IF` and `LU` to the `LHB`:
+例如，在这里，我将两个名为 `IF` 和 `LU` 的目录复制到 `LHB`：
 
 ```
 cp -r IF LU ~/LHB
 ```
 
-[![copy multiple directories using the cp command in linux command line](https://itsfoss.com/content/images/2023/02/copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)
+![copy multiple directories using the cp command in linux command line][16]
 
-You can do the same when you want to copy files from multiple directories but not the directory itself:
+当你想要从多个目录复制文件但不复制目录本身时，你可以执行相同的操作：
 
 ```
-cp -r Dir1/. Dir2/. Dir3/. DirN/. Destination_directory
+cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 ```
 
-[![copy files from multiple directories but not directories their self using the cp command](https://itsfoss.com/content/images/2023/02/copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)](https://itsfoss.com/content/images/2023/02/copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)
+![copy files from multiple directories but not directories their self using the cp command][17]
 
-!!! note "🖥️"
+> 🖥️ 你还可以像重命名文件一样重命名目录。
 
-    You can also rename the directories the same way you renamed files.
+### 测试你的知识
 
-## 📝 Test your knowledge
+现在，让我们看看你对到目前为止所学到的知识还记得多少。
 
-Now, let's see how much you remember the lessons learned so far.
+- 创建一个名为 `copy_practice` 的目录。
+- 将文件 `/etc/services` 复制到这个新创建的文件夹。
+- 在此目录下创建一个名为 `secrets` 的文件夹，并将文件 `/etc/passwd` 和 `/etc/services` 复制到其中。
+- 将 `copy_practice` 中的 `services` 文件复制到 `secrets` 文件夹中，但不要覆盖它。
+- 将 `secrets` 文件夹复制到你的主目录。
+- 删除 `secrets` 和 `copy_practice` 目录。
 
-- Create a directory called copy_practice
-- Copy the file /etc/services to this newly created folder
-- Create a folder named secrets under this directory and copy files /etc/passwd and /etc/services in it
-- Copy the services file in copy_practice to the secrets folder but don't overwrite it
-- Copy the secrets folder to your home directory
-- Delete the secrets and copy_practice directories
+这会给你一些练习。
 
-That would give you some practice.
+到目前为止进展顺利。你已经学到了很多东西。在下一章中，你将了解如何使用 `mv` 命令移动文件和文件夹。
 
-It's going well so far. You have learned quite a few things. In the next chapter, you'll see about [moving files and folders with mv command](https://itsfoss.com/move-files-linux/).
+--------------------------------------------------------------------------------
 
-*via: https://itsfoss.com/copy-files-directory-linux/*
+>via: https://itsfoss.com/copy-files-directory-linux/
+>
+>source: https://itsfoss.com/linux-terminal-basics/
+>
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>选题：[lkxed](https://github.com/lkxed/)
+>译者：[geekpi](https://github.com/geekpi)
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

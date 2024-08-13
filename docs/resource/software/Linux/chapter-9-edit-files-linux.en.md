@@ -50,7 +50,7 @@ https://itsfoss.com/content/files/2023/04/agatha_complete.txt
 
 Open the Nano editor with the following command:
 
-```
+```Bash
 nano
 ```
 
@@ -87,7 +87,7 @@ Awesome! You now have some ideas about the editor. In the next section, you’ll
 
 You can open a file for editing in Nano like this:
 
-```
+```Bash
 nano filename
 ```
 
@@ -95,7 +95,7 @@ If the file doesn’t exist, it will still open the editor and when you exit, yo
 
 You may also open a new file without any name as well (like new document) with Nano like this:
 
-```
+```Bash
 nano
 ```
 
@@ -147,7 +147,7 @@ You can do it in Nano editor too and the good thing is that you don’t need to 
 
 Let’s see it in action. Open the sample file you had downloaded earlier.
 
-```
+```Bash
 nano agatha_complete.txt
 ```
 
@@ -171,7 +171,7 @@ So, you have learned to save files with Nano in this lesson. In the next section
 
 Open the agatha_complete.txt file with Nano. You know how to open files with Nano editor, right?
 
-```
+```Bash
 nano agatha_complete.txt
 ```
 
@@ -191,7 +191,7 @@ You have not made any changes to the file. Exit it.
 
 Now, open the same file again but using this command:
 
-```
+```Bash
 nano -l agatha_complete.txt
 ```
 
@@ -316,7 +316,7 @@ If you are using Linux desktop where you can access a GUI editor, you can use it
 
 Say, you have Gedit installed on your system and you have to edit the SSH config file as root. You can run Gedit as root from the terminal like this:
 
-```
+```Bash
 sudo gedit /etc/ssh/ssh_config
 ```
 
@@ -328,4 +328,6 @@ We are almost at the end of our terminal basics series. In the tenth and the las
 
 For now, let me know in the comment section if you encounter any issues.
 
-*via: https://itsfoss.com/edit-files-linux/*
+>via: https://itsfoss.com/edit-files-linux/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

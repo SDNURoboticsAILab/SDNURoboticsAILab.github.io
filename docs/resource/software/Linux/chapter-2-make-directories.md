@@ -10,7 +10,7 @@ comments: true
 
 在本系列的这一部分，我将讨论如何使用 `mkdir` 命令在 Linux 命令行中建立新的文件夹。
 
-```
+```Bash
 mkdir dir_name
 ```
 
@@ -28,7 +28,7 @@ mkdir dir_name
 
 所以，先换到你的主目录：
 
-```
+```Bash
 cd
 ```
 
@@ -36,13 +36,13 @@ cd
 
 在这里，建立一个新的目录，叫做 `practice`。
 
-```
+```Bash
 mkdir practice
 ```
 
 你能切换到这个新建立的 `practice` 目录吗？
 
-```
+```Bash
 cd practice
 ```
 
@@ -56,7 +56,7 @@ cd practice
 
 你可以对每个目录连续使用三次 `mkdir` 命令。这将会起作用。然而，这并不是真的需要。你可以像这样同时创建多个目录来节省时间和精力：
 
-```
+```Bash
 mkdir dir1 dir2 dir3
 ```
 
@@ -74,13 +74,13 @@ mkdir dir1 dir2 dir3
 
 但是，如果你要创建一个嵌套的目录结构呢？比方说，你需要在 `dir1` 里面的 `subdir1` 里面创建一个目录 `subdir2`。
 
-```
+```Bash
 dir1/subdir1/subdir2
 ```
 
 这里的问题是 `subdir1` 并不存在。所以如果你尝试 `mkdir dir1/subdir1/subdir32`，你会得到一个错误：
 
-```
+```Bash
 abhishek@itsfoss:~/practice$ mkdir dir1/subdir1/subdir2
 mkdir: cannot create directory ‘dir1/subdir1/subdir2’: No such file or directory
 ```
@@ -89,7 +89,7 @@ mkdir: cannot create directory ‘dir1/subdir1/subdir2’: No such file or direc
 
 你使用 `-p` 选项，它会在需要时创建父目录。如果你运行下面的命令：
 
-```
+```Bash
 mkdir -p dir1/subdir1/subdir2
 ```
 
@@ -123,8 +123,11 @@ mkdir -p dir1/subdir1/subdir2
 >source: https://itsfoss.com/make-directories/
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
 >选题：[lkxed](https://github.com/lkxed/)
+>
 >译者：[geekpi](https://github.com/geekpi)
+>
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
