@@ -6,7 +6,7 @@ comments: true
 
 > 本篇文章作为终端基础教程系列的一部分，介绍如何在 Linux 命令行中，利用绝对路径和相对路径实现目录切换。
 
-Linux 的 [`cd` 命令](https://itsfoss.com/cd-command/) 让你可以轻松切换文件夹（即目录）。只需提供你要切换到的文件夹路径即可。
+Linux 的 [`cd` 命令](https://linux.cn/article-15967-1.html) 让你可以轻松切换文件夹（即目录）。只需提供你要切换到的文件夹路径即可。
 
 ```
 cd path_to_directory
@@ -16,7 +16,7 @@ cd path_to_directory
 
 首先，让我们解决这个问题。
 
-### 理解 Linux 中的路径
+## 理解 Linux 中的路径
 
 在 Linux 文件系统中，路径是用来追踪文件位置的信息。所有的路径都从根目录开始，然后向下延伸。
 
@@ -30,7 +30,7 @@ pwd
 
 你可以注意到，路径是由 `/` 符号和目录名组成的。比如路径 `/home/abhishek/scripts`， 表示 `scripts` 是在文件夹 `abhishek` 之内，而文件夹 `abhishek` 在 `home` 文件夹之内。要注意，第一个 '/' 是指根目录（即文件系统的开始处），后面的 '/' 则作为目录的分隔符。
 
-![Path in Linux](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1path-linux.webp )
+![Path in Linux](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1path-linux.webp)
 
 !!! note "🖥️"
 
@@ -49,13 +49,13 @@ pwd
 
 这里有一张图形化的表示。
 
-![Absolute path vs relative path](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1relative-path-cd.png )
+![Absolute path vs relative path](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1relative-path-cd.png)
 
 想要了解更多关于Linux路径的信息吗？这篇文章将对你有所帮助。
 
-[Linux 中的绝对路径与相对路径：有何区别？](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)
+[Linux 中的绝对路径与相对路径：有何区别？](https://cn.linux-console.net/?p=19897)
 
-### 利用 cd 命令变更目录
+## 利用 cd 命令变更目录
 
 在你已对路径概念有所了解之后，我们来了解如何切换目录。
 
@@ -89,7 +89,7 @@ cd Documents
 
     注意，大部分 Linux 发行版预设的终端模拟器会在提示符本身显示出当前所在的位置。因此你不必频繁使用 `pwd` 指令来确认自己的位置。
 
-![Most Linux terminal prompts show the current location](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1linux-terminal-prompt.png )
+![Most Linux terminal prompts show the current location](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1linux-terminal-prompt.png)
 
 *大多数Linux终端提示符会显示当前位置*
 
@@ -111,17 +111,17 @@ cd ../Downloads
 
 下面的图片会回顾一下你刚才学到的所有或有关目录切换的范例。
 
-![cd command example](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1cd-command-example.svg )
+![cd command example](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1cd-command-example.svg)
 
 !!! question "💡"
 
     别忘了你还可以使用终端的 `tab` 键自动补全功能。只需要键入命令或者文件夹名称的前几个字母，然后敲击 `tab` 键，系统就会尝试自动地补全命令或文件夹名称，或者给你显示出所有可能的选项。
 
-### 故障解决
+## 故障解决
 
 在 Linux 终端操作切换目录的过程中，你可能会遇到一些常见的错误。
 
-#### 文件或目录不存在
+### 文件或目录不存在
 
 如果在你尝试切换目录时，出现类似下面的错误信息：
 
@@ -133,11 +133,11 @@ cd ../Downloads
 - Linux 系统对大小写敏感，因此，`Downloads` 和 `downloads` 会被识别为不同的目录。
 - 你可能未正确指定路径。可能你所在的位置与你预期的不同？或者你遗漏了绝对路径中的开头的 `/` 字符？
 
-![Common examples of "no such file or directory" error](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1common-errors-with-cd.png )
+![Common examples of "no such file or directory" error](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1common-errors-with-cd.png)
 
 *常见的“无此文件或目录”错误示例。*
 
-#### 非目录错误
+### 非目录错误
 
 如果你看到像下面这样的错误提示：
 
@@ -145,9 +145,9 @@ cd ../Downloads
 
 这表示你尝试使用 `cd` 命令对一个文件进行操作，而不是一个目录（文件夹）。很明显，你不能像进入文件夹那样“进入”一个文件，因此会出现这样的错误。
 
-![Not a directory error with the cd command](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1not-a-directory-error-linux.png )
+![Not a directory error with the cd command](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1not-a-directory-error-linux.png)
 
-#### 参数过多
+### 参数过多
 
 这是 Linux 新手常犯的另一个错误：
 
@@ -157,13 +157,13 @@ cd ../Downloads
 
 如果你指定了超过一个的参数，或者在路径中误加了空格，你就会看到这个错误。
 
-![Too many arguments error in Linux terminal](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1too-many-arguments.png )
+![Too many arguments error in Linux terminal](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1too-many-arguments.png)
 
 !!! question "🏋🏻"
 
     如果你输入 `cd -`，它将会把你带到前一个目录。当你在两个相隔较远的地方切换时非常方便，可以避免再次输入长路径。
 
-### 特殊目录符号
+## 特殊目录符号
 
 在结束这个教程之前，我想快速告诉你关于特殊符号 `~`。在 Linux 中，`~` 是用户主目录的捷径。
 
@@ -178,7 +178,7 @@ cd ../Downloads
 | `~`  | 主目录     |
 | `-`  | 前一个目录 |
 
-### 📝测试你的知识
+## 📝测试你的知识
 
 下面是一些简单的练习，用来测试你刚刚学到的关于路径和 `cd` 命令的知识。
 
@@ -206,8 +206,8 @@ mkdir -p sample/dir1/dir2/dir3
 
 >via: https://itsfoss.com/change-directories/
 >
->作者：[Abhishek Prakash][https://itsfoss.com/author/abhishek/ ]
->选题：[lkxed][https://github.com/lkxed/ ]
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>选题：[lkxed](https://github.com/lkxed/)
 >译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
 >校对：[wxy](https://github.com/wxy)
 >
