@@ -202,9 +202,9 @@ rm-ri dir_name
 >
 >source: https://itsfoss.com/delete-files-folders-linux/
 >
->作者：[Abhishek Prakash][a]
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >
->选题：[lkxed][b]
+>选题：[lkxed](https://github.com/lkxed/)
 >
 >译者：[geekpi](https://github.com/geekpi)
 >
