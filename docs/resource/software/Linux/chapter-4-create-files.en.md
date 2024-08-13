@@ -42,7 +42,8 @@ That's it. You have just created a new empty file.
 
 List the directory content and check the properties of the file with ls -l command.
 
-[![Using touch command to create new files](https://itsfoss.com/content/images/2023/03/touch-example.svg)](https://itsfoss.com/content/images/2023/03/touch-example.svg)*Using touch command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-touch-example.svg)
+*Using touch command to create new file*
 
 !!! question "💡"
 
@@ -64,7 +65,8 @@ echo "Hello World" >> other_new_file
 
 This way, you create a new file named `other_new_file` with the text `Hello World` in it.
 
-[![Using echo command to create new file](https://itsfoss.com/content/images/2023/03/echo-example.svg)](https://itsfoss.com/content/images/2023/03/echo-example.svg)*Using echo command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-echo-example.svg)
+*Using echo command to create new file*
 
 Remember, if the provided file already exists, with >> redirection, you add a new line to the file. You can also use > redirection but then it will replace the existing content of the file.
 
@@ -84,7 +86,8 @@ cat >> another_file
 
 But this one will create a new file and allow you to add some text to it. Adding text is optional. **You can exit the cat entering mode by using Ctrl+d or Ctrl+c keys.**
 
-[![Using cat command to create new file](https://itsfoss.com/content/images/2023/03/cat-example.svg)](https://itsfoss.com/content/images/2023/03/cat-example.svg)*Using cat command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-cat-example.svg)
+*Using cat command to create new file*
 
 Again, the append mode >> adds new text at the end of file content while the clobber mode > replaces the existing content with new.
 

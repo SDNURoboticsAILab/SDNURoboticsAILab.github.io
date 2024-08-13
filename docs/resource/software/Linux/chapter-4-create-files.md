@@ -2,27 +2,26 @@
 comments: true
 ---
 
-# 第 4 章：在 Linux 中创建文件
+# 终端基础第 4 章：在 Linux 中创建文件
 
-In this chapter of Linux Terminal Basics series for beginners, learn about creating new files using Linux commands.
+到目前为止，在这个终端基础系列中，你已经学会了：
 
-So far, in this Terminal Basics series, you have learned to:
+- [更改目录](https://linux.cn/article-16304-1.html)
+- [创建新目录](https://linux.cn/article-15595-1.html)
+- [列出目录内容](https://cn.linux-console.net/?p=17707)
 
-- [Change directories](https://itsfoss.com/change-directories/)
-- [Make new directories](https://itsfoss.com/make-directories/)
-- [List directory contents](https://itsfoss.com/list-directory-content/)
+现在让我们学习如何在 Linux 命令行中创建文件。我将简要讨论向文件添加内容。但是，稍后将介绍有关编辑文本文件的详细信息。
 
-Let's now learn about creating files in the Linux command line. I'll briefly discuss adding content to the file. However, details on editing text files will be covered later.
 
-## Create a new empty file with touch command
+## 使用 touch 命令创建一个新的空文件
 
-Using the touch command is pretty straightforward.
+使用 `touch` 命令非常简单。
 
 ```
 touch filename
 ```
 
-Switch to your home directory and create a new directory called `practice_files` and switch to this directory:
+切换到你的主目录并创建一个名为 `practice_files` 的新目录，然后切换到该目录：
 
 ```
 mkdir practice_files && cd practice_files
@@ -30,78 +29,99 @@ mkdir practice_files && cd practice_files
 
 !!! question "💡"
 
-    The && is a way to combine two commands. The second command only runs when the first command is executed successfully.
+    `&&` 是一种组合两个命令的方法。只有当第一个命令执行成功时，第二个命令才会运行。
 
-Now, create a new file named new_file:
+
+现在，创建一个名为 `new_file` 的新文件：
 
 ```
 touch new_file
 ```
 
-That's it. You have just created a new empty file.
+就是这样。你刚刚创建了一个新的空文件。
 
-List the directory content and check the properties of the file with ls -l command.
+列出目录内容并使用 `ls -l` 命令检查文件的属性。
 
-[![Using touch command to create new files](https://itsfoss.com/content/images/2023/03/touch-example.svg)](https://itsfoss.com/content/images/2023/03/touch-example.svg)*Using touch command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-touch-example.svg)
+*Using touch command to create new file*
 
 !!! question "💡"
 
-    The touch command's original purpose is to 'touch' a file and change its timestamp. If the provided file does not exist, it creates a new file with the name.
+    `touch` 命令的最初目的是“触摸”文件并更改其时间戳。如果提供的文件不存在，它会创建一个具有该名称的新文件。
 
-## Create a new file using the echo command
+## 使用 echo 命令创建一个新文件
 
-I should have introduced you to the echo command long back. Better late than never. The echo command displays whatever you provide to it. Hence the name echo.
+很久以前我就应该向你介绍 `echo` 命令。迟到总比不到好。`echo` 命令显示你提供给它的任何内容。因此得名“回声”。
 
 ```
 echo Hello World
 ```
 
-You can use redirection and route the output to a file. And hence creating a new file in the process:
+你可以使用重定向并将输出路由到文件。因此在此过程中创建一个新文件：
 
 ```
 echo "Hello World" >> other_new_file
 ```
 
-This way, you create a new file named `other_new_file` with the text `Hello World` in it.
+这样，你将创建一个名为 `other_new_file` 的新文件，其中包含文本 `Hello World`。
 
-[![Using echo command to create new file](https://itsfoss.com/content/images/2023/03/echo-example.svg)](https://itsfoss.com/content/images/2023/03/echo-example.svg)*Using echo command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-echo-example.svg)
+*Using echo command to create new file*
 
-Remember, if the provided file already exists, with >> redirection, you add a new line to the file. You can also use > redirection but then it will replace the existing content of the file.
+请记住，如果提供的文件已经存在，使用 `>>` 重定向，你将向文件添加一个新行。你也可以使用 `>` 重定向，但它会替换文件的现有内容。
 
-More on redirection can be found in the below tutorial.
+更多关于重定向的信息可以在下面的教程中找到。
 
-[Input Output & Error Redirection in Linux [Beginner’s Guide]](https://linuxhandbook.com/redirection-linux/?ref=itsfoss.com)
+**[解释：Linux 中的输入、输出和错误重定向](https://www.51cto.com/article/722462.html)**
 
-## Create new files using the cat command
+## 使用 cat 命令创建新文件
 
-The original purpose of the cat command was to concatenate files. However, it is primarily used for displaying the contents of a file.
+`cat` 命令的最初目的是连接文件。但是，它主要用于显示文件的内容。
 
-It can also be used to create a new file with the option to add content. For that, you can use the same > and >> redirections.
+它还可以使用选项创建新文件并添加内容。为此，你可以使用相同的 `>` 和 `>>` 重定向。
 
 ```
 cat >> another_file
 ```
 
-But this one will create a new file and allow you to add some text to it. Adding text is optional. **You can exit the cat entering mode by using Ctrl+d or Ctrl+c keys.**
+但是这个将创建一个新文件并允许你向其中添加一些文本。添加文本是可选的。**你可以使用 `Ctrl+d` 键退出 `cat` 输入模式。**
 
-[![Using cat command to create new file](https://itsfoss.com/content/images/2023/03/cat-example.svg)](https://itsfoss.com/content/images/2023/03/cat-example.svg)*Using cat command to create new file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-cat-example.svg)
+*Using cat command to create new file*
 
-Again, the append mode >> adds new text at the end of file content while the clobber mode > replaces the existing content with new.
+同样，附加模式 `>>` 在文件内容的末尾添加新文本，而覆盖模式 `>` 用新内容替换现有内容。
+
+
 
 !!! question "🏋️"
 
-    Use the long listing display with ls -l and notice the timestamps. Now touch the file `touch other_new_file`. Do you see the difference in the timestamps?
+    使用 `ls -l` 长列表显示并注意时间戳。使用 `touch` 创建文件，你看到时间戳的区别了吗？
 
-## 📝 Test your knowledge
+```
+touch other_new_file
+```
 
-You have learned about creating new files. Here are a few simple exercises to practice what you just learned. It includes a little bit of the previous chapters as well.
+## 📝测试你的知识
 
-- Use the touch command to create three new files named file1, file2 and file3. Hint: You don't need to run touch three times.
-- Create a directory called files and create a file named my_file in it.
-- Use the cat command to create a file called `your_file` and add the following text in it "This is your file".
-- Use the echo command to add a new line "This is our file" to your_file.
-- Display all the files in reverse chronological order (refer to chapter 3). Now use the touch command to modify the timestamp of file2 and file3. Now display the content in reverse chronological order again.
+你已经了解了如何创建新文件。这里有一些简单的练习来练习你刚刚学到的东西。它也包括前几章的一些内容。
 
-That's pretty fun. You are making good progress. You have learned to create new files in this chapter. Next, you'll learn about viewing the contents of a file.
+- 使用 `touch` 命令创建三个新文件，分别命名为 `file1`、`file2` 和 `file3`。提示：你不需要运行 `touch` 三次。
+- 创建一个名为 `files` 的目录，并在其中创建一个名为 `my_file` 的文件。
+- 使用 `cat` 命令创建一个名为 `your_file` 的文件，并在其中添加以下文本 “This is your file”。
+- 使用 `echo` 命令将新行 “This is our file” 添加到 `your_file`。
+- 以相反的时间顺序显示所有文件（请参阅第 3 篇）。现在使用 `touch` 命令修改 `file2` 和 `file3` 的时间戳。现在再次按时间倒序显示内容。
 
-*via: https://itsfoss.com/create-files/*
+这很有趣。你正在取得很好的进步。你已在本章中学会了创建新文件。接下来，你将学习如何查看文件的内容。
+
+--------------------------------------------------------------------------------
+
+>via: https://linux.cn/article-15643-1.html
+>
+>source: https://itsfoss.com/create-files/
+>
+>作者：[Abhishek Prakash][a]
+>选题：[lkxed][b]
+>译者：[geekpi](https://github.com/geekpi)
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
