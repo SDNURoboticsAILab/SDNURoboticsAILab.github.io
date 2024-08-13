@@ -229,7 +229,9 @@ plugins:
             NAOqi APIs简述: Introduction to NAOqi APIs
             实用软件基础: Practical Software Basics
             Linux指令基础: Linux Command Basics
-            Linux指令基础简介: Introduction to Linux
+            Linux终端入门: Getting Started With Linux Terminal
+            第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
+            第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
             Git版本控制系统: Git, Version Control System
             Git版本控制系统简介: Introduction to Git
             GNU Make编译工具: GNU Make, Compilation Tool
