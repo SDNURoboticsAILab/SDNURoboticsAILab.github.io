@@ -61,7 +61,7 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
-     - Linux指令基础:
+      - Linux指令基础:
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
           - 第1章：在Linux终端中更改目录: resource/software/Linux/chapter-1-change-directories.md
       - Git版本控制系统:
