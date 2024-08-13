@@ -63,7 +63,7 @@ nav:
     - 实用软件基础:
       - Linux指令基础:
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
-          - 第1章：在Linux终端中更改目录: resource/software/Linux/chapter-1-change-directories.md
+        - 第1章：在Linux终端中更改目录: resource/software/Linux/chapter-1-change-directories.md
       - Git版本控制系统:
         - Git版本控制系统简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
