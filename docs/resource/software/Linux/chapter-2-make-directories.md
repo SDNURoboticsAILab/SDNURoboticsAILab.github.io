@@ -118,9 +118,9 @@ mkdir -p dir1/subdir1/subdir2
 
 --------------------------------------------------------------------------------
 
->via: https://itsfoss.com/make-directories/
+>via: https://linux.cn/article-15595-1.html
 >
->source: https://itsfoss.com/linux-terminal-basics/
+>source: https://itsfoss.com/make-directories/
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >选题：[lkxed](https://github.com/lkxed/)
