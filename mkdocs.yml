@@ -62,7 +62,11 @@ nav:
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux指令基础:
-        - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
+        - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
+        - 第1章：Linux 终端中的目录切换: resource/software/Linux/chapter-1-change-directories.md
+        - 第2章：在 Linux 终端中创建目录: resource/software/Linux/chapter-2-make-directories.md
+        - 第3章：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
+        - 第4章：在 Linux 中创建文件: resource/software/Linux/chapter-4-create-files.md
       - Git版本控制系统:
         - Git版本控制系统简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
@@ -229,7 +233,11 @@ plugins:
             NAOqi APIs简述: Introduction to NAOqi APIs
             实用软件基础: Practical Software Basics
             Linux指令基础: Linux Command Basics
-            Linux指令基础简介: Introduction to Linux
+            Linux终端入门: Getting Started With Linux Terminal
+            第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
+            第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
+            第3章：列出目录的内容: Chapter 3:Listing the Contents of a Directory
+            第4章：在 Linux 中创建文件: Chapter 4:Creating Files in Linux
             Git版本控制系统: Git, Version Control System
             Git版本控制系统简介: Introduction to Git
             GNU Make编译工具: GNU Make, Compilation Tool
@@ -306,6 +314,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #在Markdown中渲染HTML元素
+  #- md_in_html
 
 extra_css:
   - css/neoteroi-mkdocs.css
