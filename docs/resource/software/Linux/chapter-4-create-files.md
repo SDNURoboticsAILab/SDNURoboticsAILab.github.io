@@ -115,9 +115,9 @@ touch other_new_file
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-15643-1.html
+>via: [https://linux.cn/article-15643-1.html](https://linux.cn/article-15643-1.html)
 >
->source: https://itsfoss.com/create-files/
+>source: [https://itsfoss.com/create-files/](https://itsfoss.com/create-files/)
 >
 >作者：[Abhishek Prakash][a]
 >选题：[lkxed][b]

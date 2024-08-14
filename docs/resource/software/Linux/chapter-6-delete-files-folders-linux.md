@@ -208,9 +208,9 @@ rm-ri dir_name
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-15809-1.html
+>via: [https://linux.cn/article-15809-1.html](https://linux.cn/article-15809-1.html)
 >
->source: https://itsfoss.com/delete-files-folders-linux/
+>source: [https://itsfoss.com/delete-files-folders-linux/](https://itsfoss.com/delete-files-folders-linux/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

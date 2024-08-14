@@ -128,7 +128,7 @@ help command_name
 
 💬 *我希望你喜欢这个初学者系列。我欢迎你对这个系列的可用性提供反馈，并提出改进建议。如果你有任何相关的新系列建议，请不要犹豫。评论部分正等着你。*
 
->source: https://itsfoss.com/linux-command-help/
+>source: [https://itsfoss.com/linux-command-help/](https://itsfoss.com/linux-command-help/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

@@ -128,6 +128,6 @@ You'll find more in-depth guides on 'doing things in Linux command line' on It's
 
 💬 *I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.*
 
->via: https://itsfoss.com/linux-command-help/
+>via: [https://itsfoss.com/linux-command-help/](https://itsfoss.com/linux-command-help/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

@@ -208,9 +208,9 @@ mkdir -p sample/dir1/dir2/dir3
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-16304-1.html
+>via: [https://linux.cn/article-16304-1.html](https://linux.cn/article-16304-1.html)
 >
->source: https://itsfoss.com/change-directories/
+>source: [https://itsfoss.com/change-directories/](https://itsfoss.com/change-directories/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

@@ -209,7 +209,7 @@ head -n 55 filename | tail -n 1
 
 这就是本章的内容。接下来，你将学习如何在命令行中删除文件和文件夹。敬请期待。
 
->source：https://itsfoss.com/view-file-contents/
+>source：[https://itsfoss.com/view-file-contents/](https://itsfoss.com/view-file-contents/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

@@ -193,9 +193,9 @@ cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-15809-1.html
+>via: [https://linux.cn/article-15809-1.html](https://linux.cn/article-15809-1.html)
 >
->source: https://itsfoss.com/copy-files-directory-linux/
+>source: [https://itsfoss.com/copy-files-directory-linux/](https://itsfoss.com/copy-files-directory-linux/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

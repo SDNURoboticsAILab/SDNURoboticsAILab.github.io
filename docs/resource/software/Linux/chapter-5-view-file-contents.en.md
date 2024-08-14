@@ -209,6 +209,6 @@ Time for you to exercise your grey cells and practice what you learned in this c
 
 That's it for this chapter. Next, you'll learn about removing files and folders in the command line. Stay tuned.
 
->via: https://itsfoss.com/view-file-contents/
+>via: [https://itsfoss.com/view-file-contents/](https://itsfoss.com/view-file-contents/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

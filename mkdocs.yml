@@ -63,7 +63,7 @@ nav:
     - 实用软件基础:
       - Linux指令基础:
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
-        - 第1章：Linux 终端中的目录切换: resource/software/Linux/chapter-1-change-directories.md
+        - 第1章：Linux终端中的目录切换: resource/software/Linux/chapter-1-change-directories.md
         - 第2章：在Linux终端中创建目录: resource/software/Linux/chapter-2-make-directories.md
         - 第3章：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
         - 第4章：在Linux中创建文件: resource/software/Linux/chapter-4-create-files.md

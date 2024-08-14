@@ -182,6 +182,6 @@ That would give you some practice.
 
 It's going well so far. You have learned quite a few things. In the next chapter, you'll see about [moving files and folders with mv command](https://itsfoss.com/move-files-linux/).
 
->via: https://itsfoss.com/copy-files-directory-linux/
+>via: [https://itsfoss.com/copy-files-directory-linux/](https://itsfoss.com/copy-files-directory-linux/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

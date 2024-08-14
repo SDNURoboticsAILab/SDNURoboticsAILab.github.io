@@ -208,6 +208,6 @@ And, of course, your feedback on this new series is welcome. What can I do to im
 
 ---
 
->via: https://itsfoss.com/change-directories/
+>via: [https://itsfoss.com/change-directories/](https://itsfoss.com/change-directories/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

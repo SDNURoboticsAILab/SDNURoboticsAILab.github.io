@@ -198,6 +198,6 @@ This is going good. You have learned several basic things like switching directo
 
 In the next chapter, you'll learn about copying files and folders in the terminal. Stay tuned!
 
->via: https://itsfoss.com/delete-files-folders-linux/
+>via: [https://itsfoss.com/delete-files-folders-linux/](https://itsfoss.com/delete-files-folders-linux/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

@@ -330,7 +330,7 @@ sudo gedit /etc/ssh/ssh_config
 
 现在，如果你遇到任何问题，请在评论部分告诉我。
 
->source: https://itsfoss.com/edit-files-linux/
+>source: [https://itsfoss.com/edit-files-linux/](https://itsfoss.com/edit-files-linux/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

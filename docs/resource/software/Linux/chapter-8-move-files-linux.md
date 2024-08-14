@@ -238,7 +238,7 @@ dir2  my_services
 
 在终端基础系列的倒数第二章中，你将学习如何在终端中编辑文件。敬请期待。
 
->source: https://itsfoss.com/move-files-linux/
+>source: [https://itsfoss.com/move-files-linux/](https://itsfoss.com/move-files-linux/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

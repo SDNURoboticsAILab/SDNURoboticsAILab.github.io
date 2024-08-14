@@ -239,6 +239,6 @@ Delete all contents of `dir2` now.
 
 In the penultimate chapter of the Terminal Basics series, you'll learn about editing files in the terminal. Stay tuned.
 
->via: https://itsfoss.com/move-files-linux/
+>via: [https://itsfoss.com/move-files-linux/](https://itsfoss.com/move-files-linux/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

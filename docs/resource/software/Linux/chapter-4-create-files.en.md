@@ -107,6 +107,6 @@ You have learned about creating new files. Here are a few simple exercises to pr
 
 That's pretty fun. You are making good progress. You have learned to create new files in this chapter. Next, you'll learn about viewing the contents of a file.
 
->via: https://itsfoss.com/create-files/
+>via: [https://itsfoss.com/create-files/](https://itsfoss.com/create-files/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

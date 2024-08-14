@@ -203,7 +203,7 @@ ls path_to_file1 path_to_file2
 
 如果有任何问题或建议，请告诉我。
 
->source：https://itsfoss.com/list-directory-content/
+>source：[https://itsfoss.com/list-directory-content/](https://itsfoss.com/list-directory-content/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >
