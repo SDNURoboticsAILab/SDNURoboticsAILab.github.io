@@ -8,7 +8,7 @@ comments: true
 
 剪切、复制和粘贴是日常计算生活的一部分。
 
-在前一章中，你学习了如何在终端中 [复制文件和文件夹](https://itsfoss.com/copy-files-directory-linux/)（目录）。
+在前一章中，你学习了如何在终端中复制文件和文件夹（目录）。
 
 在这一部分的终端基础系列中，你将学习如何在 Linux 终端中进行剪切-粘贴操作（移动）。
 
@@ -32,13 +32,13 @@ comments: true
 
 Linux 有一个专门的 mv 命令（移动的缩写），用于将文件和目录移动到其他位置。
 
-并且 [使用 `mv` 命令](https://linuxhandbook.com/mv-command/?ref=itsfoss.com) 非常简单：
+并且使用 `mv` 命令非常简单：
 
 ```Bash
 mv source_file destination_directory
 ```
 
-路径的作用在这里也发挥了作用。你可以使用 [绝对路径或相对路径](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)。无论哪种适合你的需求。
+路径的作用在这里也发挥了作用。你可以使用绝对路径或相对路径。无论哪种适合你的需求。
 
 让我们通过一个例子来看看。**你应该通过在你的系统上复制示例场景来练习**。
 

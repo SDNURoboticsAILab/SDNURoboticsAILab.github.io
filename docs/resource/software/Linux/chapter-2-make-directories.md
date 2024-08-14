@@ -50,6 +50,8 @@ cd practice
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter2-make-directory-example.svg)
 
+*观看上述讨论示例的重播*
+
 ## 创建多个新目录
 
 你刚刚创建了一个新的目录。如果你要创建不止一个呢？比方说，有三个。

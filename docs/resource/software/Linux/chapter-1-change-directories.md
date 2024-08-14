@@ -113,6 +113,8 @@ cd ../Downloads
 
 ![cd command example](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1cd-command-example.svg)
 
+*观看上述 cd 命令示例的重播*
+
 !!! question "💡"
 
     别忘了你还可以使用终端的 `tab` 键自动补全功能。只需要键入命令或者文件夹名称的前几个字母，然后敲击 `tab` 键，系统就会尝试自动地补全命令或文件夹名称，或者给你显示出所有可能的选项。
@@ -158,6 +160,8 @@ cd ../Downloads
 如果你指定了超过一个的参数，或者在路径中误加了空格，你就会看到这个错误。
 
 ![Too many arguments error in Linux terminal](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter1too-many-arguments.png)
+
+*cd 命令只接受一个参数*
 
 !!! question "🏋🏻"
 

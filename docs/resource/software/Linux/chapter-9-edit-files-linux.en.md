@@ -227,7 +227,7 @@ By default, the search is case-insensitive. You can perform a case-sensitive sea
 
 Once again, look at the bottom for options that can be used. Also note that it shows the last searched term inside brackets.
 
-Similarly, you can also use regex for the search terms by pressing Alt+R.
+Similarly, you can also use regex for the search terms by pressing **Alt+R**.
 
 And lastly, **use Ctrl+C to come out of search mode**.
 

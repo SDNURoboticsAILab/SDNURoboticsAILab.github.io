@@ -52,7 +52,7 @@ cd practice
 
 Great! Now you have a dedicated folder where you'll practice the Linux command line tutorials in this series.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter2-make-directory-example.svg)](https://itsfoss.com/content/images/2023/02/make-directory-example.svg)*Watch a replay of the above-discussed example*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter2-make-directory-example.svg)*Watch a replay of the above-discussed example*
 
 ## Creating multiple new directories
 

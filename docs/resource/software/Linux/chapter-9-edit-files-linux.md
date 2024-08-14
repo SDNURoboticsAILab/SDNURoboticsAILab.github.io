@@ -217,11 +217,11 @@ nano -l agatha_complete.txt
 
 你仍然打开了示例文本文件，对吧？如果没有，再次打开它。让我们看看如何搜索文本并将其替换为其他内容。
 
-如果你想搜索某个文本，使用 Ctrl+W，然后输入你要搜索的术语并按回车。光标将移动到第一个匹配项。要转到下一个匹配项，使用 Alt+W 键。
+如果你想搜索某个文本，使用 **Ctrl + W**，然后输入你要搜索的术语并按回车。光标将移动到第一个匹配项。要转到下一个匹配项，使用 **Alt + W** 键。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-text.png)
 
-默认情况下，搜索是不区分大小写的。你可以通过在即将进行搜索时按 Alt+C 来进行区分大小写的搜索。
+默认情况下，搜索是不区分大小写的。你可以通过在即将进行搜索时按 **Alt + C** 来进行区分大小写的搜索。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-case-sensitive-search-text.png)
 
