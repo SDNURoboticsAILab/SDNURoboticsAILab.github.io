@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 使用 Git 来管理 Git 服务器
 ======
 

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 用 Jekyll 和 Git 展示你的源码
 ======
 

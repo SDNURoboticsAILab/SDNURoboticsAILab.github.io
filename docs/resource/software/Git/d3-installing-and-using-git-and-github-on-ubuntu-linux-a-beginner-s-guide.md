@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 初学者指南：在 Ubuntu Linux 上安装和使用 Git 和 GitHub
 ======
 
