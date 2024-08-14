@@ -2,132 +2,137 @@
 comments: true
 ---
 
-# 第 10 章：在 Linux 终端中获取帮助
+# 终端基础：在 Linux 终端中获取帮助
 
-Learn how you can get help about using Linux commands in the final chapter of the Terminal Basics series.
+学习如何在终端基础系列的最后一章中获取有关使用 Linux 命令的帮助。
 
-These days, you can search the internet for the usage and examples of any command.
+如今，你可以通过搜索互联网来获取任何命令的使用方法和示例。
 
-But it was not like this when the internet didn't exist, or it was not as widely available to everyone.
+但在互联网不存在或没有广泛普及的时候，情况并非如此。
 
-For this reason, commands in Linux (and the operating systems before it) come with a help or manual page (man pages). This worked as a reference and users could access it anytime to see what options were available for a command and how it worked.
+因此，Linux（及其之前的操作系统）中的命令都带有帮助或手册页（man pages）。这作为参考，用户可以随时访问以查看命令的可用选项及其工作原理。
 
-The man pages are still relevant in this age of information abundance.
+在信息丰富的今天，man pages 仍然具有相关性。
 
-First, they are the original command documentation and hence the most trusted source on command usage.
+首先，它们是原始的命令文档，因此是命令使用的最可信来源。
 
-Second, if you are taking some Linux exam, you will not be allowed to search on the internet but the man pages are always at your disposal.
+其次，如果你正在参加某个 Linux 考试，你可能不被允许在互联网上搜索，但 man pages 总是可供你使用。
 
-Now that you understand the importance of getting help directly in the terminal, let's see more about them.
+现在你了解了在终端中直接获取帮助的重要性，让我们进一步了解它们。
 
-## Get help with Linux commands in the terminal
+## 在终端中获取 Linux 命令的帮助
 
-There are two main commands to get help on the usage of a Linux command:
+有两个主要的命令可以获取 Linux 命令的使用帮助：
 
-- help: For shell builtin commands
-- man: For other Linux commands
+- help：用于 shell 内置命令
+- man：用于其他 Linux 命令
 
-### Wait! What are shell built-in commands?
+### 等等！什么是 shell 内置命令？
 
-You may feel that commands like ls, rm, mv are part of the bash shell. But that's not true. Shell only has a few commands that are built into it as a part of the shell itself. This is why they are called built-in commands. Some examples of built-in commands are echo, cd, and alias.
+你可能会觉得像 ls、rm、mv 这样的命令是 bash shell 的一部分。但事实并非如此。Shell 只有少数命令是作为 shell 本身的一部分内置的。这就是为什么它们被称为内置命令。内置命令的一些例子是 echo、cd 和 alias。
 
-Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a software package called [GNU coreutils](https://www.gnu.org/software/coreutils/?ref=itsfoss.com). They come preinstalled on almost all Linux distributions.
+其他流行的 Linux 命令，如 ls、mv、rm、cat、less 等，是名为 [GNU coreutils](https://www.gnu.org/software/coreutils/?ref=itsfoss.com) 的软件包的一部分。它们几乎在所有 Linux 发行版上都预装了。
 
-You won't find man pages for the shell built-ins.
+你不会找到 shell 内置命令的 man pages。
 
 ```
 abhishek@tuxedo:~$ man cd
 No manual entry for cd
 ```
 
-The man pages are for these 'external' Linux commands. The shell built-ins have help sections.
+man pages 适用于这些“外部”Linux 命令。内置命令有帮助部分。
 
-💡
+!!! question "💡"
 
-Want to see all the built-in shell commands? Just type `help` to list them all.
+    想查看所有内置 shell 命令吗？只需输入 help 即可列出它们。
 
-### Use man to see command documentation
+### 使用 man 查看命令文档
 
-Using the man command is simple. Just give it command's name like this:
+使用 man 命令很简单。只需像这样给出命令的名称：
 
 ```
 man command_name
 ```
 
-And it will open the manual page of the command. You'll find the syntax of the command, its options, and a brief explanation of the options.
+它将打开该命令的手册页。你会找到命令的语法、选项以及对选项的简要解释。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-man-page-example.png)
 
-The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?ref=itsfoss.com) to move around and search for text.
+页面通常使用 [less 命令](https://itsfoss.com/view-file-contents/) 打开，因此你可以使用所有 [less 命令的键盘快捷键](https://linuxhandbook.com/less-command/?ref=itsfoss.com) 来移动和搜索文本。
 
-Don't remember it? This will help you recall
+不记得了吗？这将帮助你回忆
 
-| **Keys**      | **Action**                                         |
-| ------------- | -------------------------------------------------- |
-| Up arrow      | Move one line up                                   |
-| Down arrow    | Move one line down                                 |
-| Space or PgDn | Move one page down                                 |
-| b or PgUp     | Move one page up                                   |
-| g             | Move to the beginning of the file                  |
-| G             | Move to the end of the file                        |
-| ng            | Move to the nth line                               |
-| /pattern      | Search for pattern and use n to move to next match |
-| q             | Exit                                               |
+| **键**      | **操作**                            |
+| ----------- | ----------------------------------- |
+| 向上箭头    | 向上移动一行                        |
+| 向下箭头    | 向下移动一行                        |
+| 空格或 PgDn | 向下移动一页                        |
+| b 或 PgUp   | 向上移动一页                        |
+| g           | 移动到文件开头                      |
+| G           | 移动到文件末尾                      |
+| ng          | 移动到第 n 行                       |
+| /pattern    | 搜索模式并使用 n 移动到下一个匹配项 |
+| q           | 退出                                |
 
-There is more to man pages than. I cannot cover it all here, but we do have a detailed guide. Feel free to refer to it.
+man pages 的内容远不止这些。我无法在这里全部涵盖，但我们有一份详细的指南。欢迎参考。
 
-[RTFM! How to Read (and Understand) the Fantastic Man Pages in Linux](https://itsfoss.com/linux-man-page-guide/)
+[RTFM！如何阅读（和理解）Linux 中神奇的手册页](https://linux.cn/article-13478-1.html)
 
-### Use help command for shell built-ins
+### 使用 help 命令获取 shell 内置命令的帮助
 
-As mentioned earlier, no man pages exist for the built-in shell commands. Instead, you use the help command like this:
+如前所述，内置 shell 命令没有 man pages。相反，你使用 help 命令像这样：
 
 ```
 help command_name
 ```
 
-It will show a summary of the command options. The entire content is displayed on the screen, unlike the man command.
+它会显示命令选项的摘要。整个内容会显示在屏幕上，与 man 命令不同。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-for-shell-built-ins.png)
 
-### Help option for all commands
+### 所有命令的帮助选项
 
-Do you feel the man page has too much information and you just want to see the options of a command? The help option 'helps' you.
+你是否觉得 man page 信息太多，只想查看命令的选项？帮助选项可以帮到你。
 
-Almost all Linux commands provide a `--help` option that should summarize the available options.
+几乎所有 Linux 命令都提供了一个 `--help` 选项，可以总结可用的选项。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-with-linux-commands.png)
 
-However, it's not a hard and fast rule. The help sections of some commands are pretty bland. Try it for the ip command.
+然而，这不是硬性规定。某些命令的帮助部分相当简陋。试试 ip 命令。
 
-## There are more ways to get help in Linux terminal
+## 在 Linux 终端中获取帮助的更多方法
 
-There is the info command that works similar to the man command.
+还有 `info` 命令，它的工作方式类似于` man` 命令。
 
-If you find man pages complicated to understand, there are third-party tools that simplify the content of man pages and make it more beginner friendly. TLDR is one such package you can use.
+如果你觉得 man pages 难以理解，有一些第三方工具可以简化 man pages 的内容，使其对初学者更友好。TLDR 就是这样一个你可以使用的包。
 
-[TLDR: Linux Man Pages Simplified](https://itsfoss.com/tldr-linux-man-pages-simplified/)
+[TLDR 页：Linux 手册页的简化替代品](https://linux.cn/article-10355-1.html)
 
-In other words, the help is just a few key presses away.
+换句话说，帮助只需按几下键即可获得。
 
-It's not that only new Linux users need help. Experienced Linux users specially rely on the manpages. So don't shy away from using the help in the terminal.
+并不是只有新的 Linux 用户需要帮助。经验丰富的 Linux 用户特别依赖 manpages。所以不要回避在终端中使用帮助。
 
-I also advise [using the history command](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com). This way, you can search for the commands you typed earlier.
+我还建议 [使用 history 命令](https://linux.cn/article-9780-1.html)。这样，你可以搜索之前输入的命令。
 
-[5 Simple Bash History Tricks Every Linux User Should Know](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com)
+[5 个有趣的 Linux 命令行技巧](https://linux.cn/article-5485-1.html)
 
-## This is the end... or the beginning
+## 这是结束... 或开始
 
-And with this, I conclude the Linux Terminal Basics series.
+至此，我结束了 Linux 终端基础系列。
 
-In the ten chapters of the series, you got familiar with the terminal, learned to move around in the terminal, and create, move and delete files and folders. You also learned to read and edit files.
+在这个系列的十章中，你熟悉了终端，学会了在终端中移动，以及创建、移动和删除文件和文件夹。你还学会了阅读和编辑文件。
 
-This gives you a basic but solid foundation of Linux commands. It may be the end of this series, but it helps begin your Linux command line journey.
+这为你打下了 Linux 命令的基本但坚实的基础。这可能是这个系列的结束，但它帮助你开始了你的 Linux 命令行之旅。
 
-You'll find more in-depth guides on 'doing things in Linux command line' on It's FOSS in the future. It may not be in a series (or maybe it will) but you'll have plenty of opportunity for learning.
+你将在 It's FOSS 上找到更多关于“在 Linux 命令行中做事”的深入指南。它可能不是以系列的形式（或者可能是），但你会有很多学习的机会。
 
-💬 *I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.*
+💬 *我希望你喜欢这个初学者系列。我欢迎你对这个系列的可用性提供反馈，并提出改进建议。如果你有任何相关的新系列建议，请不要犹豫。评论部分正等着你。*
 
->via: https://itsfoss.com/linux-command-help/
+>source: https://itsfoss.com/linux-command-help/
 >
->Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>译者：[DeepSeek](https://chat.deepseek.com)
+>
+>校对：[Churnie HXCN](https://github.com/excniesNIED)
+

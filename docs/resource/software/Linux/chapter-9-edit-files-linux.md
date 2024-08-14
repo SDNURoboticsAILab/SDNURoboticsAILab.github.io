@@ -1,335 +1,339 @@
 ---
-comments: true
+comments: true基础
 ---
 
-# 第 9 章：在 Linux 终端中编辑文件
+# 终端基础：在 Linux 终端中编辑文件
 
-Learn about editing text files in the Linux terminal using the beginner friendly Nano editor in the second last chapter of this series.
+学习在 Linux 终端中使用适合初学者的 Nano 编辑器编辑文本文件，在本系列倒数第二章中。
 
-You have learned a bunch of file operations so far in this Terminal Basics series. You learned to create new files, delete existing ones, and copy and move them.
+到目前为止，在这个终端基础系列中，你已经学习了许多文件操作。你学会了创建新文件、删除现有文件以及复制和移动文件。
 
-It is time to take it to the next level. Let's see how to edit files in the Linux terminal.
+现在是时候更上一层楼了。让我们看看如何在 Linux 终端中编辑文件。
 
-If you are writing bash shell scripts, you can use the GUI text editors like Gedit and run them in the terminal.
+如果你正在编写 bash shell 脚本，你可以使用 Gedit 等 GUI 文本编辑器并在终端中运行它们。
 
-But at times, you'll find yourself in a situation where you have to edit existing files in the terminal itself. For example, modifying config files located in the /etc directory.
+但有时，你会发现自己需要直接在终端中编辑现有文件。例如，修改位于 `/etc` 目录中的配置文件。
 
-As a desktop Linux user, you could still use GUI editors for editing config files even as root. I'll show it to you later.
+作为桌面 Linux 用户，即使是以 root 身份，你仍然可以使用 GUI 编辑器来编辑配置文件。我稍后会展示给你看。
 
-However, knowing how to edit files in the command line is better.
+然而，知道如何在命令行中编辑文件会更好。
 
-## Editing files in Linux terminal
+## 在 Linux 终端中编辑文件
 
-You may use the cat command if you just have to add a few lines at the bottom of an existing file. But in order to properly edit a file, you'll need a proper text editor.
+如果你只需要在现有文件的底部添加几行，可以使用 `cat` 命令。但为了正确编辑文件，你需要一个合适的文本编辑器。
 
-There is simply no shortage of [terminal-based text editors in Linux](https://itsfoss.com/command-line-text-editors-linux/). **Vi, Vim, Nano, Emacs are just a few of the most popular ones** out there.
+Linux 中根本不缺少 [基于终端的文本编辑器](https://fosscope.com/20240729-9-best-text-editors-for-the-linux-command-line)。**Vi、Vim、Nano、Emacs 只是其中最受欢迎的几个。**
 
-But here is the thing. All of them have a learning curve involved. You don't have the comfort of the GUI. You don't have menus to interact with the editor with your mouse.
+但问题是，所有这些编辑器都有学习曲线。你没有 GUI 的舒适感。你没有菜单可以用鼠标与编辑器交互。
 
-Instead, **you have to use (and remember) keyboard shortcuts**.
+相反，**你必须使用（并记住）键盘快捷键。**
 
-I find Nano to be a good starting point for new users. It is the default text editor in Ubuntu and many other Linux distributions.
+我发现 Nano 对新用户来说是一个很好的起点。它是 Ubuntu 和许多其他 Linux 发行版的默认文本编辑器。
 
-Of course, there is a learning curve, but it is not as steep as that of Vim or Emacs. It keeps on displaying the most relevant keyboard shortcuts at the bottom. This helps you navigate even if you don't remember the exact shortcut.
+当然，也有学习曲线，但没有 Vim 或 Emacs 那么陡峭。它一直在底部显示最相关的键盘快捷键。这有助于你导航，即使你不记得确切的快捷键。
 
-For this reason, I'll be covering the absolute basics of the Nano editor here. You’ll **learn all the essentials you need to know to start using Nano for editing files** in the Linux terminal.
+因此，我将在这里介绍 Nano 编辑器的基本知识。你将**学习所有需要知道的基本知识**，以便开始使用 Nano 在 Linux 终端中编辑文件。
 
-## Using Nano editor
+## 使用 Nano 编辑器
 
-Nano can be used to edit text files, script files, program files etc. Please remember that **it is not a word processor** and cannot be used to edit docs or PDF files. For simple text editing of conf files, scripts, or text files, Nano is a great choice.
+Nano 可以用来编辑文本文件、脚本文件、程序文件等。请记住，**它不是文字处理器**，不能用来编辑文档或 PDF 文件。对于简单的配置文件、脚本或文本文件的文本编辑，Nano 是一个很好的选择。
 
 !!! question "🚧"
 
-    You should have Nano installed on your system to follow this tutorial.
+    你应该在你的系统上安装了 Nano 才能跟随本教程。
 
-I'll be using a text file named agatha_complete.txt. It consists of the names of all Agatha Christie’s books under her name. You can download it from this link if you plan to follow the steps on your system.
+我将使用一个名为 `agatha_complete.txt` 的文本文件。它包含了阿加莎·克里斯蒂所有书籍的名称。如果你计划在你的系统上跟随步骤，可以从这个链接下载它。
 
-https://itsfoss.com/content/files/2023/04/agatha_complete.txt
+https://ed.qcea.top/d/ChaIndex/Space/excnies/public/sdnuroboticsailab-doc/agatha_complete.txt
 
-### Explore the Nano editor interface
+### 探索 Nano 编辑器界面
 
-Open the Nano editor with the following command:
+使用以下命令打开 Nano 编辑器：
 
 ```Bash
 nano
 ```
 
-You’ll notice a new interface in your terminal that reads like GNU nano and displays New Buffer. **New Buffer means Nano is working on a new file**.
+你会注意到你的终端中出现了一个新的界面，显示为 GNU nano 并显示 *New Buffer*。***New Buffer* 意味着 Nano 正在处理一个新文件。**
 
-This is equivalent to opening a new unsaved file in a text editor like Gedit or Notepad.
+这相当于在一个文本编辑器中打开一个未保存的新文件，比如 Gedit 或 Notepad。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-editor-interface.png)
-*Nano editor interface*
+*Nano 编辑器界面*
 
-Nano editor shows essential keyboard shortcuts you need to use for editing at the bottom of the editor. This way, you won’t get stuck at [exiting the editor like Vim](https://itsfoss.com/how-to-exit-vim/).
+Nano 编辑器在编辑器的底部显示了你需要使用的基本键盘快捷键。这样，你就不会像在 Vim 中那样卡在退出编辑器上。
 
-The wider your terminal window, the more shortcuts it shows.
+终端窗口越宽，它显示的快捷键就越多。
 
-You should get familiar with the symbols in Nano.
+你应该熟悉 Nano 中的符号。
 
-- **The caret symbol (^) means Ctrl key**
-- **The M character mean the Alt key**
+- **插入符号符号 (^) 表示 Ctrl 键**
+- **M 字符表示 Alt 键**
 
 !!! note "📋"
 
-    When it says `^X Exit`, it means to use `Ctrl+X` keys to exit the editor. When it says `M-U Undo`, it means use `Alt+U` key to undo your last action.
+    当它说 `^X Exit` 时，意味着使用 `Ctrl+X` 键退出编辑器。当它说 `M-U Undo` 时，意味着使用 `Alt+U` 键撤销你的最后操作。
 
-One more thing. It shows the characters in caps in the keyboard. But it doesn’t mean uppercase character. ^X means Ctrl + x key on the keyboard, not Ctrl+Shift+x key (to get the uppercase X).
+还有一件事。它在键盘上显示大写字母。但这并不意味着大写字符。^X 意味着键盘上的 Ctrl + x 键，而不是 Ctrl+Shift+x 键（为了得到大写的 X）。
 
-You may also get a detailed help document inside the editor by pressing Ctrl+G.
+你也可以通过按 Ctrl+G 在编辑器内部获得详细的帮助文档。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-detailed-help.png)
-*Press Ctrl+G to bring up the help menu in Nano*
+*按 Ctrl+G 调出 Nano 中的帮助菜单*
 
-Now that you are a bit familiar with the interface, exit the Nano editor with Ctrl+X keys. Since you have not made any changes to this opened unsaved file, you won’t be asked to save it.
+现在你已经对界面有了一些了解，用 Ctrl+X 键退出 Nano 编辑器。由于你没有对这个未保存的文件做任何更改，所以不会被要求保存它。
 
-Awesome! You now have some ideas about the editor. In the next section, you’ll learn to create and edit files with Nano.
+太棒了！你现在对编辑器有了一些了解。在下一部分，你将学习如何用 Nano 创建和编辑文件。
 
-### Create or open files in Nano
+### 在 Nano 中创建或打开文件
 
-You can open a file for editing in Nano like this:
+你可以这样在 Nano 中打开一个文件进行编辑：
 
 ```Bash
 nano filename
 ```
 
-If the file doesn’t exist, it will still open the editor and when you exit, you’ll have the option for saving the text to my_file.
+如果文件不存在，它仍然会打开编辑器，当你退出时，你将有保存文本到 my_file 的选项。
 
-You may also open a new file without any name as well (like new document) with Nano like this:
+你也可以不带任何名称地打开一个新文件（像新文档一样），像这样：
 
 ```Bash
 nano
 ```
 
-Try it. In a terminal, just write `nano` and enter.
+试试看。在终端中，只需写 `nano` 并按回车。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-file-in-nano.png)
-*New file in Nano*
+*Nano 中的新文件*
 
-Did you notice “New Buffer”? Since you did not give the file any name, it indicates that is a new, unsaved file in the memory buffer.
+你注意到“New Buffer”了吗？因为你没有给文件任何名称，所以它表示这是一个新的、未保存的文件在内存缓冲区中。
 
-You can start writing or modifying the text straightaway in Nano. There are no special insert modes or anything of that sort. It is almost like using a regular text editor, at least for writing and editing.
+你可以直接在 Nano 中开始写入或修改文本。没有特殊的插入模式或类似的东西。它几乎就像使用一个普通的文本编辑器，至少对于写入和编辑来说是这样。
 
-If you make any changes to the file (new or existing), you’ll notice that an asterisk (*) appears beside the file name or New Buffer (meaning a new, unsaved file).
+如果你对文件（新的或现有的）做了任何更改，你会注意到文件名或 New Buffer 旁边会出现一个星号（*）（表示一个新的、未保存的文件）。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-modified-file-in-nano.png)
-*Asterisk means the file has unsaved changes*
+*星号表示文件有未保存的更改*
 
-That seems good. In the next section, you’ll see how to save files and exit the Nano editor interface.
+看起来不错。在下一部分，你将看到如何保存文件并退出 Nano 编辑器界面。
 
-### Saving and exiting in Nano
+### 在 Nano 中保存和退出
 
-Nothing is saved immediately to the file automatically unless you explicitly do so. When you **exit the editor using Ctrl+X** keyboard shortcut, you’ll be asked whether you want to save the file.
+除非你明确这样做，否则什么都不会立即保存到文件中。当你**使用 Ctrl+X 键盘快捷键退出编辑器**时，你会被问是否要保存文件。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-new-file-in-nano.png)
 
-- **Y** to save the file and exit the editor
-- **N** to discard changes
-- **C** to cancel saving but continue to edit
+- **Y** 保存文件并退出编辑器
+- **N** 放弃更改
+- **C** 取消保存但继续编辑
 
-If you choose to save the file by pressing the Y key, you’ll be asked to give the file a name. Name it my_file.txt.
+如果你选择通过按 Y 键保存文件，你会被要求给文件命名。命名为 `my_file.txt`。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-saving-new-file-in-nano.png)
 
 !!! note "📋"
 
-    The .txt extension is not necessary because the file is already a text file even if you do not use the extension. However, it is a good practice to keep the file extension for comprehension.
+    .txt 扩展名不是必需的，因为即使你不使用扩展名，文件已经是文本文件。然而，为了便于理解，保持文件扩展名是一个好习惯。
 
-Enter the name and press the enter key. Your file will be saved and you’ll be out of the Nano editor interface. You can see that the text file has been created in your current directory.
+输入名称并按回车键。你的文件将被保存，你将退出 Nano 编辑器界面。你可以看到文本文件已经在你的当前目录中创建。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-file-created-in-nano.png)
 
 !!! note "📋"
 
-    If you are habitual of using Ctrl+S for saving the file in a text editor and you subconsciously press that in Nano, nothing happens. Why “nothing happens” is important? Because if you press Ctrl+S in a Linux terminal, it freezes the output screen and you cannot type or do anything. You can get back from this “frozen terminal” by pressing Ctrl+Q.
+    如果你习惯于在文本编辑器中使用 Ctrl+S 保存文件，并且你在 Nano 中无意识地按下它，什么都不会发生。为什么“什么都不会发生”很重要？因为如果你在 Linux 终端中按下 Ctrl+S，它会冻结输出屏幕，你不能输入或做任何事情。你可以通过按 Ctrl+Q 从这种“冻结的终端”中恢复。
 
-### Perform a “save as” operation in Nano
+### 在 Nano 中执行“另存为”操作
 
-In Gedit or Notepad, you get the “save as” option to save the changes made to an existing file as a new file. This way, the original files remain unchanged and you create a new file with the modified text.
+在 Gedit 或 Notepad 中，你有一个“另存为”选项，可以将对现有文件所做的更改保存为新文件。这样，原始文件保持不变，你创建一个带有修改文本的新文件。
 
-You can do it in Nano editor too and the good thing is that you don’t need to remember another keyboard shortcut. You can use the same Ctrl+X keys that you used for saving and exiting.
+你也可以在 Nano 编辑器中这样做，而且好消息是你不需要记住另一个键盘快捷键。你可以使用与保存和退出相同的 Ctrl+X 键。
 
-Let’s see it in action. Open the sample file you had downloaded earlier.
+让我们看看它的实际操作。打开你之前下载的示例文件。
 
 ```Bash
 nano agatha_complete.txt
 ```
 
-If you don’t make any changes, Ctrl+X will simply close the editor. You don’t want that, do you?
+如果你不做任何更改，Ctrl+X 将简单地关闭编辑器。你不想那样，对吧？
 
-So just press enter and then backspace key. This will insert a new line and then delete it as well. This way, nothing in the text file is changes and yet Nano will see it as a modified file.
+所以只需按回车键，然后按退格键。这将插入一个新行，然后删除它。这样，文本文件中的内容没有改变，但 Nano 会将其视为修改过的文件。
 
-If you press Ctrl+X and press Y to confirm the save, you’ll come to the screen where it shows the file name. What you can do is to change the file name here by pressing the backspace key and typing a new name.
+如果你按下 Ctrl+X 并按 Y 确认保存，你会来到显示文件名的屏幕。你可以在这里通过按退格键并输入新名称来更改文件名。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-as-different-file-in-nano.png)
 
-It will ask you to confirm saving it under a different name. Press Y to confirm this decision.
+它会问你是否确认用不同的名称保存。按 Y 确认这个决定。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-as-different-file-name-in-nano.png)
 
-I named it agatha_complete.back as an indication that it is a “backup” of a file of the same name. It’s just for convenience. There is no real significance behind the .back extension.
+我将其命名为 agatha_complete.back，表示它是同名文件的“备份”。这只是为了方便。.back 扩展名背后没有实际意义。
 
-So, you have learned to save files with Nano in this lesson. In the next section, you’ll learn to move around a text file.
+所以，你已经学会了在本课中用 Nano 保存文件。在下一部分，你将学习如何在文本文件中移动。
 
-### Moving around in a file
+### 在文件中移动
 
-Open the agatha_complete.txt file with Nano. You know how to open files with Nano editor, right?
+用 Nano 打开 agatha_complete.txt 文件。你知道如何用 Nano 编辑器打开文件，对吧？
 
 ```Bash
 nano agatha_complete.txt
 ```
 
-Now you have a text file with several lines. How do you switch to other lines or to the next page or to the end of the line?
+现在你有一个包含多行的文本文件。如何切换到其他行或下一页或行尾？
 
-Mouse clicks don’t work here. **Use the arrow keys to move up and down, left and right**.
+鼠标点击在这里不起作用。使用箭头键上下左右移动。
 
-You can use the Home key or Ctrl+A to move to the beginning of a line and End key or Ctrl+E to move to the end of a line. Ctrl+Y/Page Up and Ctrl+V/Page Down keys can be used to scroll by pages.
+你可以使用 Home 键或 Ctrl+A 移动到行首，使用 End 键或 Ctrl+E 移动到行尾。Ctrl+Y/Page Up 和 Ctrl+V/Page Down 键可以用来按页滚动。
 
-- Use arrow keys for moving around
-- Use Ctrl+A or Home key to go to the beginning of a line
-- Use Ctrl+E or End key to go to the end of a line
-- Use Ctrl+Y or Page Up keys to go up by one page
-- Use Ctrl+V or Page Down keys to go down by one page
+- 使用箭头键移动
+- 使用 Ctrl+A 或 Home 键移动到行首
+- 使用 Ctrl+E 或 End 键移动到行尾
+- 使用 Ctrl+Y 或 Page Up 键向上滚动一页
+- 使用 Ctrl+V 或 Page Down 键向下滚动一页
 
-You have not made any changes to the file. Exit it.
+你没有对文件做任何更改。退出它。
 
-Now, open the same file again but using this command:
+现在，用这个命令再次打开同一个文件：
 
 ```Bash
 nano -l agatha_complete.txt
 ```
 
-Did you notice something different? The `-l` option displays the line numbers in the left-hand side.
+你注意到有什么不同吗？`-l` 选项在左侧显示行号。
 
-Why did I show that to you? Because I want you to learn to go to a specific line now. To do that, use Ctrl+_ (underscore) key combination.
+我为什么要展示给你看？因为我希望你现在学习如何跳转到特定行。为此，使用 Ctrl+_（下划线）键组合。
 
 !!! note "📋"
 
     The Help options get changed at the bottom. That’s the beauty of Nano. If you choose a special keyboard shortcut, it starts showing the options that can be used with that key combination.
 
-In the above picture, you can enter a line or column number. At the same time, it shows that you can enter Ctrl+Y to go to the first line of the file (it is different from the regular Ctrl+Y for moving one page up).
+在上图中，你可以输入行号或列号。同时，它显示你可以输入 Ctrl+Y 跳转到文件的第一行（这与向上滚动一页的常规 Ctrl+Y 不同）。
 
-Using Ctrl+T on the same screen, you can go to a certain text. That’s almost like searching for a specific text.
+使用 Ctrl+T 在同一屏幕上，你可以跳转到某个文本。这几乎就像搜索特定文本一样。
 
-And that brings us to the topic of the next section, which is search and replace.
+这就把我们带到了下一部分的主题，即搜索和替换。
 
-### Search and replace
+### 搜索和替换
 
-You still have the sample text file opened, right? If not, open it again. Let’s how to to search for text and replace it with something else.
+你仍然打开了示例文本文件，对吧？如果没有，再次打开它。让我们看看如何搜索文本并将其替换为其他内容。
 
-If you want to search for a certain text, **use Ctrl+W** and then enter the term you want to search and press enter. The cursor will move to the first match. To go to the next match, **use Alt+W keys**.
+如果你想搜索某个文本，使用 Ctrl+W，然后输入你要搜索的术语并按回车。光标将移动到第一个匹配项。要转到下一个匹配项，使用 Alt+W 键。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-text.png)
 
-By default, the search is case-insensitive. You can perform a case-sensitive search by pressing Alt+C when you are about to perform a search.
+默认情况下，搜索是不区分大小写的。你可以通过在即将进行搜索时按 Alt+C 来进行区分大小写的搜索。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-case-sensitive-search-text.png)
 
-Once again, look at the bottom for options that can be used. Also note that it shows the last searched term inside brackets.
+再次注意底部可以使用的选项。还要注意它显示了括号内的最后一个搜索项。
 
-Similarly, you can also use regex for the search terms by pressing Alt+R.
+同样，你也可以通过按 **Alt+R** 使用正则表达式进行搜索。
 
-And lastly, **use Ctrl+C to come out of search mode**.
+最后，**使用 Ctrl+C 退出搜索模式**。
 
-If you want to replace the searched term, **use Ctr+\ keys** and then enter the search term and press enter key.
+如果你想替换搜索到的术语，使用 **Ctr+\\** 键，然后输入搜索项并按回车键。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-replace-text.png)
 
-Next, it will ask for the term you want to replace the searched items with.
+接下来，它会问你想要用什么术语替换搜索到的项目。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-replace-text.png)
 
-The cursor will move to the first match and Nano will ask for your conformation for replacing the matched text. Use Y or N to confirm or deny respectively. Using either of Y or N will move to the next match. You may also use A to replace all matches.
+光标将移动到第一个匹配项，Nano 会询问你是否确认替换匹配的文本。使用 Y 或 N 确认或拒绝。使用 Y 或 N 中的任何一个都会移动到下一个匹配项。你也可以使用 A 替换所有匹配项。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-replaced-text.png)
 
-In the above text, I have replaced the second occurrence of the term Murder with Marriage and then it asks whether I want to replace the next occurrence as well.
+在上面的文本中，我已经替换了术语 Murder 的第二次出现为 Marriage，然后它询问我是否要替换下一个出现的内容。
 
-**Use Ctrl+C to stop the search and replace.**
+**使用 Ctrl+C 停止搜索和替换。**
 
-You have made some changes to the text file in this lesson. But there is no need to save those changes. Press Ctrl+X to exit but don’t go for the save option.
+你在这节课中对文本文件做了一些更改。但没有必要保存这些更改。按 Ctrl+X 退出，但不要选择保存选项。
 
-In the next section, you’ll learn about cut, copy and paste.
+在下一部分，你将学习如何剪切、复制和粘贴。
 
-### Cut, copy and paste text
+### 剪切、复制和粘贴文本
 
-Open the sample text file first.
+首先打开示例文本文件。
 
 !!! question "💡"
 
-    If you don’t want to spend too much time remembering the shortcuts, use the mouse.
+    如果你不想花太多时间记住快捷键，可以使用鼠标。
 
-Select a text with mouse and then use the right click menu to copy the text. You may also use the Ctrl+Shift+C [keyboard shortcut in Ubuntu](https://itsfoss.com/ubuntu-shortcuts/) terminal. Similarly, you can use the right click and select paste from the menu or use the Ctrl+Shift+V key combination.
+用鼠标选择文本，然后使用右键菜单复制文本。你也可以在 [Ubuntu 终端中使用键盘快捷键](https://cn.linux-console.net/?p=18791) Ctrl+Shift+C。同样，你可以使用右键菜单并选择粘贴，或者使用 Ctrl+Shift+V 键组合。
 
-Nano also provides its own shortcuts for cutting and pasting text but that could become confusing for beginners.
+Nano 也提供了自己的快捷键来剪切和粘贴文本，但这可能会让初学者感到困惑。
 
-Move your cursor to the beginning of the text you want to copy. Press Alt+A to set a marker. Now use the arrow keys to highlight the selection.
+将光标移动到你要复制的文本的开头。按 Alt+A 设置标记。现在使用箭头键突出显示选择。
 
-Once you have selected the desired text, you can Alt+6 key to copy the selected text or use Ctrl+K to cut the selected text. Use Ctrl+6 to cancel the selection.
+一旦你选择了所需的文本，你可以使用 Alt+6 键复制选定的文本，或者使用 Ctrl+K 剪切选定的文本。使用 Ctrl+6 取消选择。
 
-Once you have copied or cut the selected text, you can use Ctrl+U to paste it.
+一旦你复制或剪切了选定的文本，你可以使用 Ctrl+U 粘贴它。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-cut-copy-paste.png)
 
-If you do not want to continue selecting the text or copying it, use Alt+A again to unset the mark.
+如果你不想继续选择文本或复制它，再次使用 Alt+A 取消标记。
 
-To recall:
+回顾一下：
 
-- You can use Ctrl+Shift+C to copy and Ctrl+Shift+V to paste the content of the clipboard in most Linux terminals.
-- Alternatively, use Alt+A to set the marker, move the selection using arrow key and then use Alt+6 to copy, Ctrl+k to cut and Ctrl+6 to cancel.
-- Use Ctrl+U to paste the copied or cut text.
+- 你可以在大多数 Linux 终端中使用 Ctrl+Shift+C 复制和 Ctrl+Shift+V 粘贴剪贴板的内容。
+- 或者，使用 Alt+A 设置标记，使用箭头键移动选择，然后使用 Alt+6 复制，Ctrl+k 剪切和 Ctrl+6 取消。
+- 使用 Ctrl+U 粘贴复制的或剪切的文本。
 
-Now you know about copy-pasting. The next section will teach you a thing or two about deleting text and lines in Nano.
+现在你知道了关于复制粘贴的内容。下一部分将教你一些关于在 Nano 中删除文本和行的内容。
 
-### Delete text or lines
+### 删除文本或行
 
-There is no dedicated option for deletion in Nano. You may use the Backspace or Delete key to delete one character at a time. Press them repeatedly or hold them to delete multiple characters. Just like in any regular text editor.
+Nano 中没有专门的删除选项。你可以使用 Backspace 或 Delete 键一次删除一个字符。反复按它们或按住它们删除多个字符。就像在任何常规文本编辑器中一样。
 
-You can also use the Ctrl+K keys that cuts the entire line. If you don’t paste it anywhere, it’s as good as deleting a line.
+你也可以使用 Ctrl+K 键剪切整行。如果你不粘贴它，它就像删除一行一样。
 
-If you want to delete multiple lines, you may use Ctrl+K on all of them one by one.
+如果你想删除多行，你可以对所有这些行逐个使用 Ctrl+K。
 
-Another option is to use the marker (Ctrl+A). Set the marker and move the arrow to select a portion of text. Use Ctrl+K to cut the text. No need to paste it and the selected text will be deleted (in a way).
+另一个选项是使用标记（Ctrl+A）。设置标记并使用箭头键选择一部分文本。使用 Ctrl+K 剪切文本。不需要粘贴它，选定的文本将被删除（在某种程度上）。
 
-### Undo and redo
+### 撤销和重做
 
-Cut the wrong line? Pasted the wrong text selection? It’s easy to make such silly mistakes and it’s easy to correct those silly mistakes.
+剪切了错误的行？粘贴了错误的文本选择？很容易犯这些愚蠢的错误，也很容易纠正这些愚蠢的错误。
 
-You can undo and redo your last actions using:
+你可以使用以下方法撤销和重做你的最后操作：
 
-- **Alt+U : Undo**
-- **Alt+E : Redo**
+- **Alt+U : 撤销**
+- **Alt+E : 重做**
 
-You can repeat these key combinations to undo or redo multiple times.
+你可以重复这些键组合多次撤销或重做。
 
-## Almost the end...
+## 差不多结束了...
 
-If you find Nano overwhelming, you should try Vim or Emacs. You'll start liking Nano.
+如果你觉得 Nano 让人不知所措，你应该尝试 Vim 或 Emacs。你会开始喜欢 Nano。
 
-[Basic Vim Commands Every Linux User Must Know [With PDF Cheat Sheet]](https://linuxhandbook.com/basic-vim-commands/?ref=itsfoss.com)
+[每个 Linux 用户必须知道的基本 Vim 命令 [附 PDF 备忘单]](https://cn.linux-console.net/?p=20186)
 
-This is a good starting point for Emacs. Give it a try if you want.
+这是 Emacs 的一个很好的入门教程。如果你想尝试的话，可以试试看。
 
-[Basic Emacs Command Explained in Detail](https://linuxhandbook.com/basic-emacs-guide/?ref=itsfoss.com)
+[基本 Emacs 命令详细解释](https://cn.linux-console.net/?p=20156)
 
-No matter how beginner-friendly Nano is, some people may find the idea of editing important files in the terminal intimidating.
+无论 Nano 多么适合初学者，有些人可能会觉得在终端中编辑重要文件的想法令人畏惧。
 
-If you are using Linux desktop where you can access a GUI editor, you can use it to edit those important files as root.
+如果你使用的是可以访问 GUI 编辑器的 Linux 桌面，你可以使用它以 root 身份编辑那些重要文件。
 
-Say, you have Gedit installed on your system and you have to edit the SSH config file as root. You can run Gedit as root from the terminal like this:
+比如说，你的系统上安装了 Gedit，你需要以 root 身份编辑 SSH 配置文件。你可以像这样从终端以 root 身份运行 Gedit ：
 
 ```Bash
 sudo gedit /etc/ssh/ssh_config
 ```
 
-It will open a Gedit instance as root. The command keeps on running in the terminal. Make your changes and save the file. It will show warning messages when you save and close Gedit.
+它将以 root 身份打开一个 Gedit 实例。命令在终端中持续运行。进行你的更改并保存文件。当你保存并关闭 Gedit 时，它会显示警告消息。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-using-gedit-to-edit-config-files.png)
 
-We are almost at the end of our terminal basics series. In the tenth and the last chapter of the series, you'll [learn about getting help in the Linux terminal](https://itsfoss.com/linux-command-help/).
+我们即将结束我们的终端基础系列。在系列的第十章也是最后一章中，你将学习如何在 Linux 终端中获取帮助。
 
-For now, let me know in the comment section if you encounter any issues.
+现在，如果你遇到任何问题，请在评论部分告诉我。
 
->via: https://itsfoss.com/edit-files-linux/
+>source: https://itsfoss.com/edit-files-linux/
 >
->Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>译者：[DeepSeek](https://chat.deepseek.com)
+>
+>校对：[Churnie HXCN](https://github.com/excniesNIED)

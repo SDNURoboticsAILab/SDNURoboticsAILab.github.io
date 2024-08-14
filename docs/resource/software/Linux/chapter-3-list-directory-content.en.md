@@ -142,6 +142,41 @@ The ls command has a human-readable option `-h`. Combine it with the long listin
 
     The ls command doesn't display the size of directories. For directory size, you have the `du` command.
 
+## Display the newest files first
+
+You already saw that the long listing shows the modified time of a file/directory.
+
+You can sort the output of the ls command based on this timestamp using the `-t` option:
+
+```
+ls -lt
+```
+
+As you can see, the link was the most recent of them all.
+
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-ls-sort-by-time.png)
+
+!!! note "🖥️"
+
+    Reverse the order and show older files first by combining the above option `-t` with the reverse option `-r`. What do you see?
+
+## Show details on individual files
+
+So far, you have used the ls command on the entire current directory. You can also use it on a single file or a bunch of files and directories. What's the point? Well, you can use the long listing option to get the details on selected files.
+
+```
+ls path_to_file1 path_to_file2
+```
+
+Here's an example:
+
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-ls-command-on-some-files.png)
+*Use ls command to get stats on selected files*
+
+!!! question "🏋️"
+
+    If you use the `ls` command with a directory path, it will show its content. If you want to see the stats of a directory, use the option `-d`.
+
 ## 📝 Test your knowledge
 
 Most Linux commands have numerous options. It is impossible for anyone to know them all, even for the most frequently used commands like ls here.
