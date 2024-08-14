@@ -20,7 +20,7 @@ This Terminal Basics tutorial series uses a hands-on approach where you learn th
 
 Open a terminal and switch to the home directory and create a `ls-command` directory under the `practice` directory and then enter this newly created directory.
 
-```
+```Bash
 cd ~
 mkdir -p practice/ls-command
 cd practice/ls-command
@@ -30,37 +30,37 @@ cd practice/ls-command
 
 Create a couple of empty files:
 
-```
+```Bash
 touch empty_file_{1,2}
 ```
 
 Copy a huge text file:
 
-```
+```Bash
 cp /etc/services .
 ```
 
 Create a few directories:
 
-```
+```Bash
 mkdir dir_{1..3}
 ```
 
 Create a hidden file:
 
-```
+```Bash
 echo "Now You See Me" > .john-cena
 ```
 
 And let's end the setup with a soft link (like a shortcut to a file):
 
-```
+```Bash
 ln -s services link_services
 ```
 
 Let's see how the ls-command directory looks now:
 
-```
+```Bash
 abhishek@itsfoss:~/practice/ls-command$ ls
 dir_1  dir_2  dir_3  empty_file_1  empty_file_2  link_services  services
 ```
@@ -71,7 +71,7 @@ While the ls command shows the content, it doesn't give any details about the co
 
 This is where you can use the long listing option `-l`.
 
-```
+```Bash
 ls -l
 ```
 
@@ -108,13 +108,13 @@ In Linux, if a filename starts with a dot (.), the file or directory is hidden f
 
 To see these 'hidden files', you have to use the option `-a`:
 
-```
+```Bash
 ls -a
 ```
 
 Actually, you can combine more than one option together in most Linux commands. Let's combine it with the long listing option:
 
-```
+```Bash
 ls -la
 ```
 
@@ -148,7 +148,7 @@ You already saw that the long listing shows the modified time of a file/director
 
 You can sort the output of the ls command based on this timestamp using the `-t` option:
 
-```
+```Bash
 ls -lt
 ```
 
@@ -164,7 +164,7 @@ As you can see, the link was the most recent of them all.
 
 So far, you have used the ls command on the entire current directory. You can also use it on a single file or a bunch of files and directories. What's the point? Well, you can use the long listing option to get the details on selected files.
 
-```
+```Bash
 ls path_to_file1 path_to_file2
 ```
 

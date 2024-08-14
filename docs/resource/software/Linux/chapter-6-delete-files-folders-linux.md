@@ -172,7 +172,7 @@ rm -r dir2
 
 !!! question "💡"
 
-   交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
+    交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
 
 ```Bash
 rm-ri dir_name

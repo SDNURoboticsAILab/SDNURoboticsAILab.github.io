@@ -12,13 +12,13 @@ In this chapter, you'll learn to read the files. I'll be discussing the most com
 
 Before you do that, let's create our 'playground' with sample files. Let's create a directory first and switch to it.
 
-```
+```Bash
 mkdir display_files && cd display_files
 ```
 
 Copy a huge text file here.
 
-```
+```Bash
 cp /etc/services .
 ```
 
@@ -46,13 +46,13 @@ The cat command is the most popular method to view files in Linux.
 
 It is dead simple to use. Just give it the file name and it displays the file content on the screen. Things cannot go simpler than this.
 
-```
+```Bash
 cat filename
 ```
 
 Can you try displaying the contents of the columbo.txt file?
 
-```
+```Bash
 cat columbo.txt
 ```
 
@@ -70,7 +70,7 @@ The cat command is so simple. In fact, it is too simple. And simple doesn't work
 
 Try using the cat command to view the content of the services file.
 
-```
+```Bash
 cat services
 ```
 
@@ -82,7 +82,7 @@ This is where the less command comes into the picture. It lets you read the cont
 
 Use the less command to read the services file:
 
-```
+```Bash
 less services
 ```
 
@@ -123,25 +123,25 @@ If you only want to see certain parts of the text file in cat-styled display, us
 
 By default, the head command displays the first 10 lines of a file.
 
-```
+```Bash
 head filename
 ```
 
 But you can modify it to show the first n lines as well.
 
-```
+```Bash
 head -n filename
 ```
 
 The tail command displays the last 10 lines by default.
 
-```
+```Bash
 tail filename
 ```
 
 But you can modify it to show n lines from the bottom.
 
-```
+```Bash
 tail -n filename
 ```
 
@@ -149,7 +149,7 @@ tail -n filename
 
 Let's see some examples. Generate an easy-to-follow file using this script:
 
-```
+```Bash
 #create or clear the content of the file
 echo -n > sample
 
@@ -162,7 +162,7 @@ done
 
 Create a new file named script.sh and copy-paste the above script content into it. Now run the script like this to generate your sample file:
 
-```
+```Bash
 bash script.sh
 ```
 
@@ -174,7 +174,7 @@ Now, you have got a file named `sample` that contains lines like "This is the li
 
 Let's take it to the next level. You can combine them both to show specific lines of a file. For example, to show lines from 35 to 40, use it like this:
 
-```
+```Bash
 head -n 40 filename | tail -n +35
 ```
 
@@ -187,7 +187,7 @@ Here:
 
 You can also combine them to show only a particular line. Let's say you want to display the 55th line; combine head and tail like this.
 
-```
+```Bash
 head -n 55 filename | tail -n 1
 ```
 

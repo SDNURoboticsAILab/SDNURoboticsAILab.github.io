@@ -78,7 +78,7 @@ mv file1 file2 fileN destination_directory
 
 Let's continue our example scenario to move multiple files.
 
-```
+```Bash
 mv file_2 file_3 file_4 dir3
 ```
 

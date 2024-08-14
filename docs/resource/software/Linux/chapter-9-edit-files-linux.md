@@ -72,16 +72,16 @@ Nano 编辑器在编辑器的底部显示了你需要使用的基本键盘快捷
 
 !!! note "📋"
 
-    当它说 `^X Exit` 时，意味着使用 `Ctrl+X` 键退出编辑器。当它说 `M-U Undo` 时，意味着使用 `Alt+U` 键撤销你的最后操作。
+    当它说 `^X Exit` 时，意味着使用 `Ctrl + X` 键退出编辑器。当它说 `M-U Undo` 时，意味着使用 `Alt + U` 键撤销你的最后操作。
 
-还有一件事。它在键盘上显示大写字母。但这并不意味着大写字符。^X 意味着键盘上的 Ctrl + x 键，而不是 Ctrl+Shift+x 键（为了得到大写的 X）。
+还有一件事。它在键盘上显示大写字母。但这并不意味着大写字符。^X 意味着键盘上的 Ctrl  +  x 键，而不是 Ctrl + Shift + x 键（为了得到大写的 X）。
 
-你也可以通过按 Ctrl+G 在编辑器内部获得详细的帮助文档。
+你也可以通过按 Ctrl + G 在编辑器内部获得详细的帮助文档。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-detailed-help.png)
-*按 Ctrl+G 调出 Nano 中的帮助菜单*
+*按 Ctrl + G 调出 Nano 中的帮助菜单*
 
-现在你已经对界面有了一些了解，用 Ctrl+X 键退出 Nano 编辑器。由于你没有对这个未保存的文件做任何更改，所以不会被要求保存它。
+现在你已经对界面有了一些了解，用 Ctrl + X 键退出 Nano 编辑器。由于你没有对这个未保存的文件做任何更改，所以不会被要求保存它。
 
 太棒了！你现在对编辑器有了一些了解。在下一部分，你将学习如何用 Nano 创建和编辑文件。
 
@@ -119,7 +119,7 @@ nano
 
 ### 在 Nano 中保存和退出
 
-除非你明确这样做，否则什么都不会立即保存到文件中。当你**使用 Ctrl+X 键盘快捷键退出编辑器**时，你会被问是否要保存文件。
+除非你明确这样做，否则什么都不会立即保存到文件中。当你**使用 Ctrl + X 键盘快捷键退出编辑器**时，你会被问是否要保存文件。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-new-file-in-nano.png)
 
@@ -141,13 +141,13 @@ nano
 
 !!! note "📋"
 
-    如果你习惯于在文本编辑器中使用 Ctrl+S 保存文件，并且你在 Nano 中无意识地按下它，什么都不会发生。为什么“什么都不会发生”很重要？因为如果你在 Linux 终端中按下 Ctrl+S，它会冻结输出屏幕，你不能输入或做任何事情。你可以通过按 Ctrl+Q 从这种“冻结的终端”中恢复。
+    如果你习惯于在文本编辑器中使用 Ctrl + S 保存文件，并且你在 Nano 中无意识地按下它，什么都不会发生。为什么“什么都不会发生”很重要？因为如果你在 Linux 终端中按下 Ctrl + S，它会冻结输出屏幕，你不能输入或做任何事情。你可以通过按 Ctrl + Q 从这种“冻结的终端”中恢复。
 
 ### 在 Nano 中执行“另存为”操作
 
 在 Gedit 或 Notepad 中，你有一个“另存为”选项，可以将对现有文件所做的更改保存为新文件。这样，原始文件保持不变，你创建一个带有修改文本的新文件。
 
-你也可以在 Nano 编辑器中这样做，而且好消息是你不需要记住另一个键盘快捷键。你可以使用与保存和退出相同的 Ctrl+X 键。
+你也可以在 Nano 编辑器中这样做，而且好消息是你不需要记住另一个键盘快捷键。你可以使用与保存和退出相同的 Ctrl + X 键。
 
 让我们看看它的实际操作。打开你之前下载的示例文件。
 
@@ -155,11 +155,11 @@ nano
 nano agatha_complete.txt
 ```
 
-如果你不做任何更改，Ctrl+X 将简单地关闭编辑器。你不想那样，对吧？
+如果你不做任何更改，Ctrl + X 将简单地关闭编辑器。你不想那样，对吧？
 
 所以只需按回车键，然后按退格键。这将插入一个新行，然后删除它。这样，文本文件中的内容没有改变，但 Nano 会将其视为修改过的文件。
 
-如果你按下 Ctrl+X 并按 Y 确认保存，你会来到显示文件名的屏幕。你可以在这里通过按退格键并输入新名称来更改文件名。
+如果你按下 Ctrl + X 并按 Y 确认保存，你会来到显示文件名的屏幕。你可以在这里通过按退格键并输入新名称来更改文件名。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-as-different-file-in-nano.png)
 
@@ -183,13 +183,13 @@ nano agatha_complete.txt
 
 鼠标点击在这里不起作用。使用箭头键上下左右移动。
 
-你可以使用 Home 键或 Ctrl+A 移动到行首，使用 End 键或 Ctrl+E 移动到行尾。Ctrl+Y/Page Up 和 Ctrl+V/Page Down 键可以用来按页滚动。
+你可以使用 Home 键或 Ctrl + A 移动到行首，使用 End 键或 Ctrl + E 移动到行尾。Ctrl + Y/Page Up 和 Ctrl + V/Page Down 键可以用来按页滚动。
 
 - 使用箭头键移动
-- 使用 Ctrl+A 或 Home 键移动到行首
-- 使用 Ctrl+E 或 End 键移动到行尾
-- 使用 Ctrl+Y 或 Page Up 键向上滚动一页
-- 使用 Ctrl+V 或 Page Down 键向下滚动一页
+- 使用 Ctrl + A 或 Home 键移动到行首
+- 使用 Ctrl + E 或 End 键移动到行尾
+- 使用 Ctrl + Y 或 Page Up 键向上滚动一页
+- 使用 Ctrl + V 或 Page Down 键向下滚动一页
 
 你没有对文件做任何更改。退出它。
 
@@ -201,15 +201,15 @@ nano -l agatha_complete.txt
 
 你注意到有什么不同吗？`-l` 选项在左侧显示行号。
 
-我为什么要展示给你看？因为我希望你现在学习如何跳转到特定行。为此，使用 Ctrl+_（下划线）键组合。
+我为什么要展示给你看？因为我希望你现在学习如何跳转到特定行。为此，使用 Ctrl + _（下划线）键组合。
 
 !!! note "📋"
 
     The Help options get changed at the bottom. That’s the beauty of Nano. If you choose a special keyboard shortcut, it starts showing the options that can be used with that key combination.
 
-在上图中，你可以输入行号或列号。同时，它显示你可以输入 Ctrl+Y 跳转到文件的第一行（这与向上滚动一页的常规 Ctrl+Y 不同）。
+在上图中，你可以输入行号或列号。同时，它显示你可以输入 Ctrl + Y 跳转到文件的第一行（这与向上滚动一页的常规 Ctrl + Y 不同）。
 
-使用 Ctrl+T 在同一屏幕上，你可以跳转到某个文本。这几乎就像搜索特定文本一样。
+使用 Ctrl + T 在同一屏幕上，你可以跳转到某个文本。这几乎就像搜索特定文本一样。
 
 这就把我们带到了下一部分的主题，即搜索和替换。
 
@@ -217,21 +217,21 @@ nano -l agatha_complete.txt
 
 你仍然打开了示例文本文件，对吧？如果没有，再次打开它。让我们看看如何搜索文本并将其替换为其他内容。
 
-如果你想搜索某个文本，使用 **Ctrl + W**，然后输入你要搜索的术语并按回车。光标将移动到第一个匹配项。要转到下一个匹配项，使用 **Alt + W** 键。
+如果你想搜索某个文本，使用 **Ctrl  +  W**，然后输入你要搜索的术语并按回车。光标将移动到第一个匹配项。要转到下一个匹配项，使用 **Alt  +  W** 键。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-text.png)
 
-默认情况下，搜索是不区分大小写的。你可以通过在即将进行搜索时按 **Alt + C** 来进行区分大小写的搜索。
+默认情况下，搜索是不区分大小写的。你可以通过在即将进行搜索时按 **Alt  +  C** 来进行区分大小写的搜索。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-case-sensitive-search-text.png)
 
 再次注意底部可以使用的选项。还要注意它显示了括号内的最后一个搜索项。
 
-同样，你也可以通过按 **Alt+R** 使用正则表达式进行搜索。
+同样，你也可以通过按 **Alt + R** 使用正则表达式进行搜索。
 
-最后，**使用 Ctrl+C 退出搜索模式**。
+最后，**使用 Ctrl + C 退出搜索模式**。
 
-如果你想替换搜索到的术语，使用 **Ctr+\\** 键，然后输入搜索项并按回车键。
+如果你想替换搜索到的术语，使用 **Ctr + \\** 键，然后输入搜索项并按回车键。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-replace-text.png)
 
@@ -245,9 +245,9 @@ nano -l agatha_complete.txt
 
 在上面的文本中，我已经替换了术语 Murder 的第二次出现为 Marriage，然后它询问我是否要替换下一个出现的内容。
 
-**使用 Ctrl+C 停止搜索和替换。**
+**使用 Ctrl + C 停止搜索和替换。**
 
-你在这节课中对文本文件做了一些更改。但没有必要保存这些更改。按 Ctrl+X 退出，但不要选择保存选项。
+你在这节课中对文本文件做了一些更改。但没有必要保存这些更改。按 Ctrl + X 退出，但不要选择保存选项。
 
 在下一部分，你将学习如何剪切、复制和粘贴。
 
@@ -259,25 +259,25 @@ nano -l agatha_complete.txt
 
     如果你不想花太多时间记住快捷键，可以使用鼠标。
 
-用鼠标选择文本，然后使用右键菜单复制文本。你也可以在 [Ubuntu 终端中使用键盘快捷键](https://cn.linux-console.net/?p=18791) Ctrl+Shift+C。同样，你可以使用右键菜单并选择粘贴，或者使用 Ctrl+Shift+V 键组合。
+用鼠标选择文本，然后使用右键菜单复制文本。你也可以在 [Ubuntu 终端中使用键盘快捷键](https://cn.linux-console.net/?p=18791) Ctrl + Shift + C。同样，你可以使用右键菜单并选择粘贴，或者使用 Ctrl + Shift + V 键组合。
 
 Nano 也提供了自己的快捷键来剪切和粘贴文本，但这可能会让初学者感到困惑。
 
-将光标移动到你要复制的文本的开头。按 Alt+A 设置标记。现在使用箭头键突出显示选择。
+将光标移动到你要复制的文本的开头。按 Alt + A 设置标记。现在使用箭头键突出显示选择。
 
-一旦你选择了所需的文本，你可以使用 Alt+6 键复制选定的文本，或者使用 Ctrl+K 剪切选定的文本。使用 Ctrl+6 取消选择。
+一旦你选择了所需的文本，你可以使用 Alt + 6 键复制选定的文本，或者使用 Ctrl + K 剪切选定的文本。使用 Ctrl + 6 取消选择。
 
-一旦你复制或剪切了选定的文本，你可以使用 Ctrl+U 粘贴它。
+一旦你复制或剪切了选定的文本，你可以使用 Ctrl + U 粘贴它。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-cut-copy-paste.png)
 
-如果你不想继续选择文本或复制它，再次使用 Alt+A 取消标记。
+如果你不想继续选择文本或复制它，再次使用 Alt + A 取消标记。
 
 回顾一下：
 
-- 你可以在大多数 Linux 终端中使用 Ctrl+Shift+C 复制和 Ctrl+Shift+V 粘贴剪贴板的内容。
-- 或者，使用 Alt+A 设置标记，使用箭头键移动选择，然后使用 Alt+6 复制，Ctrl+k 剪切和 Ctrl+6 取消。
-- 使用 Ctrl+U 粘贴复制的或剪切的文本。
+- 你可以在大多数 Linux 终端中使用 Ctrl + Shift + C 复制和 Ctrl + Shift + V 粘贴剪贴板的内容。
+- 或者，使用 Alt + A 设置标记，使用箭头键移动选择，然后使用 Alt + 6 复制，Ctrl + k 剪切和 Ctrl + 6 取消。
+- 使用 Ctrl + U 粘贴复制的或剪切的文本。
 
 现在你知道了关于复制粘贴的内容。下一部分将教你一些关于在 Nano 中删除文本和行的内容。
 
@@ -285,11 +285,11 @@ Nano 也提供了自己的快捷键来剪切和粘贴文本，但这可能会让
 
 Nano 中没有专门的删除选项。你可以使用 Backspace 或 Delete 键一次删除一个字符。反复按它们或按住它们删除多个字符。就像在任何常规文本编辑器中一样。
 
-你也可以使用 Ctrl+K 键剪切整行。如果你不粘贴它，它就像删除一行一样。
+你也可以使用 Ctrl + K 键剪切整行。如果你不粘贴它，它就像删除一行一样。
 
-如果你想删除多行，你可以对所有这些行逐个使用 Ctrl+K。
+如果你想删除多行，你可以对所有这些行逐个使用 Ctrl + K。
 
-另一个选项是使用标记（Ctrl+A）。设置标记并使用箭头键选择一部分文本。使用 Ctrl+K 剪切文本。不需要粘贴它，选定的文本将被删除（在某种程度上）。
+另一个选项是使用标记（Ctrl + A）。设置标记并使用箭头键选择一部分文本。使用 Ctrl + K 剪切文本。不需要粘贴它，选定的文本将被删除（在某种程度上）。
 
 ### 撤销和重做
 
@@ -297,8 +297,8 @@ Nano 中没有专门的删除选项。你可以使用 Backspace 或 Delete 键�
 
 你可以使用以下方法撤销和重做你的最后操作：
 
-- **Alt+U : 撤销**
-- **Alt+E : 重做**
+- **Alt + U : 撤销**
+- **Alt + E : 重做**
 
 你可以重复这些键组合多次撤销或重做。
 

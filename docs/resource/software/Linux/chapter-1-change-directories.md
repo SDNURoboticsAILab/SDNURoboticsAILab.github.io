@@ -71,7 +71,7 @@ ls
 
 这是我看到的情况：
 
-```
+```Bash
 abhishek@ituxedo:~$ ls
 Desktop    Downloads  Pictures  Templates  VirtualBoxVMs
 Documents  Music      Public    Videos
@@ -188,7 +188,7 @@ cd ../Downloads
 
 移动到你的主目录，并使用这个命令创建一个嵌套的目录结构：
 
-```
+```Bash
 mkdir -p sample/dir1/dir2/dir3
 ```
 
