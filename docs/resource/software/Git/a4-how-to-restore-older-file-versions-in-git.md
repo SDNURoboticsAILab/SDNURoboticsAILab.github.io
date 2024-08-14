@@ -1,4 +1,5 @@
 ---
+comments: true
 ---
 
 Git 系列（四）：在 Git 中进行版本回退
