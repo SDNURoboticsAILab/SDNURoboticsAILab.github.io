@@ -35,28 +35,28 @@ Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a softw
 
 You won't find man pages for the shell built-ins.
 
-```Bash
+```
 abhishek@tuxedo:~$ man cd
 No manual entry for cd
 ```
 
 The man pages are for these 'external' Linux commands. The shell built-ins have help sections.
 
-!!! note "💡"
+💡
 
-    Want to see all the built-in shell commands? Just type `help` to list them all.
+Want to see all the built-in shell commands? Just type `help` to list them all.
 
 ### Use man to see command documentation
 
 Using the man command is simple. Just give it command's name like this:
 
-```Bash
+```
 man command_name
 ```
 
 And it will open the manual page of the command. You'll find the syntax of the command, its options, and a brief explanation of the options.
 
-[![An example manpage of the ip command in Linux](https://itsfoss.com/content/images/2023/04/man-page-example.png)](https://itsfoss.com/content/images/2023/04/man-page-example.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-man-page-example.png)
 
 The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?ref=itsfoss.com) to move around and search for text.
 
@@ -82,13 +82,13 @@ There is more to man pages than. I cannot cover it all here, but we do have a de
 
 As mentioned earlier, no man pages exist for the built-in shell commands. Instead, you use the help command like this:
 
-```Bash
+```
 help command_name
 ```
 
 It will show a summary of the command options. The entire content is displayed on the screen, unlike the man command.
 
-[![Using help for built-in shell commands](https://itsfoss.com/content/images/2023/04/help-for-shell-built-ins.png)](https://itsfoss.com/content/images/2023/04/help-for-shell-built-ins.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-for-shell-built-ins.png)
 
 ### Help option for all commands
 
@@ -96,7 +96,7 @@ Do you feel the man page has too much information and you just want to see the o
 
 Almost all Linux commands provide a `--help` option that should summarize the available options.
 
-[![Using help option of Linux commands](https://itsfoss.com/content/images/2023/04/help-with-linux-commands.png)](https://itsfoss.com/content/images/2023/04/help-with-linux-commands.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-with-linux-commands.png)
 
 However, it's not a hard and fast rule. The help sections of some commands are pretty bland. Try it for the ip command.
 
@@ -126,8 +126,4 @@ This gives you a basic but solid foundation of Linux commands. It may be the end
 
 You'll find more in-depth guides on 'doing things in Linux command line' on It's FOSS in the future. It may not be in a series (or maybe it will) but you'll have plenty of opportunity for learning.
 
-💬 *I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.*
-
->via: https://itsfoss.com/linux-command-help/
->
->Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+💬 ***I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.\***
