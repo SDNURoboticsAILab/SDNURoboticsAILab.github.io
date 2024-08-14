@@ -8,7 +8,7 @@ Learn how to change directories in the Linux command line using absolute and rel
 
 The [cd command in Linux](https://itsfoss.com/cd-command/) allows you to change directories (folders). You just have to give the path to the directory.
 
-```
+```Bash
 cd path_to_directory
 ```
 
@@ -22,7 +22,7 @@ The path traces the location in the Linux directory structure. Everything starts
 
 You can check your current location with the following:
 
-```
+```Bash
 pwd
 ```
 
@@ -53,7 +53,7 @@ Here's a pictorial representation.
 
 Want more on paths in Linux? This article will help you.
 
-[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)
+[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?)
 
 ## Changing directory with cd command
 
@@ -65,13 +65,13 @@ Now that you are familiar with the concept of path, let's see how you can change
 
 Enter the following command to see the directories inside your home directories:
 
-```
+```Bash
 ls
 ```
 
 This is what it shows to me:
 
-```
+```Bash
 abhishek@ituxedo:~$ ls
 Desktop    Downloads  Pictures  Templates  VirtualBoxVMs
 Documents  Music      Public    Videos
@@ -81,7 +81,7 @@ Yours may be similar but not exactly the same.
 
 Let's say you want to go to the Documents directory. Since it is available under the current directory, it will be easier to use the relative path here:
 
-```
+```Bash
 cd Documents
 ```
 
@@ -99,13 +99,13 @@ You can use the relative path `../Templates` (.. takes you to the one directory 
 
 But let's go for the absolute path instead. Please change 'abhishek' with your username.
 
-```
+```Bash
 cd /home/abhishek/Templates
 ```
 
 Now you are in the Templates directory. How about going to the Downloads directory? Use the relative path this time:
 
-```
+```Bash
 cd ../Downloads
 ```
 
@@ -190,7 +190,7 @@ Here are a few simple exercises to test your newly learned knowledge of the path
 
 Move to your home directory and create a nested directory structure with this command:
 
-```
+```Bash
 mkdir -p sample/dir1/dir2/dir3
 ```
 
@@ -210,4 +210,4 @@ And, of course, your feedback on this new series is welcome. What can I do to im
 
 >via: https://itsfoss.com/change-directories/
 >
->作者：[Abhishek Prakash][https://itsfoss.com/author/abhishek/ ]
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

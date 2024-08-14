@@ -2,176 +2,189 @@
 comments: true
 ---
 
-# 第 6 章：在 Linux 中删除文件和文件夹
+终端基础：在 Linux 中删除文件和文件夹
+======
 
-You have learned to create files and directories. Now it is time to learn about deleting files and folders in the command line.
+> 你已经学会了创建文件和目录。现在是时候学习如何在命令行中删除文件和文件夹了。
 
-In the earlier chapters of the Terminal Basics series, you learned to [create new files](https://itsfoss.com/create-files/) and directories (folders).
+在终端基础系列的前几章中，你学习了 [创建新文件][1] 和 [目录][1a]（文件夹）。
 
-Let's now see how you can delete files and folders in the Linux terminal.
+现在让我们看看如何在 Linux 终端中删除文件和文件夹。
 
-## Deleting files
+## 删除文件
 
-To remove files, you can use the rm command in the following fashion:
+要删除文件，你可以按以下方式使用 `rm` 命令：
 
-```
+```Bash
 rm filename_or_path
 ```
 
-You won't see any output if the file is successfully deleted.
+如果文件已成功删除，你将看不到任何输出。
 
-Here's an example where I removed one of the files named `new_file`. When I list the directory contents, you can see that `new_file` no longer exists.
+这是一个示例，其中我删除了一个名为 `new_file` 的文件。当我列出目录内容时，你可以看到 `new_file` 不再存在。
 
-[![Removing files in Linux terminal](https://itsfoss.com/content/images/2023/03/delete-files-linux-terminal.png)](https://itsfoss.com/content/images/2023/03/delete-files-linux-terminal.png)*Removing a single file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-remove-multiple-files-linux-terminal.webp)
 
-You can also remove multiple files in the same command:
+*删除单个文件*
 
-```
+你还可以在同一命令中删除多个文件：
+
+```Bash
 rm file1 file2 file3
 ```
 
-Let me show an example of deleting two files in a single command.
+让我展示一个在单条命令中删除两个文件的示例。
 
-[![Deleting multiple files in single rm command](https://itsfoss.com/content/images/2023/03/remove-multiple-files-linux-terminal.png)](https://itsfoss.com/content/images/2023/03/remove-multiple-files-linux-terminal.png)*Removing multiple files*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-delete-files-linux-terminal.webp)
 
-### 🏋️ Exercise file deletion
+*删除多个文件*
 
-Let's practice what you just learned. Create a directory named practice_delete and switch to it:
+### 🏋️练习文件删除
 
-```
+让我们练习一下刚刚学到的东西。创建一个名为 `practice_delete` 的目录并切换到该目录：
+
+```Bash
 mkdir practice_delete && cd practice_delete
 ```
 
-Now create a few empty files:
+现在创建一些空文件：
 
-```
+```Bash
 touch file1 file2 file3
 ```
 
-Delete the file3:
+删除 `file3`:
 
-```
+```Bash
 rm file3
 ```
 
-Now, let's do something extra. Run this command and change the permission on file2:
+现在，让我们做一些额外的事情。运行此命令并更改 `file2` 的权限：
 
-```
+```Bash
 chmod u-w file1 file2
 ```
 
-Try deleting file2 now:
+现在尝试删除 `file2`：
 
-```
+```Bash
 rm file2
 ```
 
-Do you see a message '**remove write protected file**'? That's because you removed the write permission (for modification) from this file.
+你是否看到消息 “**remove write protected file**”？ 那是因为你从这个文件中删除了写权限（用于修改）。
 
-You can **press Y or enter key to confirm the deletion or N to deny the removal.**
+你可以**按 `Y` 或回车键确认删除或按 `N` 拒绝删除。**
 
-If you don't want to see this message and still delete it, you can use the force delete option `-f`. Try it by deleting `file1`:
+如果你不想看到这条消息并仍然删除它，你可以使用强制删除选项 `-f`。通过删除 `file1` 试试：
 
-```
+```Bash
 rm -f file1
 ```
 
-Here's a replay of all the above examples to help you:
+以下是上述所有示例的重放：
 
-[![Deleting files in Linux terminal](https://itsfoss.com/content/images/2023/03/file-delete-example.svg)](https://itsfoss.com/content/images/2023/03/file-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-file-delete-example.svg)
 
 !!! warning "🚧"
 
-    There is no trash bin in the Linux command line. Once the file is deleted, you cannot undo the action to bring it back from the trash bin as you do in the graphical file manager. For this reason, be extra careful while deleting the files.
+    Linux 命令行中没有垃圾桶。一旦文件被删除，你就无法像在图形文件管理器中那样撤消将其从垃圾箱中取回的操作。因此，删除文件时要格外小心。
 
-### Remove but with caution
+### 小心删除
 
-The lack of trash bin makes the deletion a permanent jobs of sort. This is why you should be careful about what files are you deleting.
+缺少垃圾桶使删除成为一种永久性的工作。这就是为什么你应该注意要删除的文件的原因。
 
-There is an interactive mode with option `-i`. With this, you'll be asked to confirm the deletion.
+有一个带 `-i` 选项的交互模式。有了这个，你会被要求确认删除。
 
-```
+```Bash
 rm -i filename
 ```
 
-This is helpful when you are deleting several files based on a certain pattern.
+当你根据特定模式删除多个文件时，这很有用。
 
-Here's an example where I am interactively deleting all the files that match file_ pattern in their name. I delete some and keep some in the interactive mode.
+这是一个示例，其中我以交互方式删除名称中匹配 `file_` 模式的所有文件。我删除了一些并在交互模式下保留了一些。
 
-[![Deleting files in interactive mode](https://itsfoss.com/content/images/2023/03/interactive-delete-example.svg)](https://itsfoss.com/content/images/2023/03/interactive-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-interactive-delete-example.svg)
 
 !!! question "💡"
 
-    I advise switching to the directory where the files are located and then removing them. This helps in reducing any potential caused by a typo in file path.
+    我建议切换到文件所在的目录，然后删除它们。这有助于减少由文件路径中的拼写错误引起的任何可能性。
 
-## Deleting directories
+## 删除目录
 
-There is a dedicated rmdir command to remove directories in Linux.
+在 Linux 中有专门的 `rmdir` 命令来删除目录。
 
-```
+```Bash
 rmdir dir_name
 ```
 
-However, it can only delete empty directories. If the directory has any files or subdirectories in it, the rmdir command will throw error.
+但是，它只能删除空目录。如果目录中有任何文件或子目录，`rmdir` 命令将抛出错误。
 
-```
-abhishek@itsfoss:~/practice_delete$ rmdir dir2
+```Bash
+$ rmdir dir2
 rmdir: failed to remove 'dir2': Directory not empty
 ```
 
-And that makes it less useful in most cases.
+这使得它在大多数情况下用处不大。
 
-So, how do you delete a non-empty folder then? Well, you use the same rm command that you used earlier for removing files.
+那么，如何删除非空文件夹呢？ 好吧，使用与之前删除文件相同的 `rm` 命令。
 
-Yes, the same rm command but with the recursive option `-r`:
+是的，相同的 `rm` 命令，但带有递归选项 `-r`：
 
-```
+```Bash
 rm -r dir_name
 ```
 
-### 🏋️ Exercise folder deletion
+### 🏋️练习文件夹删除
 
-Let's practice what you learned.
+让我们练习你学到的东西。
 
-Switch to practice_delete folder if you are not already there. Now, create two directories dir1 and dir2.
+如果你还没有，请切换到 `practice_delete` 文件夹。现在，创建两个目录 `dir1` 和 `dir2`。
 
-```
+```Bash
 mkdir dir1 dir2
 ```
 
-Create a file in dir2:
+在 `dir2` 中创建一个文件：
 
-```
+```Bash
 touch dir2/file
 ```
 
-Now try deleting the directories using the rmdir command:
+现在尝试使用 `rmdir` 命令删除目录：
 
-```
+```Bash
 rmdir dir1
+```
+
+```Bash
 rmdir dir2
 ```
 
-Since the dir2 is not empty, rmdir command will fail. Instead, use the rm command with recursive option:
+由于 `dir2` 不为空，`rmdir` 命令将失败。相反，使用带有递归选项的 `rm` 命令：
 
-```
+```Bash
 rm -r dir2
 ```
 
-Here's a replay of all the above command examples to help you out:
+以下是上述所有命令示例的重放：
 
-[
-  ](https://itsfoss.com/content/images/2023/03/folder-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-folder-delete-example.svg)
 
 !!! question "💡"
 
-    The interactive deletion mode is even more helpful while deleting a directory with the recursive option of the rm command: `rm-ri dir_name`
+   交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
 
-## 📝 Test your knowledge
-
-Prepare a directory tree that looks like this:
-
+```Bash
+rm-ri dir_name
 ```
+
+因此，你学会了使用 Linux 命令删除文件和文件夹。是时候多练习了。
+
+## 📝 测试你的知识
+
+准备一个如下所示的目录树：
+
+```Text
 .
 ├── dir1
 │   ├── file1
@@ -182,19 +195,29 @@ Prepare a directory tree that looks like this:
 └── file
 ```
 
-Basically, you create a file named file and three directories dir1, dir2 and dir3 in the current directory (practice_delete). And then you create files file1, file2 and file3 in dir1.
+基本上，你在当前目录（`practice_delete`）中创建一个名为 `file` 的文件和三个目录 `dir1`、`dir2` 和 `dir3`。然后在 `dir1` 中创建文件 `file1`、`file2` 和 `file3`。
 
-Now do the following:
+现在执行以下操作：
 
-- Delete `file2`.
-- Switch to the `dir3` and force delete the file named `file` in the upper directory.
-- Delete all the contents of dir1 but not the directory itself.
-- List the contents of the `dir`.
+- 删除 `file2`。
+- 切换到 `dir3` 并强制删除上层目录中名为 `file` 的文件。
+- 删除 dir1 的所有内容，但不删除目录本身。
+- 列出 `dir` 的内容。
 
-I encourage you to discuss the practice questions in the [It's FOSS community forum](https://itsfoss.community/?ref=itsfoss.com).
+一切进展顺利。你已经学习了一些基本知识，例如切换目录、检查目录内容、创建和删除文件和目录。在下一章中，你将学习如何在终端中复制文件和文件夹。敬请关注！
 
-This is going good. You have learned several basic things like switching directories, checking the contents of a directory, and creating and deleting files and directories.
+--------------------------------------------------------------------------------
 
-In the next chapter, you'll learn about copying files and folders in the terminal. Stay tuned!
-
-*via: https://itsfoss.com/delete-files-folders-linux/*
+>via: https://linux.cn/article-15809-1.html
+>
+>source: https://itsfoss.com/delete-files-folders-linux/
+>
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>选题：[lkxed](https://github.com/lkxed/)
+>
+>译者：[geekpi](https://github.com/geekpi)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

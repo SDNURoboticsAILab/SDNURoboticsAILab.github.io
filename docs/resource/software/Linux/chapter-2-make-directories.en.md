@@ -12,7 +12,7 @@ I gave an exercise at the end that briefly mentioned making directories.
 
 In this part of the series, I'll discuss how to create new folders on the Linux command line using the mkdir command.
 
-```
+```Bash
 mkdir dir_name
 ```
 
@@ -24,15 +24,15 @@ mkdir is short of make directories. Let's see about using this command.
 
 ## Making a new directory in Linux
 
-You should be familiar with the [concept of absolute and relative paths in Linux](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com) by now. If not, please refer to this tutorial.
+You should be familiar with the [concept of absolute and relative paths in Linux](https://linuxhandbook.com/absolute-vs-relative-path/?) by now. If not, please refer to this tutorial.
 
-[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)
+[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?)
 
 Open the terminal on your system if it is not already opened. Normally, you start with your home directory (/home/username). But for the sake of this tutorial and to recall a couple of things, I presume you are not in your home directory.
 
 So, change to your home directory first.
 
-```
+```Bash
 cd
 ```
 
@@ -40,19 +40,19 @@ Yes. If you simply enter cd without any options and arguments, it takes you to y
 
 Here, make a new directory called practice.
 
-```
+```Bash
 mkdir practice
 ```
 
 Can you switch to this newly created practice directory?
 
-```
+```Bash
 cd practice
 ```
 
 Great! Now you have a dedicated folder where you'll practice the Linux command line tutorials in this series.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter2-make-directory-example.svg)](https://itsfoss.com/content/images/2023/02/make-directory-example.svg)*Watch a replay of the above-discussed example*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter2-make-directory-example.svg)*Watch a replay of the above-discussed example*
 
 ## Creating multiple new directories
 
@@ -60,7 +60,7 @@ You just created a new directory. What if you have to create more than one? Let'
 
 You may use the mkdir command three times in a row for each of them. It will work. However, it is not really needed. You can save time and effort by creating multiple directories at the same time like this:
 
-```
+```Bash
 mkdir dir1 dir2 dir3
 ```
 
@@ -78,13 +78,13 @@ So, you now know about creating multiple directories at once.
 
 But what if you have to create a nested directory structure? Let's say that you have to create a directory subdir2 inside subdir1 inside dir1.
 
-```
+```Bash
 dir1/subdir1/subdir2
 ```
 
 The problem here is that subdir1 does not exist. So if you try `mkdir dir1/subdir1/subdir32, you'll get an error:
 
-```
+```Bash
 abhishek@itsfoss:~/practice$ mkdir dir1/subdir1/subdir2
 mkdir: cannot create directory ‘dir1/subdir1/subdir2’: No such file or directory
 ```
@@ -93,7 +93,7 @@ If you didn't know better, you would go for `mkdir dir1/subdir1` and then run `m
 
 You use the `-p` option, which makes parent directories if needed. If you run the command below:
 
-```
+```Bash
 mkdir -p dir1/subdir1/subdir2
 ```
 
@@ -118,6 +118,6 @@ In the next chapter of the Terminal Basics series, you'll learn about [listing t
 
 Do let me know if you have questions or suggestions.
 
->via: https://itsfoss.com/change-directories/
+>via: https://itsfoss.com/make-directories/
 >
->作者：[Abhishek Prakash][https://itsfoss.com/author/abhishek/ ]
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

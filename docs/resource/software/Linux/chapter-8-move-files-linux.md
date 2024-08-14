@@ -4,47 +4,47 @@ comments: true
 
 # 第 8 章：移动文件和目录（剪切粘贴操作）
 
-In the eighth chapter of the Terminal Basics series, learn about moving files and directories using the mv command in Linux.
+在第八章的终端基础系列中，学习如何使用 Linux 中的 mv 命令移动文件和目录。
 
-Cut, copy and paste are part of everyday computing life.
+剪切、复制和粘贴是日常计算生活的一部分。
 
-In the previous chapter, you learned about [copying files and folders](https://itsfoss.com/copy-files-directory-linux/) (directories) in the terminal.
+在前一章中，你学习了如何在终端中复制文件和文件夹（目录）。
 
-In this part of the Terminal Basics series, you'll learn about the cut-paste operation (moving) in the Linux terminal.
+在这一部分的终端基础系列中，你将学习如何在 Linux 终端中进行剪切-粘贴操作（移动）。
 
-## Moving or cut-paste?
+## 移动还是剪切 - 粘贴？
 
-Alright! Cut-paste is not the correct technical term here. It is called moving files (and folders).
+好吧！剪切 - 粘贴在这里不是正确的技术术语。它被称为移动文件（和文件夹）。
 
-Since you are new to the command line, you may find the term 'moving' confusing.
+由于你是命令行的新手，你可能会发现“移动”这个术语令人困惑。
 
-When you copy a file to another location using the **cp** command, the source file remains in the same location.
+当你使用 `cp` 命令将文件复制到另一个位置时，源文件仍然保留在同一位置。
 
-When you move a file to another location **using the mv command**, the source file no longer remains in the origin location.
+当你使用 `mv` 命令将文件移动到另一个位置时，源文件不再保留在原位置。
 
-This is the same cut-paste operation (Ctrl+X and Ctrl+V) you do in a graphical file explorer.
+这与你在图形文件管理器中进行的剪切-粘贴操作（Ctrl + X 和 Ctrl + V）相同。
 
 !!! note "📋"
 
-    Basically, moving files in the command line can be thought same as cut-paste in a graphical environment.
+    基本上，在命令行中移动文件可以被认为与图形环境中进行剪切-粘贴相同。
 
-## Moving files
+## 移动文件
 
-Linux has a dedicated mv command (short for move) for moving files and directories to other locations.
+Linux 有一个专门的 mv 命令（移动的缩写），用于将文件和目录移动到其他位置。
 
-And [using the mv command](https://linuxhandbook.com/mv-command/?ref=itsfoss.com) is quite simple:
+并且使用 `mv` 命令非常简单：
 
-```
+```Bash
 mv source_file destination_directory
 ```
 
-The role of path comes to play here as well. You can use either the [absolute or relative path](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com). Whichever suits your need.
+路径的作用在这里也发挥了作用。你可以使用绝对路径或相对路径。无论哪种适合你的需求。
 
-Let's see this with an example. **You should practice along with it by replicating the example scenarios on your system**.
+让我们通过一个例子来看看。**你应该通过在你的系统上复制示例场景来练习**。
 
-This is the directory structure in the example:
+这是示例中的目录结构：
 
-```
+```Text
 abhishek@itsfoss:~/moving_files$ tree
 .
 ├── dir1
@@ -63,83 +63,79 @@ abhishek@itsfoss:~/moving_files$ tree
 3 directories, 9 files
 ```
 
-Now, let's say I want to move the `file_1` to `dir3`.
+现在，假设我想将 `file_1` 移动到 `dir3`。
 
-```
-mv file_1 dir3
-```
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving-files-linux.png)
 
-[![Example of moving files in Linux using the mv command](https://itsfoss.com/content/images/2023/04/moving-files-linux.png)](https://itsfoss.com/content/images/2023/04/moving-files-linux.png)
+### 移动多个文件
 
-### Moving multiple files
+你可以在同一个 `mv` 命令中将多个文件移动到另一个位置：
 
-You can move multiple files to another location in the same mv command:
-
-```
+```Bash
 mv file1 file2 fileN destination_directory
 ```
 
-Let's continue our example scenario to move multiple files.
+让我们继续我们的示例场景来移动多个文件。
 
 ```
 mv file_2 file_3 file_4 dir3
 ```
 
-[![Example of moving multiple files in Linux](https://itsfoss.com/content/images/2023/04/moving_multiple_files_linux.png)](https://itsfoss.com/content/images/2023/04/moving_multiple_files_linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving_multiple_files_linux.png)
 
 !!! note "🖥️"
 
-    Move the files back to the current directory from `dir3`. We need them in the next examples.
+    将文件从 `dir3` 移回当前目录。我们接下来需要它们。
 
-### Moving files with caution
+### 谨慎移动文件
 
-If the destination already has files with the same name, the destination files will be replaced immediately. At times, you won't want that.
+如果目标位置已经有同名文件，目标文件将被立即替换。有时，你并不希望这样。
 
-Like the cp command, the mv command also has an interactive mode with option `-i`.
+与 `cp` 命令一样，`mv` 命令也有一个交互模式，带有选项 `-i`。
 
-And the purpose is the same. Ask for confirmation before replacing the files at the destination.
+目的也是相同的。在替换目标位置的文件之前请求确认。
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ mv -i file_3 dir1
 mv: overwrite 'dir1/file_3'?
 ```
 
-You can press N to deny replacement and Y or Enter to replace the destination file.
+你可以按 N 拒绝替换，按 Y 或 Enter 替换目标文件。
 
-[![Example of moving interactively in Linux](https://itsfoss.com/content/images/2023/04/move-interactively-linux.png)](https://itsfoss.com/content/images/2023/04/move-interactively-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-move-interactively-linux.png)
 
-### Move but only update
+### 移动但仅更新
 
-The mv command comes with some special options. One of them is the update option `-u`.
+`mv` 命令有一些特殊选项。其中之一是更新选项 `-u`。
 
-With this, the destination file will only be replaced if the file being moved is newer than it.
+使用这个选项，只有当被移动的文件比目标文件更新时，才会替换目标文件。
 
-```
+```Bash
 mv -u file_name destination_directory
 ```
 
-Here's an example. file_2 was modified at 10:39 and file_3 was modified at 10:06.
+这里有一个例子。`file_2` 在 10:39 修改，`file_3` 在 10:06 修改。
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls -l file_2 file_3
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:39 file_2
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:06 file_3
 ```
 
-In the destination directory dir1, file_2 was last modified at 10:37 and file_3 was modified at 10:39.
+在目标目录 `dir1` 中，`file_2` 最后在 10:37 修改，`file_3` 在 10:39 修改。
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls -l dir1
 total 0
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:37 file_2
 -rw-rw-r-- 1 abhishek abhishek 0 Apr  4 10:39 file_3
 ```
 
-In other words, in the destination directory, the file_2 is older and file_3 is newer than the ones being moved.
+换句话说，在目标目录中，`file_2` 比被移动的文件旧，`file_3` 比被移动的文件新。
 
-It also means that file_3 won't me moved while as file_2 will be updated. You can verify it with the timestamps of the files in the destination directory after running the mv command.
+这也意味着 `file_3` 不会被移动，而 `file_2` 会被更新。你可以通过运行 `mv` 命令后目标目录中文件的时间戳来验证这一点。
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ mv -u file_2 file_3 dir1
 abhishek@itsfoss:~/moving_files$ ls -l dir1
 total 0
@@ -150,61 +146,61 @@ Tue Apr  4 10:41:16 AM IST 2023
 abhishek@itsfoss:~/moving_files$ 
 ```
 
-As you can see, the move command was executed at 10:41 and only the timestamp of file_2 has been changed.
+正如你所见，`mv` 命令在 10:41 执行，只有 `file_2` 的时间戳被更改。
 
-[![Using move command with update option](https://itsfoss.com/content/images/2023/04/move-command-update-option.png)](https://itsfoss.com/content/images/2023/04/move-command-update-option.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-move-command-update-option.png)
 
 !!! question "💡"
 
-    You can also use the backup option `-b`. If the destination file is being replaced, it will automatically create a backup with the `filename~` pattern.
+    你也可以使用备份选项 `-b`。如果目标文件被替换，它会自动创建一个备份，文件名模式为 `filename~`。
 
-### Troubleshoot: Target is not a directory
+### 故障排除：目标不是目录
 
-If you are moving multiple files, the last argument must be a directory. Otherwise, you'll encounter this error:
+如果你移动多个文件，最后一个参数必须是一个目录。否则，你会遇到这个错误：
 
-```
+```Text
 target is not a directory
 ```
 
-Here, I create a file which is named `dir`. The name sounds like a directory, but it is a file. And when I try to move multiple files to it, the obvious error is there:
+在这里，我创建了一个名为 `dir` 的文件。这个名字听起来像一个目录，但它是一个文件。当我尝试将多个文件移动到它时，显然会出现错误：
 
-[![Handling target is not a directory error in Linux](https://itsfoss.com/content/images/2023/04/target-is-not-a-directory-error-linux.png)](https://itsfoss.com/content/images/2023/04/target-is-not-a-directory-error-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-target-is-not-a-directory-error-linux.png)
 
-But what if you move a single file to another file? In that case, the target file is replaced by the source file's content while the source file is renamed as the target file. More on this in later sections.
+但如果你将一个文件移动到另一个文件呢？在这种情况下，目标文件会被源文件的内容替换，而源文件会被重命名为目标文件。更多内容将在后面的章节中介绍。
 
-## Moving directories
+## 移动目录
 
-So far, you have seen everything about moving files. How about moving directories?
+到目前为止，你已经看到了关于移动文件的所有内容。那么移动目录呢？
 
-The cp and rm commands used recusrive option -r to copy and delete folders respectively.
+`cp` 和 `rm` 命令使用递归选项 `-r` 来复制和删除文件夹。
 
-However, there is no such requirement for the mv command. You can use the mv command as it is for moving directories.
+然而，mv 命令没有这样的要求。你可以直接使用 mv 命令来移动目录。
 
-```
+```Bash
 mv dir target_directory
 ```
 
-Here's an example where I move the `dir2` directory to `dir3`. And as you can see, `dir2` along with its content is moved to `dir3`.
+这里有一个例子，我将 `dir2` 目录移动到 `dir3`。正如你所见，`dir2` 及其内容被移动到了 `dir3`。
 
-[![Moving folders in Linux command line](https://itsfoss.com/content/images/2023/04/moving-directories.png)](https://itsfoss.com/content/images/2023/04/moving-directories.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving-directories.png)
 
-You can move multiple directories the same way.
+你可以用同样的方式移动多个目录。
 
-## Rename files and directories
+## 重命名文件和目录
 
-If you want to rename a file or directory, you can use the same mv command.
+如果你想重命名文件或目录，你可以使用相同的 `mv` 命令。
 
-```
+```Bash
 mv filename new_name_in_same_or_new_location
 ```
 
-Let's say you want to rename a file in the same location. Here's an example where I rename `file_1` to `file_one` in the same directory.
+假设你想在同一位置重命名一个文件。这里有一个例子，我将 `file_1` 重命名为 `file_one` 在同一目录中。
 
-[![Rename files with mv command](https://itsfoss.com/content/images/2023/04/rename-file-with-mv-command.png)](https://itsfoss.com/content/images/2023/04/rename-file-with-mv-command.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-rename-file-with-mv-command.png)
 
-You can also move and rename the files. You just have to provide the directory path and the file name of the destination. Here, I rename `services` file to `my_services` while moving it to `dir3`.
+你也可以移动并重命名文件。你只需要提供目标目录路径和文件名。在这里，我将 `services` 文件重命名为 `my_services` 并将其移动到 `dir3`。
 
-```
+```Bash
 abhishek@itsfoss:~/moving_files$ ls
 dir  dir1  dir3  file_2  file_3  file_one  passwd  services
 abhishek@itsfoss:~/moving_files$ mv services dir3/my_services
@@ -214,15 +210,15 @@ dir2  my_services
 
 !!! note "📋"
 
-    You cannot rename multiple files directly with mv command. You have to combine it with other commands like find etc. 
+    你不能直接使用 mv 命令重命名多个文件。你必须将其与其他命令（如 find 等）结合使用。
 
-## 📝 Test your knowledge
+## 📝 测试你的知识
 
-Time to practice what you just learned.
+是时候练习你刚刚学到的内容了。
 
-Create a new folder to practice the exercise. In here, create a directory structure like this:
+创建一个新的文件夹来练习。在这里，创建一个如下的目录结构：
 
-```
+```Text
 .
 ├── dir1
 ├── dir2
@@ -232,14 +228,20 @@ Create a new folder to practice the exercise. In here, create a directory struct
 └── dir3
 ```
 
-Copy the file /etc/passwd to the current directory. Now rename it `secrets`.
+将文件 `/etc/passwd` 复制到当前目录。现在将其重命名为 `secrets`。
 
-Make three new files named `file_1`, `file_2` and `file_3`. Move all the files to `dir22`.
+创建三个新文件，命名为 `file_1`、`file_2` 和 `file_3`。将所有文件移动到 `dir22`。
 
-Now move the `dir22` directory to `dir3`.
+现在将 `dir22` 目录移动到 `dir3`。
 
-Delete all contents of `dir2` now.
+现在删除 `dir2` 中的所有内容。
 
-In the penultimate chapter of the Terminal Basics series, you'll learn about editing files in the terminal. Stay tuned.
+在终端基础系列的倒数第二章中，你将学习如何在终端中编辑文件。敬请期待。
 
-*via: https://itsfoss.com/move-files-linux/*
+>source: https://itsfoss.com/move-files-linux/
+>
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>译者：[DeepSeek](https://chat.deepseek.com)
+>
+>校对：[Churnie HXCN](https://github.com/excniesNIED)

@@ -2,27 +2,27 @@
 comments: true
 ---
 
-# 第 5 章：在 Linux 中查看文件内容
+# 终端基础：在 Linux 中查看文件内容
 
-In this chapter of the Terminal Basics series, you'll learn about viewing the contents of files in the Linux command line.
+在本章的终端基础系列中，你将学习如何在 Linux 命令行中查看文件内容。
 
-You learned to [create new files](https://itsfoss.com/create-files/) in the previous chapter of the Terminal Basics series.
+在前一章的终端基础系列中，你学会了 [创建新文件](https://itsfoss.com/create-files/)。
 
-In this chapter, you'll learn to read the files. I'll be discussing the most common Linux commands to display the contents of a text file.
+在本章中，你将学习如何读取文件。我将讨论最常见的Linux命令来显示文本文件的内容。
 
-Before you do that, let's create our 'playground' with sample files. Let's create a directory first and switch to it.
+在你开始之前，让我们用示例文件创建我们的“操场”。首先创建一个目录并切换到它。
 
 ```
 mkdir display_files && cd display_files
 ```
 
-Copy a huge text file here.
+复制一个大文本文件到这里。
 
 ```
 cp /etc/services .
 ```
 
-And then, create a new file named `columbo.txt` with the following text (use the cat command with >> as discussed in the previous chapter):
+然后，创建一个名为 `columbo.txt` 的新文件，包含以下文本（使用上一章讨论的 `cat` 命令和 `>>`）：
 
 ```
 Prescription: Murder
@@ -36,176 +36,183 @@ Short Fuse
 Blueprint for Murder
 ```
 
-You don't have to type it all by yourself. You can copy-paste in the terminal using Ctrl+Shift+V. Most terminals support this shortcut.
+你不必自己全部输入。你可以在终端中使用 Ctrl + Shift + V 进行复制粘贴。大多数终端都支持这个快捷键。
 
-With things set, let's see various ways of viewing files in the Linux terminal.
+准备工作完成后，让我们看看在 Linux 终端中查看文件的各种方法。
 
-## Use cat command to display file content
+## 使用 cat 命令显示文件内容
 
-The cat command is the most popular method to view files in Linux.
+`cat` 命令是在 Linux 中查看文件最流行的方法。
 
-It is dead simple to use. Just give it the file name and it displays the file content on the screen. Things cannot go simpler than this.
+使用它非常简单。只需给它文件名，它就会在屏幕上显示文件内容。没有比这更简单的了。
 
 ```
 cat filename
 ```
 
-Can you try displaying the contents of the columbo.txt file?
+你能尝试显示 `columbo.txt` 文件的内容吗？
 
 ```
 cat columbo.txt
 ```
 
-This is the output it shows:
+这是它显示的输出：
 
-[![Using the cat command to view files in Linux](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)*Using the cat command to view files in Linux*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-use-cat-command-to-view-files-linux.png)*使用 cat 命令在 Linux 中查看文件*
 
 !!! note "🏋️"
 
-    Optional challenge: Use the cat or echo command with >> redirection to add a new line with "Etude in Black" text to the columbo.txt file. Refer to the previous chapter if you need help.
+    可选挑战：使用 `cat` 或 `echo` 命令和 `>>` 重定向，在 `columbo.txt` 文件中添加一行包含“Etude in Black”文本的新行。如果需要帮助，请参考上一章。
 
-## Using the less command to read large text files
+## 使用 less 命令读取大文本文件
 
-The cat command is so simple. In fact, it is too simple. And simple doesn't work in complicated scenarios.
+`cat` 命令非常简单。事实上，它太简单了。简单在复杂场景中并不适用。
 
-Try using the cat command to view the content of the services file.
+尝试使用 `cat` 命令查看 `services` 文件的内容。
 
 ```
 cat services
 ```
 
-This `services` is a huge file with hundreds of lines. When you use cat, it floods the entire screen with the entire text.
+这个 `services` 文件包含数百行内容。当你使用 `cat` 时，它会用整个文本充满整个屏幕。
 
-This is not ideal. Can you read the first line of the file? Yes, you can but you have to scroll all the way up. If the file has thousands of lines, you won't even be able to scroll back to the first few lines.
+这并不理想。你能读取文件的第一行吗？是的，你可以，但你必须一直向上滚动。如果文件有数千行，你甚至无法滚动回前几行。
 
-This is where the less command comes into the picture. It lets you read the contents of a file in a page-by-page manner. You exit the viewing mode and your terminal screen is clean as ever.
+这就是 `less` 命令发挥作用的地方。它允许你以分页方式读取文件内容。你退出查看模式后，终端屏幕就像以前一样干净。
 
-Use the less command to read the services file:
+使用 `less` 命令读取 `services` 文件：
 
 ```
 less services
 ```
 
-Now you are in a different viewing mode. You can use the arrow keys to move line by line. You can also use the Page Up and Page Down keys to move up and down by pages.
+现在你处于不同的查看模式。你可以使用箭头键逐行移动。你也可以使用 Page Up 和 Page Down 键逐页上下移动。
 
-You can even search for certain text using /search_term.
+你甚至可以使用 `/search_term` 搜索特定文本。
 
-When you are done reading the file, **press Q key to exit the less view** and go back to the normal terminal viewing.
+当你完成读取文件后，**按 Q 键退出 less 视图**并返回到正常终端视图。
 
-[![less command example](https://itsfoss.com/content/images/2023/03/less-examples.svg)](https://itsfoss.com/content/images/2023/03/less-examples.svg)*Viewing a huge text file with the less command*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-less-examples.svg)
+*使用 less 命令查看大文本文件*
 
-This table will help you use less:
+这个表格将帮助你使用 less：
 
-| **Keys**      | **Action**                                         |
-| ------------- | -------------------------------------------------- |
-| Up arrow      | Move one line up                                   |
-| Down arrow    | Move one line down                                 |
-| Space or PgDn | Move one page down                                 |
-| b or PgUp     | Move one page up                                   |
-| g             | Move to the beginning of the file                  |
-| G             | Move to the end of the file                        |
-| ng            | Move to the nth line                               |
-| /pattern      | Search for pattern and use n to move to next match |
-| q             | Exit less                                          |
+| **键**      | **动作**                          |
+| ----------- | --------------------------------- |
+| 向上箭头    | 向上移动一行                      |
+| 向下箭头    | 向下移动一行                      |
+| 空格或 PgDn | 向下移动一页                      |
+| b 或 PgUp   | 向上移动一页                      |
+| g           | 移动到文件开头                    |
+| G           | 移动到文件末尾                    |
+| ng          | 移动到第n行                       |
+| /pattern    | 搜索模式并使用n移动到下一个匹配项 |
+| q           | 退出less                          |
 
-From viewing files in real time to bookmarking text, less can do a lot more. Read this to learn more about it.
+从实时查看文件到书签文本，less 可以做更多的事情。阅读这篇文章了解更多：
 
-[9 Practical Example of Less Command in Linux](https://linuxhandbook.com/less-command/?ref=itsfoss.com)
+[9 个 Linux 中 Less 命令的实用示例](https://cn.linux-console.net/?p=20185)
 
 !!! question "💡"
 
-    You can use the less command to read PDF files in the terminal.
+    你可以使用less命令在终端中读取PDF文件。
 
-## Head and tail to show part of text files
+## 使用 head 和 tail 显示部分文本文件
 
-If you only want to see certain parts of the text file in cat-styled display, use the head and tail commands.
+如果你只想在类似 `cat` 的显示中查看文本文件的某些部分，可以使用 `head` 和 `tail` 命令。
 
-By default, the head command displays the first 10 lines of a file.
+默认情况下，`head` 命令显示文件的前 10 行。
 
 ```
 head filename
 ```
 
-But you can modify it to show the first n lines as well.
+但你也可以修改它以显示前 n 行。
 
 ```
 head -n filename
 ```
 
-The tail command displays the last 10 lines by default.
+`tail` 命令默认显示文件的最后 10 行。
 
 ```
 tail filename
 ```
 
-But you can modify it to show n lines from the bottom.
+但你也可以修改它以显示底部 n 行。
 
 ```
 tail -n filename
 ```
 
-### Practice examples
+### 练习示例
 
-Let's see some examples. Generate an easy-to-follow file using this script:
+让我们看一些示例。使用这个脚本生成一个易于跟随的文件：
 
 ```
-#create or clear the content of the file
+# 创建或清空文件内容
 echo -n > sample
 
-#put content to the file
+# 向文件添加内容
 for i in {1..70}
 do
   echo "This is the line $i" >> sample
 done
 ```
 
-Create a new file named script.sh and copy-paste the above script content into it. Now run the script like this to generate your sample file:
+创建一个名为 `script.sh` 的新文件，并将上述脚本内容复制粘贴到其中。然后像这样运行脚本以生成你的示例文件：
 
 ```
 bash script.sh
 ```
 
-Now, you have got a file named `sample` that contains lines like "This is the line number N" for every 70 lines.
+现在，你有了一个名为 `sample` 的文件，其中包含70行类似“This is the line number N”的内容。
 
 !!! note "🏋️"
 
-    Display the first 10 and the last 10 lines of this sample file.
+    显示这个`sample`文件的前 10 行和后 10 行。
 
-Let's take it to the next level. You can combine them both to show specific lines of a file. For example, to show lines from 35 to 40, use it like this:
+让我们更进一步。你可以将它们结合起来显示文件的特定行。例如，要显示第 35 到 40 行，可以这样使用：
 
 ```
 head -n 40 filename | tail -n +35
 ```
 
-Here:
+这里：
 
-- `head -n 40 filename` will display the first 40 lines of the file.
-- `tail -n +35` will display the lines from the 35th line to the end of the output from the `head` command. Yeah! Mind the + sign that changes the normal behavior of the tail command.
+- `head -n 40 filename` 将显示文件的前 40 行。
+- `tail -n +35` 将显示从第 35 行到 `head` 命令输出的末尾的行。注意 + 号改变了 `tail` 命令的正常行为。
 
-[![Show a range of lines in Linux](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-specific-lines-linux.png)
 
-You can also combine them to show only a particular line. Let's say you want to display the 55th line; combine head and tail like this.
+你也可以将它们结合起来只显示特定的一行。假设你想显示第 55 行；可以这样结合 `head` 和 `tail`：
 
 ```
 head -n 55 filename | tail -n 1
 ```
 
-Here:
+这里：
 
-- `head -n 55 filename` will display the first 55 lines of the file.
-- `tail -n 1` will display the last line of the output from the `head` command, which will be the 55th line of the file.
+- `head -n 55 filename` 将显示文件的前 55 行。
+- `tail -n 1` 将显示 `head` 命令输出的最后一行，即文件的第 55 行。
 
-[![Show only a particular line in Linux command line](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-particular-line-linux.png)
 
-## 📝 Test your knowledge
+## 📝 测试你的知识
 
-Time for you to exercise your grey cells and practice what you learned in this chapter.
+是时候锻炼你的大脑并练习你在本章学到的内容了。
 
-- Use the same `sample` file and display lines from 63 and 68.
-- Now display the lines from 67 to 70.
-- How about displaying the first line only?
-- What do you see in the /etc/passwd file? Display its content.
+- 使用相同的 `sample` 文件，显示第 63 到 68 行。
+- 现在显示第 67 到 70 行。
+- 如何只显示第一行？
+- `/etc/passwd`文件中有什么内容？显示其内容。
 
-That's it for this chapter. Next, you'll learn about removing files and folders in the command line. Stay tuned.
+这就是本章的内容。接下来，你将学习如何在命令行中删除文件和文件夹。敬请期待。
 
-*via: https://itsfoss.com/view-file-contents/*
+>source：https://itsfoss.com/view-file-contents/
+>
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>译者：[DeepSeek](https://chat.deepseek.com)
+>
+>校对：[Churnie HXCN](https://github.com/excniesNIED)

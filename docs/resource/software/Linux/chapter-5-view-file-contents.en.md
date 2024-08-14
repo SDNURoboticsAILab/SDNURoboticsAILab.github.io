@@ -58,7 +58,7 @@ cat columbo.txt
 
 This is the output it shows:
 
-[![Using the cat command to view files in Linux](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)*Using the cat command to view files in Linux*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-use-cat-command-to-view-files-linux.png)*Using the cat command to view files in Linux*
 
 !!! note "🏋️"
 
@@ -92,7 +92,8 @@ You can even search for certain text using /search_term.
 
 When you are done reading the file, **press Q key to exit the less view** and go back to the normal terminal viewing.
 
-[![less command example](https://itsfoss.com/content/images/2023/03/less-examples.svg)](https://itsfoss.com/content/images/2023/03/less-examples.svg)*Viewing a huge text file with the less command*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-less-examples.svg)
+*Viewing a huge text file with the less command*
 
 This table will help you use less:
 
@@ -110,7 +111,7 @@ This table will help you use less:
 
 From viewing files in real time to bookmarking text, less can do a lot more. Read this to learn more about it.
 
-[9 Practical Example of Less Command in Linux](https://linuxhandbook.com/less-command/?ref=itsfoss.com)
+[9 Practical Example of Less Command in Linux](https://linuxhandbook.com/less-command/?)
 
 !!! question "💡"
 
@@ -182,7 +183,7 @@ Here:
 - `head -n 40 filename` will display the first 40 lines of the file.
 - `tail -n +35` will display the lines from the 35th line to the end of the output from the `head` command. Yeah! Mind the + sign that changes the normal behavior of the tail command.
 
-[![Show a range of lines in Linux](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-specific-lines-linux.png)
 
 You can also combine them to show only a particular line. Let's say you want to display the 55th line; combine head and tail like this.
 
@@ -195,7 +196,7 @@ Here:
 - `head -n 55 filename` will display the first 55 lines of the file.
 - `tail -n 1` will display the last line of the output from the `head` command, which will be the 55th line of the file.
 
-[![Show only a particular line in Linux command line](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-particular-line-linux.png)
 
 ## 📝 Test your knowledge
 
@@ -208,4 +209,6 @@ Time for you to exercise your grey cells and practice what you learned in this c
 
 That's it for this chapter. Next, you'll learn about removing files and folders in the command line. Stay tuned.
 
-*via: https://itsfoss.com/view-file-contents/*
+>via: https://itsfoss.com/view-file-contents/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# 终端基础第 4 章：在 Linux 中创建文件
+# 终端基础：在 Linux 中创建文件
 
 到目前为止，在这个终端基础系列中，你已经学会了：
 
@@ -17,13 +17,13 @@ comments: true
 
 使用 `touch` 命令非常简单。
 
-```
+```Bash
 touch filename
 ```
 
 切换到你的主目录并创建一个名为 `practice_files` 的新目录，然后切换到该目录：
 
-```
+```Bash
 mkdir practice_files && cd practice_files
 ```
 
@@ -34,7 +34,7 @@ mkdir practice_files && cd practice_files
 
 现在，创建一个名为 `new_file` 的新文件：
 
-```
+```Bash
 touch new_file
 ```
 
@@ -43,7 +43,7 @@ touch new_file
 列出目录内容并使用 `ls -l` 命令检查文件的属性。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-touch-example.svg)
-*Using touch command to create new file*
+*使用 touch 命令创建新文件*
 
 !!! question "💡"
 
@@ -53,20 +53,20 @@ touch new_file
 
 很久以前我就应该向你介绍 `echo` 命令。迟到总比不到好。`echo` 命令显示你提供给它的任何内容。因此得名“回声”。
 
-```
+```Bash
 echo Hello World
 ```
 
 你可以使用重定向并将输出路由到文件。因此在此过程中创建一个新文件：
 
-```
+```Bash
 echo "Hello World" >> other_new_file
 ```
 
 这样，你将创建一个名为 `other_new_file` 的新文件，其中包含文本 `Hello World`。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-echo-example.svg)
-*Using echo command to create new file*
+*使用 echo 命令创建文件*
 
 请记住，如果提供的文件已经存在，使用 `>>` 重定向，你将向文件添加一个新行。你也可以使用 `>` 重定向，但它会替换文件的现有内容。
 
@@ -80,14 +80,14 @@ echo "Hello World" >> other_new_file
 
 它还可以使用选项创建新文件并添加内容。为此，你可以使用相同的 `>` 和 `>>` 重定向。
 
-```
+```Bash
 cat >> another_file
 ```
 
 但是这个将创建一个新文件并允许你向其中添加一些文本。添加文本是可选的。**你可以使用 `Ctrl+d` 键退出 `cat` 输入模式。**
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter4-cat-example.svg)
-*Using cat command to create new file*
+*使用 cat 命令创建新文件*
 
 同样，附加模式 `>>` 在文件内容的末尾添加新文本，而覆盖模式 `>` 用新内容替换现有内容。
 
@@ -97,7 +97,7 @@ cat >> another_file
 
     使用 `ls -l` 长列表显示并注意时间戳。使用 `touch` 创建文件，你看到时间戳的区别了吗？
 
-```
+```Bash
 touch other_new_file
 ```
 

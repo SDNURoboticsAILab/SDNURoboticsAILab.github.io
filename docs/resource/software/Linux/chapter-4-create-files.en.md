@@ -18,13 +18,13 @@ Let's now learn about creating files in the Linux command line. I'll briefly dis
 
 Using the touch command is pretty straightforward.
 
-```
+```Bash
 touch filename
 ```
 
 Switch to your home directory and create a new directory called `practice_files` and switch to this directory:
 
-```
+```Bash
 mkdir practice_files && cd practice_files
 ```
 
@@ -34,7 +34,7 @@ mkdir practice_files && cd practice_files
 
 Now, create a new file named new_file:
 
-```
+```Bash
 touch new_file
 ```
 
@@ -53,13 +53,13 @@ List the directory content and check the properties of the file with ls -l comma
 
 I should have introduced you to the echo command long back. Better late than never. The echo command displays whatever you provide to it. Hence the name echo.
 
-```
+```Bash
 echo Hello World
 ```
 
 You can use redirection and route the output to a file. And hence creating a new file in the process:
 
-```
+```Bash
 echo "Hello World" >> other_new_file
 ```
 
@@ -72,7 +72,7 @@ Remember, if the provided file already exists, with >> redirection, you add a ne
 
 More on redirection can be found in the below tutorial.
 
-[Input Output & Error Redirection in Linux [Beginner’s Guide]](https://linuxhandbook.com/redirection-linux/?ref=itsfoss.com)
+[Input Output & Error Redirection in Linux [Beginner’s Guide]](https://linuxhandbook.com/redirection-linux/?)
 
 ## Create new files using the cat command
 
@@ -80,7 +80,7 @@ The original purpose of the cat command was to concatenate files. However, it is
 
 It can also be used to create a new file with the option to add content. For that, you can use the same > and >> redirections.
 
-```
+```Bash
 cat >> another_file
 ```
 
@@ -107,4 +107,6 @@ You have learned about creating new files. Here are a few simple exercises to pr
 
 That's pretty fun. You are making good progress. You have learned to create new files in this chapter. Next, you'll learn about viewing the contents of a file.
 
-*via: https://itsfoss.com/create-files/*
+>via: https://itsfoss.com/create-files/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

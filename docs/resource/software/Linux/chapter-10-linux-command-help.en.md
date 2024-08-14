@@ -31,7 +31,7 @@ There are two main commands to get help on the usage of a Linux command:
 
 You may feel that commands like ls, rm, mv are part of the bash shell. But that's not true. Shell only has a few commands that are built into it as a part of the shell itself. This is why they are called built-in commands. Some examples of built-in commands are echo, cd, and alias.
 
-Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a software package called [GNU coreutils](https://www.gnu.org/software/coreutils/?ref=itsfoss.com). They come preinstalled on almost all Linux distributions.
+Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a software package called [GNU coreutils](https://www.gnu.org/software/coreutils/?). They come preinstalled on almost all Linux distributions.
 
 You won't find man pages for the shell built-ins.
 
@@ -56,9 +56,9 @@ man command_name
 
 And it will open the manual page of the command. You'll find the syntax of the command, its options, and a brief explanation of the options.
 
-[![An example manpage of the ip command in Linux](https://itsfoss.com/content/images/2023/04/man-page-example.png)](https://itsfoss.com/content/images/2023/04/man-page-example.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-man-page-example.png)
 
-The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?ref=itsfoss.com) to move around and search for text.
+The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?) to move around and search for text.
 
 Don't remember it? This will help you recall
 
@@ -88,7 +88,7 @@ help command_name
 
 It will show a summary of the command options. The entire content is displayed on the screen, unlike the man command.
 
-[![Using help for built-in shell commands](https://itsfoss.com/content/images/2023/04/help-for-shell-built-ins.png)](https://itsfoss.com/content/images/2023/04/help-for-shell-built-ins.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-for-shell-built-ins.png)
 
 ### Help option for all commands
 
@@ -96,7 +96,7 @@ Do you feel the man page has too much information and you just want to see the o
 
 Almost all Linux commands provide a `--help` option that should summarize the available options.
 
-[![Using help option of Linux commands](https://itsfoss.com/content/images/2023/04/help-with-linux-commands.png)](https://itsfoss.com/content/images/2023/04/help-with-linux-commands.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-help-with-linux-commands.png)
 
 However, it's not a hard and fast rule. The help sections of some commands are pretty bland. Try it for the ip command.
 
@@ -112,9 +112,9 @@ In other words, the help is just a few key presses away.
 
 It's not that only new Linux users need help. Experienced Linux users specially rely on the manpages. So don't shy away from using the help in the terminal.
 
-I also advise [using the history command](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com). This way, you can search for the commands you typed earlier.
+I also advise [using the history command](https://linuxhandbook.com/bash-history-tips/?). This way, you can search for the commands you typed earlier.
 
-[5 Simple Bash History Tricks Every Linux User Should Know](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com)
+[5 Simple Bash History Tricks Every Linux User Should Know](https://linuxhandbook.com/bash-history-tips/?)
 
 ## This is the end... or the beginning
 
@@ -126,4 +126,8 @@ This gives you a basic but solid foundation of Linux commands. It may be the end
 
 You'll find more in-depth guides on 'doing things in Linux command line' on It's FOSS in the future. It may not be in a series (or maybe it will) but you'll have plenty of opportunity for learning.
 
-💬 ***I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.\***
+💬 *I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.*
+
+>via: https://itsfoss.com/linux-command-help/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)
