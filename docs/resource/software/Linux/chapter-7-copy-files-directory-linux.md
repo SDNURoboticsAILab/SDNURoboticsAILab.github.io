@@ -13,13 +13,14 @@ Linux 有一个专门的 `cp` 命令用于复制文件和目录（文件夹）�
 
 在终端基础知识系列的这一部分中，你将学习在终端中复制文件和文件夹。
 
-> 📋 回想一下，以下是你迄今为止在本终端基础知识系列中所学到的内容：
-> - [更改目录][2]
-> - [创建新目录][3]
-> - [列出目录内容][4]
-> - [创建文件][5]
-> - [读取文件][6]
-> - [删除文件和目录][7]
+!!! info "📋回想一下，以下是你迄今为止在本终端基础知识系列中所学到的内容："
+
+    - [更改目录]
+    - [创建新目录]
+    - [列出目录内容]
+    - [创建文件]
+    - [读取文件]
+    - [删除文件和目录]
 
 让我们继续该系列的第七章。
 
@@ -37,7 +38,7 @@ cp 源文件 目标目录
 
 例如，在这里，我将名为 `Hello.txt` 的文件复制到名为 `Tux` 的目录中：
 
-![copy file to another directory in linux command line][8]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-file-to-another-directory-in-linux-command-line.png)
 
 正如你所看到的，文件已成功复制到 `Tux` 目录中。
 
@@ -51,7 +52,7 @@ cp 源文件 改名的文件
 
 作为参考，在这里，我将名为 `Hello.txt` 的文件复制到同一目录，并将其重命名为 `Renamed_Hello.txt`：
 
-![rename a file while copying in a same directory in linux terminal][9]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)
 
 为什么要这么做？ 比如说，你必须编辑配置文件。一个好的做法是在编辑配置文件之前在同一位置对其进行备份。这样，如果事情没有按计划进行，你可以恢复到旧配置。
 
@@ -65,7 +66,7 @@ cp File1 File2 File3 FileN Target_directory
 
 在这里，我将多个文件复制到新位置。
 
-![copy multiple files using the cp command in linux][10]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-multiple-files-using-the-cp-command-in-linux.png)
 
 > 📋 当你复制多个文件时，仅使用 `cp` 命令无法重命名它们。
 
@@ -85,7 +86,7 @@ cp -n 源文件 目标目录
 cp -n -v itsFOSS.txt LHB.txt LU.txt ~/Tux
 ```
 
-![how not to override files while copying in linux using the cp command][11]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)
 
 ### 交互式复制文件
 
@@ -97,9 +98,11 @@ cp -n -v itsFOSS.txt LHB.txt LU.txt ~/Tux
 cp -i 源文件 目标目录
 ```
 
-![how to use cp command in interactive mode][12]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-to-use-cp-command-in-interactive-mode.png)
 
-> 🖥️ 自己练习上述所有示例。你已经了解如何创建文件和文件夹，因此请重新创建所有内容。
+!!! note "🖥️"
+
+    自己练习上述所有示例。你已经了解如何创建文件和文件夹，因此请重新创建所有内容。
 
 ## 在 Linux 命令行中复制目录
 
@@ -113,7 +116,7 @@ cp -r 源目录 目标目录
 
 例如，在这里，我将名为 `IF` 的目录复制到 `LHB`：
 
-![how to copy a directory in linux command line][13]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-to-copy-a-directory-in-linux-command-line.png)
 
 但它复制了整个目录。🤨
 
@@ -131,7 +134,7 @@ cp -r 源目录/. 目标目录
 
 在这里，我想复制名为 `IF` 的目录的内容，其中包含以下三个文件：
 
-![check the file contents of directory using the tree command][14]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-check-the-file-contents-of-directory-using-the-tree-command.png)
 
 我将执行以下命令将 `IF` 目录的文件内容复制到 `LHB`：
 
@@ -139,7 +142,7 @@ cp -r 源目录/. 目标目录
 cp -r IF/. LHB
 ```
 
-![copy the file contents of directory not a directory itself in linux command line][15]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)
 
 你还可以在此处使用 `源目录/*` 。
 
@@ -157,7 +160,7 @@ cp -r 目录1 目录2 目录3 目录N 目标目录
 cp -r IF LU ~/LHB
 ```
 
-![copy multiple directories using the cp command in linux command line][16]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)
 
 当你想要从多个目录复制文件但不复制目录本身时，你可以执行相同的操作：
 
@@ -165,9 +168,11 @@ cp -r IF LU ~/LHB
 cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 ```
 
-![copy files from multiple directories but not directories their self using the cp command][17]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)
 
-> 🖥️ 你还可以像重命名文件一样重命名目录。
+!!! note "🖥️"
+
+    你还可以像重命名文件一样重命名目录。
 
 ## 测试你的知识
 

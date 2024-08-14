@@ -12,17 +12,14 @@ Linux has a dedicated cp command for copying both files and directories (folders
 
 In this part of the Terminal Basics series, you'll learn to copy files and folders in the terminal.
 
-!!! info "📋"
+!!! info "📋Just to recall, here's what you have learned so far in this Terminal Basics series:"
 
-```- Change directories
-Just to recall, here's what you have learned so far in this Terminal Basics series:
     - [Change directories](https://itsfoss.com/change-directories/)
     - [Make new directories](https://itsfoss.com/make-directories/)
     - [List directory contents](https://itsfoss.com/list-directory-content/)
     - [Create files](https://itsfoss.com/create-files/)
     - [Reading files](https://itsfoss.com/view-file-contents/)
     - [Removing files and directories](https://itsfoss.com/delete-files-folders-linux/)
-```
 
 Let's go on with the seventh chapter in the series.
 
@@ -40,7 +37,7 @@ cp Source_file Destination_directory
 
 For example, here, I have copied a file named `Hello.txt` to the directory named `Tux`:
 
-[![copy file to another directory in linux command line](https://itsfoss.com/content/images/2023/02/copy-file-to-another-directory-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-file-to-another-directory-in-linux-command-line.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-file-to-another-directory-in-linux-command-line.png)
 
 And as you can see, the file has successfully been copied to the Tux directory.
 
@@ -54,7 +51,7 @@ cp Source_file Renamed_file
 
 For reference, here, I have copied a file named `Hello.txt` to the same directory by renaming it to `Renamed_Hello.txt`:
 
-[![rename a file while copying in a same directory in linux terminal](https://itsfoss.com/content/images/2023/02/rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)](https://itsfoss.com/content/images/2023/02/rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-rename-a-file-while-copying-in-a-same-directory-in-linux-terminal.png)
 
 Why would you do that? Say, you have to edit a config file. A good practice is to make a backup of the config file in the same location before editing it. This way, you can revert to the old configuration if things don't go as planned.
 
@@ -68,7 +65,7 @@ cp File1 File2 File3 FileN Target_directory
 
 Here, I copy multiple files to a new location.
 
-[![copy multiple files using the cp command in linux](https://itsfoss.com/content/images/2023/02/copy-multiple-files-using-the-cp-command-in-linux.png)](https://itsfoss.com/content/images/2023/02/copy-multiple-files-using-the-cp-command-in-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-multiple-files-using-the-cp-command-in-linux.png)
 
 !!! note "📋"
 
@@ -86,11 +83,7 @@ cp -n Source_File Destination_directory
 
 For example, here, I have tried to copy two files that were already there in my targeted directory and used `-v` option to showcase what is being done by the command:
 
-```Bash
-cp -n -v itsFOSS.txt LHB.txt LU.txt ~/Tux
-```
-
-[![how not to override files while copying in linux using the cp command](https://itsfoss.com/content/images/2023/02/how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)](https://itsfoss.com/content/images/2023/02/how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-not-to-override-files-while-copying-in-linux-using-the-cp-command.png)
 
 ### Interactively copy files
 
@@ -102,7 +95,7 @@ Well, you can use the cp command in the interactive mode using the `-i` option, 
 cp -i Source_file Destination_directory
 ```
 
-[![how to use cp command in interactive mode](https://itsfoss.com/content/images/2023/02/how-to-use-cp-command-in-interactive-mode.png)](https://itsfoss.com/content/images/2023/02/how-to-use-cp-command-in-interactive-mode.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-to-use-cp-command-in-interactive-mode.png)
 
 !!! note "🖥️"
 
@@ -120,7 +113,7 @@ cp -r Source_dir Target_dir
 
 For example, here, I have copied a directory named `IF` to `LHB`:
 
-[![how to copy a directory in linux command line](https://itsfoss.com/content/images/2023/02/how-to-copy-a-directory-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/how-to-copy-a-directory-in-linux-command-line.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-how-to-copy-a-directory-in-linux-command-line.png)
 
 But it copied the entire directory 🤨
 
@@ -138,15 +131,11 @@ cp -r Source_directory/. Destination_directory
 
 Here, I want to copy the contents of a directory named `IF` which contains the following three files:
 
-[![check the file contents of directory using the tree command](https://itsfoss.com/content/images/2023/02/check-the-file-contents-of-directory-using-the-tree-command.png)](https://itsfoss.com/content/images/2023/02/check-the-file-contents-of-directory-using-the-tree-command.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-check-the-file-contents-of-directory-using-the-tree-command.png)
 
 And I will execute the following command to copy the file contents of the `IF` directory to `LHB`:
 
-```Bash
-cp -r IF/. LHB
-```
-
-[![copy the file contents of directory not a directory itself in linux command line](https://itsfoss.com/content/images/2023/02/copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-the-file-contents-of-directory-not-a-directory-itself-in-linux-command-line.png)
 
 You can also use Source_directory/* here.
 
@@ -164,7 +153,7 @@ For example, here, I have copied two directories named `IF` and `LU` to the `LHB
 cp -r IF LU ~/LHB
 ```
 
-[![copy multiple directories using the cp command in linux command line](https://itsfoss.com/content/images/2023/02/copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)](https://itsfoss.com/content/images/2023/02/copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-multiple-directories-using-the-cp-command-in-linux-command-line.png)
 
 You can do the same when you want to copy files from multiple directories but not the directory itself:
 
@@ -172,7 +161,7 @@ You can do the same when you want to copy files from multiple directories but no
 cp -r Dir1/. Dir2/. Dir3/. DirN/. Destination_directory
 ```
 
-[![copy files from multiple directories but not directories their self using the cp command](https://itsfoss.com/content/images/2023/02/copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)](https://itsfoss.com/content/images/2023/02/copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter7-copy-files-from-multiple-directories-but-not-directories-their-self-using-the-cp-command.png)
 
 !!! note "🖥️"
 
