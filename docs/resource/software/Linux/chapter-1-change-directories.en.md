@@ -53,7 +53,7 @@ Here's a pictorial representation.
 
 Want more on paths in Linux? This article will help you.
 
-[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)
+[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?)
 
 ## Changing directory with cd command
 

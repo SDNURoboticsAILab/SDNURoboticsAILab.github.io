@@ -306,11 +306,11 @@ You can repeat these key combinations to undo or redo multiple times.
 
 If you find Nano overwhelming, you should try Vim or Emacs. You'll start liking Nano.
 
-[Basic Vim Commands Every Linux User Must Know [With PDF Cheat Sheet]](https://linuxhandbook.com/basic-vim-commands/?ref=itsfoss.com)
+[Basic Vim Commands Every Linux User Must Know [With PDF Cheat Sheet]](https://linuxhandbook.com/basic-vim-commands/?)
 
 This is a good starting point for Emacs. Give it a try if you want.
 
-[Basic Emacs Command Explained in Detail](https://linuxhandbook.com/basic-emacs-guide/?ref=itsfoss.com)
+[Basic Emacs Command Explained in Detail](https://linuxhandbook.com/basic-emacs-guide/?)
 
 No matter how beginner-friendly Nano is, some people may find the idea of editing important files in the terminal intimidating.
 

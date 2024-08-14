@@ -72,7 +72,7 @@ Remember, if the provided file already exists, with >> redirection, you add a ne
 
 More on redirection can be found in the below tutorial.
 
-[Input Output & Error Redirection in Linux [Beginner’s Guide]](https://linuxhandbook.com/redirection-linux/?ref=itsfoss.com)
+[Input Output & Error Redirection in Linux [Beginner’s Guide]](https://linuxhandbook.com/redirection-linux/?)
 
 ## Create new files using the cat command
 

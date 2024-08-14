@@ -33,13 +33,13 @@ This is the same cut-paste operation (Ctrl+X and Ctrl+V) you do in a graphical f
 
 Linux has a dedicated mv command (short for move) for moving files and directories to other locations.
 
-And [using the mv command](https://linuxhandbook.com/mv-command/?ref=itsfoss.com) is quite simple:
+And [using the mv command](https://linuxhandbook.com/mv-command/?) is quite simple:
 
 ```Bash
 mv source_file destination_directory
 ```
 
-The role of path comes to play here as well. You can use either the [absolute or relative path](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com). Whichever suits your need.
+The role of path comes to play here as well. You can use either the [absolute or relative path](https://linuxhandbook.com/absolute-vs-relative-path/?). Whichever suits your need.
 
 Let's see this with an example. **You should practice along with it by replicating the example scenarios on your system**.
 

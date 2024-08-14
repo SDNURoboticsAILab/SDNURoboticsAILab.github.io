@@ -31,7 +31,7 @@ There are two main commands to get help on the usage of a Linux command:
 
 You may feel that commands like ls, rm, mv are part of the bash shell. But that's not true. Shell only has a few commands that are built into it as a part of the shell itself. This is why they are called built-in commands. Some examples of built-in commands are echo, cd, and alias.
 
-Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a software package called [GNU coreutils](https://www.gnu.org/software/coreutils/?ref=itsfoss.com). They come preinstalled on almost all Linux distributions.
+Other popular Linux commands like ls, mv, rm, cat, less, etc are part of a software package called [GNU coreutils](https://www.gnu.org/software/coreutils/?). They come preinstalled on almost all Linux distributions.
 
 You won't find man pages for the shell built-ins.
 
@@ -58,7 +58,7 @@ And it will open the manual page of the command. You'll find the syntax of the c
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-man-page-example.png)
 
-The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?ref=itsfoss.com) to move around and search for text.
+The pages are (usually) [opened with the less command](https://itsfoss.com/view-file-contents/) so you can use all the [keyboard shortcuts of the less command](https://linuxhandbook.com/less-command/?) to move around and search for text.
 
 Don't remember it? This will help you recall
 
@@ -112,9 +112,9 @@ In other words, the help is just a few key presses away.
 
 It's not that only new Linux users need help. Experienced Linux users specially rely on the manpages. So don't shy away from using the help in the terminal.
 
-I also advise [using the history command](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com). This way, you can search for the commands you typed earlier.
+I also advise [using the history command](https://linuxhandbook.com/bash-history-tips/?). This way, you can search for the commands you typed earlier.
 
-[5 Simple Bash History Tricks Every Linux User Should Know](https://linuxhandbook.com/bash-history-tips/?ref=itsfoss.com)
+[5 Simple Bash History Tricks Every Linux User Should Know](https://linuxhandbook.com/bash-history-tips/?)
 
 ## This is the end... or the beginning
 

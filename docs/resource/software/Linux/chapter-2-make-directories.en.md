@@ -24,9 +24,9 @@ mkdir is short of make directories. Let's see about using this command.
 
 ## Making a new directory in Linux
 
-You should be familiar with the [concept of absolute and relative paths in Linux](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com) by now. If not, please refer to this tutorial.
+You should be familiar with the [concept of absolute and relative paths in Linux](https://linuxhandbook.com/absolute-vs-relative-path/?) by now. If not, please refer to this tutorial.
 
-[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?ref=itsfoss.com)
+[Absolute vs Relative Path in Linux: What’s the Difference?](https://linuxhandbook.com/absolute-vs-relative-path/?)
 
 Open the terminal on your system if it is not already opened. Normally, you start with your home directory (/home/username). But for the sake of this tutorial and to recall a couple of things, I presume you are not in your home directory.
 

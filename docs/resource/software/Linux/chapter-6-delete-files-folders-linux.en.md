@@ -192,7 +192,7 @@ Now do the following:
 - Delete all the contents of dir1 but not the directory itself.
 - List the contents of the `dir`.
 
-I encourage you to discuss the practice questions in the [It's FOSS community forum](https://itsfoss.community/?ref=itsfoss.com).
+I encourage you to discuss the practice questions in the [It's FOSS community forum](https://itsfoss.community/?).
 
 This is going good. You have learned several basic things like switching directories, checking the contents of a directory, and creating and deleting files and directories.
 

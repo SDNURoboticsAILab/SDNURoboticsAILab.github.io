@@ -98,7 +98,7 @@ You'll see the following information in the long listing:
 
 It is a good idea to know about file permission and ownership. I highly recommend reading this tutorial.
 
-[Linux File Permissions and Ownership Explained with Examples](https://linuxhandbook.com/linux-file-permissions/?ref=itsfoss.com)
+[Linux File Permissions and Ownership Explained with Examples](https://linuxhandbook.com/linux-file-permissions/?)
 
 ## Displaying the hidden files
 

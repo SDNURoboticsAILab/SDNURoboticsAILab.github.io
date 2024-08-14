@@ -31,7 +31,7 @@ comments: true
 
 你可能会觉得像 ls、rm、mv 这样的命令是 bash shell 的一部分。但事实并非如此。Shell 只有少数命令是作为 shell 本身的一部分内置的。这就是为什么它们被称为内置命令。内置命令的一些例子是 echo、cd 和 alias。
 
-其他流行的 Linux 命令，如 ls、mv、rm、cat、less 等，是名为 [GNU coreutils](https://www.gnu.org/software/coreutils/?ref=itsfoss.com) 的软件包的一部分。它们几乎在所有 Linux 发行版上都预装了。
+其他流行的 Linux 命令，如 ls、mv、rm、cat、less 等，是名为 [GNU coreutils](https://www.gnu.org/software/coreutils/?) 的软件包的一部分。它们几乎在所有 Linux 发行版上都预装了。
 
 你不会找到 shell 内置命令的 man pages。
 
@@ -58,7 +58,7 @@ man command_name
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-man-page-example.png)
 
-页面通常使用 [less 命令](https://itsfoss.com/view-file-contents/) 打开，因此你可以使用所有 [less 命令的键盘快捷键](https://linuxhandbook.com/less-command/?ref=itsfoss.com) 来移动和搜索文本。
+页面通常使用 [less 命令](https://itsfoss.com/view-file-contents/) 打开，因此你可以使用所有 [less 命令的键盘快捷键](https://linuxhandbook.com/less-command/?) 来移动和搜索文本。
 
 不记得了吗？这将帮助你回忆
 

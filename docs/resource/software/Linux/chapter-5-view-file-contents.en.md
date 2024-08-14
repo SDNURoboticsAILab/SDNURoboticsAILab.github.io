@@ -111,7 +111,7 @@ This table will help you use less:
 
 From viewing files in real time to bookmarking text, less can do a lot more. Read this to learn more about it.
 
-[9 Practical Example of Less Command in Linux](https://linuxhandbook.com/less-command/?ref=itsfoss.com)
+[9 Practical Example of Less Command in Linux](https://linuxhandbook.com/less-command/?)
 
 !!! question "💡"
 
