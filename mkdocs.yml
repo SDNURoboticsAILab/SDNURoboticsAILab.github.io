@@ -67,6 +67,12 @@ nav:
         - 第2章：在 Linux 终端中创建目录: resource/software/Linux/chapter-2-make-directories.md
         - 第3章：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
         - 第4章：在 Linux 中创建文件: resource/software/Linux/chapter-4-create-files.md
+        - 第5章：在Linux中查看文件内容: resource/software/Linux/chapter-5-view-file-contents.md
+        - 第6章：在Linux中删除文件和文件夹: resource/software/Linux/chapter-6-delete-files-folders-linux.md
+        - 第7章：在Linux中复制文件和目录: resource/software/Linux/chapter-7-copy-files-directory-linux.md
+        - 第8章：移动文件和目录（剪切粘贴操作）: resource/software/Linux/chapter-8-move-files-linux.md
+        - 第9章：在Linux终端中编辑文件: resource/software/Linux/chapter-9-edit-files-linux.md
+        - 第10章：在Linux终端中获取帮助: resource/software/Linux/chapter-10-linux-command-help.md
       - Git版本控制系统:
         - Git版本控制系统简介: resource/software/Git/Git_Introduction.md
       - GNU Make编译工具:
@@ -238,6 +244,12 @@ plugins:
             第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
             第3章：列出目录的内容: Chapter 3:Listing the Contents of a Directory
             第4章：在 Linux 中创建文件: Chapter 4:Creating Files in Linux
+            第5章：在Linux中查看文件内容: Chapter 5: View the File Contents in Linux
+            第6章：在Linux中删除文件和文件夹: Chapter 6: Delete Files and Folders in Linux
+            第7章：在Linux中复制文件和目录: Chapter 7: Copy Files and Directories in Linux
+            第8章：移动文件和目录（剪切粘贴操作）: Chapter 8: Move Files and Directories (Cut-Paste Operation)
+            第9章：在Linux终端中编辑文件: Chapter 9: Editing Files in Linux Terminal
+            第10章：在Linux终端中获取帮助: Chapter 10: Getting Help in Linux Terminal
             Git版本控制系统: Git, Version Control System
             Git版本控制系统简介: Introduction to Git
             GNU Make编译工具: GNU Make, Compilation Tool
