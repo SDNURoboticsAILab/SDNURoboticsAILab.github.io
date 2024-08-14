@@ -5,13 +5,13 @@ comments: true
 手把手指导您使用 Git
 ======
 
-如果您从未使用过 [Git][1]，甚至可能从未听说过它。莫慌张，只需要一步步地跟着这篇入门教程，很快您就会在 [GitHub][2] 上拥有一个全新的 Git 仓库。
+如果您从未使用过 [Git](https://opensource.com/resources/what-is-git)，甚至可能从未听说过它。莫慌张，只需要一步步地跟着这篇入门教程，很快您就会在 [GitHub](https://opensource.com/life/15/11/short-introduction-github) 上拥有一个全新的 Git 仓库。
 
 在开始之前，让我们先理清一个常见的误解：Git 并不是 GitHub。Git 是一套版本控制系统（或者说是一款软件），能够协助您跟踪计算机程序和文件在任何时间的更改。它同样允许您在程序、代码和文件操作上与同事协作。GitHub 以及类似服务（包括 GitLab 和 BitBucket）都属于部署了 Git 程序的网站，能够托管您的代码。
 
-### 步骤 1：申请一个 GitHub 账户
+## 步骤 1：申请一个 GitHub 账户
 
-在 [GitHub.com][3] 网站上（免费）创建一个账户是最简单的方式。
+在 [GitHub.com](https://github.com/) 网站上（免费）创建一个账户是最简单的方式。
 
 ![](https://opensource.com/sites/default/files/u128651/git_guide1.png)
 
@@ -19,7 +19,7 @@ comments: true
 
 ![](https://opensource.com/sites/default/files/u128651/git_guide2.png)
 
-### 步骤 2：创建一个新的仓库
+## 步骤 2：创建一个新的仓库
 
 一个仓库（ repository），类似于能储存物品的场所或是容器；在这里，我们创建仓库存储代码。在 `+` 符号（在插图的右上角，我已经选中它了） 的下拉菜单中选择 **New Repository**。
 
@@ -29,7 +29,7 @@ comments: true
 
 恭喜！您已经在 GitHub.com 中建立了您的第一个仓库。
 
-### 步骤 3: 创建文件
+## 步骤 3: 创建文件
 
 当仓库创建完毕后，界面将和下方一致：
 
@@ -41,11 +41,11 @@ comments: true
 
 ![](https://opensource.com/sites/default/files/u128651/git_guide5.png)
 
-键入 `git` 然后回车。如果命令行显示 `bash: git: command not found`，在您的操作系统或发行版 [安装 Git][4] 命令。键入 `git` 并回车检查是否成功安装；如果安装成功，您将看见大量关于使用该命令的说明信息。
+键入 `git` 然后回车。如果命令行显示 `bash: git: command not found`，在您的操作系统或发行版 [安装 Git](https://www.linuxbabe.com/linux-server/install-git-verion-control-on-linux-debianubuntufedoraarchlinux#crt-2) 命令。键入 `git` 并回车检查是否成功安装；如果安装成功，您将看见大量关于使用该命令的说明信息。
 
 在终端内输入：
 
-```
+```Bash
 mkdir Demo
 ```
 
@@ -53,19 +53,19 @@ mkdir Demo
 
 如下命令将会切换终端目录，跳转到 Demo 目录：
 
-```
+```Bash
 cd Demo
 ```
 
 然后输入：
 
-```
+```Bash
 echo "#Demo" >> README.md
 ```
 
 创建一个名为 `README.md` 的文件，并写入 `#Demo`。检查文件是否创建成功，请输入：
 
-```
+```Bash
 cat README.md
 ```
 
@@ -75,33 +75,33 @@ cat README.md
 
 使用 Git 程序告诉您的电脑，Demo 是一个被 Git 管理的目录，请输入：
 
-```
+```Bash
 git init
 ```
 
 然后，告诉 Git 程序您关心的文件并且想在此刻起跟踪它的任何改变，请输入：
 
-```
+```Bash
 git add README.md
 ```
 
-### 步骤 4：创建一次提交
+## 步骤 4：创建一次提交
 
 目前为止，您已经创建了一个文件，并且已经通知了 Git，现在，是时候创建一次<ruby>提交<rt>commit</rt></ruby>了。提交可以看作是一个里程碑。每当完成一些工作之时，您都可以创建一次提交，保存文件当前版本，这样一来，您可以返回之前的版本，并且查看那时候的文件内容。无论何时您修改了文件，都可以对文件创建一个上一次的不一样的新版本。
 
 创建一次提交，请输入：
 
-```
+```Bash
 git commit -m "first commit"
 ```
 
 就是这样！刚才您创建了包含一条注释为 “first commit” 的 Git 提交。每次提交，您都必须编辑注释信息；它不仅能协助您识别提交，而且能让您理解此时您对文件做了什么修改。这样到了明天，如果您在文件中添加新的代码，您可以写一句提交信息：“添加了新的代码”，然后当您一个月后回来查看提交记录或者 Git 日志（即提交列表），您还能知道当时的您在文件夹里做了什么。
 
-### 步骤 5: 将您的计算机与 GitHub 仓库相连接
+## 步骤 5: 将您的计算机与 GitHub 仓库相连接
 
 现在，是时候用如下命令将您的计算机连接到 GitHub 仓库了：
 
-```
+```Bash
 git remote add origin https://github.com/<your_username>/Demo.git
 ```
 
@@ -127,14 +127,13 @@ git remote add origin https://github.com/<your_username>/Demo.git
 
 via: https://opensource.com/article/18/1/step-step-guide-git
 
-作者：[Kedar Vijay Kulkarni][a]
+作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
 译者：[CYLeft](https://github.com/CYLeft)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]:https://opensource.com/users/kkulkarn
-[1]:https://opensource.com/resources/what-is-git
-[2]:https://opensource.com/life/15/11/short-introduction-github
-[3]:https://github.com/
-[4]:https://www.linuxbabe.com/linux-server/install-git-verion-control-on-linux-debianubuntufedoraarchlinux#crt-2
+
+
+
+

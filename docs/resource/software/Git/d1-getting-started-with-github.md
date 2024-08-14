@@ -5,13 +5,13 @@ comments: true
 GitHub 简易入门指南 
 ================
 
-[GitHub][13] 是一个在线平台，旨在促进在一个共同项目上工作的个人之间的代码托管、版本控制和协作。通过该平台，无论何时何地，都可以对项目进行操作（托管和审查代码，管理项目和与世界各地的其他开发者共同开发软件）。**GitHub 平台**为开源项目和私人项目都提供了项目处理功能。
+[GitHub](https://github.com/) 是一个在线平台，旨在促进在一个共同项目上工作的个人之间的代码托管、版本控制和协作。通过该平台，无论何时何地，都可以对项目进行操作（托管和审查代码，管理项目和与世界各地的其他开发者共同开发软件）。**GitHub 平台**为开源项目和私人项目都提供了项目处理功能。
 
 关于团队项目处理的功能包括：GitHub <ruby>流<rt>Flow></rt></ruby>和 GitHub <ruby>页<rt>Pages</rt></ruby>。这些功能可以让需要定期部署的团队轻松处理工作流程。另一方面，GitHub 页提供了页面用于展示开源项目、展示简历、托管博客等。
 
 GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻松地处理。它也使得个人可以更轻松地与世界分享他们的项目。
 
-### 注册 GitHub 并启动一个项目
+## 注册 GitHub 并启动一个项目
 
 在 GitHub 上启动新项目时，您必须先使用您的电子邮件地址创建一个帐户。
 
@@ -19,7 +19,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 然后，在验证邮箱的时候，用户将自动登录到他们的 GitHub 帐户。
 
-#### 1、 创建仓库
+### 1、 创建仓库
 
 之后，我们会被带到一个用于创建<ruby>仓库<rt>repository</rt></ruby>的页面。​仓库存储着包括修订历史记录在内的所有项目文件。仓库可以是公开的或者是私有的。公开的仓库可以被任何人查看，但是，只有项目所有者授予权限的人才可以提交修改到这个仓库。另一方面，私有仓库提供了额外的控制，可以将项目设置为对谁可见。因此，公开仓库适用于开源软件项目，而私有仓库主要适用于私有或闭源项目。
 
@@ -29,7 +29,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 [![create a github repository](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/create-a-github-repository_orig.jpg)][3] 
 
-#### 2、 添加分支
+### 2、 添加分支
 
 在 GitHub 中，<ruby>分支<rt>branch</rt></ruby>是一种同时操作单个仓库的各种版本的方式。默认情况下，任何创建的单个仓库都会被分配一个名为 “MASTER” 的分支，它被认为是最后一个分支。在 GitHub 中，分支在被合并到<ruby>主干<rt>master</rt></ruby>（最后的分支）之前，可以在对仓库进行实验和编辑中发挥作用。
 
@@ -50,7 +50,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 这样就成功创建了两个分支：master 和 readme-edits。
 
-#### 3、 修改项目文件并提交
+### 3、 修改项目文件并提交
 
 此步骤提供了关于如何更改仓库并保存修改的指导。在 GitHub 上，<ruby>提交<rt>commit</rt></ruby>被定义为保存的修改的意思。每一次提交都与一个<ruby>提交信息<rt>commit message</rt></ruby>相关联，该提交信息包含了保存的修改的历史记录，以及为何进行这些更改。这使得其他贡献者可以很轻松地知道你做出的更改以及更改的原因。
 
@@ -67,7 +67,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 [![commit branch to master](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/commit-branch-to-master_orig.jpg)][6] 
 
-#### 4、 开启一个拉取请求
+### 4、 开启一个拉取请求
 
 <ruby>​拉取请求<rt>pull request</rt></ruby>是一个允许贡献者提出并请求某人审查和合并某些更改到他们的分支的功能。​拉取请求还显示了几个分支的差异（diffs）。更改、添加和删减通常以红色和绿色来表示。一旦提交完成就可以开启​拉取请求，即使代码还未完成。
 
@@ -85,7 +85,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 用户可以通过尝试创建并保存拉取请求来证实这些操作。
 
-#### 5、 合并拉取请求
+### 5、 合并拉取请求
 
 最后一步是将 readme-edits 分支和 master 分支合并到一起。如果 readme-edits 分支和 master 分支不会产生冲突，则会显示<ruby>merge pull request<rt>合并拉取请求</rt></ruby>的按钮。
 
@@ -103,23 +103,22 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 via: http://www.linuxandubuntu.com/home/getting-started-with-github
 
-作者：[LinuxAndUbuntu][a]
+作者：[LinuxAndUbuntu](http://www.linuxandubuntu.com)
 译者：[firmianay](https://github.com/firmianay)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]:http://www.linuxandubuntu.com
-[1]:http://www.linuxandubuntu.com/home/getting-started-with-github
-[2]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/github-homepage_orig.jpg
-[3]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/create-a-github-repository_orig.jpg
-[4]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/add-a-branch-to-github-repository_orig.jpg
-[5]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/commit-changes-to-github-repository_orig.jpg
-[6]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/commit-branch-to-master_orig.jpg
-[7]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/github-pull-request_orig.jpg
-[8]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/compare-commit-changes-github_orig.jpg
-[9]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/open-a-pull-request-in-github-repository_orig.jpg
-[10]:http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/merge-the-pull-request-github_orig.jpg
-[11]:http://www.linuxandubuntu.com/home/getting-started-with-github
-[12]:http://www.linuxandubuntu.com/home/getting-started-with-github#comments
-[13]:https://github.com/
+
+
+
+
+
+
+
+
+
+
+
+
+

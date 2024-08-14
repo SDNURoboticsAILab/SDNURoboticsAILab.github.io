@@ -5,25 +5,25 @@ comments: true
 在 Git 中怎样克隆、修改、添加和删除文件？
 =====
 
-在 [本系列的第一篇文章][1] 开始使用 Git 时，我们创建了一个简单的 Git 仓库，并用我们的计算机连接到它，向其中添加一个文件。在本文中，我们将学习一些关于 Git 的其他内容，即如何克隆（下载）、修改、添加和删除 Git 仓库中的文件。
+在 [本系列的第一篇文章](https://linux.cn/article-9319-1.html) 开始使用 Git 时，我们创建了一个简单的 Git 仓库，并用我们的计算机连接到它，向其中添加一个文件。在本文中，我们将学习一些关于 Git 的其他内容，即如何克隆（下载）、修改、添加和删除 Git 仓库中的文件。
 
-### 让我们来克隆一下
+## 让我们来克隆一下
 
 假设你在 GitHub 上已经有一个 Git 仓库，并且想从它那里获取你的文件——也许你在你的计算机上丢失了本地副本，或者你正在另一台计算机上工作，但是想访问仓库中的文件，你该怎么办？从 GitHub 下载你的文件？没错！在 Git 术语中我们称之为“<ruby>克隆<rt>clone</rt></ruby>”。（你也可以将仓库作为 ZIP 文件下载，但我们将在本文中探讨克隆方式。）
 
-让我们克隆在上一篇文章中创建的名为 Demo 的仓库。（如果你还没有创建 Demo 仓库，请跳回到[那篇文章][1]并在继续之前执行那些步骤）要克隆文件，只需打开浏览器并导航到 `https://github.com/<your_username>/Demo` (其中 `<your_username>` 是你仓库的名称。例如，我的仓库是 `https://github.com/kedark3/Demo`)。一旦你导航到该 URL，点击“<ruby>克隆或下载<rt>Clone or download</rt></ruby>”按钮，你的浏览器看起来应该是这样的：
+让我们克隆在上一篇文章中创建的名为 Demo 的仓库。（如果你还没有创建 Demo 仓库，请跳回到[那篇文章](https://linux.cn/article-9319-1.html)并在继续之前执行那些步骤）要克隆文件，只需打开浏览器并导航到 `https://github.com/<your_username>/Demo` (其中 `<your_username>` 是你仓库的名称。例如，我的仓库是 `https://github.com/kedark3/Demo`)。一旦你导航到该 URL，点击“<ruby>克隆或下载<rt>Clone or download</rt></ruby>”按钮，你的浏览器看起来应该是这样的：
 
 ![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide11.png?itok=wJYqZyBX)
 
 正如你在上面看到的，“<ruby>使用 HTTPS 克隆<rt>Clone with HTTPS</rt></ruby>”选项已打开。从该下拉框中复制你的仓库地址（`https://github.com/<your_username>/Demo.git`），打开终端并输入以下命令将 GitHub 仓库克隆到你的计算机：
 
-```
+```Bash
 git clone https://github.com/<your_username>/Demo.git
 ```
 
 然后，要查看 `Demo` 目录中的文件列表，请输入以下命令：
 
-```
+```Bash
 ls Demo/
 ```
 
@@ -31,11 +31,11 @@ ls Demo/
 
 ![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide12.png?itok=E7ZG9t-8)
 
-### 修改文件
+## 修改文件
 
 现在我们已经克隆了仓库，让我们修改文件并在 GitHub 上更新它们。首先，逐个输入下面的命令，将目录更改为 `Demo/`，检查 `README.md` 中的内容，添加新的（附加的）内容到 `README.md`，然后使用 `git status` 检查状态:
 
-```
+```Bash
 cd Demo/
 ls
 cat README.md
@@ -50,7 +50,7 @@ git status
 
 让我们看一下 `git status` 的输出，并了解它的意思。不要担心这样的语句：
 
-```
+```Bash
 On branch master
 Your branch is up-to-date with 'origin/master'.".
 ```
@@ -74,13 +74,13 @@ Your branch is up-to-date with 'origin/master'.".
 
 ![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide14.png?itok=bva9fHJj)
 
-### 上传文件到你的仓库
+## 上传文件到你的仓库
 
 我们用一些新内容修改了 `README.md` 文件，现在是时候将它上传到 GitHub。
 
 让我们提交更改并将其推送到 GitHub。运行：
 
-```
+```Bash
 git commit -m "Updated Readme file"
 ```
 
@@ -92,19 +92,19 @@ git commit -m "Updated Readme file"
 
 终端的右下角显示我提交了更改，检查了 Git 状态，并将更改推送到了 GitHub。`git status` 显示：
 
-```
+```Bash
 Your branch is ahead of 'origin/master' by 1 commit
   (use "git push" to publish your local commits)
 ```
 
 第一行表示在本地仓库中有一个提交，但不在 `origin/master` 中（即在 GitHub 上）。下一行指示我们将这些更改推送到 `origin/master` 中，这就是我们所做的。（在本例中，请参阅本系列的第一篇文章，以唤醒你对 `origin` 含义的记忆。我将在下一篇文章中讨论分支的时候，解释 `master` 的含义。）
 
-### 添加新文件到 Git
+## 添加新文件到 Git
 
 现在我们修改了一个文件并在 GitHub 上更新了它，让我们创建一个新文件，将它添加到 Git，然后将其上传到 GitHub。
 运行：
 
-```
+```Bash
 echo "This is a new file" >> file.txt
 ```
 
@@ -112,13 +112,13 @@ echo "This is a new file" >> file.txt
 
 如果使用 `cat` 查看它：
 
-```
+```Bash
 cat file.txt
 ```
 
 你将看到文件的内容。现在继续运行：
 
-```
+```Bash
 git status
 ```
 
@@ -128,7 +128,7 @@ Git 报告说你的仓库中有一个未跟踪的文件（名为 `file.txt`）�
 
 我们需要告诉 Git 跟踪这个文件，以便我们可以提交并上传文件到我们的仓库。以下是执行该操作的命令：
 
-```
+```Bash
 git add file.txt
 git status
 ```
@@ -147,17 +147,17 @@ Git 现在已经将这个新文件上传到 GitHub；如果刷新 GitHub 页面�
 
 通过这些步骤，你可以创建尽可能多的文件，将它们添加到 Git 中，然后提交并将它们推送到 GitHub。
 
-### 从 Git 中删除文件
+## 从 Git 中删除文件
 
 如果我们发现我们犯了一个错误，并且需要从我们的仓库中删除 `file.txt`，该怎么办？一种方法是使用以下命令从本地副本中删除文件：
 
-```
+```Bash
 rm file.txt
 ```
 
 如果你现在做 `git status`，Git 就会说有一个文件 `not staged for commit`（未筹划提交），并且它已经从仓库的本地拷贝中删除了。如果我们现在运行：
 
-```
+```Bash
 git add file.txt
 git status
 ```
@@ -166,7 +166,7 @@ git status
 
 Git 会告诉我们已删除的文件正在进行提交。只要你提交此更改并将其推送到 GitHub，该文件也将从 GitHub 的仓库中删除。运行以下命令：
 
-```
+```Bash
 git commit -m "Delete file.txt"
 git push -u origin master
 ```
@@ -185,11 +185,10 @@ git push -u origin master
 
 via: https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files
 
-作者：[Kedar Vijay Kulkarni][a]
+作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
 译者：[MjSeven](https://github.com/MjSeven)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]:https://opensource.com/users/kkulkarn
-[1]:https://linux.cn/article-9319-1.html
+

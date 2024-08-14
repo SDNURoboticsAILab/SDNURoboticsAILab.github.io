@@ -12,19 +12,19 @@ Git 系列（四）：在 Git 中进行版本回退
 git checkout 命令的使用方式有两种。最常见的用途是从一个以前的提交中恢复文件，你也可以整个倒回磁带，切换到另一个分支。
 
 
-### 恢复一个文件
+## 恢复一个文件
 
 当你意识到一个本来很好文件被你完全改乱了。我们都这么干过：我们把文件放到一个地方，添加并提交，然后我们发现它还需要做点最后的调整，最后这个文件被搞得面目全非了。
 
 要把它恢复到最后的完好状态，使用 git checkout 从最后的提交（即 HEAD）中恢复：
 
-```
+```Bash
 $ git checkout HEAD filename
 ```
 
 如果你碰巧提交了一个错误的版本，你需要找回更早的版本，使用 git log 查看你更早的提交，然后从合适的提交中找回它：
 
-```
+```Bash
 $ git log --oneline
 79a4e5f bad take
 f449007 The second commit
@@ -36,14 +36,14 @@ $ git checkout 55df4c2 filename
 
 现在，以前的文件恢复到了你当前的位置。（任何时候你都可以用 git status 命令查看你的当前状态）因为这个文件改变了，你需要添加这个文件，再进行提交：
 
-```
+```Bash
 $ git add filename
 $ git commit -m 'restoring filename from first commit.'
 ```
 
 使用 Git log 验证你所提交的：
 
-```
+```Bash
 $ git log --oneline
 d512580 restoring filename from first commit
 79a4e5f bad take
@@ -53,13 +53,13 @@ f449007 The second commit
 
 从本质上讲，你已经倒好了磁带并修复了坏的地方，所以你需要重新录制正确的。
 
-### 回退时间线
+## 回退时间线
 
 恢复文件的另一种方式是回退整个 Git 项目。这里使用了分支的思想，这是另一种替代方法。
 
 如果你要回到历史提交，你要将 Git HEAD 回退到以前的版本才行。这个例子将回到最初的提交处：
 
-```
+```Bash
 $ git log --oneline
 d512580 restoring filename from first commit
 79a4e5f bad take
@@ -75,7 +75,7 @@ $ git checkout 55df4c2
 
 就像记录到一个空白磁带一样，把你的 Git HEAD 指到一个新的分支处：
 
-```
+```Bash
 $ git checkout -b remix
 Switched to a new branch 'remix'
 ```
@@ -84,7 +84,7 @@ Switched to a new branch 'remix'
 
 也可以不用改变时间线来做同样的事情。也许你很想这么做，但切换到一个临时的工作区只是为了尝试一些疯狂的想法。这在工作中完全是可以接受的，请看：
 
-```
+```Bash
 $ git status
 On branch master
 nothing to commit, working directory clean
@@ -97,20 +97,20 @@ Switched to a new branch 'crazy_idea'
 
 若要放弃你的想法，切换到你的主分支，假装新分支不存在：
 
-```
+```Bash
 $ git checkout master
 ```
 
 想要继续使用你的疯狂的想法，需要把它们拉回到主分支，切换到主分支然后合并新分支到主分支：
 
-```
+```Bash
 $ git checkout master
 $ git merge crazy_idea
 ```
 
 git 的分支功能很强大，开发人员在克隆仓库后马上创建一个新分支是很常见的做法；这样，他们所有的工作都在自己的分支上，可以提交并合并到主分支。Git 是很灵活的，所以没有“正确”或“错误”的方式（甚至一个主分支也可以与其所属的远程仓库分离），但分支易于分离任务和提交贡献。不要太激动，你可以如你所愿的有很多的 Git 分支。完全自由。
 
-### 远程协作
+## 远程协作
 
 到目前为止你已经在自己舒适而私密的家中维护着一个 Git 仓库，但如何与其他人协同工作呢？
 
@@ -120,7 +120,7 @@ git 的分支功能很强大，开发人员在克隆仓库后马上创建一个�
 
 当你以读写的方式克隆一个仓库时，克隆的仓库会继承自被称为 origin 的远程库。你可以看看你的克隆仓库的远程仓库：
 
-```
+```Bash
 $ git remote --verbose
 origin  seth@example.com:~/myproject.Git (fetch)
 origin  seth@example.com:~/myproject.Git (push)
@@ -130,13 +130,13 @@ origin  seth@example.com:~/myproject.Git (push)
 
 如果克隆没有继承 origin 远程库，或者如果你选择以后再添加，可以使用 `git remote` 命令：
 
-```
+```Bash
 $ git remote add seth@example.com:~/myproject.Git
 ```
 
 如果你修改了文件，想把它们发到有读写权限的 origin 远程库，使用 `git push`。第一次推送改变，必须也发送分支信息。不直接在主分支上工作是一个很好的做法，除非你被要求这样做：
 
-```
+```Bash
 $ git checkout -b seth-dev
 $ git add exciting-new-file.txt
 $ git commit -m 'first push to remote'
@@ -145,20 +145,20 @@ $ git push -u origin HEAD
 
 它会推送你当前的位置（HEAD）及其存在的分支到远程。当推送过一次后，以后每次推送可以不使用 -u 选项：
 
-```
+```Bash
 $ git add another-file.txt
 $ git commit -m 'another push to remote'
 $ git push origin HEAD
 ```
 
-### 合并分支
+## 合并分支
 
 当你工作在一个 Git 仓库时，你可以合并任意测试分支到主分支。当团队协作时，你可能想在将它们合并到主分支之前检查他们的改变：
 
-```
+```Bash
 $ git checkout contributor
 $ git pull
-$ less blah.txt  ### 检查改变的文件
+$ less blah.txt  ## 检查改变的文件
 $ git checkout master
 $ git merge contributor
 ```
@@ -175,10 +175,9 @@ $ git merge contributor
 
 via: https://opensource.com/life/16/7/how-restore-older-file-versions-git
 
-作者：[Seth Kenlon][a]
+作者：[Seth Kenlon](https://opensource.com/users/seth)
 译者：[strugglingyouth](https://github.com/strugglingyouth)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://opensource.com/users/seth

@@ -9,7 +9,7 @@ comments: true
 
 我正在一步步解释 Git 的方方面面。在使用 Git 近 15 年后，我已经非常习惯于 Git 的特性，很容易忘记它令人困惑的地方。
 
-因此，我在 [Mastodon][1] 上进行了调查：
+因此，我在 [Mastodon](https://social.jvns.ca/@b0rk/111330564535454510) 上进行了调查：
 
 > 你有觉得哪些 Git 术语很让人困惑吗？我计划写篇博客，来解读 Git 中一些奇怪的术语，如：“分离的 HEAD 状态”，“快速前移”，“索引/暂存区/已暂存”，“比 `origin/main` 提前 1 个提交”等等。
 
@@ -37,24 +37,24 @@ comments: true
 
 我已经尽力讲解了这些术语，但它们几乎覆盖了 Git 的每一个主要特性，这对一篇博客而言显然过于繁重，所以在某些地方可能会有一些粗糙。
 
-### `HEAD` 和 “heads”
+## `HEAD` 和 “heads”
 
 有些人表示他们对 `HEAD` 和 `refs/heads/main` 这些术语感到困惑，因为听起来像是一些复杂的技术内部实现。
 
 以下是一个快速概述：
 
-  * “heads” 就是 “分支”。在 Git 内部，分支存储在一个名为 `.git/refs/heads` 的目录中。（从技术上讲，[官方 Git 术语表][21] 中明确表示分支是所有的提交，而 head 只是最近的提交，但这只是同一事物的两种不同思考方式）
+  * “heads” 就是 “分支”。在 Git 内部，分支存储在一个名为 `.git/refs/heads` 的目录中。（从技术上讲，[官方 Git 术语表](https://git-scm.com/docs/gitglossary) 中明确表示分支是所有的提交，而 head 只是最近的提交，但这只是同一事物的两种不同思考方式）
   * `HEAD` 是当前的分支，它被存储在 `.git/HEAD` 中。
 
 我认为，“head 是一个分支，`HEAD` 是当前的分支” 或许是 Git 中最奇怪的术语选择，但已经设定好了，想要更清晰的命名方案已经为时已晚，我们继续。
 
 “HEAD 是当前的分支” 有一些重要的例外情况，我们将在下面讨论。
 
-### “分离的 HEAD 状态”
+## “分离的 HEAD 状态”
 
 你可能已经看到过这条信息：
 
-```
+```Bash
 $ git checkout v0.1
 You are in 'detached HEAD' state. You can look around, make experimental
 changes and commit them, and you can discard any commits you make in this
@@ -79,7 +79,7 @@ state without impacting any branches by switching back to a branch.
     * `git commit`、`git merge`、`git rebase` 和 `git cherry-pick` 仍然可以工作，但它们会留下“孤儿”提交，这些提交没有连接到任何分支，因此找到这些提交会很困难
   * 你可以通过创建一个新的分支或切换到一个现有的分支来退出分离的 `HEAD` 状态
 
-### 在合并或变基中的 “ours” 和 “theirs”
+## 在合并或变基中的 “ours” 和 “theirs”
 
 遇到合并冲突时，你可以运行 `git checkout --ours file.txt` 来选择 “ours” 版本中的 `file.txt`。但问题是，什么是 “ours”，什么是 “theirs” 呢？
 
@@ -87,25 +87,25 @@ state without impacting any branches by switching back to a branch.
 
 在合并的过程中，这是如何运作的：当前分支是 “ours”，你要合并进来的分支是 “theirs”，这样看来似乎很合理。
 
-```
+```Bash
 $ git checkout merge-into-ours # 当前分支是 “ours”
 $ git merge from-theirs # 我们正要合并的分支是 “theirs”
 ```
 
 而在变基的过程中就刚好相反 —— 当前分支是 “theirs”，我们正在变基到的目标分支是 “ours”，如下：
 
-```
+```Bash
 $ git checkout theirs # 当前分支是 “theirs”
 $ git rebase ours # 我们正在变基到的目标分支是 “ours”
 ```
 
 我以为之所以会如此，因为在操作过程中，`git rebase main` 其实是将当前分支合并到 `main` （它类似于 `git checkout main; git merge current_branch`），尽管如此我仍然觉得此类术语会造成混淆。
 
-[这个精巧的小网站][22] 对 “ours” 和 “theirs” 的术语进行了解释。
+[这个精巧的小网站](https://nitaym.github.io/ourstheirs/) 对 “ours” 和 “theirs” 的术语进行了解释。
 
 人们也提到，VSCode 将 “ours”/“theirs” 称作 “当前的更改”/“收到的更改”，同样会引起混淆。
 
-### “你的分支已经与 `origin/main` 同步”
+## “你的分支已经与 `origin/main` 同步”
 
 此信息貌似很直白 —— 你的 `main` 分支已经与源端同步！
 
@@ -115,7 +115,7 @@ $ git rebase ours # 我们正在变基到的目标分支是 “ours”
 
 我认为 Git 理论上可以给出一个更有用的信息，像是“与五天前上一次获取的源端 `main` 是同步的”，因为最新一次获取的时间是在 reflog 中记录的，但它没有这么做。
 
-### `HEAD^`、`HEAD~`、`HEAD^^`、`HEAD~~`、`HEAD^2`、`HEAD~2`
+## `HEAD^`、`HEAD~`、`HEAD^^`、`HEAD~~`、`HEAD^2`、`HEAD~2`
 
 我早就清楚 `HEAD^` 代表前一次提交，但我很长一段时间都困惑于 `HEAD~` 和 `HEAD^` 之间的区别。
 
@@ -135,16 +135,16 @@ $ git rebase ours # 我们正在变基到的目标分支是 “ours”
 
 我想，从我们之前对合并提交 “ours”/“theirs” 的讨论来看，`HEAD^` 是 “ours”，`HEAD^2` 是 “theirs”。
 
-### `..` 和 `...`
+## `..` 和 `...`
 
 这是两个命令：
 
 - `git log main..test`
 - `git log main...test`
 
-我从没用过 `..` 和 `...` 这两个命令，所以我得查一下 [man git-range-diff][23]。我的理解是比如这样一个情况：
+我从没用过 `..` 和 `...` 这两个命令，所以我得查一下 [man git-range-diff](https://git-scm.com/docs/git-range-diff)。我的理解是比如这样一个情况：
 
-```
+```Bash
 A - B main
   \
     C - D test
@@ -159,13 +159,13 @@ A - B main
 - `git log test..main` 显示在 `main` 而不在 `test` 的更改，但是 `git log test...main` 则会显示 _两边_ 的改动。
 - `git diff test..main` 显示 `test` 变动 _和_ `main` 变动（它比较 `B` 和 `D`），而 `git diff test...main` 会比较 `A` 和 `D`（它只会给你显示一边的差异）。
 
-有关这个的更多讨论可以参考 [这篇博客文章][24]。
+有关这个的更多讨论可以参考 [这篇博客文章](https://matthew-brett.github.io/pydagogue/pain_in_dots.html)。
 
-### “可以快速前移”
+## “可以快速前移”
 
 在 `git status` 中，我们会经常遇到如下的信息：
 
-```
+```Bash
 $ git status
 On branch main
 Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
@@ -176,14 +176,14 @@ Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
 
 但“快速前移” 到底是何意？本质上，它在告诉我们这两个分支基本如下图所示（最新的提交在右侧）：
 
-```
+```Bash
 main:        A - B - C
 origin/main: A - B - C - D - E
 ```
 
 或者，从另一个角度理解就是：
 
-```
+```Bash
 A - B - C - D - E (origin/main)
         |
         main
@@ -193,14 +193,14 @@ A - B - C - D - E (origin/main)
 
 运行完 `git pull` 之后，你会得到如下状态：
 
-```
+```Bash
 main:        A - B - C - D - E
 origin/main: A - B - C - D - E
 ```
 
 下面这个例子展示了一种**不能**快速前进的状态。
 
-```
+```Bash
 A - B - C - X  (main)
         |
         - - D - E  (origin/main)
@@ -208,7 +208,7 @@ A - B - C - X  (main)
 
 此时，`main` 分支上有一个 `origin/main` 分支上无的提交（`X`），所以无法执行快速前移。在此种情况，`git status` 就会如此显示：
 
-```
+```Bash
 $ git status
 Your branch and 'origin/main' have diverged,
 and have 1 and 2 different commits each, respectively.
@@ -216,21 +216,21 @@ and have 1 and 2 different commits each, respectively.
 
 （你的分支和 `origin/main` 分支已经产生了分歧，其中各有 1 个和 2 个不同的提交。）
 
-### “引用”、“符号引用”
+## “引用”、“符号引用”
 
 在使用 Git 时，“引用” 一词可能会使人混淆。实际上，Git 中被称为 “引用” 的实例至少有三种：
 
   * 分支和标签，例如 `main` 和 `v0.2`
   * `HEAD`，代表当前活跃的分支
-  * 诸如 `HEAD^^^` 这样的表达式，Git 会将其解析成一个提交 ID。确切说，这可能并非 “引用”，我想 Git [将其称作][25] “版本参数”，但我个人并未使用过这个术语。
+  * 诸如 `HEAD^^^` 这样的表达式，Git 会将其解析成一个提交 ID。确切说，这可能并非 “引用”，我想 Git [将其称作](https://git-scm.com/docs/revisions) “版本参数”，但我个人并未使用过这个术语。
 
 个人而言，“符号引用” 这个术语颇为奇特，因为我觉得我只使用过 `HEAD`（即当前分支）作为符号引用。而 `HEAD` 在 Git 中占据核心位置，多数 Git 核心命令的行为都基于 `HEAD` 的值，因此我不太确定将其泛化成一个概念的实际意义。
 
-### refspecs
+## refspecs
 
 在 `.git/config` 配置 Git 远程仓库时，你可能会看到这样的代码 `+refs/heads/main:refs/remotes/origin/main` 。
 
-```
+```Bash
 [remote "origin"]
     url = git@github.com:jvns/pandas-cookbook
     fetch = +refs/heads/main:refs/remotes/origin/main
@@ -238,11 +238,11 @@ and have 1 and 2 different commits each, respectively.
 
 我对这段代码的含义并不十分清楚，我通常只是在使用 `git clone` 或 `git remote add` 配置远程仓库时采用默认配置，并没有动机去深究或改变。
 
-### “tree-ish”
+## “tree-ish”
 
 在 `git checkout` 的手册页中，我们可以看到：
 
-```
+```Bash
 git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <pathspec>...
 ```
 
@@ -255,7 +255,7 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
 
 对我个人来说，“提交内的目录”这个功能我从未使用过，从我的视角看，`tree-ish` 可以解读为“提交或对提交的引用”。
 
-### “索引”、“暂存”、“缓存”
+## “索引”、“暂存”、“缓存”
 
 这些术语都指向的是同一样东西（文件 `.git/index`，当你执行 `git add` 时，你的变动会在这里被暂存）：
 
@@ -266,10 +266,10 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
 
 尽管它们都是指向同一个文件，但在实际使用中，这些术语的应用方式有所不同：
 
-  * 很显然，`--index` 和 `--cached` 并不总是表示同一种意思。我自己从未使用 `--index`，所以具体细节我就不展开讨论了，但是你可以在 Junio Hamano（Git 的主管维护者）[的博客文章][26] 中找到详细解释。
+  * 很显然，`--index` 和 `--cached` 并不总是表示同一种意思。我自己从未使用 `--index`，所以具体细节我就不展开讨论了，但是你可以在 Junio Hamano（Git 的主管维护者）[的博客文章](https://gitster.livejournal.com/39629.html) 中找到详细解释。
   * “索引” 会包含未跟踪的文件（我猜可能是对性能的考虑），但你通常不会把未跟踪的文件考虑在“暂存区”内。
 
-### “重置”、“还原”、“恢复”
+## “重置”、“还原”、“恢复”
 
 许多人提到，“<ruby>重置<rt>reset</rt></ruby>”、“<ruby>还原<rt>revert</rt></ruby>” 和 “<ruby>恢复<rt>restore</rt></ruby>” 这三个词非常相似，易使人混淆。
 
@@ -289,7 +289,7 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
   * 还原 —— `git reset --hard COMMIT`: 强行将当前分支回退到 `COMMIT` 所在的状态，抹去自 `COMMIT` 以来的所有更改。这是一个高风险的操作。
   * 恢复 —— `git restore --source=COMMIT PATH`: 将 `PATH` 中的所有文件回退到 `COMMIT` 当时的状态，而不扰乱其他文件或提交历史。
 
-### “未跟踪的文件”、“远程跟踪分支”、“跟踪远程分支”
+## “未跟踪的文件”、“远程跟踪分支”、“跟踪远程分支”
 
 在 Git 中，“跟踪” 这个词以三种相关但不同的方式使用：
 
@@ -309,7 +309,7 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
 
 我以前没有深入思考过这种模糊的地方，但我认为很容易看出为什么它会让人感到困惑。
 
-### 签出
+## 签出
 
 签出做了两个完全无关的事情：
 
@@ -322,7 +322,7 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
 
 我觉得有时你可能需要在 `checkout` 命令后面加上`--`，帮助区分哪个参数是分支名，哪个是路径，但我并未这么使用过，也不确定何时需要这样做。
 
-### 参考日志（reflog）
+## 参考日志（reflog）
 
 有很多人把 `reflog` 读作 `re-flog`，而不是 `ref-log`。由于本文已经足够长，我这里不会深入讨论参考日志，但值得注意的是：
 
@@ -331,7 +331,7 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
   * 它是从一些极端困境中拯救出来的利器，比如说你不小心删除了重要的分支
   * 我觉得参考日志是 Git 用户界面中最难懂的部分，我总是试图避免使用它。
 
-### 合并 vs 变基 vs 遴选
+## 合并 vs 变基 vs 遴选
 
 有许多人提及他们常常对于合并和变基的区别感到迷惑，并且不理解变基中的“<ruby>基<rt>base</rt></ruby>”指的是什么。
 
@@ -341,13 +341,13 @@ git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths
   * 变基则会逐个地把当前分支上的提交复制到目标分支
   * 遴选跟变基类似，但是语法完全不同（一个显著的差异是变基是从当前分支复制提交，而遴选则会把提交复制到当前分支）
 
-### `rebase --onto`
+## `rebase --onto`
 
 在 `git rebase` 中，存在一个被称为 `--onto` 的选项。这一直让我感到困惑，因为 `git rebase main` 的核心功能就是将当前分支变基**到** `main` 运行上。那么，额外的 `--onto` 参数又是怎么回事呢？
 
 我进行了一番查找，`--onto` 显然解决了一个我几乎没有或者说从未遇到过的问题，但我还是会记录下我对它的理解。
 
-```
+```Bash
 A - B - C (main)
       \
       D - E - F - G (mybranch)
@@ -359,7 +359,7 @@ A - B - C (main)
 
 显然，你可以运行 `git rebase --onto main otherbranch mybranch` 来完成这个操作。对我来说，在这个语法中记住 3 个不同的分支名顺序似乎是不可能的（三个分支名，对我来说实在太多了），但由于我从很多人那里听说过，我想它一定有它的用途。
 
-### 提交
+## 提交
 
 有人提到他们对 Git 中的提交作为一词双义（既作为动词也作为名词）的用法感到困惑。
 
@@ -380,7 +380,7 @@ A - B - C (main)
 
 然而，Git 的术语并无太多助于你理解一个给定的命令正在如何使用提交。
 
-### 更多令人困惑的术语
+## 更多令人困惑的术语
 
 以下是更多让人觉得混淆的术语。我对许多这些术语的意思并不十分清楚。
 
@@ -409,11 +409,11 @@ A - B - C (main)
   * “<ruby>拉取请求<rt>pull request</rt></ruby>” （与 Gitlab 中的 “<ruby>合并请求<rt>merge request</rt></ruby>” 相比，人们似乎认为后者更清晰）
   * “压扁并合并” 和 “变基并合并” 的作用 （在昨天我从未听说过 `git merge --squash`，我一直以为 “压扁并合并” 是 Github 的特殊功能）
 
-### 确实是 “每个 Git 术语”
+## 确实是 “每个 Git 术语”
 
 我惊讶地发现，几乎 Git 的每个其他核心特性都被至少一人提及为某种方式中的困惑。我对听到更多我错过的混淆的 Git 术语的例子也有兴趣。
 
-关于这个，有另一篇很棒的 2012 年的文章叫做《[最困惑的 Git 术语][27]》。它更多的讨论的是 Git 术语与 CVS 和 Subversion 术语的关联。
+关于这个，有另一篇很棒的 2012 年的文章叫做《[最困惑的 Git 术语](https://longair.net/blog/2012/05/07/the-most-confusing-git-terminology/)》。它更多的讨论的是 Git 术语与 CVS 和 Subversion 术语的关联。
 
 如果我要选出我觉得最令人困惑的 3 个 Git 术语，我现在会选：
 
@@ -421,7 +421,7 @@ A - B - C (main)
   * “远程跟踪分支” 和 “跟踪远程的分支” 是不同的事物
   * “索引”、“暂存的”、“已缓存的” 全部指的同一件事
 
-### 就这样了！
+## 就这样了！
 
 在写这些的过程中，我学到了不少东西。我了解到了一些新的关于Git的事实，但更重要的是，现在我对于别人说Git的所有功能和特性都引起困惑有了更深的理解。
 
@@ -435,40 +435,38 @@ A - B - C (main)
 
 via: https://jvns.ca/blog/2023/11/01/confusing-git-terminology/
 
-作者：[Julia Evans][a]
-选题：[lujun9972][b]
+作者：[Julia Evans](https://jvns.ca/)
+选题：[lujun9972](https://github.com/lujun9972)
 译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://jvns.ca/
-[b]: https://github.com/lujun9972
-[1]: https://social.jvns.ca/@b0rk/111330564535454510
-[2]: tmp.MK9dzkPKFA#head-and-heads
-[3]: tmp.MK9dzkPKFA#detached-head-state
-[4]: tmp.MK9dzkPKFA#ours-and-theirs-while-merging-or-rebasing
-[5]: tmp.MK9dzkPKFA#your-branch-is-up-to-date-with-origin-main
-[6]: tmp.MK9dzkPKFA#head-head-head-head-head-2-head-2
-[7]: tmp.MK9dzkPKFA#and
-[8]: tmp.MK9dzkPKFA#can-be-fast-forwarded
-[9]: tmp.MK9dzkPKFA#reference-symbolic-reference
-[10]: tmp.MK9dzkPKFA#refspecs
-[11]: tmp.MK9dzkPKFA#tree-ish
-[12]: tmp.MK9dzkPKFA#index-staged-cached
-[13]: tmp.MK9dzkPKFA#reset-revert-restore
-[14]: tmp.MK9dzkPKFA#untracked-files-remote-tracking-branch-track-remote-branch
-[15]: tmp.MK9dzkPKFA#checkout
-[16]: tmp.MK9dzkPKFA#reflog
-[17]: tmp.MK9dzkPKFA#merge-vs-rebase-vs-cherry-pick
-[18]: tmp.MK9dzkPKFA#rebase-onto
-[19]: tmp.MK9dzkPKFA#commit
-[20]: tmp.MK9dzkPKFA#more-confusing-terms
-[21]: https://git-scm.com/docs/gitglossary
-[22]: https://nitaym.github.io/ourstheirs/
-[23]: https://git-scm.com/docs/git-range-diff
-[24]: https://matthew-brett.github.io/pydagogue/pain_in_dots.html
-[25]: https://git-scm.com/docs/revisions
-[26]: https://gitster.livejournal.com/39629.html
-[27]: https://longair.net/blog/2012/05/07/the-most-confusing-git-terminology/
-[0]: https://img.linux.net.cn/data/attachment/album/202312/07/200630j90z4xz7tttgztr9.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

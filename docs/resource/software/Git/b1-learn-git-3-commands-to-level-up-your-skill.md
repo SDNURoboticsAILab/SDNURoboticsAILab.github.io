@@ -9,28 +9,28 @@ comments: true
 
 > 学习如何使用 Git 来压扁、变基和精选。
 
-当我与别人谈到 Git 时，几乎每个人都对 [git rebase 命令][1] 有强烈的印象，这个命令让许多人遇到了问题，而不得不更改目录、删除仓库、然后再重新克隆一个仓库。我认为这是因为他们误解了分支是如何工作，遇到了一个非常糟糕的默认界面，还有一些合并冲突把事情搞得一团糟。
+当我与别人谈到 Git 时，几乎每个人都对 [git rebase 命令](https://opensource.com/article/20/4/git-rebase-i) 有强烈的印象，这个命令让许多人遇到了问题，而不得不更改目录、删除仓库、然后再重新克隆一个仓库。我认为这是因为他们误解了分支是如何工作，遇到了一个非常糟糕的默认界面，还有一些合并冲突把事情搞得一团糟。
 
-### 怎么找不到 git squash 命令？
+## 怎么找不到 git squash 命令？
 
 如果你曾在本地的仓库提交过很多次，并希望能把这些提交都合并为一个提交，接下来，我们就来介绍能用什么 Git 命令达到这个目的。Git 称这个概念为 “<ruby>压扁提交<rt> squash commits </rt></ruby>”。我在编写文档时发现了这个概念：我花了十几个提交才修改好我的 Markdown 文档，但是仓库的维护者不想看到我的所有尝试，以免扰乱了该项目的历史，所以我被告知“需要压扁你的提交”。
 
 **压扁提交**听起来是一个很有用的方法。但是只有一个问题：我不知道该怎么做。作为 Git 的新手，我做了任何人会做的事情：我去查阅 `git-squash` 的手册，但我立即遇到了阻碍：
 
-```
+```Bash
 $ man git-squash
 > No manual entry for git-squash
 ```
 
-我发现没有一个名为 `squash` 的 Git 命令，而是被要求 [运行一个完全独立的命令：git rebase 命令][2]，该命令能将我的所有提交最终合并为一个提交。
+我发现没有一个名为 `squash` 的 Git 命令，而是被要求 [运行一个完全独立的命令：git rebase 命令](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command)，该命令能将我的所有提交最终合并为一个提交。
 
 我知道我碰到一个常见的情形：已经使用工具一段时间的人使用了**行话**或引用了一个概念，这个概念对他们来说是非常清楚的，但对新手来说就不能明白了。从概念上讲，这个情况看起来是这样的：
 
-![Image of 6 bowls of different colored spices, and an arrow pointing to the second image of all the spices blended into one bowl.][3]
+![Image of 6 bowls of different colored spices, and an arrow pointing to the second image of all the spices blended into one bowl.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.spices.png)
 
 我这样说是为了鼓励你，你绝对不是第一个或最后一个 _被 Git 或谈论 Git 的人_ 弄糊涂的人。你可以要求对方说明白他的意见，并帮助你应该使用的正确命令。仓库的维护者实际上的意思是，“使用 `git rebase` 命令**，将很多提交压扁成一个提交”。
 
-### 现在就来学习 git rebase 命令吧
+## 现在就来学习 git rebase 命令吧
 
 `git rebase` 命令会将一个提交链从其第一个父级中删除，并将其放置在另一个提交链的末尾，将两个提交链组合成一个长链，而不是两个并行链。我意识到这是一个很复杂的定义。
 
@@ -38,7 +38,7 @@ $ man git-squash
 
 在 Git 中整合来自不同分支的修改主要有两种方法：<ruby>合并<rt>merge</rt></ruby> 以及 <ruby>变基<rt>rebase</rt></ruby>，你可能更熟悉 `git merge` 命令。接下来，就来看看 [git-scm.com] 是如何解释 `git merge` 和 `git rebase` 的差异：
 
-![Image of Git merge versus git rebase shown as numbered bubbles.][5]
+![Image of Git merge versus git rebase shown as numbered bubbles.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.gitmerger.png)
 
 在合并示例中，它会把两个分支的最新快照（`C3` 和 `C4`）以及二者最近的共同祖先（`C2`）进行三方合并，合并的结果是生成一个新的快照（`C5`）。`experiment` 的分支指针仍然存在，仍然指向 `C4`。
 
@@ -46,7 +46,7 @@ $ man git-squash
 
 （LCTT 译注：具体的命令如下：
 
-```
+```Bash
 $ git checkout experiment
 $ git rebase main
 First, rewinding head to replay your work on top of it...
@@ -59,7 +59,7 @@ Applying: added staged command
 
 （LCTT 译注：具体的命令如下：
 
-```
+```Bash
 $ git checkout main
 $ git merge experiment
 ```
@@ -72,11 +72,11 @@ $ git merge experiment
 
 （LCTT 译注：使用 `git rebase` 命令将提交到某一分支上的所有修改都移至另一分支上，就好像“重新播放”一样。）
 
-#### 交互式变基能给你一个更友好的界面！
+### 交互式变基能给你一个更友好的界面！
 
 从命令行执行 `git rebase` 命令，最可怕的地方在于它**糟糕的默认界面**。运行命令 `git rebase <target-refr>` 要么有效，要么会变得一团糟，因为它没有太多的反馈或方法来确保它做你想做的事情。幸运的是，`git rebase` 命令和许多其他 Git 命令一样，具有 <ruby>交互模式<rt> interactive mode </rt></ruby>，你可以使用参数 `-i` 或者 `-interactive` 来使用交互模式。
 
-![Image of the Git lens interactive Rebase tool in VS Code.][6]
+![Image of the Git lens interactive Rebase tool in VS Code.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.GitLens%20Interactive%20Rebase%20tool%20in%20VS%20Code.png)
 
 在使用交互式模式时，`git rebase` 会从一个糟糕的黑框界面转换为一个**选项菜单**，允许你选择对正在变基的提交链所做的事。对于每个提交，你可以**选择**：
 
@@ -87,9 +87,9 @@ $ git merge experiment
 - <ruby>修理<rt>fixup</rt></ruby>：将多个提交压缩成一个提交，但只保留最后一个提交消息
 - <ruby>丢弃<rt>drop</rt></ruby>：丢弃此提交
 
-就我个人而言，我更喜欢 [VS Code 的开源 GitLens 扩展][7] 使用下拉选择列表布局选项的方式，但 Git 允许你使用任何编辑器选择这些选项。对于 Emacs 或 Vim 等纯文本工具，你需要键入选择，而不是从菜单中选择，但最终结果仍然是相同的。
+就我个人而言，我更喜欢 [VS Code 的开源 GitLens 扩展](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 使用下拉选择列表布局选项的方式，但 Git 允许你使用任何编辑器选择这些选项。对于 Emacs 或 Vim 等纯文本工具，你需要键入选择，而不是从菜单中选择，但最终结果仍然是相同的。
 
-#### 何时做变基
+### 何时做变基
 
 知道 _何时_ 做变基与知道 _如何_ 做变基同样重要。事实上，如果你不在乎你的仓库历史提交消息有点混乱的话，那么你可以永远都不使用 `git rebase` 命令。但是，如果你想要更干净的历史提交消息，并且想要更少扰乱你的图形视图的提交，那么当你使用 `git rebase` 命令时，有一个重要的**经验法则**需要时刻记住：
 
@@ -101,23 +101,23 @@ $ git merge experiment
 
 希望你会认为上述内容有助于你理解 `git rebase` 命令的工作原理，并能让你更有信心地使用它。与任何 Git 命令一样，**练习**是学习和理解怎么做的唯一方法。我鼓励你勇敢地尝试 <ruby>交互式变基<rt> interactive rebase </rt></ruby> `git rebase -i <branch name>`！
 
-### 接下来学习 Git cherry-pick 命令吧
+## 接下来学习 Git cherry-pick 命令吧
 
 大多数开发人员将修改提交到某一分支上，但是之后发现他们一直**提交到了错误的分支上**。理想情况下，他们可以拿走那个提交，然后把它移到正确的分支，这正是 `git cherry-pick` 命令的作用。
 
 `git cherry-pick` 命令利用了变基单个提交的方法。这一用法非常常见，以至于有了它自己的命令。
 
-![Image of a woman picking a cherry from one tree and putting on another tree.][8]
+![Image of a woman picking a cherry from one tree and putting on another tree.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.cherrypicking.png)
 
 要使用 `git cherry-pick`，你只需告诉 Git 你要移动到“那个分支”的提交 ID（由 `HEAD` 指向）：
 
-```
+```Bash
 $ git cherry-pick <target-ref>
 ```
 
 如果出现问题，你可以根据 Git 提供的错误消息，来进行恢复：
 
-```
+```Bash
 $ git cherry-pick -i 2bc01cd
 Auto-merging README.md
 CONFLICT (content): Merge conflict in README.md
@@ -131,7 +131,7 @@ hint: run "git cherry-pick --abort".
 $ git cherry-pick --abort
 ```
 
-### 让 Git 更强大
+## 让 Git 更强大
 
 `git rebase` 命令是 Git 实用程序强大的地方之一。你最好在测试仓库中先练习一下怎么使用，一旦你熟悉了它的概念和工作流程，你就可以给仓库一个清晰历史消息记录了。
 
@@ -139,21 +139,19 @@ $ git cherry-pick --abort
 
 via: https://opensource.com/article/22/11/advanced-git-commands
 
-作者：[Dwayne McDaniel][a]
-选题：[lkxed][b]
+作者：[Dwayne McDaniel](https://opensource.com/users/dwaynemcdaniel)
+选题：[lkxed](https://github.com/lkxed)
 译者：[chai001125](https://github.com/chai001125)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://opensource.com/users/dwaynemcdaniel
-[b]: https://github.com/lkxed
-[1]: https://opensource.com/article/20/4/git-rebase-i
-[2]: https://opensource.com/article/22/4/manage-git-commits-rebase-i-command
-[3]: https://opensource.com/sites/default/files/2022-11/gitbeyond2.spices.png
-[4]: http://git-scm.com
-[5]: https://opensource.com/sites/default/files/2022-11/gitbeyond2.gitmerger.png
-[6]: https://opensource.com/sites/default/files/2022-11/gitbeyond2.GitLens%20Interactive%20Rebase%20tool%20in%20VS%20Code.png
-[7]: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-[8]: https://opensource.com/sites/default/files/2022-11/gitbeyond2.cherrypicking.png
-[0]: https://img.linux.net.cn/data/attachment/album/202212/07/133637yq2526zsp7f1t7a2.jpg
+
+
+
+
+
+
+
+
+

@@ -9,7 +9,7 @@ Git 系列（五）：三个 Git 图形化工具
 
 我是在这许多漂亮界面出来之前学习的 Git，而且我的日常工作经常是基于字符界面的，所以 Git 本身自带的大部分功能已经足够我用了。在我看来，最好能理解 Git 的工作原理。不过，能有的选也不错，下面这些就是能让你不用终端就可以开始使用 Git 的一些方式。
 
-### KDE Dolphin 里的 Git
+## KDE Dolphin 里的 Git
 
 我是一个 KDE 用户，如果不在 Plasma 桌面环境下，就是在 Fluxbox 的应用层。Dolphin 是一个非常优秀的文件管理器，有很多配置项以及大量秘密小功能。大家为它开发的插件都特别好用，其中一个几乎就是完整的 Git 界面。是的，你可以直接在自己的桌面上很方便地管理你的 Git 仓库。
 
@@ -35,7 +35,7 @@ Git 系列（五）：三个 Git 图形化工具
 
 不过别急，还有好多呢！
 
-### Sparkleshare
+## Sparkleshare
 
 SparkleShare 来自桌面环境的另一大阵营，由一些 GNOME 开发人员发起，一个使用文件同步模型 (“就像 Dropbox 一样!”) 的项目。不过它并没有集成任何 GNOME 特有的组件，所以你可以在任何平台使用。
 
@@ -59,15 +59,15 @@ SparkleShare 支持本地 Git 项目，也可以是存放在像 GitHub 和 Bitbu
 
 SparkleShare 可能不适合所有人，但是它是一个强大而且简单的 Git 解决方案，展示了不同的开源项目完美地协调整合到一起后所创造出的独特项目。
 
-### Git-cola
+## Git-cola
 
 另一种配合 Git 仓库工作的模型，没那么原生，更多的是监视方式；不是使用一个集成的应用程序和你的 Git 项目直接交互，而是你可以使用一个桌面客户端来监视项目改动，并随意处理每一个改动。这种方式的一个优势就是专注。当你实际只用到项目里的三个文件的时候，你可能不会关心所有的 125 个文件，能将这三个文件挑出来就很方便了。
 
-如果你觉得有好多 Git 托管网站，那只是你还不知道 Git 客户端有多少。[桌面上的 Git 客户端][1] 上有一大把。实际上，Git 默认自带一个图形客户端。它们中最跨平台、最可配置的就是开源的 [Git-cola][2] 客户端，用 Python 和 Qt 写的。
+如果你觉得有好多 Git 托管网站，那只是你还不知道 Git 客户端有多少。[桌面上的 Git 客户端](https://git-scm.com/downloads/guis) 上有一大把。实际上，Git 默认自带一个图形客户端。它们中最跨平台、最可配置的就是开源的 [Git-cola](https://git-cola.github.io/) 客户端，用 Python 和 Qt 写的。
 
-如果你在用 Linux，Git-cola 应该在你的软件仓库里就有。不是的话，可以直接从它的[网站下载][2]并安装：
+如果你在用 Linux，Git-cola 应该在你的软件仓库里就有。不是的话，可以直接从它的[网站下载](https://git-cola.github.io/)并安装：
 
-```
+```Bash
 $ python setup.py install
 ```
 
@@ -95,7 +95,7 @@ Git-cola 的默认布局不是线性的。我喜欢从左向右分布，因为 G
 
 有很多 Git 图形客户端。有些是不提供源代码的付费软件，有些只是用来查看，有些尝试加入新的特定术语（用 "sync" 替代 "push" ...?) 来重造 Git，也有一些只适合特定的平台。Git-cola 一直是能在任意平台上使用的最简单的客户端，也是最贴近纯粹 Git 命令的，可以让用户在使用过程中学习 Git，即便是高手也会很满意它的界面和术语。
 
-### Git 命令还是图形界面？
+## Git 命令还是图形界面？
 
 我一般不用图形工具来操作 Git；一般我使用上面介绍的工具时，只是帮助其他人找出适合他们的界面。不过，最终归结于怎么适合你的工作。我喜欢基于终端的 Git 命令是因为它可以很好地集成到 Emacs 里，但如果某天我几乎都在用 Inkscape 工作时，我一般会很自然地使用 Dolphin 里带的 Git，因为我在 Dolphin 环境里。
 
@@ -108,12 +108,11 @@ Git-cola 的默认布局不是线性的。我喜欢从左向右分布，因为 G
 
 via: https://opensource.com/life/16/8/graphical-tools-git
 
-作者：[Seth Kenlon][a]
+作者：[Seth Kenlon](https://opensource.com/users/seth)
 译者：[zpl1025](https://github.com/zpl1025)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://opensource.com/users/seth
-[1]: https://git-scm.com/downloads/guis
-[2]: https://git-cola.github.io/
+
+

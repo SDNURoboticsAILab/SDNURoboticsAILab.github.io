@@ -7,7 +7,7 @@ Git 系列（三）：建立你的第一个 Git 仓库
 
 现在是时候学习怎样创建你自己的 Git 仓库了，还有怎样增加文件和完成提交。
 
-在本系列[前面的文章][4]中，你已经学习了怎样作为一个最终用户与 Git 进行交互；你就像一个漫无目的的流浪者一样偶然发现了一个开源项目网站，克隆了仓库，然后你就可以继续钻研它了。你知道了和 Git 进行交互并不像你想的那样困难，或许你只是需要被说服现在去使用 Git 完成你的工作罢了。
+在本系列[前面的文章](https://linux.cn/article-7641-1.html)中，你已经学习了怎样作为一个最终用户与 Git 进行交互；你就像一个漫无目的的流浪者一样偶然发现了一个开源项目网站，克隆了仓库，然后你就可以继续钻研它了。你知道了和 Git 进行交互并不像你想的那样困难，或许你只是需要被说服现在去使用 Git 完成你的工作罢了。
 
 虽然 Git 确实是被许多重要软件选作版本控制工具，但是并不是仅能用于这些重要软件；它也能管理你购物清单（如果它们对你来说很重要的话，当然可以了！）、你的配置文件、周报或日记、项目进展日志、甚至源代码！
 
@@ -15,7 +15,7 @@ Git 系列（三）：建立你的第一个 Git 仓库
 
 Git 无法帮助你，除非你开始使用它，而现在就是开始学习和使用它的最好时机。或者，用 Git 的话来说，“没有其他的 `push` 能像 `origin HEAD` 一样有帮助了”（千里之行始于足下的意思）。我保证，你很快就会理解这一点的。
 
-### 类比于录音
+## 类比于录音
 
 我们经常用名词“快照”来指代计算机上的镜像，因为很多人都能够对插满了不同时光的照片的相册充满了感受。这很有用，不过，我认为 Git 更像是进行一场录音。
 
@@ -29,7 +29,7 @@ Git 无法帮助你，除非你开始使用它，而现在就是开始学习和�
 
 现在我希望对于上述的上世纪 70 年代的录音工作的描述足够生动，这样我们就可以把 Git 的工作想象成一个录音工作了。
 
-### 新建一个 Git 仓库
+## 新建一个 Git 仓库
 
 首先得为我们的虚拟的录音机买一些磁带。用 Git 的话说，这些磁带就是*仓库*；它是完成所有工作的基础，也就是说这里是存放 Git 文件的地方（即 Git 工作区）。
 
@@ -41,7 +41,7 @@ Git 无法帮助你，除非你开始使用它，而现在就是开始学习和�
 
 也就是运行如下代码：
 
-```
+```Bash
 $ mkdir ~/jupiter  # 创建目录
 $ cd ~/jupiter     # 进入目录
 $ git init .       # 初始化你的新 Git 工作区
@@ -63,7 +63,7 @@ $ git init .       # 初始化你的新 Git 工作区
 
 不用担心，Git 会在出现这种情况时告诉你：
 
-```
+```Bash
 $ echo "hello world" > foo
 $ git status
 On branch master
@@ -75,7 +75,7 @@ nothing added but untracked files present (use "git add" to track)
 
 你看到了，Git 会提醒你怎样把文件加入到提交任务中。
 
-### 不使用 Git 命令进行 Git 操作
+## 不使用 Git 命令进行 Git 操作
 
 在 GitHub 或 GitLab 上创建一个仓库只需要用鼠标点几下即可。这并不难，你单击“New Repository”这个按钮然后跟着提示做就可以了。
 
@@ -83,17 +83,17 @@ nothing added but untracked files present (use "git add" to track)
 
 克隆仓库通常很简单，但是在 GitHub 上获取仓库改动权限就稍微复杂一些，为了通过 GitHub 验证你必须有一个 SSH 密钥。如果你使用 Linux 系统，可以通过下面的命令生成：
 
-```
+```Bash
 $ ssh-keygen
 ```
 
 然后复制你的新密钥的内容，它是纯文本文件，你可以使用一个文本编辑器打开它，也可以使用如下 cat 命令查看：
 
-```
+```Bash
 $ cat ~/.ssh/id_rsa.pub
 ```
 
-现在把你的密钥粘贴到 [GitHub SSH 配置文件][1] 中，或者 [GitLab 配置文件][2]。
+现在把你的密钥粘贴到 [GitHub SSH 配置文件](https://github.com/settings/keys) 中，或者 [GitLab 配置文件](https://gitlab.com/profile/keys)。
 
 如果你通过使用 SSH 模式克隆了你的项目，你就可以将修改写回到你的仓库了。
 
@@ -101,7 +101,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 ![](https://opensource.com/sites/default/files/2_githubupload.jpg)
 
-### 跟踪文件
+## 跟踪文件
 
 正如命令 `git status` 的输出告诉你的那样，如果你想让 git 跟踪一个文件，你必须使用命令 `git add` 把它加入到提交任务中。这个命令把文件存在了暂存区，这里存放的都是等待提交的文件，或者也可以用在快照中。在将文件包括到快照中，和添加要 Git 管理的新的或临时文件时，`git add` 命令的目的是不同的，不过至少现在，你不用为它们之间的不同之处而费神。
 
@@ -109,7 +109,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 当你把文件添加到 Git 管理中，它会标识其为已跟踪文件：
 
-```
+```Bash
 $ git add foo
 $ git status
 On branch master
@@ -122,13 +122,13 @@ new file:   foo
 
 如果你最后决定不把文件记录到 Git 历史列表中，那么你可以撤销提交任务，在 Git 中是这样做的：
 
-```
+```Bash
 $ git reset HEAD foo
 ```
 
 这实际上就是解除了录音机的准备录音状态，你只是在录音棚中转了一圈而已。
 
-### 大型提交
+## 大型提交
 
 有时候，你想要提交一些内容到仓库；我们以录音机类比，这就好比按下录音键然后记录到磁带中一样。
 
@@ -138,13 +138,13 @@ $ git reset HEAD foo
 
 完成一次提交需要运行下面的命令：
 
-```
+```Bash
 $ git commit -m 'My great project, first commit.'
 ```
 
 这就保存了所有提交的文件，之后可以用于其它操作（或者，用英国电视剧《神秘博士》中时间领主所讲的 Gallifreyan 语说，它们成为了“固定的时间点” ）。这不仅是一个提交事件，也是一个你在 Git 日志中找到该提交的引用指针：
 
-```
+```Bash
 $ git log --oneline
 55df4c2 My great project, first commit.
 ```
@@ -153,7 +153,7 @@ $ git log --oneline
 
 在这个例子中提交时的引用号码是 55df4c2。它被叫做“提交哈希（commit hash）”（LCTT 译注：这是一个 SHA-1 算法生成的哈希码，用于表示一个 git 提交对象），它代表着刚才你的提交所包含的所有新改动，覆盖到了先前的记录上。如果你想要“倒回”到你的提交历史点上，就可以用这个哈希作为依据。
 
-你可以把这个哈希想象成一个声音磁带上的 [SMPTE 时间码][3]，或者再形象一点，这就是好比一个黑胶唱片上两首不同的歌之间的空隙，或是一个 CD 上的音轨编号。
+你可以把这个哈希想象成一个声音磁带上的 [SMPTE 时间码](http://slackermedia.ml/handbook/doku.php?id=timecode)，或者再形象一点，这就是好比一个黑胶唱片上两首不同的歌之间的空隙，或是一个 CD 上的音轨编号。
 
 当你改动了文件之后并且把它们加入到提交任务中，最终完成提交，这就会生成新的提交哈希，它们每一个所标示的历史点都代表着你的产品不同的版本。
 
@@ -165,14 +165,13 @@ $ git log --oneline
 
 via: https://opensource.com/life/16/7/creating-your-first-git-repository
 
-作者：[Seth Kenlon][a]
+作者：[Seth Kenlon](https://opensource.com/users/seth)
 译者：[vim-kakali](https://github.com/vim-kakali)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://opensource.com/users/seth
-[1]: https://github.com/settings/keys
-[2]: https://gitlab.com/profile/keys
-[3]: http://slackermedia.ml/handbook/doku.php?id=timecode
-[4]: https://linux.cn/article-7641-1.html
+
+
+
+

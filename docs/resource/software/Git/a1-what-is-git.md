@@ -13,7 +13,7 @@ Git 系列（一）：什么是 Git
 
 因此，忘记你以前所知的 Git，让我们重新走进 Git 世界的大门。
 
-### 什么是版本控制系统？
+## 什么是版本控制系统？
 
 Git 首先是一个版本控制系统。现在市面上有很多不同的版本控制系统：CVS、SVN、Mercurial、Fossil 当然还有 Git。
 
@@ -23,11 +23,11 @@ Git 首先是一个版本控制系统。现在市面上有很多不同的版本�
 
 然后，你修改了你手上最新的版本，同时，你的同事也修改了他们手上合并前的版本。现在你们有 3 个不同的版本了，分别是合并后最新的版本，你修改后的版本，你同事手上继续修改过的版本。至此，你们的版本管理工作开始变得越来越混乱了。
 
-正如 Jason van Gumster 在他的文章中指出 [即使是艺术家也需要版本控制][1]，而且已经在个别人那里发现了这种趋势变化。无论是艺术家还是科学家，开发一个某种实验版本是并不鲜见的；在你的项目中，可能有某个版本大获成功，把项目推向一个新的高度，也可能有某个版本惨遭失败。因此，最终你不可避免的会创建出一堆名为project\_justTesting.kdenlive、project\_betterVersion.kdenlive、project\_best\_FINAL.kdenlive、project\_FINAL-alternateVersion.kdenlive 等类似名称的文件。
+正如 Jason van Gumster 在他的文章中指出 [即使是艺术家也需要版本控制](https://opensource.com/life/16/2/version-control-isnt-just-programmers)，而且已经在个别人那里发现了这种趋势变化。无论是艺术家还是科学家，开发一个某种实验版本是并不鲜见的；在你的项目中，可能有某个版本大获成功，把项目推向一个新的高度，也可能有某个版本惨遭失败。因此，最终你不可避免的会创建出一堆名为project\_justTesting.kdenlive、project\_betterVersion.kdenlive、project\_best\_FINAL.kdenlive、project\_FINAL-alternateVersion.kdenlive 等类似名称的文件。
 
 不管你是修改一个 for 循环，还是一些简单的文本编辑，一个好的版本控制系统都会让我们的生活更加的轻松。
 
-### Git 快照
+## Git 快照
 
 Git 可以为项目创建快照，并且存储这些快照为唯一的版本。
 
@@ -37,19 +37,19 @@ Git 可以为项目创建快照，并且存储这些快照为唯一的版本。
 
 Git 并不是魔法，因此冲突还是会发生的（“你修改了某文件的最后一行，但是我把这行整行都删除了；我们怎样处理这些冲突呢？”），但是总体而言，Git 会为你保留了所有更改的历史版本，甚至允许并行版本。这为你保留了以任何方式处理冲突的能力。
 
-### 分布式 Git
+## 分布式 Git
 
 在不同的机器上为同一个项目工作是一件复杂的事情。因为在你开始工作时，你想要获得项目的最新版本，然后此基础上进行修改，最后向你的同事共享这些改动。传统的方法是通过笨重的在线文件共享服务或者老旧的电邮附件，但是这两种方式都是效率低下且容易出错。
 
 Git 天生是为分布式工作设计的。如果你要参与到某个项目中，你可以克隆（clone）该项目的 Git 仓库，然后就像这个项目只有你本地一个版本一样对项目进行修改。最后使用一些简单的命令你就可以拉取（pull）其他开发者的修改，或者你可以把你的修改推送（push）给别人。现在不用担心谁手上的是最新的版本，或者谁的版本又存放在哪里等这些问题了。全部人都是在本地进行开发，然后向共同的目标推送或者拉取更新。（或者不是共同的目标，这取决于项目的开发方式）。
 
-### Git 界面
+## Git 界面
 
 最原始的 Git 是运行在 Linux 终端上的应用软件。然而，得益于 Git 是开源的，并且拥有良好的设计，世界各地的开发者都可以为 Git 设计不同的访问界面。
 
 Git 完全是免费的，并且已经打包在 Linux，BSD，Illumos 和其他类 Unix 系统中，Git 命令看起来像这样：
 
-```
+```Bash
 $ git --version
 git version 2.5.3
 ```
@@ -62,27 +62,27 @@ git version 2.5.3
 
 ![](https://opensource.com/sites/default/files/0_dolphin.jpg)
 
-[Sparkleshare][2] 使用 Git 作为其 Dropbox 式的文件共享界面的基础。
+[Sparkleshare](http://sparkleshare.org/) 使用 Git 作为其 Dropbox 式的文件共享界面的基础。
 
 ![](https://opensource.com/sites/default/files/0_sparkleshare_1.jpg)
 
-想了解更多的内容，可以查看 [Git wiki][3]，这个（长长的）页面中展示了很多 Git 的图形界面项目。
+想了解更多的内容，可以查看 [Git wiki](https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Graphical_Interfaces)，这个（长长的）页面中展示了很多 Git 的图形界面项目。
 
-### 谁应该使用 Git？
+## 谁应该使用 Git？
 
 就是你！我们更应该关心的问题是什么时候使用 Git？和用 Git 来干嘛？
 
-### 我应该在什么时候使用 Git 呢？我要用 Git 来干嘛呢？
+## 我应该在什么时候使用 Git 呢？我要用 Git 来干嘛呢？
 
 想更深入的学习 Git，我们必须比平常考虑更多关于文件格式的问题。
 
 Git 是为了管理源代码而设计的，在大多数编程语言中，源代码就意味者一行行的文本。当然，Git 并不知道你把这些文本当成是源代码还是下一部伟大的美式小说。因此，只要文件内容是以文本构成的，使用 Git 来跟踪和管理其版本就是一个很好的选择了。
 
-但是什么是文本呢？如果你在像 Libre Office 这类办公软件中编辑一些内容，通常并不会产生纯文本内容。因为通常复杂的应用软件都会对原始的文本内容进行一层封装，就如把原始文本内容用 XML 标记语言包装起来，然后封装在 Zip 包中。这种对原始文本内容进行一层封装的做法可以保证当你把文件发送给其他人时，他们可以看到你在办公软件中编辑的内容及特定的文本效果。奇怪的是，虽然，通常你的需求可能会很复杂，就像保存 [Kdenlive][4] 项目文件，或者保存从 [Inkscape][5] 导出的SVG文件，但是，事实上使用 Git 管理像 XML 文本这样的纯文本类容是最简单的。
+但是什么是文本呢？如果你在像 Libre Office 这类办公软件中编辑一些内容，通常并不会产生纯文本内容。因为通常复杂的应用软件都会对原始的文本内容进行一层封装，就如把原始文本内容用 XML 标记语言包装起来，然后封装在 Zip 包中。这种对原始文本内容进行一层封装的做法可以保证当你把文件发送给其他人时，他们可以看到你在办公软件中编辑的内容及特定的文本效果。奇怪的是，虽然，通常你的需求可能会很复杂，就像保存 [Kdenlive](https://opensource.com/life/11/11/introduction-kdenlive) 项目文件，或者保存从 [Inkscape](http://inkscape.org/) 导出的SVG文件，但是，事实上使用 Git 管理像 XML 文本这样的纯文本类容是最简单的。
 
 如果你在使用 Unix 系统，你可以使用 `file` 命令来查看文件内容构成：
 
-```
+```Bash
 $ file ~/path/to/my-file.blah
 my-file.blah: ASCII text
 $ file ~/path/to/different-file.kra: Zip data (MIME type "application/x-krita")
@@ -90,7 +90,7 @@ $ file ~/path/to/different-file.kra: Zip data (MIME type "application/x-krita")
 
 如果还是不确定，你可以使用 `head` 命令来查看文件内容：
 
-```
+```Bash
 $ head ~/path/to/my-file.blah
 ```
 
@@ -98,7 +98,7 @@ $ head ~/path/to/my-file.blah
 
 准确的说：Git 可以管理其他格式的文件，但是它会把这些文件当成二进制大对象（blob）。两者的区别是，在文本文件中，Git 可以明确的告诉你在这两个快照（或者说提交）间有 3 行是修改过的。但是如果你在两个提交（commit）之间对一张图片进行的编辑操作，Git 会怎么指出这种修改呢？实际上，因为图片并不是以某种可以增加或删除的有意义的文本构成，因此 Git 并不能明确的描述这种变化。当然我个人是非常希望图片的编辑可以像把文本“\<sky>丑陋的蓝绿色\</sky>”修改成“\<sky>漂浮着蓬松白云的天蓝色\</sky>”一样的简单，但是事实上图片的编辑并没有这么简单。
 
-经常有人在 Git 上放入 png 图标、电子表格或者流程图这类二进制大型对象（blob）。尽管，我们知道在 Git 上管理此类大型文件并不直观，但是，如果你需要使用 Git 来管理此类文件，你也并不需要过多的担心。如果你参与的项目同时生成文本文件和二进制大文件对象（如视频游戏中常见的场景，这些和源代码同样重要的图像和音频材料），那么你有两条路可以走：要么开发出你自己的解决方案，就如使用指向共享网络驱动器的引用；要么使用 Git 插件，如 Joey Hess 开发的 [git annex][6]，以及 [Git-Media][7] 项目。
+经常有人在 Git 上放入 png 图标、电子表格或者流程图这类二进制大型对象（blob）。尽管，我们知道在 Git 上管理此类大型文件并不直观，但是，如果你需要使用 Git 来管理此类文件，你也并不需要过多的担心。如果你参与的项目同时生成文本文件和二进制大文件对象（如视频游戏中常见的场景，这些和源代码同样重要的图像和音频材料），那么你有两条路可以走：要么开发出你自己的解决方案，就如使用指向共享网络驱动器的引用；要么使用 Git 插件，如 Joey Hess 开发的 [git annex](https://git-annex.branchable.com/)，以及 [Git-Media](https://github.com/alebedev/git-media) 项目。
 
 你看，Git 真的是一个任何人都可以使用的工具。它是你进行文件版本管理的一个强大而且好用工具，同时它并没有你开始认为的那么可怕。
 
@@ -106,17 +106,15 @@ $ head ~/path/to/my-file.blah
 
 via: https://opensource.com/resources/what-is-git
 
-作者：[Seth Kenlon][a]
+作者：[Seth Kenlon](https://opensource.com/users/seth)
 译者：[cvsher](https://github.com/cvsher)
 校对：[wxy](https://github.com/wxy)
 
 本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
-[a]: https://opensource.com/users/seth
-[1]: https://opensource.com/life/16/2/version-control-isnt-just-programmers
-[2]: http://sparkleshare.org/
-[3]: https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Graphical_Interfaces
-[4]: https://opensource.com/life/11/11/introduction-kdenlive
-[5]: http://inkscape.org/
-[6]: https://git-annex.branchable.com/
-[7]: https://github.com/alebedev/git-media
+
+
+
+
+
+
