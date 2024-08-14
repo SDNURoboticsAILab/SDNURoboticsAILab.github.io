@@ -23,7 +23,9 @@ rm filename_or_path
 
 这是一个示例，其中我删除了一个名为 `new_file` 的文件。当我列出目录内容时，你可以看到 `new_file` 不再存在。
 
-![Removing files in Linux terminal][2]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-remove-multiple-files-linux-terminal.webp)
+
+*删除单个文件*
 
 你还可以在同一命令中删除多个文件：
 
@@ -33,7 +35,9 @@ rm file1 file2 file3
 
 让我展示一个在单条命令中删除两个文件的示例。
 
-![Deleting multiple files in single rm command][3]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-delete-files-linux-terminal.webp)
+
+*删除多个文件*
 
 ### 🏋️练习文件删除
 
@@ -79,9 +83,11 @@ rm -f file1
 
 以下是上述所有示例的重放：
 
-![Deleting files in Linux terminal][4]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-file-delete-example.svg)
 
-> 🚧 Linux 命令行中没有垃圾桶。一旦文件被删除，你就无法像在图形文件管理器中那样撤消将其从垃圾箱中取回的操作。因此，删除文件时要格外小心。
+!!! warning "🚧"
+
+    Linux 命令行中没有垃圾桶。一旦文件被删除，你就无法像在图形文件管理器中那样撤消将其从垃圾箱中取回的操作。因此，删除文件时要格外小心。
 
 ### 小心删除
 
@@ -97,9 +103,11 @@ rm -i filename
 
 这是一个示例，其中我以交互方式删除名称中匹配 `file_` 模式的所有文件。我删除了一些并在交互模式下保留了一些。
 
-![Deleting files in interactive mode][5]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-interactive-delete-example.svg)
 
-> 💡 我建议切换到文件所在的目录，然后删除它们。这有助于减少由文件路径中的拼写错误引起的任何可能性。
+!!! question "💡"
+
+    我建议切换到文件所在的目录，然后删除它们。这有助于减少由文件路径中的拼写错误引起的任何可能性。
 
 ## 删除目录
 
@@ -160,9 +168,11 @@ rm -r dir2
 
 以下是上述所有命令示例的重放：
 
-![Deleting folders in Linux][6]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-folder-delete-example.svg)
 
-> 💡 交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
+!!! question "💡"
+
+   交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
 
 ```Bash
 rm-ri dir_name
@@ -170,7 +180,7 @@ rm-ri dir_name
 
 因此，你学会了使用 Linux 命令删除文件和文件夹。是时候多练习了。
 
-## 测试你的知识
+## 📝 测试你的知识
 
 准备一个如下所示的目录树：
 

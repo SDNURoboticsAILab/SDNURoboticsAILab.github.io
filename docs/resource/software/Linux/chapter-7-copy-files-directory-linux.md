@@ -186,11 +186,16 @@ cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 
 --------------------------------------------------------------------------------
 
-via: https://itsfoss.com/copy-files-directory-linux/
-
-作者：[Sagar Sharma][a]
-选题：[lkxed][b]
-译者：[geekpi](https://github.com/geekpi)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: https://linux.cn/article-15809-1.html
+>
+>source: https://itsfoss.com/copy-files-directory-linux/
+>
+>作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
+>
+>选题：[lkxed](https://github.com/lkxed/)
+>
+>译者：[geekpi](https://github.com/geekpi)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

@@ -22,7 +22,8 @@ You won't see any output if the file is successfully deleted.
 
 Here's an example where I removed one of the files named `new_file`. When I list the directory contents, you can see that `new_file` no longer exists.
 
-[![Removing files in Linux terminal](https://itsfoss.com/content/images/2023/03/delete-files-linux-terminal.png)](https://itsfoss.com/content/images/2023/03/delete-files-linux-terminal.png)*Removing a single file*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-remove-multiple-files-linux-terminal.webp)
+*Removing a single file*
 
 You can also remove multiple files in the same command:
 
@@ -32,7 +33,8 @@ rm file1 file2 file3
 
 Let me show an example of deleting two files in a single command.
 
-[![Deleting multiple files in single rm command](https://itsfoss.com/content/images/2023/03/remove-multiple-files-linux-terminal.png)](https://itsfoss.com/content/images/2023/03/remove-multiple-files-linux-terminal.png)*Removing multiple files*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-delete-files-linux-terminal.webp)
+*Removing multiple files*
 
 ### 🏋️ Exercise file deletion
 
@@ -78,7 +80,7 @@ rm -f file1
 
 Here's a replay of all the above examples to help you:
 
-[![Deleting files in Linux terminal](https://itsfoss.com/content/images/2023/03/file-delete-example.svg)](https://itsfoss.com/content/images/2023/03/file-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-file-delete-example.svg)
 
 !!! warning "🚧"
 
@@ -98,7 +100,7 @@ This is helpful when you are deleting several files based on a certain pattern.
 
 Here's an example where I am interactively deleting all the files that match file_ pattern in their name. I delete some and keep some in the interactive mode.
 
-[![Deleting files in interactive mode](https://itsfoss.com/content/images/2023/03/interactive-delete-example.svg)](https://itsfoss.com/content/images/2023/03/interactive-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-interactive-delete-example.svg)
 
 !!! question "💡"
 
@@ -160,8 +162,7 @@ rm -r dir2
 
 Here's a replay of all the above command examples to help you out:
 
-[
-  ](https://itsfoss.com/content/images/2023/03/folder-delete-example.svg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter6-folder-delete-example.svg)
 
 !!! question "💡"
 
