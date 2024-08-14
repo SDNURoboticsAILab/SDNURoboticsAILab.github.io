@@ -1,8 +1,6 @@
 Git 系列（三）：建立你的第一个 Git 仓库
 ======================================
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/images/life/open_abstract_pieces.jpg?itok=ZRt0Db00)
-
 现在是时候学习怎样创建你自己的 Git 仓库了，还有怎样增加文件和完成提交。
 
 在本系列[前面的文章][4]中，你已经学习了怎样作为一个最终用户与 Git 进行交互；你就像一个漫无目的的流浪者一样偶然发现了一个开源项目网站，克隆了仓库，然后你就可以继续钻研它了。你知道了和 Git 进行交互并不像你想的那样困难，或许你只是需要被说服现在去使用 Git 完成你的工作罢了。

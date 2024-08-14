@@ -1,8 +1,6 @@
 Git 系列（五）：三个 Git 图形化工具
 =============================
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/images/government/BUSINESS_meritladder.png?itok=4CAH2wV0)
-
 在本文里，我们来了解几个能帮你在日常工作中舒服地用上 Git 的工具。
 
 我是在这许多漂亮界面出来之前学习的 Git，而且我的日常工作经常是基于字符界面的，所以 Git 本身自带的大部分功能已经足够我用了。在我看来，最好能理解 Git 的工作原理。不过，能有的选也不错，下面这些就是能让你不用终端就可以开始使用 Git 的一些方式。

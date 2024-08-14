@@ -1,8 +1,6 @@
 Git 系列（六）：如何搭建你自己的 Git 服务器
 ====================
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/images/business/bus-big-data.png?itok=sOQHDuID)
-
 现在我们将要学习如何搭建 git 服务器，如何编写自定义的 Git 钩子来在特定的事件触发相应的动作（例如通知），或者是发布你的代码到一个站点。
 
 直到现在，我们主要讨论的还是以一个使用者的身份与 Git 进行交互。这篇文章中我将讨论 Git 的管理，并且设计一个灵活的 Git 框架。你可能会觉得这听起来是 “高阶 Git 技术” 或者 “只有狂热粉才能阅读”的一句委婉的说法，但是事实是这里面的每个任务都不需要很深的知识或者其他特殊的训练，就能基本理解 Git 的工作原理，有可能需要一丁点关于 Linux 的知识。

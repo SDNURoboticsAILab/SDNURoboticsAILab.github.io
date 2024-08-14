@@ -1,8 +1,6 @@
-GitHub 简易入门指南
+GitHub 简易入门指南 
 ================
 
-[![Getting Started With GitHub](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/getting-started-with-github_orig.jpg)][1] 
- 
 [GitHub][13] 是一个在线平台，旨在促进在一个共同项目上工作的个人之间的代码托管、版本控制和协作。通过该平台，无论何时何地，都可以对项目进行操作（托管和审查代码，管理项目和与世界各地的其他开发者共同开发软件）。**GitHub 平台**为开源项目和私人项目都提供了项目处理功能。
 
 关于团队项目处理的功能包括：GitHub <ruby>流<rt>Flow></rt></ruby>和 GitHub <ruby>页<rt>Pages</rt></ruby>。这些功能可以让需要定期部署的团队轻松处理工作流程。另一方面，GitHub 页提供了页面用于展示开源项目、展示简历、托管博客等。

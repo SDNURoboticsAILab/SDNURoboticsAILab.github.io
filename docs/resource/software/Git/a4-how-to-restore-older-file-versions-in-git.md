@@ -1,8 +1,6 @@
 Git 系列（四）：在 Git 中进行版本回退
 =============================================
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/images/life/file_system.jpg?itok=s2b60oIB)
-
 在这篇文章中，你将学到如何查看项目中的历史版本，如何进行版本回退，以及如何创建 Git 分支以便你可以大胆尝试而不会出现问题。
 
 在你的 Git 项目的历史中，你的位置就像是摇滚专辑中的一个片段，由一个被称为 HEAD 的 标记来确定（如磁带录音机或录音播放器的播放头）。要在你的 Git 时间线上前后移动 HEAD ，需要使用 `git checkout` 命令。

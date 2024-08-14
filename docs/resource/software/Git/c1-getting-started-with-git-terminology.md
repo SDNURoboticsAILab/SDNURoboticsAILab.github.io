@@ -1,12 +1,3 @@
-[#]: collector: (lujun9972)
-[#]: translator: (wxy)
-[#]: reviewer: (wxy)
-[#]: publisher: (wxy)
-[#]: url: (https://linux.cn/article-12994-1.html)
-[#]: subject: (Getting started with Git: Terminology 101)
-[#]: via: (https://opensource.com/article/19/2/git-terminology)
-[#]: author: (Matthew Broberg https://opensource.com/users/mbbroberg)
-
 Git 入门：术语基础
 ======
 
