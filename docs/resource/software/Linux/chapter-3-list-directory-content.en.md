@@ -8,7 +8,7 @@ In this chapter of Terminal Basics series, learn about displaying the contents o
 
 The ls command in Linux is used for listing the contents of directories. You can think of `ls` as a short form for `list`.
 
-[![ls command output](https://itsfoss.com/content/images/2023/02/ls-command-sample-output.png)](https://itsfoss.com/content/images/2023/02/ls-command-sample-output.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-ls-command-sample-output.png)
 
 There is more to just listing what a directory consists of. You can see the file size, the time it was created, whether it is a file or directory, and file permissions. You can even sort the output based on those criteria.
 
@@ -77,7 +77,7 @@ ls -l
 
 It will show the directory's contents in individual rows with additional information in alphabetical order:
 
-[![Long listing with ls command in Linux](https://itsfoss.com/content/images/2023/02/ls-command-long-listing.png)](https://itsfoss.com/content/images/2023/02/ls-command-long-listing.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-ls-command-long-listing.png)
 
 !!! note "📋"
 
@@ -93,7 +93,8 @@ You'll see the following information in the long listing:
 - **Date and time**: Usually, the file's last modified time and date.
 - **Filename**: Name of the file, directory, or link .
 
-[![File details in the long listing of ls command](https://itsfoss.com/content/images/2023/02/file-permission-explanation.webp)](https://itsfoss.com/content/images/2023/02/file-permission-explanation.webp)*File details at a glance*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-file-permission-explanation.webp)
+*File details at a glance*
 
 It is a good idea to know about file permission and ownership. I highly recommend reading this tutorial.
 
@@ -119,7 +120,8 @@ ls -la
 
 Now, it will show the hidden .john-cena file:
 
-[![Show hidden files with ls command in Linux](https://itsfoss.com/content/images/2023/02/showing-hidden-files-with-ls-command.png)](https://itsfoss.com/content/images/2023/02/showing-hidden-files-with-ls-command.png)*Including hidden files in the ls command output*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-showing-hidden-files-with-ls-command.png)
+*Including hidden files in the ls command output*
 
 Did you notice the special directories `.`(current directory) and `..`(parent directory) are also displayed now?
 
@@ -133,7 +135,8 @@ As a normal computer user, it makes more sense to see the file size in KB, MB an
 
 The ls command has a human-readable option `-h`. Combine it with the long listing option and you can see the file size in recognizable formats.
 
-[![Showing file size with the ls command](https://itsfoss.com/content/images/2023/02/show-file-size-with-ls.png)](https://itsfoss.com/content/images/2023/02/show-file-size-with-ls.png)*File size with ls command*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-show-file-size-with-ls.png)
+*File size with ls command*
 
 !!! question "💡"
 

@@ -66,11 +66,7 @@ abhishek@itsfoss:~/moving_files$ tree
 
 Now, let's say I want to move the `file_1` to `dir3`.
 
-```Bash
-mv file_1 dir3
-```
-
-[![Example of moving files in Linux using the mv command](https://itsfoss.com/content/images/2023/04/moving-files-linux.png)](https://itsfoss.com/content/images/2023/04/moving-files-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving-files-linux.png)
 
 ### Moving multiple files
 
@@ -86,7 +82,7 @@ Let's continue our example scenario to move multiple files.
 mv file_2 file_3 file_4 dir3
 ```
 
-[![Example of moving multiple files in Linux](https://itsfoss.com/content/images/2023/04/moving_multiple_files_linux.png)](https://itsfoss.com/content/images/2023/04/moving_multiple_files_linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving_multiple_files_linux.png)
 
 !!! note "🖥️"
 
@@ -107,7 +103,7 @@ mv: overwrite 'dir1/file_3'?
 
 You can press N to deny replacement and Y or Enter to replace the destination file.
 
-[![Example of moving interactively in Linux](https://itsfoss.com/content/images/2023/04/move-interactively-linux.png)](https://itsfoss.com/content/images/2023/04/move-interactively-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-move-interactively-linux.png)
 
 ### Move but only update
 
@@ -153,7 +149,7 @@ abhishek@itsfoss:~/moving_files$
 
 As you can see, the move command was executed at 10:41 and only the timestamp of file_2 has been changed.
 
-[![Using move command with update option](https://itsfoss.com/content/images/2023/04/move-command-update-option.png)](https://itsfoss.com/content/images/2023/04/move-command-update-option.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-move-command-update-option.png)
 
 !!! question "💡"
 
@@ -169,7 +165,7 @@ target is not a directory
 
 Here, I create a file which is named `dir`. The name sounds like a directory, but it is a file. And when I try to move multiple files to it, the obvious error is there:
 
-[![Handling target is not a directory error in Linux](https://itsfoss.com/content/images/2023/04/target-is-not-a-directory-error-linux.png)](https://itsfoss.com/content/images/2023/04/target-is-not-a-directory-error-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-target-is-not-a-directory-error-linux.png)
 
 But what if you move a single file to another file? In that case, the target file is replaced by the source file's content while the source file is renamed as the target file. More on this in later sections.
 
@@ -187,7 +183,7 @@ mv dir target_directory
 
 Here's an example where I move the `dir2` directory to `dir3`. And as you can see, `dir2` along with its content is moved to `dir3`.
 
-[![Moving folders in Linux command line](https://itsfoss.com/content/images/2023/04/moving-directories.png)](https://itsfoss.com/content/images/2023/04/moving-directories.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-moving-directories.png)
 
 You can move multiple directories the same way.
 
@@ -201,7 +197,7 @@ mv filename new_name_in_same_or_new_location
 
 Let's say you want to rename a file in the same location. Here's an example where I rename `file_1` to `file_one` in the same directory.
 
-[![Rename files with mv command](https://itsfoss.com/content/images/2023/04/rename-file-with-mv-command.png)](https://itsfoss.com/content/images/2023/04/rename-file-with-mv-command.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter8-rename-file-with-mv-command.png)
 
 You can also move and rename the files. You just have to provide the directory path and the file name of the destination. Here, I rename `services` file to `my_services` while moving it to `dir3`.
 
