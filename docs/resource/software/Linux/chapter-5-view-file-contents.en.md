@@ -12,19 +12,19 @@ In this chapter, you'll learn to read the files. I'll be discussing the most com
 
 Before you do that, let's create our 'playground' with sample files. Let's create a directory first and switch to it.
 
-```Bash
+```
 mkdir display_files && cd display_files
 ```
 
 Copy a huge text file here.
 
-```Bash
+```
 cp /etc/services .
 ```
 
 And then, create a new file named `columbo.txt` with the following text (use the cat command with >> as discussed in the previous chapter):
 
-```Text
+```
 Prescription: Murder
 Ransom for a Dead Man
 Murder by the Book
@@ -46,19 +46,19 @@ The cat command is the most popular method to view files in Linux.
 
 It is dead simple to use. Just give it the file name and it displays the file content on the screen. Things cannot go simpler than this.
 
-```Bash
+```
 cat filename
 ```
 
 Can you try displaying the contents of the columbo.txt file?
 
-```Bash
+```
 cat columbo.txt
 ```
 
 This is the output it shows:
 
-[![Using the cat command to view files in Linux](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)](https://itsfoss.com/content/images/2023/03/use-cat-command-to-view-files-linux.png)*Using the cat command to view files in Linux*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-use-cat-command-to-view-files-linux.png)*Using the cat command to view files in Linux*
 
 !!! note "🏋️"
 
@@ -70,7 +70,7 @@ The cat command is so simple. In fact, it is too simple. And simple doesn't work
 
 Try using the cat command to view the content of the services file.
 
-```Bash
+```
 cat services
 ```
 
@@ -82,7 +82,7 @@ This is where the less command comes into the picture. It lets you read the cont
 
 Use the less command to read the services file:
 
-```Bash
+```
 less services
 ```
 
@@ -92,7 +92,8 @@ You can even search for certain text using /search_term.
 
 When you are done reading the file, **press Q key to exit the less view** and go back to the normal terminal viewing.
 
-[![less command example](https://itsfoss.com/content/images/2023/03/less-examples.svg)](https://itsfoss.com/content/images/2023/03/less-examples.svg)*Viewing a huge text file with the less command*
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-less-examples.svg)
+*Viewing a huge text file with the less command*
 
 This table will help you use less:
 
@@ -121,26 +122,26 @@ From viewing files in real time to bookmarking text, less can do a lot more. Rea
 If you only want to see certain parts of the text file in cat-styled display, use the head and tail commands.
 
 By default, the head command displays the first 10 lines of a file.
-Bash
+
 ```
 head filename
 ```
 
 But you can modify it to show the first n lines as well.
 
-```Bash
+```
 head -n filename
 ```
 
 The tail command displays the last 10 lines by default.
 
-```Bash
+```
 tail filename
 ```
 
 But you can modify it to show n lines from the bottom.
 
-```Bash
+```
 tail -n filename
 ```
 
@@ -148,7 +149,7 @@ tail -n filename
 
 Let's see some examples. Generate an easy-to-follow file using this script:
 
-```Bash
+```
 #create or clear the content of the file
 echo -n > sample
 
@@ -161,7 +162,7 @@ done
 
 Create a new file named script.sh and copy-paste the above script content into it. Now run the script like this to generate your sample file:
 
-```Bash
+```
 bash script.sh
 ```
 
@@ -173,7 +174,7 @@ Now, you have got a file named `sample` that contains lines like "This is the li
 
 Let's take it to the next level. You can combine them both to show specific lines of a file. For example, to show lines from 35 to 40, use it like this:
 
-```Bash
+```
 head -n 40 filename | tail -n +35
 ```
 
@@ -182,11 +183,11 @@ Here:
 - `head -n 40 filename` will display the first 40 lines of the file.
 - `tail -n +35` will display the lines from the 35th line to the end of the output from the `head` command. Yeah! Mind the + sign that changes the normal behavior of the tail command.
 
-[![Show a range of lines in Linux](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)](https://itsfoss.com/content/images/2023/03/show-specific-lines-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-specific-lines-linux.png)
 
 You can also combine them to show only a particular line. Let's say you want to display the 55th line; combine head and tail like this.
 
-```Bash
+```
 head -n 55 filename | tail -n 1
 ```
 
@@ -195,7 +196,7 @@ Here:
 - `head -n 55 filename` will display the first 55 lines of the file.
 - `tail -n 1` will display the last line of the output from the `head` command, which will be the 55th line of the file.
 
-[![Show only a particular line in Linux command line](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)](https://itsfoss.com/content/images/2023/03/show-particular-line-linux.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter5-show-particular-line-linux.png)
 
 ## 📝 Test your knowledge
 

@@ -126,4 +126,8 @@ This gives you a basic but solid foundation of Linux commands. It may be the end
 
 You'll find more in-depth guides on 'doing things in Linux command line' on It's FOSS in the future. It may not be in a series (or maybe it will) but you'll have plenty of opportunity for learning.
 
-💬 ***I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.\***
+💬 *I hope you liked this beginner series. I welcome your feedback on the usability of this series and suggestions to improve it. If you have any suggestions for a related new series, please don't hesitate. The comment section is waiting for you.*
+
+>via: https://itsfoss.com/linux-command-help/
+>
+>Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

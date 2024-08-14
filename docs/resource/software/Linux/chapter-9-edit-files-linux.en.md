@@ -58,7 +58,7 @@ You’ll notice a new interface in your terminal that reads like GNU nano and di
 
 This is equivalent to opening a new unsaved file in a text editor like Gedit or Notepad.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-editor-interface.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-editor-interface.png)
 *Nano editor interface*
 
 Nano editor shows essential keyboard shortcuts you need to use for editing at the bottom of the editor. This way, you won’t get stuck at [exiting the editor like Vim](https://itsfoss.com/how-to-exit-vim/).
@@ -78,7 +78,7 @@ One more thing. It shows the characters in caps in the keyboard. But it doesn’
 
 You may also get a detailed help document inside the editor by pressing Ctrl+G.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-detailed-help.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-detailed-help.png)
 *Press Ctrl+G to bring up the help menu in Nano*
 
 Now that you are a bit familiar with the interface, exit the Nano editor with Ctrl+X keys. Since you have not made any changes to this opened unsaved file, you won’t be asked to save it.
@@ -103,7 +103,7 @@ nano
 
 Try it. In a terminal, just write `nano` and enter.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-new-file-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-file-in-nano.png)
 *New file in Nano*
 
 Did you notice “New Buffer”? Since you did not give the file any name, it indicates that is a new, unsaved file in the memory buffer.
@@ -112,7 +112,7 @@ You can start writing or modifying the text straightaway in Nano. There are no s
 
 If you make any changes to the file (new or existing), you’ll notice that an asterisk (*) appears beside the file name or New Buffer (meaning a new, unsaved file).
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-new-modified-file-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-modified-file-in-nano.png)
 *Asterisk means the file has unsaved changes*
 
 That seems good. In the next section, you’ll see how to save files and exit the Nano editor interface.
@@ -121,7 +121,7 @@ That seems good. In the next section, you’ll see how to save files and exit th
 
 Nothing is saved immediately to the file automatically unless you explicitly do so. When you **exit the editor using Ctrl+X** keyboard shortcut, you’ll be asked whether you want to save the file.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-save-new-file-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-new-file-in-nano.png)
 
 - **Y** to save the file and exit the editor
 - **N** to discard changes
@@ -129,7 +129,7 @@ Nothing is saved immediately to the file automatically unless you explicitly do 
 
 If you choose to save the file by pressing the Y key, you’ll be asked to give the file a name. Name it my_file.txt.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-saving-new-file-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-saving-new-file-in-nano.png)
 
 !!! note "📋"
 
@@ -137,7 +137,7 @@ If you choose to save the file by pressing the Y key, you’ll be asked to give 
 
 Enter the name and press the enter key. Your file will be saved and you’ll be out of the Nano editor interface. You can see that the text file has been created in your current directory.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-new-file-created-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-new-file-created-in-nano.png)
 
 !!! note "📋"
 
@@ -161,11 +161,11 @@ So just press enter and then backspace key. This will insert a new line and then
 
 If you press Ctrl+X and press Y to confirm the save, you’ll come to the screen where it shows the file name. What you can do is to change the file name here by pressing the backspace key and typing a new name.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-save-as-different-file-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-as-different-file-in-nano.png)
 
 It will ask you to confirm saving it under a different name. Press Y to confirm this decision.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-save-as-different-file-name-in-nano.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-save-as-different-file-name-in-nano.png)
 
 I named it agatha_complete.back as an indication that it is a “backup” of a file of the same name. It’s just for convenience. There is no real significance behind the .back extension.
 
@@ -219,11 +219,11 @@ You still have the sample text file opened, right? If not, open it again. Let’
 
 If you want to search for a certain text, **use Ctrl+W** and then enter the term you want to search and press enter. The cursor will move to the first match. To go to the next match, **use Alt+W keys**.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-search-text.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-text.png)
 
 By default, the search is case-insensitive. You can perform a case-sensitive search by pressing Alt+C when you are about to perform a search.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-case-sensitive-search-text.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-case-sensitive-search-text.png)
 
 Once again, look at the bottom for options that can be used. Also note that it shows the last searched term inside brackets.
 
@@ -233,15 +233,15 @@ And lastly, **use Ctrl+C to come out of search mode**.
 
 If you want to replace the searched term, **use Ctr+\ keys** and then enter the search term and press enter key.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-search-replace-text.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-search-replace-text.png)
 
 Next, it will ask for the term you want to replace the searched items with.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-replace-text.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-replace-text.png)
 
 The cursor will move to the first match and Nano will ask for your conformation for replacing the matched text. Use Y or N to confirm or deny respectively. Using either of Y or N will move to the next match. You may also use A to replace all matches.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-replaced-text.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-replaced-text.png)
 
 In the above text, I have replaced the second occurrence of the term Murder with Marriage and then it asks whether I want to replace the next occurrence as well.
 
@@ -269,7 +269,7 @@ Once you have selected the desired text, you can Alt+6 key to copy the selected 
 
 Once you have copied or cut the selected text, you can use Ctrl+U to paste it.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-nano-cut-copy-paste.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-nano-cut-copy-paste.png)
 
 If you do not want to continue selecting the text or copying it, use Alt+A again to unset the mark.
 
@@ -324,7 +324,7 @@ sudo gedit /etc/ssh/ssh_config
 
 It will open a Gedit instance as root. The command keeps on running in the terminal. Make your changes and save the file. It will show warning messages when you save and close Gedit.
 
-![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter10-using-gedit-to-edit-config-files.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter9-using-gedit-to-edit-config-files.png)
 
 We are almost at the end of our terminal basics series. In the tenth and the last chapter of the series, you'll [learn about getting help in the Linux terminal](https://itsfoss.com/linux-command-help/).
 
