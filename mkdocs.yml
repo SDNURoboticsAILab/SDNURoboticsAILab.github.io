@@ -107,6 +107,10 @@ nav:
         - GitHub的DNS基础设施: resource/software/Git/d6-dns-infrastructure-at-github.md
         - 6个托管git仓库的地方: resource/software/Git/d7-6-places-to-host-your-git-repository.md
         - 使用Git来管理Git服务器: resource/software/Git/d8-run-a-server-with-git.md
+        - 番外篇:
+        - Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
+        - Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
+        - 使用Github Desktop从零贡献代码: resource/software/Git/
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
@@ -283,7 +287,7 @@ plugins:
             第9章：在Linux终端中编辑文件: Chapter 9:Editing Files in Linux Terminal
             第10章：在Linux终端中获取帮助: Chapter 10:Getting Help in Linux Terminal
             Git版本控制系统: Git, Version Control System
-            Git版本控制系统简介: Introduction to Git
+            Git秘籍: Git Cheat sheet
             GNU Make编译工具: GNU Make, Compilation Tool
             GNU Make编译工具简介: Introduction to GNU Make
             CMake编译工具: CMake, Compilation Tool
