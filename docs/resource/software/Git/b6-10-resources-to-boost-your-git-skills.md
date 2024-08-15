@@ -26,26 +26,14 @@ comments: true
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/19/12/git-resources
-
-作者：[Joshua Allen Holm](https://opensource.com/users/holmja)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[wxy](https://github.com/wxy)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
- (open source button on keyboard)
-
-
-
-
-
-
-
-
-
-
-
-
+>via: [https://opensource.com/article/19/12/git-resources](https://opensource.com/article/19/12/git-resources)
+>
+>作者：[Joshua Allen Holm](https://opensource.com/users/holmja)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[wxy](https://github.com/wxy)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

@@ -5,8 +5,6 @@ comments: true
 掌握强大的 Git 变基命令
 ======
 
-![][0]
-
 > 学习如何使用 Git 来压扁、变基和精选。
 
 当我与别人谈到 Git 时，几乎每个人都对 [git rebase 命令](https://opensource.com/article/20/4/git-rebase-i) 有强烈的印象，这个命令让许多人遇到了问题，而不得不更改目录、删除仓库、然后再重新克隆一个仓库。我认为这是因为他们误解了分支是如何工作，遇到了一个非常糟糕的默认界面，还有一些合并冲突把事情搞得一团糟。
@@ -137,15 +135,17 @@ $ git cherry-pick --abort
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/22/11/advanced-git-commands
-
-作者：[Dwayne McDaniel](https://opensource.com/users/dwaynemcdaniel)
-选题：[lkxed](https://github.com/lkxed)
-译者：[chai001125](https://github.com/chai001125)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
+>via: [https://opensource.com/article/22/11/advanced-git-commands](https://opensource.com/article/22/11/advanced-git-commands)
+>
+>作者：[Dwayne McDaniel](https://opensource.com/users/dwaynemcdaniel)
+>
+>选题：[lkxed](https://github.com/lkxed)
+>
+>译者：[chai001125](https://github.com/chai001125)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

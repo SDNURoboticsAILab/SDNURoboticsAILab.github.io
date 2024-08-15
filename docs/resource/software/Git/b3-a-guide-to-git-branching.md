@@ -139,26 +139,14 @@ git push -d origin myBranch
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/18/5/git-branching
-
-作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[pinewall](https://github.com/pinewall)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
- (tree branches)
-
- (Terminal output)
- (Terminal output)
-
- (Gitk output)
- (Terminal output)
- (Terminal output)
- (GitHub)
- (GitHub)
-
- (Terminal output)
+>via: [https://opensource.com/article/18/5/git-branching](https://opensource.com/article/18/5/git-branching)
+>
+>作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[pinewall](https://github.com/pinewall)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

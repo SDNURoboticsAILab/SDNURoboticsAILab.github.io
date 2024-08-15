@@ -5,8 +5,6 @@ comments: true
 在 Git 仓库中，文件究竟被存储在哪里？
 ======
 
-![][0]
-
 大家好！今天我和一个朋友讨论 Git 的工作原理，我们感到奇怪，Git 是如何存储你的文件的？我们知道它存储在 `.git` 目录中，但具体到 `.git` 中的哪个位置，各个版本的历史文件又被存储在哪里呢？
 
 以这个博客为例，其文件存储在一个 Git 仓库中，其中有一个文件名为 `content/post/2019-06-28-brag-doc.markdown`。这个文件在我的 `.git` 文件夹中具体的位置在哪里？过去的文件版本又被存储在哪里？那么，就让我们通过编写一些简短的 Python 代码来探寻答案吧。
@@ -307,19 +305,16 @@ $ find .git/objects/ -type f | wc -l
 14
 ```
 
-*（题图：MJ/319a396c-6f3f-4891-b051-261312c8ea9a）*
-
 --------------------------------------------------------------------------------
 
-via: https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/
-
-作者：[Julia Evans](https://jvns.ca/)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：ChatGPT
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
+>via: [https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/](https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/)
+>
+>作者：[Julia Evans](https://jvns.ca/)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：ChatGPT
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

@@ -135,7 +135,7 @@ Git 钩子并不是被用户直接执行，所以要弄清楚如何收集可能�
 
 在写 Git 钩子之前，看一下 Git 在你的项目目录下 `.git/hooks` 目录中提供的一些例子。举个例子，在这个 `pre-push.sample` 文件里，注释部分说明了如下内容：
 
-```Bash
+```
 # $1 -- 即将 push 的远程仓库的名字
 # $2 -- 即将 push 的远程仓库的 URL
 # 如果 push 的时候，并没有一个命名的远程仓库，那么这两个参数将会一样。
@@ -154,7 +154,7 @@ Git 钩子并不是被用户直接执行，所以要弄清楚如何收集可能�
 
 我们来写一个 `post-receive`（也就是说，在 `commit` 被接受之后触发）钩子。第一步就是需要确定分支名：
 
-```Bash
+```
 #!/bin/tcsh
 
 foreach arg ( $< )
@@ -207,13 +207,15 @@ Git 钩子也可以变得复杂，而且它们因为 Git 的工作流的抽象�
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[maywanting](https://github.com/maywanting)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[maywanting](https://github.com/maywanting)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

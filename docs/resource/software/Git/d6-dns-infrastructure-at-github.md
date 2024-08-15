@@ -60,23 +60,12 @@ $ dig +short time.github.net
 
 --------------------------------------------------------------------------------
 
-via: https://githubengineering.com/dns-infrastructure-at-github/
-
-作者：[Joe Williams](https://github.com/joewilliams)
-译者：[geekpi](https://github.com/geekpi)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
-
-
-
-
+>via: [https://githubengineering.com/dns-infrastructure-at-github/](https://githubengineering.com/dns-infrastructure-at-github/)
+>
+>作者：[Joe Williams](https://github.com/joewilliams)
+>
+>译者：[geekpi](https://github.com/geekpi)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

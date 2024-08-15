@@ -173,11 +173,13 @@ $ git merge contributor
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/7/how-restore-older-file-versions-git
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[strugglingyouth](https://github.com/strugglingyouth)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/7/how-restore-older-file-versions-git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[strugglingyouth](https://github.com/strugglingyouth)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 

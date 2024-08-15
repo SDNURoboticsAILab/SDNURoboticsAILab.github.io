@@ -126,13 +126,15 @@ $ git pull
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/7/stumbling-git
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[ChrisLeeGit](https://github.com/chrisleegit)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/7/stumbling-git](https://opensource.com/life/16/7/stumbling-git)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[ChrisLeeGit](https://github.com/chrisleegit)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

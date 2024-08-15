@@ -5,8 +5,6 @@ comments: true
 Git 的遴选和撤销操作是如何利用三路合并的
 ======
 
-![][0]
-
 大家好！几天前，我尝试向其他人解释 Git 遴选（`git cherry-pick`）的工作原理，结果发现自己反而更混淆了。
 
 我原先以为 Git 遴选是简单地应用一个补丁，但当我真正这样尝试时，却未能成功！
@@ -274,14 +272,17 @@ error: repository lacks the necessary blob to perform 3-way merge.
 
 --------------------------------------------------------------------------------
 
-via: https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/
-
-作者：[Julia Evans](https://jvns.ca/)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/](https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/)
+>
+>作者：[Julia Evans](https://jvns.ca/)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

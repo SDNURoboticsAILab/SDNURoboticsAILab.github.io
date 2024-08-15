@@ -106,13 +106,15 @@ Git-cola 的默认布局不是线性的。我喜欢从左向右分布，因为 G
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/8/graphical-tools-git
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[zpl1025](https://github.com/zpl1025)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/8/graphical-tools-git](https://opensource.com/life/16/8/graphical-tools-git)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[zpl1025](https://github.com/zpl1025)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

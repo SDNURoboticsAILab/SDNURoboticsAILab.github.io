@@ -125,15 +125,12 @@ git remote add origin https://github.com/<your_username>/Demo.git
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/18/1/step-step-guide-git
-
-作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
-译者：[CYLeft](https://github.com/CYLeft)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
+>via: [https://opensource.com/article/18/1/step-step-guide-git](https://opensource.com/article/18/1/step-step-guide-git)
+>
+>作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
+>
+>译者：[CYLeft](https://github.com/CYLeft)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

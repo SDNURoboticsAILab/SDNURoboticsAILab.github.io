@@ -33,7 +33,7 @@ $ git config --list
 
 ```Bash
 $ git init
-``` 
+```
 
 ### 查找一个仓库
 
@@ -55,7 +55,7 @@ $ git remote add origin remote_server
 
 ```Bash
 $ git remote -v
-``` 
+```
 
 ### 克隆一个仓库
 
@@ -93,7 +93,7 @@ $ git checkout -b 'branchname'
 
 ```Bash
 $ git branch -d 'branchname'
-``` 
+```
 
 为了删除远程仓库的一个分支，执行：
 
@@ -107,7 +107,7 @@ $ git push origin:'branchname'
 
 ```Bash
 $ git checkout 'branchname'
-``` 
+```
 
 ### 添加文件
 
@@ -145,7 +145,7 @@ $ git commit -m "message"
 
 ```Bash
 $ git push origin master
-``` 
+```
 
 ### 推送分支到仓库 
 
@@ -167,7 +167,7 @@ $ git push -all origin
 
 ```Bash
 $ git merge 'branchname'
-``` 
+```
 
 ### 从远端服务器合并到本地服务器 
 
@@ -175,7 +175,7 @@ $ git merge 'branchname'
 
 ```Bash
 $ git pull 
-``` 
+```
 
 ### 检查合并冲突
 
@@ -183,13 +183,13 @@ $ git pull
 
 ```Bash
 $ git diff -base 'filename'
-``` 
+```
 
 查看所有冲突，运行：
 
 ```Bash
 $ git diff
-``` 
+```
 
 如果我们在合并之前想预览所有变更，运行：
 
@@ -209,7 +209,7 @@ $ git tag 'tag number' 'commit id'
 
 ```Bash
 $ git log
-``` 
+```
 ### 推送标记
 
 推送所有创建的标记到远端服务器，运行：
@@ -237,18 +237,12 @@ $ git reset -hard master
 
 --------------------------------------------------------------------------------
 
-via: http://linuxtechlab.com/beginners-to-pro-guide-for-git-commands/
-
-作者：[Shusain](http://linuxtechlab.com/author/shsuain/)
-译者：[liuxinyu123](https://github.com/liuxinyu123)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
+>via: [http://linuxtechlab.com/beginners-to-pro-guide-for-git-commands/](http://linuxtechlab.com/beginners-to-pro-guide-for-git-commands/)
+>
+>作者：[Shusain](http://linuxtechlab.com/author/shsuain/)
+>
+>译者：[liuxinyu123](https://github.com/liuxinyu123)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

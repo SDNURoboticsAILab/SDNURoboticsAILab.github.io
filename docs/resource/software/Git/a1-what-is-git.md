@@ -104,13 +104,15 @@ $ head ~/path/to/my-file.blah
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/resources/what-is-git
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[cvsher](https://github.com/cvsher)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/resources/what-is-git](https://opensource.com/resources/what-is-git)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[cvsher](https://github.com/cvsher)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

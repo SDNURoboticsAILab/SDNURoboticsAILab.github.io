@@ -179,19 +179,14 @@ Git 分支的工作方式存在细微差别，具体取决于你想要分叉代�
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/22/5/git-branch-rename-delete-find-author
-
-作者：[Agil Antony](https://opensource.com/users/agantony)
-选题：[lkxed](https://github.com/lkxed)
-译者：[lkxed](https://github.com/lkxed)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
+>via: [https://opensource.com/article/22/5/git-branch-rename-delete-find-author](https://opensource.com/article/22/5/git-branch-rename-delete-find-author)
+>
+>作者：[Agil Antony](https://opensource.com/users/agantony)
+>
+>选题：[lkxed](https://github.com/lkxed)
+>
+>译者：[lkxed](https://github.com/lkxed)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

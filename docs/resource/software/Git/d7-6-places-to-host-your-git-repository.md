@@ -43,20 +43,14 @@ comments: true
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/18/8/github-alternatives
-
-作者：[Jason van Gumster](https://opensource.com/users/mairin)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[dianbanjiu](https://github.com/dianbanjiu)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
+>via: [https://opensource.com/article/18/8/github-alternatives](https://opensource.com/article/18/8/github-alternatives)
+>
+>作者：[Jason van Gumster](https://opensource.com/users/mairin)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[dianbanjiu](https://github.com/dianbanjiu)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

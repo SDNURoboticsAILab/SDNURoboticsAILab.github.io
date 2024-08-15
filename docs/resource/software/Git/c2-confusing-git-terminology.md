@@ -5,8 +5,6 @@ comments: true
 解读那些令人困惑 Git 术语
 ======
 
-![][0]
-
 我正在一步步解释 Git 的方方面面。在使用 Git 近 15 年后，我已经非常习惯于 Git 的特性，很容易忘记它令人困惑的地方。
 
 因此，我在 [Mastodon](https://social.jvns.ca/@b0rk/111330564535454510) 上进行了调查：
@@ -429,44 +427,16 @@ A - B - C (main)
 
 另外，尽管我已经尽力做到准确无误，但由于我涉猎到了一些我从未深入探讨过的Git的角落，所以可能还是出现了一些错误。
 
-*（题图：DALL-E/A/e1e5b964-5f32-41bb-811e-8978fb8556d4）*
-
 --------------------------------------------------------------------------------
 
-via: https://jvns.ca/blog/2023/11/01/confusing-git-terminology/
-
-作者：[Julia Evans](https://jvns.ca/)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>via: [https://jvns.ca/blog/2023/11/01/confusing-git-terminology/](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)
+>
+>作者：[Julia Evans](https://jvns.ca/)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

@@ -49,19 +49,14 @@ https://example.com/ayushsharma-in/-/blob/master/_posts/2021-10-10-example.md
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/21/12/reveal-source-code-jinja2-git
-
-作者：[Ayush Sharma](https://opensource.com/users/ayushsharma)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[geekpi](https://github.com/geekpi)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
- (Text editor on a browser, in blue)
-
-
-
-
-
+>via: [https://opensource.com/article/21/12/reveal-source-code-jinja2-git](https://opensource.com/article/21/12/reveal-source-code-jinja2-git)
+>
+>作者：[Ayush Sharma](https://opensource.com/users/ayushsharma)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[geekpi](https://github.com/geekpi)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

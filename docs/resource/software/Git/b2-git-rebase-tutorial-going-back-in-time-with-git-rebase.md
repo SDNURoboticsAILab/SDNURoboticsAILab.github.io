@@ -108,22 +108,21 @@ git status告诉我们userService.js和wishlistService.js被修改了。如果�
 
 >注：Christoph目前正在与Pascal Precht写一本关于[Git rebase](https://leanpub.com/rebase-the-complete-guide-on-rebasing-in-git)的书，您可以在leanpub订阅它并在准备出版时获得通知。
 
-![](https://www.gravatar.com/avatar/7c148ace0d63306091cc79ed9d9e77b4?d=mm&s=200)
-
 本文作者 Christoph Burgdorf自10岁时就是一名程序员，他是HannoverJS Meetup网站的创始人，并且一直活跃在AngularJS社区。他也是非常了解gti的内内外外，在那里他举办一个[thoughtram](http://thoughtram.io/)的工作室来帮助初学者掌握该技术。
 
 本的教程最初发表在他的[blog](http://blog.thoughtram.io/posts/going-back-in-time-to-split-older-commits/)。
 
 --------------------------------------------------------------------------------
 
-via: https://www.codementor.io/git-tutorial/git-rebase-split-old-commit-master
-
-作者：[cburgdorf](https://www.codementor.io/cburgdorf)
-译者：[geekpi](https://github.com/geekpi)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出
-
+>via: [https://www.codementor.io/git-tutorial/git-rebase-split-old-commit-master](https://www.codementor.io/git-tutorial/git-rebase-split-old-commit-master)
+>
+>作者：[cburgdorf](https://www.codementor.io/cburgdorf)
+>
+>译者：[geekpi](https://github.com/geekpi)ss
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出
 
 
 

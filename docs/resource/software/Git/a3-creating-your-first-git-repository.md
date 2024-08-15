@@ -163,13 +163,15 @@ $ git log --oneline
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/7/creating-your-first-git-repository
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-译者：[vim-kakali](https://github.com/vim-kakali)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/7/creating-your-first-git-repository](https://opensource.com/life/16/7/creating-your-first-git-repository)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[vim-kakali](https://github.com/vim-kakali)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
 
 
 

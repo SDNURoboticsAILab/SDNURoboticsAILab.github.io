@@ -183,12 +183,12 @@ git push -u origin master
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files
-
-作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
-译者：[MjSeven](https://github.com/MjSeven)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
+>via: [https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files](https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files)
+>
+>作者：[Kedar Vijay Kulkarni](https://opensource.com/users/kkulkarn)
+>
+>译者：[MjSeven](https://github.com/MjSeven)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

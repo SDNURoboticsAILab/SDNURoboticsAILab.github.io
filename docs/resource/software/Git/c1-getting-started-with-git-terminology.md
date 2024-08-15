@@ -99,20 +99,14 @@ Git 里面有各种比喻。当我想到 `HEAD` 是哪里的时候，我就会�
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/19/2/git-terminology
-
-作者：[Matthew Broberg](https://opensource.com/users/mbbroberg)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[wxy](https://github.com/wxy)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
- (Digital hand surrounding by objects, bike, light bulb, graphs)
- (Git Cheat Sheet cover image)
-
-
-
-
-
+>via: [https://opensource.com/article/19/2/git-terminology](https://opensource.com/article/19/2/git-terminology)
+>
+>作者：[Matthew Broberg](https://opensource.com/users/mbbroberg)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[wxy](https://github.com/wxy)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

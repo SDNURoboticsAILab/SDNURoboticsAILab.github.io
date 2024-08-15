@@ -101,24 +101,12 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 --------------------------------------------------------------------------------
 
-via: http://www.linuxandubuntu.com/home/getting-started-with-github
-
-作者：[LinuxAndUbuntu](http://www.linuxandubuntu.com)
-译者：[firmianay](https://github.com/firmianay)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>via: [http://www.linuxandubuntu.com/home/getting-started-with-github](http://www.linuxandubuntu.com/home/getting-started-with-github)
+>
+>作者：[LinuxAndUbuntu](http://www.linuxandubuntu.com)
+>
+>译者：[firmianay](https://github.com/firmianay)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

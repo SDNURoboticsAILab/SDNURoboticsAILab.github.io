@@ -51,7 +51,7 @@ $ echo "*.kra filter=media -crlf" >> .gitattributes
 
 假设在服务器已经有了一个 Git 源仓库，最后一步就告诉源仓库“母舰”所在的位置，也就是，当媒体文件被推送给所有用户共享时，媒体文件将会存储的位置。这在仓库的 `.git/config` 文件中设置，请替换成您的用户名、主机和路径：
 
-```Bash
+```
 [git-media]
 transport = scp
 autodownload = false #默认为 true，拉取资源
@@ -137,10 +137,12 @@ Git 是一个非常强大和扩展性非常强的系统应用软件，我们应�
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/life/16/8/how-manage-binary-blobs-git-part-7
-
-作者：[Seth Kenlon](https://opensource.com/users/seth )
-译者：[runningwater](https://github.com/runningwater)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>via: [https://opensource.com/life/16/8/how-manage-binary-blobs-git-part-7](https://opensource.com/life/16/8/how-manage-binary-blobs-git-part-7)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>译者：[runningwater](https://github.com/runningwater)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

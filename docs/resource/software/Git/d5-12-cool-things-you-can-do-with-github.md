@@ -40,7 +40,7 @@ comments: true
 ![](https://cdn-images-1.medium.com/max/1600/1*xnt83oGWLtJzNzwp-YvSuA.png)
 
 …这意味着代码段已经正确的呈现：
- 
+
 ![](https://cdn-images-1.medium.com/max/1600/1*FnOcz-bZi3S9Tn3dDGiIbQ.png)
 
 （顺便说一下，这些用法也可以用到 gist。 如果你给一个 gist 用上 `.jsx` 扩展名，你的 JSX 语法就会高亮显示。）
@@ -297,32 +297,12 @@ GitHub 后来在这次审查竞赛中追了上来，干的不错。不幸的是�
 
 --------------------------------------------------------------------------------
 
-via: https://hackernoon.com/12-cool-things-you-can-do-with-github-f3e0424cf2f0
-
-作者：[David Gilbertson](https://hackernoon.com/@david.gilbertson)
-译者：[softpaopao](https://github.com/softpaopao)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>via: [https://hackernoon.com/12-cool-things-you-can-do-with-github-f3e0424cf2f0](https://hackernoon.com/12-cool-things-you-can-do-with-github-f3e0424cf2f0)
+>
+>作者：[David Gilbertson](https://hackernoon.com/@david.gilbertson)
+>
+>译者：[softpaopao](https://github.com/softpaopao)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

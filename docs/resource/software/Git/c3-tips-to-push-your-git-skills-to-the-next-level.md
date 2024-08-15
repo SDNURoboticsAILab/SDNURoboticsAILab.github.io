@@ -182,10 +182,10 @@ comments: true
 
 --------------------------------------------------------------------------------
 
-via: http://www.sitepoint.com/10-tips-git-next-level/
-
-译者：[love\_daisy\_love](https://github.com/CNprober) 校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出
-
-
+>via: [http://www.sitepoint.com/10-tips-git-next-level/](http://www.sitepoint.com/10-tips-git-next-level/)
+>
+>译者：[love\_daisy\_love](https://github.com/CNprober)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出

@@ -140,22 +140,13 @@ git push origin master
 
 --------------------------------------------------------------------------------
 
-via: https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
-
-作者：[Akshay Pai](https://www.howtoforge.com/tutorial/installing-tensorflow-neural-network-software-for-cpu-and-gpu-on-ubuntu-16-04/)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[DavidChenLiang](https://github.com/DavidChenLiang)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-
-
-
+>via: [https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/](https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/)
+>
+>作者：[Akshay Pai](https://www.howtoforge.com/tutorial/installing-tensorflow-neural-network-software-for-cpu-and-gpu-on-ubuntu-16-04/)
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[DavidChenLiang](https://github.com/DavidChenLiang)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出

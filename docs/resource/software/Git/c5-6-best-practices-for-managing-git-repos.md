@@ -107,24 +107,14 @@ $ git diff --numstat /dev/null file.txt | tee
 
 --------------------------------------------------------------------------------
 
-via: https://opensource.com/article/20/7/git-repos-best-practices
-
-作者：[Seth Kenlon](https://opensource.com/users/seth)
-选题：[lujun9972](https://github.com/lujun9972)
-译者：[stevenzdg988](https://github.com/stevenzdg988)
-校对：[wxy](https://github.com/wxy)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
- (Working from home at a laptop)
-
- (Git repository )
- (Git binary check)
-
-
- (Git manual add)
- (Git ignore)
-
-
- (Git merge request)
+>via: [https://opensource.com/article/20/7/git-repos-best-practices](https://opensource.com/article/20/7/git-repos-best-practices)
+>
+>作者：[Seth Kenlon](https://opensource.com/users/seth)
+>
+>选题：[lujun9972](https://github.com/lujun9972)
+>
+>译者：[stevenzdg988](https://github.com/stevenzdg988)
+>
+>校对：[wxy](https://github.com/wxy)
+>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
