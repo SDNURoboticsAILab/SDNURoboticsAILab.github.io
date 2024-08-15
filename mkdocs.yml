@@ -76,15 +76,15 @@ nav:
         - Git教程：重命名分支、删除分支、查看分支作者: resource/software/Git/b8-how-to-rename-a-branch-delete-a-branch-and-find-the-author-of-a-branch-in-git.md
         - Git入门：术语基础: resource/software/Git/c1-getting-started-with-git-terminology.md
         - 解读那些令人困惑Git术语: resource/software/Git/c2-confusing-git-terminology.md
-        - 已经会用Git了？不会这十招怎么行: resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md
+        - 已经会用Git了，不会这十招怎么行: resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md
         - GIT命令“从初学到专业”完整进阶指南: resource/software/Git/c4-complete-beginners-to-pro-guide-for-git-commands.md
         - 6个最佳的Git仓库管理实践: resource/software/Git/c5-6-best-practices-for-managing-git-repos.md
         - 6个在团队中使用Git的最佳实践: resource/software/Git/c6-6-best-practices-for-teams-using-git.md
-        - 在Git仓库中，文件究竟被存储在哪里？: resource/software/Git/c7-in-a-git-repository-where-do-your-files-live.md
+        - 在Git仓库中，文件究竟被存储在哪里: resource/software/Git/c7-in-a-git-repository-where-do-your-files-live.md
         - GitHub简易入门指南: resource/software/Git/d1-getting-started-with-github.md
         - 手把手指导您使用Git: resource/software/Git/d2-a-step-by-step-guide-to-git.md
         - 初学者指南：在UbuntuLinux上安装和使用Git和GitHub: resource/software/Git/d3-installing-and-using-git-and-github-on-ubuntu-linux-a-beginner-s-guide.md
-        - 在Git中怎样克隆、修改、添加和删除文件？: resource/software/Git/d4-how-to-clone-modify-add-and-delete-files-in-git.md
+        - 在Git中怎样克隆、修改、添加和删除文件: resource/software/Git/d4-how-to-clone-modify-add-and-delete-files-in-git.md
         - 12件可以用GitHub完成的很酷的事情: resource/software/Git/d5-12-cool-things-you-can-do-with-github.md
         - 用Jekyll和Git展示你的源码: resource/software/Git/d5-reveal-your-source-code-with-jinja2-and-git.md
         - GitHub的DNS基础设施: resource/software/Git/d6-dns-infrastructure-at-github.md
