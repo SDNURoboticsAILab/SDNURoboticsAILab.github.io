@@ -83,7 +83,6 @@ nav:
         - Bash基础知识系列8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
         - Bash基础知识系列9：Bash中的函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
       - Git版本控制系统:
-        - 第一章:
 
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
