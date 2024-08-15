@@ -110,7 +110,6 @@ nav:
         - 番外篇:
         - Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
         - Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
-        - 使用Github Desktop从零贡献代码: resource/software/Git/
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
