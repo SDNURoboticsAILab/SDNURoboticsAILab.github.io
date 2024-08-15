@@ -60,7 +60,28 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
-
+      - Linux指令基础:
+        - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
+        - 第1章：Linux终端中的目录切换: resource/software/Linux/chapter-1-change-directories.md
+        - 第2章：在Linux终端中创建目录: resource/software/Linux/chapter-2-make-directories.md
+        - 第3章：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
+        - 第4章：在Linux中创建文件: resource/software/Linux/chapter-4-create-files.md
+        - 第5章：在Linux中查看文件内容: resource/software/Linux/chapter-5-view-file-contents.md
+        - 第6章：在Linux中删除文件和文件夹: resource/software/Linux/chapter-6-delete-files-folders-linux.md
+        - 第7章：在Linux中复制文件和目录: resource/software/Linux/chapter-7-copy-files-directory-linux.md
+        - 第8章：移动文件和目录（剪切粘贴操作）: resource/software/Linux/chapter-8-move-files-linux.md
+        - 第9章：在Linux终端中编辑文件: resource/software/Linux/chapter-9-edit-files-linux.md
+        - 第10章：在Linux终端中获取帮助: resource/software/Linux/chapter-10-linux-command-help.md
+        - Bash脚本编程入门: resource/software/Linux/bash-basics-series-0-introduction-to-bash-scripting.md
+        - Bash基础知识系列1：创建并运行你的第一个BashShell脚本: resource/software/Linux/bash-basics-series-1-create-and-run-your-first-bash-shell-script.md
+        - Bash基础知识系列2：在Bash中使用变量: resource/software/Linux/bash-basics-series-2-using-variables-in-bash.md
+        - Bash基础知识系列3：传递参数和接受用户输入: resource/software/Linux/bash-basics-series-3-passing-arguments-and-accepting-user-inputs.md
+        - Bash基础知识系列4：算术运算: resource/software/Linux/bash-basics-series-4-arithmetic-operations.md
+        - Bash基础知识系列5：在Bash中使用数组: resource/software/Linux/bash-basics-series-5-using-arrays-in-bash.md
+        - Bash基础知识系列6：处理字符串操作: resource/software/Linux/bash-basics-series-6-handling-string-operations.md
+        - Bash基础知识系列7：IfElse语句: resource/software/Linux/bash-basics-series-7-if-else-statement.md
+        - Bash基础知识系列8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
+        - Bash基础知识系列9：Bash中的函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
       - Git版本控制基础: resource/software/Git/Git_Introduction.md
         - Git系列（一）：什么是Git: resource/software/Git/a1-what-is-git.md
         - Git系列（二）：初步了解Git: resource/software/Git/a2-getting-started-with-git.md
