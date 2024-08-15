@@ -60,6 +60,7 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
+      - Git版本控制系统:
       - Linux指令基础:
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
         - 第1章：Linux终端中的目录切换: resource/software/Linux/chapter-1-change-directories.md
@@ -82,8 +83,6 @@ nav:
         - Bash基础知识系列7：IfElse语句: resource/software/Linux/bash-basics-series-7-if-else-statement.md
         - Bash基础知识系列8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
         - Bash基础知识系列9：Bash中的函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
-      - Git版本控制系统:
-
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
