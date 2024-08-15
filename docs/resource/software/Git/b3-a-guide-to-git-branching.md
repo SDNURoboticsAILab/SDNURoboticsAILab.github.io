@@ -7,11 +7,11 @@ Git 分支操作介绍
 
 > 在这个 Git 入门系列的第三篇中，我们来学习一下如何添加和删除 Git 分支。
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/arrows_translation_lead.jpg?itok=S4vAh9CP)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/arrows_translation_lead.jpg)
 
 在本系列的前两篇文章中，我们[开始使用 Git](https://linux.cn/article-9319-1.html)，学会如何[克隆项目，修改、增加和删除内容](https://linux.cn/article-9517-1.html)。在这第三篇文章中，我将介绍 Git 分支，为何以及如何使用分支。
 
-![树枝](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/tree-branches.jpg?itok=bQGpa5Uc)
+![树枝](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/tree-branches.jpg)
 
 不妨用树来描绘 Git 仓库。图中的树有很多分支，或长或短，或从树干延伸或从其它分支延伸。在这里，我们用树干比作仓库的 master 分支，其中 `master` 代指 ”master 分支”，是 Git 仓库的中心分支或第一个分支。为简单起见，我们假设 `master` 是树干，其它分支都是从该分支分出的。
 
@@ -34,7 +34,7 @@ ls -la
 
 `pwd` 命令（是当前工作目录的英文缩写）返回当前你所处的目录（以便确认你在 `Demo` 目录中），`git branch` 列出该项目在你主机上的全部分支，`ls -la` 列出当前目录下的所有文件。你的终端输出类似于：
 
-![终端输出](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_terminal1.png?itok=ZcAzRdlR)
+![终端输出](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_terminal1.png)
 
 在 `master` 分支中，只有一个文件 `README.md`。（Git 会友好地忽略掉其它目录和文件。）
 
@@ -52,7 +52,7 @@ git status
 
 如你所见，`git status` 告知你当前处于 `myBranch` 分支，没有变更需要提交。这是因为我们既没有增加新文件，也没有修改已有文件。
 
-![终端输出](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_terminal2.png?itok=nIcfy2Vh)
+![终端输出](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_terminal2.png)
 
 如果希望以可视化的方式查看分支，可以运行 `gitk` 命令。如果遇到报错 `bash: gitk: command not found...`，请先安装 `gitk` 软件包（找到你操作系统对应的安装文档，以获得安装方式）。
 
@@ -60,7 +60,7 @@ git status
 
 下图展示了我们在 Demo 项目中的所作所为：你最后一次提交（的对应信息）是 `Delete file.txt`，在此之前有三次提交。当前的提交用黄点标注，之前的提交用蓝点标注，黄点和 `Delete file.txt` 之间的三个方块展示每个分支所在的位置（或者说每个分支中的最后一次提交的位置）。由于 `myBranch` 刚创建，提交状态与 `master` 分支及其对应的记为 `remotes/origin/master` 的远程 `master` 分支保持一致。（非常感谢来自 Red Hat 的 [Peter Savage](https://opensource.com/users/psav) 让我知道 `gitk` 这个工具）
 
-![Gitk 输出](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_commit3.png?itok=GoP51yE4)
+![Gitk 输出](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_commit3.png)
 
 下面让我们在 `myBranch` 分支下创建一个新文件并观察终端输出。运行如下命令：
 
@@ -72,7 +72,7 @@ git status
 
 第一条命令中的 `echo` 创建了名为 `newFile` 的文件，接着 `cat newFile` 打印出文件内容，最后 `git status` 告知你我们 `myBranch` 分支的当前状态。在下面的终端输出中，Git 告知 `myBranch` 分支下有一个名为 `newFile` 的文件当前处于 `untracked` 状态。这表明我们没有让 Git 追踪发生在文件 `newFile` 上的变更。
 
-![终端输出](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_terminal4.png?itok=HThID5aU)
+![终端输出](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_terminal4.png)
 
 下一步是增加文件，提交变更并将 `newFile` 文件推送至 `myBranch` 分支（请回顾本系列上一篇文章获得更多细节）。
 
@@ -84,15 +84,15 @@ git push origin myBranch
 
 在上述命令中，`push` 命令使用的分支参数为 `myBranch` 而不是 `master`。Git 添加 `newFile` 并将变更推送到你 GitHub 账号下的 Demo 仓库中，告知你在 GitHub 上创建了一个与你本地副本分支 `myBranch` 一样的新分支。终端输出截图给出了运行命令的细节及命令输出。
 
-![终端输出](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_terminal5.png?itok=rHVdrJ0m)
+![终端输出](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_terminal5.png)
 
 当你访问 GitHub 时，在分支选择的下拉列表中可以发现两个可供选择的分支。
 
-![GitHub](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_github6.png?itok=EyaKfCg2)
+![GitHub](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_github6.png)
 
 点击 `myBranch` 切换到 `myBranch` 分支，你可以看到在此分支上新增的文件。
 
-![GitHub](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_github7.png?itok=0ZSu0W2P)
+![GitHub](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_github7.png)
 
 截至目前，我们有两个分支：一个是 `master` 分支，只有一个 `README.md` 文件；另一个是 `myBranch` 分支，有两个文件。
 
@@ -115,7 +115,7 @@ git push origin myBranch2
 
 1. **删除本地分支** 你不能删除正在操作的分支，故切换到 `master` 分支 （或其它你希望保留的分支），命令及终端输出如下：
 
-	![](https://opensource.com/sites/default/files/pictures/kulkarni_fig_new.png)
+	![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/kulkarni_fig_new.png)
 
 	`git branch` 可以列出可用的分支，使用 `checkout` 切换到 `master` 分支，然后使用 `git branch -D myBranch` 删除该分支。再次运行 `git branch` 检查是否只剩下两个分支（而不是三个）。
 

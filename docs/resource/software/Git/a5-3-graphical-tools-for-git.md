@@ -21,13 +21,13 @@ Git 系列（五）：三个 Git 图形化工具
 
 在 Services 面板里，滚动可用的插件列表找到 Git。
 
-![](https://opensource.com/sites/default/files/4_dolphinconfig.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/4_dolphinconfig.jpg)
 
 （勾选上它，）然后保存你的改动并关闭 Dolphin 窗口。重新启动 Dolphin，浏览一个 Git 仓库试试看。你会发现现在所有文件图标都带有标记：绿色方框表示已经提交的文件，绿色实心方块表示文件有改动，没加入库里的文件没有标记，等等。
 
 之后你在 Git 仓库目录下点击鼠标右键弹出的菜单里就会有 Git 选项了。你在 Dolphin 窗口里点击鼠标就可以检出一个版本，推送或提交改动，还可以对文件进行 `git add` 或 `git remove` 操作。
 
-![](https://opensource.com/sites/default/files/4_dolphingit.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/4_dolphingit.jpg)
 
 不过 Dolphin 不支持克隆仓库或是改变远端仓库路径，需要到终端窗口操作，按下 F4 就可以很方便地进行切换。
 
@@ -43,13 +43,13 @@ SparkleShare 来自桌面环境的另一大阵营，由一些 GNOME 开发人员
 
 在安装完成后，从应用程序菜单里启动 SparkleShare。走一遍设置向导，只有两个步骤外加一个简单介绍，然后可以选择是否将 SparkleShare 设置为随桌面自动启动。
 
-![](https://opensource.com/sites/default/files/4_sparklesetup.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/4_sparklesetup.jpg)
 
 之后在你的系统托盘里会出现一个橙色的 SparkleShare 目录。目前，SparkleShare 对你电脑上的任何东西都一无所知，所以你需要添加一个项目。
 
 要添加一个目录给 SparkleShare 追踪，可以点击系统托盘里的 SparkleShare 图标然后选择 Add Hosted Project。
 
-![](https://opensource.com/sites/default/files/4_sparklehost.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/4_sparklehost.jpg)
 
 SparkleShare 支持本地 Git 项目，也可以是存放在像 GitHub 和 Bitbucket 这样的公共 Git 服务器上的项目。要获得完整访问权限，你可能会需要使用 SparkleShare 生成的客户端 ID。这是一个 SSH 密钥，作为你所用到服务的授权令牌，包括你自己的 Git 服务器，应该也使用 SSH 公钥认证而不是用户名密码。将客户端 ID 拷贝到你服务器上 Git 用户的 `authorized_hosts` 文件里，或者是你的 Git 主机的 SSH 密钥面板里。
 
@@ -77,7 +77,7 @@ $ python setup.py install
 
 Git-cola 的默认布局不是线性的。我喜欢从左向右分布，因为 Git-cola 是高度可配置的，所以你可以随便修改布局。我自己设置成最左边是状态面板，显示当前分支的任何改动，然后右边是差异面板，可以浏览当前改动，然后是动作面板，放一些常用任务的快速按钮，最后，最右边是提交面板，可以写提交信息。
 
-![](https://opensource.com/sites/default/files/4_gitcola.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/4_gitcola.jpg)
 
 不管怎么改布局，下面是 Git-cola 的通用流程：
 
@@ -115,6 +115,3 @@ Git-cola 的默认布局不是线性的。我喜欢从左向右分布，因为 G
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-

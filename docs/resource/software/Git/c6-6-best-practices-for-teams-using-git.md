@@ -7,7 +7,7 @@ comments: true
 
 > 采用这些 Git 协作策略，让团队工作更高效。
 
-![](https://img.linux.net.cn/data/attachment/album/202009/16/234908ge77j9j799i4eaj7.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/234908ge77j9j799i4eaj7.jpg)
 
 Git 非常有助于小团队管理他们的软件开发进度，但有些方法能让你变得更高效。我发现了许多有助于我的团队的最佳实践，尤其是当不同 Git 水平的新人加入时。
 

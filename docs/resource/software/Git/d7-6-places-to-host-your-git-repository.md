@@ -6,7 +6,7 @@ comments: true
 ======
 > GitHub 被收购导致一些用户去寻找这个流行的代码仓库的替代品。这里有一些你可以考虑一下。
 
-![](https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/house_home_colors_live_building.jpg?itok=HLpsIfIL)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/house_home_colors_live_building.jpg)
 
 也许你是少数一些没有注意到的人之一，就在之前，[微软收购了 GitHub](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal)。两家公司达成了共识。微软在近些年已经变成了开源的有力支持者，而 GitHub 从成立起，就已经成为了大量的开源项目的实际代码库。
 

@@ -7,7 +7,7 @@ comments: true
 
 > 借助 Gitolite，你可以使用 Git 来管理 Git 服务器。在我们的系列文章中了解这些鲜为人知的 Git 用途。
 
-![](https://img.linux.net.cn/data/attachment/album/202001/18/132045yrr1pb9n497tfbiy.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/132045yrr1pb9n497tfbiy.png)
 
 正如我在系列文章中演示的那样，[Git](https://git-scm.com/) 除了跟踪源代码外，还可以做很多事情。信不信由你，Git 甚至可以管理你的 Git 服务器，因此你可以或多或少地使用 Git 本身来运行 Git 服务器。
 

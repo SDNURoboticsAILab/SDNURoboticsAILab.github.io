@@ -7,13 +7,13 @@ Git 入门：术语基础
 
 > 想学习 Git？看看这个最重要的术语和命令的快速总结。
 
-![](https://img.linux.net.cn/data/attachment/album/202101/08/171156gu9l8dvulxmxom6d.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/171156gu9l8dvulxmxom6d.jpg)
 
 如今，对于任何希望跟踪他们的变化的人来说，版本控制是一个重要的工具。它对程序员、系统管理员和<ruby>网站可靠性工程师<rt>site reliability engineers</rt></ruby>（SRE）都特别有用。确保可以从错误中恢复到已知的良好状态是一个巨大的胜利，比以前给复制的文件添加 `.old` 后缀的策略更友好。
 
 但学习 Git 这件事往往被告诉大家“投身开源”的好心同行们过度简化了。在你还不明白之前，就有人要你给一个从<ruby>上游<rt>upstream</rt></ruby> <ruby>变基<rt>rebase</rt></ruby>的<ruby>拉取请求<rt>pull request</rt></ruby>（PR）或<ruby>合并请求<rt>merge request</rt></ruby>（MR），然后他们才能从你的<ruby>远程版本库<rt>remote</rt></ruby>合并 —— 而且一定会删除<ruby>合并提交<rt>merge commits</rt></ruby>。无论你想给开源项目做出什么好的贡献，当你看到这些你不认识的单词时，都会觉得难以融入。
 
-![Git 速查表封面图](https://opensource.com/sites/default/files/uploads/git_cheat_sheet_cover.jpg)
+![Git 速查表封面图](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_cheat_sheet_cover.jpg)
 
 - [下载](https://opensource.com/downloads/cheat-sheet-git) 我们的 Git 速查表。
 

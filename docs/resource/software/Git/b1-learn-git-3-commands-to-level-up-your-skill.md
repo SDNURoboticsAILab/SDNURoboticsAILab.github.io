@@ -24,7 +24,7 @@ $ man git-squash
 
 我知道我碰到一个常见的情形：已经使用工具一段时间的人使用了**行话**或引用了一个概念，这个概念对他们来说是非常清楚的，但对新手来说就不能明白了。从概念上讲，这个情况看起来是这样的：
 
-![Image of 6 bowls of different colored spices, and an arrow pointing to the second image of all the spices blended into one bowl.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.spices.png)
+![Image of 6 bowls of different colored spices, and an arrow pointing to the second image of all the spices blended into one bowl.](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbeyond2.spices.png)
 
 我这样说是为了鼓励你，你绝对不是第一个或最后一个 _被 Git 或谈论 Git 的人_ 弄糊涂的人。你可以要求对方说明白他的意见，并帮助你应该使用的正确命令。仓库的维护者实际上的意思是，“使用 `git rebase` 命令**，将很多提交压扁成一个提交”。
 
@@ -36,7 +36,7 @@ $ man git-squash
 
 在 Git 中整合来自不同分支的修改主要有两种方法：<ruby>合并<rt>merge</rt></ruby> 以及 <ruby>变基<rt>rebase</rt></ruby>，你可能更熟悉 `git merge` 命令。接下来，就来看看 [git-scm.com] 是如何解释 `git merge` 和 `git rebase` 的差异：
 
-![Image of Git merge versus git rebase shown as numbered bubbles.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.gitmerger.png)
+![Image of Git merge versus git rebase shown as numbered bubbles.](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbeyond2.gitmerger.png)
 
 在合并示例中，它会把两个分支的最新快照（`C3` 和 `C4`）以及二者最近的共同祖先（`C2`）进行三方合并，合并的结果是生成一个新的快照（`C5`）。`experiment` 的分支指针仍然存在，仍然指向 `C4`。
 
@@ -62,7 +62,7 @@ $ git checkout main
 $ git merge experiment
 ```
 
-![master 分支的快进合并](https://www.progit.cn/images/basic-rebase-4.png)
+![master 分支的快进合并](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/basic-rebase-4.png)
 
 此时，`C4'` 指向的快照就和上面使用 `merge` 命令的例子中 `C5` 指向的快照一模一样了。）
 
@@ -74,7 +74,7 @@ $ git merge experiment
 
 从命令行执行 `git rebase` 命令，最可怕的地方在于它**糟糕的默认界面**。运行命令 `git rebase <target-refr>` 要么有效，要么会变得一团糟，因为它没有太多的反馈或方法来确保它做你想做的事情。幸运的是，`git rebase` 命令和许多其他 Git 命令一样，具有 <ruby>交互模式<rt> interactive mode </rt></ruby>，你可以使用参数 `-i` 或者 `-interactive` 来使用交互模式。
 
-![Image of the Git lens interactive Rebase tool in VS Code.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.GitLens%20Interactive%20Rebase%20tool%20in%20VS%20Code.png)
+![Image of the Git lens interactive Rebase tool in VS Code.](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbeyond2.GitLens%2520Interactive%2520Rebase%2520tool%2520in%2520VS%2520Code.png)
 
 在使用交互式模式时，`git rebase` 会从一个糟糕的黑框界面转换为一个**选项菜单**，允许你选择对正在变基的提交链所做的事。对于每个提交，你可以**选择**：
 
@@ -105,7 +105,7 @@ $ git merge experiment
 
 `git cherry-pick` 命令利用了变基单个提交的方法。这一用法非常常见，以至于有了它自己的命令。
 
-![Image of a woman picking a cherry from one tree and putting on another tree.](https://opensource.com/sites/default/files/2022-11/gitbeyond2.cherrypicking.png)
+![Image of a woman picking a cherry from one tree and putting on another tree.](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbeyond2.cherrypicking.png)
 
 要使用 `git cherry-pick`，你只需告诉 Git 你要移动到“那个分支”的提交 ID（由 `HEAD` 指向）：
 
@@ -146,12 +146,3 @@ $ git cherry-pick --abort
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-
-
-

@@ -13,17 +13,17 @@ comments: true
 
 在 [GitHub.com](https://github.com/) 网站上（免费）创建一个账户是最简单的方式。
 
-![](https://opensource.com/sites/default/files/u128651/git_guide1.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide1.png)
 
 选择一个用户名（比如说，octocat123），输入您的邮箱地址和密码，然后点击 **Sign up for GitHub**。进入之后，您将看到下方插图的界面：
 
-![](https://opensource.com/sites/default/files/u128651/git_guide2.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide2.png)
 
 ## 步骤 2：创建一个新的仓库
 
 一个仓库（ repository），类似于能储存物品的场所或是容器；在这里，我们创建仓库存储代码。在 `+` 符号（在插图的右上角，我已经选中它了） 的下拉菜单中选择 **New Repository**。
 
-![](https://opensource.com/sites/default/files/u128651/git_guide3.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide3.png)
 
 给您的仓库命名（比如说，Demo）然后点击 **Create Repository**。无需考虑本页面的其他选项。
 
@@ -33,13 +33,13 @@ comments: true
 
 当仓库创建完毕后，界面将和下方一致：
 
-![](https://opensource.com/sites/default/files/u128651/git_guide4.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide4.png)
 
 不必惊慌，它比看上去简单。跟紧步骤。忽略其他内容，注意截图上的 “...or create a new repository on the command line,”。
 
 在您的计算机中打开终端。
 
-![](https://opensource.com/sites/default/files/u128651/git_guide5.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide5.png)
 
 键入 `git` 然后回车。如果命令行显示 `bash: git: command not found`，在您的操作系统或发行版 [安装 Git](https://www.linuxbabe.com/linux-server/install-git-verion-control-on-linux-debianubuntufedoraarchlinux#crt-2) 命令。键入 `git` 并回车检查是否成功安装；如果安装成功，您将看见大量关于使用该命令的说明信息。
 
@@ -71,7 +71,7 @@ cat README.md
 
 这将会为您显示 `README.md` 文件的内容，如果文件创建成功，您的终端会有如下显示： 
 
-![](https://opensource.com/sites/default/files/u128651/git_guide7.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide7.png)
 
 使用 Git 程序告诉您的电脑，Demo 是一个被 Git 管理的目录，请输入：
 
@@ -109,17 +109,17 @@ git remote add origin https://github.com/<your_username>/Demo.git
 
 现在，我们已经将本地 Demo 仓库副本连接到了其在 GitHub.com 远程副本上。您的终端看起来如下：
 
-![](https://opensource.com/sites/default/files/u128651/git_guide8.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide8.png)
 
 此刻我们已经连接到远程仓库，可以推送我们的代码 到 GitHub.com（例如上传 `README.md` 文件）。
 
 执行完毕后，您的终端会显示如下信息：
 
-![](https://opensource.com/sites/default/files/u128651/git_guide9.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide9.png)
 
 然后，如果您访问 `https://github.com/<your_username>/Demo`，您会看到截图内显示的情况：
 
-![](https://opensource.com/sites/default/files/u128651/git_guide10.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide10.png)
 
 就是这么回事！您已经创建了您的第一个 GitHub 仓库，连接到了您的电脑，并且从你的计算机推送（或者称：上传）一个文件到 GitHub.com 名叫 Demo 的远程仓库上了。下一次，我将编写关于 Git 复制（从 GitHub 上下载文件到你的计算机上）、添加新文件、修改现存文件、推送（上传）文件到 GitHub。
 

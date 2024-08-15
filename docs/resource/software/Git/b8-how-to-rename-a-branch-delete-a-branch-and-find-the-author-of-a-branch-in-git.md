@@ -5,7 +5,7 @@ comments: true
 Git 教程：重命名分支、删除分支、查看分支作者
 ======
 
-![](https://img.linux.net.cn/data/attachment/album/202205/25/161618nt30jqe10nqtlzlj.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/161618nt30jqe10nqtlzlj.jpg)
 
 > 掌握管理本地/远程分支等最常见的 Git 任务。
 

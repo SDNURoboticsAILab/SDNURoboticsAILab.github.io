@@ -56,15 +56,15 @@ git version 2.5.3
 
 可能最著名的 Git 访问界面是基于网页的，像 GitHub、开源的 GitLab、Savannah、BitBucket 和 SourceForge 这些网站都是基于网页端的 Git 界面。这些站点为面向公众和面向社会的开源软件提供了最大限度的代码托管服务。在一定程度上，基于浏览器的图形界面（GUI）可以尽量的减缓 Git 的学习曲线。下面的 GitLab 界面的截图：
 
-![](https://opensource.com/sites/default/files/0_gitlab.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/0_gitlab.png)
 
 再者，第三方 Git 服务提供商或者独立开发者甚至可以在 Git 的基础上开发出不是基于 HTML 的定制化前端界面。此类界面让你可以不用打开浏览器就可以方便的使用 Git 进行版本管理。其中对用户最透明的方式是直接集成到文件管理器中。KDE 文件管理器 Dolphin 可以直接在目录中显示 Git 状态，甚至支持提交，推送和拉取更新操作。
 
-![](https://opensource.com/sites/default/files/0_dolphin.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/0_dolphin.jpg)
 
 [Sparkleshare](http://sparkleshare.org/) 使用 Git 作为其 Dropbox 式的文件共享界面的基础。
 
-![](https://opensource.com/sites/default/files/0_sparkleshare_1.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/0_sparkleshare_1.jpg)
 
 想了解更多的内容，可以查看 [Git wiki](https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Graphical_Interfaces)，这个（长长的）页面中展示了很多 Git 的图形界面项目。
 
@@ -113,10 +113,3 @@ $ head ~/path/to/my-file.blah
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
-
-

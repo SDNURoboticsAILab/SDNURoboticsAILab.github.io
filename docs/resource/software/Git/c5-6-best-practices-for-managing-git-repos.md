@@ -7,19 +7,19 @@ comments: true
 
 > 抵制在 Git 中添加一些会增加管理难度的东西的冲动；这里有替代方法。
 
-![](https://img.linux.net.cn/data/attachment/album/202103/13/225927c3mvm5x275vano5m.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/225927c3mvm5x275vano5m.jpg)
 
 有权访问源代码使对安全性的分析以及应用程序的安全成为可能。但是，如果没有人真正看过代码，问题就不会被发现，即使人们主动地看代码，通常也要看很多东西。幸运的是，GitHub 拥有一个活跃的安全团队，最近，他们 [发现了已提交到多个 Git 仓库中的特洛伊木马病毒](https://securitylab.github.com/research/octopus-scanner-malware-open-source-supply-chain/)，甚至仓库的所有者也偷偷溜走了。尽管我们无法控制其他人如何管理自己的仓库，但我们可以从他们的错误中吸取教训。为此，本文回顾了将文件添加到自己的仓库中的一些最佳实践。
 
 ## 了解你的仓库
 
-![Git 仓库终端](https://opensource.com/sites/default/files/uploads/git_repo.png)
+![Git 仓库终端](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_repo.png)
 
 这对于安全的 Git 仓库来可以说是头号规则。作为项目维护者，无论是你自己创建的还是采用别人的，你的工作是了解自己仓库中的内容。你可能无法记住代码库中每一个文件，但是你需要了解你所管理的内容的基本组成部分。如果在几十个合并后出现一个游离的文件，你会很容易地发现它，因为你不知道它的用途，你需要检查它来刷新你的记忆。发生这种情况时，请查看该文件，并确保准确了解为什么它是必要的。
 
 ## 禁止二进制大文件
 
-![终端中 Git 的二进制检查命令](https://opensource.com/sites/default/files/uploads/git-binary-check.jpg)
+![终端中 Git 的二进制检查命令](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git-binary-check.jpg)
 
 Git 是为文本而生的，无论是用纯文本编写的 C 或 Python 还是 Java 文本，亦或是 JSON、YAML、XML、Markdown、HTML 或类似的文本。Git 对于二进制文件不是很理想。
 
@@ -81,7 +81,7 @@ $ git diff --numstat /dev/null file.txt | tee
 
 ## 抵制盲目的 git add
 
-![Git 手动添加命令终端中](https://opensource.com/sites/default/files/uploads/git-cola-manual-add.jpg)
+![Git 手动添加命令终端中](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git-cola-manual-add.jpg)
 
 如果你的项目已编译，请抵制住使用 `git add .` 的冲动（其中 `.` 是当前目录或特定文件夹的路径），因为这是一种添加任何新东西的简单方法。如果你不是手动编译项目，而是使用 IDE 为你管理项目，这一点尤其重要。用 IDE 管理项目时，跟踪添加到仓库中的内容会非常困难，因此仅添加你实际编写的内容非常重要，而不是添加项目文件夹中出现的任何新对象。
 
@@ -89,7 +89,7 @@ $ git diff --numstat /dev/null file.txt | tee
 
 ## 使用 Git ignore
 
-![终端中的 `Git ignore` 命令](https://opensource.com/sites/default/files/uploads/git-ignore.jpg)
+![终端中的 `Git ignore` 命令](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git-ignore.jpg)
 
 许多为程序员打造的便利也非常杂乱。任何项目的典型项目目录，无论是编程的，还是艺术的或其他的，到处都是隐藏的文件、元数据和遗留的工件。你可以尝试忽略这些对象，但是 `git status` 中的提示越多，你错过某件事的可能性就越大。
 
@@ -97,7 +97,7 @@ $ git diff --numstat /dev/null file.txt | tee
 
 ## 查看合并请求
 
-![Git 合并请求](https://opensource.com/sites/default/files/uploads/git_merge_request.png)
+![Git 合并请求](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_merge_request.png)
 
 当你通过电子邮件收到一个合并/拉取请求或补丁文件时，不要只是为了确保它能正常工作而进行测试。你的工作是阅读进入代码库的新代码，并了解其是如何产生结果的。如果你不同意这个实现，或者更糟的是，你不理解这个实现，请向提交该实现的人发送消息，并要求其进行说明。质疑那些希望成为版本库永久成员的代码并不是一种社交失误，但如果你不知道你把什么合并到用户使用的代码中，那就是违反了你和用户之间的社交契约。
 

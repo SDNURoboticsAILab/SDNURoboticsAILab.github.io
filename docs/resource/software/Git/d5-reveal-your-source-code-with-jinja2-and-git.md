@@ -7,7 +7,7 @@ comments: true
 
 > 我是如何通过链接每个页面回到其原始源代码来保持我的网站开放的。
 
-![](https://img.linux.net.cn/data/attachment/album/202112/18/093318uoud175bj4d55zz5.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/093318uoud175bj4d55zz5.jpg)
 
 我是一个开源的超级粉丝。
 

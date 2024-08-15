@@ -13,7 +13,7 @@ comments: true
 
 让我们克隆在上一篇文章中创建的名为 Demo 的仓库。（如果你还没有创建 Demo 仓库，请跳回到[那篇文章](https://linux.cn/article-9319-1.html)并在继续之前执行那些步骤）要克隆文件，只需打开浏览器并导航到 `https://github.com/<your_username>/Demo` (其中 `<your_username>` 是你仓库的名称。例如，我的仓库是 `https://github.com/kedark3/Demo`)。一旦你导航到该 URL，点击“<ruby>克隆或下载<rt>Clone or download</rt></ruby>”按钮，你的浏览器看起来应该是这样的：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide11.png?itok=wJYqZyBX)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide11.png)
 
 正如你在上面看到的，“<ruby>使用 HTTPS 克隆<rt>Clone with HTTPS</rt></ruby>”选项已打开。从该下拉框中复制你的仓库地址（`https://github.com/<your_username>/Demo.git`），打开终端并输入以下命令将 GitHub 仓库克隆到你的计算机：
 
@@ -29,7 +29,7 @@ ls Demo/
 
 终端看起来应该是这样的：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide12.png?itok=E7ZG9t-8)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide12.png)
 
 ## 修改文件
 
@@ -46,7 +46,7 @@ git status
 
 如果你逐一运行这些命令，终端看起开将会是这样：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide12.5.png?itok=jhb-EPH1)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide12.5.png)
 
 让我们看一下 `git status` 的输出，并了解它的意思。不要担心这样的语句：
 
@@ -59,7 +59,7 @@ Your branch is up-to-date with 'origin/master'.".
 
 这里是终端输出：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide13.png?itok=983p_vNw)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide13.png)
 
 我们来分析一下：
 
@@ -72,7 +72,7 @@ Your branch is up-to-date with 'origin/master'.".
 
 提示：如果你已经运行了 `git add`，现在你想看看文件有什么不同，通常 `git diff` 不会输出任何东西，因为你已经添加了文件。相反，你必须使用 `git diff --cached`。它会告诉你 Git 添加的当前版本和以前版本文件之间的差别。你的终端输出看起来会是这样：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide14.png?itok=bva9fHJj)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide14.png)
 
 ## 上传文件到你的仓库
 
@@ -124,7 +124,7 @@ git status
 
 Git 报告说你的仓库中有一个未跟踪的文件（名为 `file.txt`）。这是 Git 告诉你说在你的计算机中的仓库目录下有一个新文件，然而你并没有告诉 Git，Git 也没有跟踪你所做的任何修改。
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide16.png?itok=UZpSKL13)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide16.png)
 
 我们需要告诉 Git 跟踪这个文件，以便我们可以提交并上传文件到我们的仓库。以下是执行该操作的命令：
 
@@ -135,15 +135,15 @@ git status
 
 终端输出如下：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide17.png?itok=quV-75Na)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide17.png)
 
 `git status` 告诉你有 `file.txt` 被修改，对于 Git 来说它是一个 `new file`，Git 在此之前并不知道。现在我们已经为 Git 添加了 `file.txt`，我们可以提交更改并将其推送到 `origin/master`。
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide18.png?itok=e0D7-eol)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide18.png)
 
 Git 现在已经将这个新文件上传到 GitHub；如果刷新 GitHub 页面，则应该在 GitHub 上的仓库中看到新文件 	`file.txt`。	
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide19.png?itok=FcuSsHQ6)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide19.png)
 
 通过这些步骤，你可以创建尽可能多的文件，将它们添加到 Git 中，然后提交并将它们推送到 GitHub。
 
@@ -173,11 +173,11 @@ git push -u origin master
 
 现在你的终端看起来像这样：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide20.png?itok=SrJMqNXC)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide20.png)
 
 你的 GitHub 看起来像这样：
 
-![](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/git_guide21.png?itok=RhXM4Gua)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide21.png)
 
 现在你知道如何从你的仓库克隆、添加、修改和删除 Git 文件。本系列的下一篇文章将检查 Git 分支。
 

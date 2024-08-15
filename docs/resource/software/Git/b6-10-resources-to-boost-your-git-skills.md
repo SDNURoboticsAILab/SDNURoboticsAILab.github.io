@@ -7,7 +7,7 @@ comments: true
 
 > 年末总结一下 Git 的最佳表现。以下是告诉你可以在新的一年中以新奇的方式使用 Git 的十篇文章。
 
-![](https://img.linux.net.cn/data/attachment/album/202001/02/093934q5ifu46u4nuq4lgi.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/093934q5ifu46u4nuq4lgi.jpg)
 
 2019 年过去了，是时候回顾一下我们（opensource.com）今年发表的有关 Git 的前 10 篇文章了。
 

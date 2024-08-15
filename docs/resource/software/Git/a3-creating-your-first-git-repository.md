@@ -99,7 +99,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 另外，如果你的系统上没有安装 Git 的话也可以使用 GitHub 的文件上传接口来添加文件。
 
-![](https://opensource.com/sites/default/files/2_githubupload.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/2_githubupload.jpg)
 
 ## 跟踪文件
 
@@ -172,8 +172,3 @@ $ git log --oneline
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-

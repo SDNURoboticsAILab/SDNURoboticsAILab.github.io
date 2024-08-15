@@ -55,7 +55,7 @@ usage: Git [--version] [--help] [-C <path>]
 
 要想使用 Git 获取整个仓库，就要使用 git clone 命令和 Git 仓库的 URL 作为参数。如果你不清楚正确的 URL 是什么，仓库应该会告诉你的。GitLab 为你提供了 [Trashy](https://gitlab.com/trashy/trashy.git) 仓库的用于拷贝粘贴的 URL。
 
-![](https://opensource.com/sites/default/files/1_gitlab-url.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1_gitlab-url.jpg)
 
 你也许注意到了，在某些服务平台上，会同时提供 SSH 和 HTTPS 链接。只有当你拥有仓库的写权限时，你才可以使用 SSH。否则的话，你必须使用 HTTPS URL。
 
@@ -76,7 +76,7 @@ Checking connectivity... done.
 
 另外一种获得仓库拷贝的方式是使用 web 界面。GitLab 和 GitHub 都会提供一个 .zip 格式的仓库快照文件。GitHub 有一个大大的绿色下载按钮，但是在 GitLab 中，可以在浏览器的右侧找到并不显眼的下载按钮。
 
-![](https://opensource.com/sites/default/files/1_gitlab-zip.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1_gitlab-zip.jpg)
 
 ## 仔细挑选
 
@@ -86,7 +86,7 @@ Checking connectivity... done.
 
 在 GitLab 和 GitHub 中，单击文件链接，并在 Raw 模式下查看，然后使用你的 web 浏览器的保存功能，例如：在 Firefox 中，“文件” \> “保存页面为”。在一个 GitWeb 仓库中（这是一个某些更喜欢自己托管 git 的人使用的私有 git 仓库 web 查看器），Raw 查看链接在文件列表视图中。
 
-![](https://opensource.com/sites/default/files/1_webgit-file.jpg)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1_webgit-file.jpg)
 
 ## 最佳实践
 
@@ -135,8 +135,3 @@ $ git pull
 >校对：[wxy](https://github.com/wxy)
 >
 >本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.cn/) 荣誉推出
-
-
-
-
-
