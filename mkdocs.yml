@@ -82,7 +82,15 @@ nav:
         - Bash基础知识系列7：IfElse语句: resource/software/Linux/bash-basics-series-7-if-else-statement.md
         - Bash基础知识系列8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
         - Bash基础知识系列9：Bash中的函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
-
+      - Git版本控制系统:
+        - 第一章:
+        - Git系列（一）：什么是Git: resource/software/Git/a1-what-is-git.md
+        - Git系列（二）：初步了解Git: resource/software/Git/a2-getting-started-with-git.md
+        - Git系列（三）：建立你的第一个Git仓库: resource/software/Git/a3-creating-your-first-git-repository.md
+        - Git系列（四）：在Git中进行版本回退: resource/software/Git/a4-how-to-restore-older-file-versions-in-git.md
+        - Git系列（五）：三个Git图形化工具: resource/software/Git/a5-3-graphical-tools-for-git.md
+        - Git系列（六）：如何搭建你自己的Git服务器: resource/software/Git/a6-how-to-build-your-own-git-server.md
+        - Git系列（七）：使用Git管理二进制大对象: resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
