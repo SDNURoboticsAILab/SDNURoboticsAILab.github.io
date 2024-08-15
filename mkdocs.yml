@@ -61,6 +61,7 @@ nav:
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Git版本控制系统:
+        - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
       - Git版本控制:
