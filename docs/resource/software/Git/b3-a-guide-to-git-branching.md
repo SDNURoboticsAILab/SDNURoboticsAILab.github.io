@@ -117,15 +117,15 @@ git push origin myBranch2
 
 	![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/kulkarni_fig_new.png)
 
-	`git branch` 可以列出可用的分支，使用 `checkout` 切换到 `master` 分支，然后使用 `git branch -D myBranch` 删除该分支。再次运行 `git branch` 检查是否只剩下两个分支（而不是三个）。
+`git branch` 可以列出可用的分支，使用 `checkout` 切换到 `master` 分支，然后使用 `git branch -D myBranch` 删除该分支。再次运行 `git branch` 检查是否只剩下两个分支（而不是三个）。
 
 2. **删除 GitHub 上的分支** 使用如下命令删除 `myBranch` 的远程分支：
 
-	```Bash
+```Bash
 git push origin :myBranch
 ```
 
-	![Terminal output](https://opensource.com/sites/default/files/styles/panopoly_image_original/public/u128651/gitbranching_terminal9.png?itok=B0vaRkyI)
+![Terminal output](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/gitbranching_terminal9.png)
 
 上面 `push` 命令中分支名称前面的冒号（`:`）告知 GitHub 删除分支。另一种写法为：
 

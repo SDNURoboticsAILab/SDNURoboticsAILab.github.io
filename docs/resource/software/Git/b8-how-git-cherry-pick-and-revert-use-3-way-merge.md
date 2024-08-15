@@ -268,8 +268,6 @@ error: repository lacks the necessary blob to perform 3-way merge.
 
 *我顺便快速推荐一下：我正在写一部有关 Git 的 [zine](https://wizardzines.com)，如果你对它的发布感兴趣，你可以注册我非常不频繁的 [公告邮件列表](https://wizardzines.com/zine-announcements/)。*
 
-*（题图：MJ/321bc2c9-4363-4661-802a-c74fb6a721b2）*
-
 --------------------------------------------------------------------------------
 
 >via: [https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/](https://jvns.ca/blog/2023/11/10/how-cherry-pick-and-revert-work/)

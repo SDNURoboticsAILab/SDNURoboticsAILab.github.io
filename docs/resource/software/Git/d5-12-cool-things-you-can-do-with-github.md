@@ -7,7 +7,7 @@ comments: true
 
 我不能为我的人生想出一个引子来，所以……
 
-## #1 在 GitHub.com 上编辑代码
+## 1 在 GitHub.com 上编辑代码
 
 我想我要开始介绍的第一件事是多数人都已经知道的（尽管我一周之前还不知道）。
 
@@ -23,13 +23,13 @@ comments: true
 
 这对于修改错误拼写以及编辑代码时的一些糟糕的想法是很有用的。
 
-## #2 粘贴图像
+## 2 粘贴图像
 
 在评论和<ruby>工单<rt>issue</rt></ruby>的描述中并不仅限于使用文字。你知道你可以直接从剪切板粘贴图像吗？ 在你粘贴的时候，你会看到图片被上传 (到云端，这毫无疑问)，并转换成 markdown 显示的图片格式。
 
 棒极了。
 
-## #3 格式化代码
+## 3 格式化代码
 
 如果你想写一个代码块的话，你可以用三个反引号（```Bash）作为开始 —— 就像你在浏览 [精通 Markdown](https://guides.github.com/features/mastering-markdown/) 时所学到的一样 —— 而且 GitHub 会尝试去推测你所写下的编程语言。
 
@@ -47,7 +47,7 @@ comments: true
 
 这里是[所有被支持的语法](https://github.com/github/linguist/blob/fc1404985abb95d5bc33a0eba518724f1c3c252e/vendor/README.md)的清单。
 
-## #4 用 PR 中的魔法词来关闭工单
+## 4 用 PR 中的魔法词来关闭工单
 
 比方说你已经创建了一个用来修复 `#234` 工单的拉取请求。那么你就可以把 `fixes #234` 这段文字放在你的 PR 的描述中（或者是在 PR 的评论的任何位置）。
 
@@ -55,7 +55,7 @@ comments: true
 
 这里是[更详细的学习帮助](https://help.github.com/articles/closing-issues-using-keywords/)。
 
-## #5 链接到评论
+## 5 链接到评论
 
 是否你曾经想要链接到一个特定的评论但却无从着手？这是因为你不知道如何去做到这些。不过那都过去了，我的朋友，我告诉你啊，点击紧挨着名字的日期或时间，这就是如何链接到一个评论的方法。
 
@@ -63,7 +63,7 @@ comments: true
 
 *嘿，这里有 gaearon 的照片！*
 
-## #6 链接到代码
+## 6 链接到代码
 
 那么你想要链接到代码的特定行么。我了解了。
 
@@ -79,7 +79,7 @@ comments: true
 
 *说起 URL…*
 
-## #7 像命令行一样使用 GitHub URL
+## 7 像命令行一样使用 GitHub URL
 
 使用 UI 来浏览 GitHub 有着很好的体验。但有些时候最快到达你想去的地方的方法就是在地址栏输入。举个例子，如果我想要跳转到一个我正在工作的分支，然后查看与 master 分支的差异，我就可以在我的仓库名称的后边输入 `/compare/branch-name` 。
 
@@ -97,7 +97,7 @@ comments: true
 
 （我真的好奇如果我把快捷键写成 `shift + delete` 这样的话，是不是读起来会更加容易。但严格来说 ‘+’ 并不是快捷键的一部分，所以我并不觉得这很舒服。这一点纠结让 _我_ 整晚难以入睡，Rhonda。）
 
-## #8 在工单中创建列表
+## 8 在工单中创建列表
 
 你想要在你的<ruby>工单<rt>issue</rt></ruby>中看到一个复选框列表吗？
 
@@ -131,7 +131,7 @@ comments: true
 
 比如，在本页面下 2 厘米的地方。
 
-## #9 GitHub 上的项目面板
+## 9 GitHub 上的项目面板
 
 我常常在大项目中使用 Jira 。而对于个人项目我总是会使用 Trello 。我很喜欢它们两个。
 
@@ -179,7 +179,7 @@ comments: true
 
 延伸阅读： [GitHub help on Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/)。
 
-## #10 GitHub 维基
+## 10 GitHub 维基
 
 对于一堆非结构化页面（就像维基百科一样）， GitHub <ruby>维基<rt>wiki</rt></ruby>提供的（下文我会称之为 Gwiki）就很优秀。 
 
@@ -201,7 +201,7 @@ comments: true
 
 如果你开始觉得缺少的结构或导航非常有必要的话，去切换到其他的产品吧。
 
-## #11 GitHub 页面（带有 Jekyll）
+## 11 GitHub 页面（带有 Jekyll）
 
 你可能已经知道了可以使用 GitHub <ruby>页面<rt>Pages</rt></ruby> 来托管静态站点。如果你不知道的话现在就可以去试试。不过这一节确切的说是关于使用 Jekyll 来构建一个站点。
 
@@ -241,7 +241,7 @@ comments: true
 
 我想是这样……
 
-## #12 使用 GitHub 作为 CMS
+## 12 使用 GitHub 作为 CMS
 
 比如说你有一个带有一些文本的网站，但是你并不想在 HTML 的标记中储存那些文本。
 
