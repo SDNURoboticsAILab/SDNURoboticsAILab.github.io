@@ -15,7 +15,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 在 GitHub 上启动新项目时，您必须先使用您的电子邮件地址创建一个帐户。
 
-[![github homepage](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/github-homepage_orig.jpg)][2]
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/github-homepage_orig.jpg)
 
 然后，在验证邮箱的时候，用户将自动登录到他们的 GitHub 帐户。
 
@@ -27,7 +27,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 *   选中 “<ruby>以一个 README 文件初始化<rt>Initialize this repository with a README</rt></ruby>”。
 *   最后，点击底部的 “<ruby>创建仓库<rt>Create Repository</rt></ruby>” 按钮。
 
-[![create a github repository](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/create-a-github-repository_orig.jpg)][3] 
+![create a github repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/create-a-github-repository_orig.jpg)
 
 ### 2、 添加分支
 
@@ -35,7 +35,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 为了使项目适合每一个人的需求，通常情况下，总是需要添加几个格外的分支来匹配不同的项目。在主分支上创建一个分支和复制主分支时的当前状态是一样的。
 
-[![add a branch to github repository](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/add-a-branch-to-github-repository_orig.jpg)][4]
+![add a branch to github repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/add-a-branch-to-github-repository_orig.jpg)
 
 创建分支与在不同版本中保存单个文件是类似的。它通过在特定仓库上执行的任务重命名来实现。
 
@@ -58,14 +58,14 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 *   点击仓库名称 “Hello-World”。
 *   点击右上角的铅笔图标查看和编辑文件。
-	[![commit changes to github repository](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/commit-changes-to-github-repository_orig.jpg)][5] 
+	![commit changes to github repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/commit-changes-to-github-repository_orig.jpg)
 *   在编辑器中，写一些东西来确定你可以进行更改。
 *   在<ruby>提交消息<rt>commit message</rt></ruby>字段中做简要的总结，以解释为什么以及如何进行更改。
 *   点击<ruby>提交更改<rt> commit changes</rt></ruby>按钮保存更改。
 
 请注意，这些更改仅仅影响到 readme-edits 分支，而不影响主分支。
 
-[![commit branch to master](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/commit-branch-to-master_orig.jpg)][6] 
+![commit branch to master](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/commit-branch-to-master_orig.jpg)
 
 ### 4、 开启一个拉取请求
 
@@ -74,13 +74,13 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 开启一个​拉取请求：
 
 *   点击​<ruby>​拉取请求<rt>pull requests</rt></ruby>选项卡。
-	[![github pull request](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/github-pull-request_orig.jpg)][7]
+	![github pull request](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/github-pull-request_orig.jpg)
 *      点击<ruby>新建拉取请求<rt>new pull requests</rt></ruby>按钮。
 *   选择 readme-edits 分支与 master 分支进行比较。
-	[![compare commit changes github](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/compare-commit-changes-github_orig.jpg)][8]
+	![compare commit changes github](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/compare-commit-changes-github_orig.jpg)
 *   确定请求，并确定这是您要提交的内容。
 *   点击创建​拉取请求绿色按钮并输入一个标题。
-	[![open a pull request in github repository](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/open-a-pull-request-in-github-repository_orig.jpg)][9]
+	![open a pull request in github repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/open-a-pull-request-in-github-repository_orig.jpg)
 *   按下回车键。
 
 用户可以通过尝试创建并保存拉取请求来证实这些操作。
@@ -89,7 +89,7 @@ GitHub 也为个人项目提供了必要的工具，使得个人项目可以轻�
 
 最后一步是将 readme-edits 分支和 master 分支合并到一起。如果 readme-edits 分支和 master 分支不会产生冲突，则会显示<ruby>merge pull request<rt>合并拉取请求</rt></ruby>的按钮。
 
-[![merge the pull request github](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/merge-the-pull-request-github_orig.jpg)][10]
+![merge the pull request github](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/merge-the-pull-request-github_orig.jpg)
 
 当合并拉取时，有必要确保<ruby>评论<rt>comment</rt></ruby>和其他字段被正确填写。合并拉取：
 

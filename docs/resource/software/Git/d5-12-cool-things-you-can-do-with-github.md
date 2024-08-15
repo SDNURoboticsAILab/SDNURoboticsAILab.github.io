@@ -17,7 +17,7 @@ comments: true
 
 你不需要自己去复刻、拉取，然后本地修改，再推送，然后创建一个 PR。
 
-![](https://cdn-images-1.medium.com/max/1600/1*w3yKOnVwomvK-gc7hlQNow.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1_w3yKOnVwomvK-gc7hlQNow.png)
 
 *不是一个真正的 PR*
 
@@ -37,11 +37,11 @@ comments: true
 
 在首行注明 ````jsx`：
 
-![](https://cdn-images-1.medium.com/max/1600/1*xnt83oGWLtJzNzwp-YvSuA.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*xnt83oGWLtJzNzwp-YvSuA.png)
 
 …这意味着代码段已经正确的呈现：
 
-![](https://cdn-images-1.medium.com/max/1600/1*FnOcz-bZi3S9Tn3dDGiIbQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*FnOcz-bZi3S9Tn3dDGiIbQ.png)
 
 （顺便说一下，这些用法也可以用到 gist。 如果你给一个 gist 用上 `.jsx` 扩展名，你的 JSX 语法就会高亮显示。）
 
@@ -59,7 +59,7 @@ comments: true
 
 是否你曾经想要链接到一个特定的评论但却无从着手？这是因为你不知道如何去做到这些。不过那都过去了，我的朋友，我告诉你啊，点击紧挨着名字的日期或时间，这就是如何链接到一个评论的方法。
 
-![](https://cdn-images-1.medium.com/max/1600/1*rSq4W-utQGga5GOW-w2QGg.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*rSq4W-utQGga5GOW-w2QGg.png)
 
 *嘿，这里有 gaearon 的照片！*
 
@@ -75,7 +75,7 @@ comments: true
 
 我比较懒，所以我已经在一张截图中做完了上面所有的步骤：
 
-![](https://cdn-images-1.medium.com/max/1600/1*5Qg2GqTkTKuXLARasZN57A.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*5Qg2GqTkTKuXLARasZN57A.png)
 
 *说起 URL…*
 
@@ -85,11 +85,11 @@ comments: true
 
 这样就会访问到指定分支的 diff 页面。
 
-![](https://cdn-images-1.medium.com/max/2000/1*DqexM1y398gSaozLNllroA.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*DqexM1y398gSaozLNllroA.png)
 
 然而这就是与 master 分支的 diff，如果我要与 develoment 分支比较，我可以输入 `/compare/development...my-branch`。
 
-![](https://cdn-images-1.medium.com/max/2000/1*roOXDuo_-9QKI5NLKmveGQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*roOXDuo_-9QKI5NLKmveGQ.png)
 
 对于你这种键盘快枪手来说，`ctrl`+`L` 或 `cmd`+`L` 将会向上跳转光标进入 URL 那里（至少在 Chrome 中是这样）。这（再加上你的浏览器会自动补全）能够成为一种在分支间跳转的便捷方式。
 
@@ -101,11 +101,11 @@ comments: true
 
 你想要在你的<ruby>工单<rt>issue</rt></ruby>中看到一个复选框列表吗？
 
-![](https://cdn-images-1.medium.com/max/1600/1*QIe-XOKOXTB3hXaLesr0zw.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*QIe-XOKOXTB3hXaLesr0zw.png)
 
 你想要在工单列表中显示为一个漂亮的 “2 of 5” 进度条吗?
 
-![](https://cdn-images-1.medium.com/max/1600/1*06WdEpxuasda2-lavjjvNw.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*06WdEpxuasda2-lavjjvNw.png)
 
 很好！你可以使用这些的语法创建交互式的复选框：
 
@@ -125,7 +125,7 @@ comments: true
 
 噢，如果你在一个<ruby>项目面板<rt>project board</rt></ruby>上有这些工单的话，它也会在这里显示进度：
 
-![](https://cdn-images-1.medium.com/max/1600/1*x_MzgCJXFp-ygsqFQB5qHA.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*x_MzgCJXFp-ygsqFQB5qHA.png)
 
 如果在我提到“在一个项目面板上”时你不知道我在说些什么，那么你会在本页下面进一步了解。
 
@@ -137,13 +137,13 @@ comments: true
 
 当我学会 GitHub 的几周后，它也有了自己的项目产品，就在我的仓库上的 Project 标签，我想我会照搬一套我已经在 Trello 上进行的任务。
 
-![](https://cdn-images-1.medium.com/max/2000/1*NF7ZnHndZQ2SFUc5PK-Cqw.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*NF7ZnHndZQ2SFUc5PK-Cqw.png)
 
 *没有一个是有趣的任务*
 
 这里是在 GitHub 项目上相同的内容：
 
-![](https://cdn-images-1.medium.com/max/2000/1*CHsofapb4JtEDmveOvTYVQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*CHsofapb4JtEDmveOvTYVQ.png)
 
 *你的眼睛最终会适应这种没有对比的显示*
 
@@ -153,15 +153,15 @@ comments: true
 
 你可以点击右上角的<ruby>添加卡片<rt>Add Cards</rt></ruby>，然后找你想要添加的东西。在这里，特殊的[搜索语法](https://help.github.com/articles/searching-issues-and-pull-requests/)就派上用场了，举个例子，输入 `is:pr is:open` 然后现在你可以拖动任何开启的 PR 到项目面板上，或者要是你想清理一些 bug 的话就输入 `label:bug`。
 
-![](https://cdn-images-1.medium.com/max/2000/1*rTVCR92HhIPhrVnOnXRZkQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*rTVCR92HhIPhrVnOnXRZkQ.png)
 
 亦或者你可以将现有的备注转换为工单。
 
-![](https://cdn-images-1.medium.com/max/1600/1*pTm7dygsyLxsOUDkM7CTcg.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*pTm7dygsyLxsOUDkM7CTcg.png)
 
 再或者，从一个现有工单的屏幕上，把它添加到右边面板的项目上。
 
-![](https://cdn-images-1.medium.com/max/1600/1*Czs0cSc91tXv411uneEM9A.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*Czs0cSc91tXv411uneEM9A.png)
 
 它们将会进入那个项目面板的分类列表，这样你就能决定放到哪一类。
 
@@ -191,7 +191,7 @@ comments: true
 
 其中的链接必须手动维护，但总的来说，我认为这已经很好了。如果你觉得有需要的话可以[看一下](https://github.com/davidgilbertson/about-github/wiki)。 
 
-![](https://cdn-images-1.medium.com/max/1600/1*BSKQpkLmVQpUML0Je9WsLQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*BSKQpkLmVQpUML0Je9WsLQ.png)
 
 它将不会与像 GitBook（它使用了 [Redux 文档](http://redux.js.org/)）或定制的网站这样的东西相比较。但它八成够用了，而且它就在你的仓库里。
 
@@ -207,15 +207,15 @@ comments: true
 
 最简单的来说， GitHub 页面 + Jekyll 会将你的 `README.md` 呈现在一个漂亮的主题中。举个例子，看看我的 [关于 github](https://github.com/davidgilbertson/about-github) 中的 readme 页面:
 
-![](https://cdn-images-1.medium.com/max/2000/1*nU-vZfChZ0mZw9zO-6iJow.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*nU-vZfChZ0mZw9zO-6iJow.png)
 
 点击 GitHub 上我的站点的<ruby>设置<rt>settings</rt></ruby>标签，开启 GitHub 页面功能，然后挑选一个 Jekyll 主题……
 
-![](https://cdn-images-1.medium.com/max/1600/1*tT9AS7tNfEjbAcT3mkzgdw.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*tT9AS7tNfEjbAcT3mkzgdw.png)
 
 我就会得到一个 [Jekyll 主题的页面](https://davidgilbertson.github.io/about-github/)：
 
-![](https://cdn-images-1.medium.com/max/2000/1*pIE2FMyWih7nFAdP-yGXtQ.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*pIE2FMyWih7nFAdP-yGXtQ.png)
 
 由此我可以构建一个主要基于易于编辑的 markdown 文件的静态站点，其本质上是把 GitHub 变成一个 CMS（LCTT 译注：内容管理系统）。
 
@@ -271,13 +271,13 @@ comments: true
 
 它会在左侧提供一个带有树状视图的面板以显示当前你所查看的仓库。
 
-![](https://cdn-images-1.medium.com/max/2000/1*-MgFq3TEjdys1coiF5-dCw.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*-MgFq3TEjdys1coiF5-dCw.png)
 
 从[这个视频](https://www.youtube.com/watch?v=NhlzMcSyQek&index=2&list=PLNYkxOF6rcIB3ci6nwNyLYNU6RDOU3YyL)中我了解到了 [octobox](https://octobox.io/) ，到目前为止看起来还不错。它是一个 GitHub 工单的收件箱。这一句介绍就够了。
 
 说到颜色，在上面所有的截图中我都使用了亮色主题，所以希望不要闪瞎你的双眼。不过说真的，我看到的其他东西都是黑色的主题，为什么我非要忍受 GitHub 这个苍白的主题呐？
 
-![](https://cdn-images-1.medium.com/max/2000/1*SUdLeoaq8AtVQyE-dCw-Tg.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1*SUdLeoaq8AtVQyE-dCw-Tg.png)
 
 这是由 Chrome 扩展 [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe/related?hl=en)（它可以在任何网站使用主题）和 [GitHub Dark](https://userstyles.org/styles/37035/github-dark) 风格的一个组合。要完全黑化，那黑色主题的 Chrome 开发者工具（这是内建的，在设置中打开） 以及 [Atom One Dark for Chrome 主题](https://chrome.google.com/webstore/detail/atom-one-dark-theme/obfjhhknlilnfgfakanjeimidgocmkim?hl=en)你肯定也需要。
 

@@ -42,11 +42,11 @@ comments: true
 
     git blame [file_name]
 
-![git blame demonstration](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946443git-ninja-01.png)
+![git blame demonstration](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946443git-ninja-01.png)
 
 在下面的截图里，你可以看到在一个更大的库里这个命令的输出是什么样的：
 
-![git blame on the ATutor repository](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946441git-ninja-02.png)
+![git blame on the ATutor repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946441git-ninja-02.png)
 
 ## 4. 查看库的历史 ###
 
@@ -58,7 +58,7 @@ comments: true
 
 这是这3个选项合起来使用的效果：
 
-![Use of git log with all, graph and oneline](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946444git-ninja-03.png)
+![Use of git log with all, graph and oneline](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946444git-ninja-03.png)
 
 ## 5. 不要丢失对某个提交的跟踪 ###
 
@@ -68,11 +68,11 @@ comments: true
 
 如果执行`git log`命令，可以看到提交历史，这是我的库的一部分：
 
-![Project history](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946446git-ninja-04.png)
+![Project history](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946446git-ninja-04.png)
 
 但是，`git reflog`命令显示了一个被我用hard重置丢掉的提交(`b1b0ee9`-`HEAD@{4}`).
 
-![Git reflog](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946447git-ninja-05.png)
+![Git reflog](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946447git-ninja-05.png)
 
 ## 6. 暂存文件的一部分更改以便进行一次提交 ###
 
@@ -84,11 +84,11 @@ comments: true
 
 我们来试试这种用法。我添加了3个新行到`file_name`，但是我只想让第1行和第3行出现在我的提交里。让我们看看`git diff`的输出是什么样的。
 
-![Changes in repo](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946449git-ninja-06.png)
+![Changes in repo](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946449git-ninja-06.png)
 
 然后，我们看看带`-p`选项的`add`命令会发生什么。
 
-![Running add with -p](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946450git-ninja-07.png)
+![Running add with -p](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946450git-ninja-07.png)
 
 看起来Git认为所有的更改都是同一个目的的一部分，所以把他们分组到同一个块里。这时，你可以：
 
@@ -100,11 +100,11 @@ comments: true
 
 在我们这个例子中，我们想把这个块分割成更小的部分，然后选择其中一些忽略另外一些。
 
-![Adding all hunks](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946452git-ninja-08.png)
+![Adding all hunks](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946452git-ninja-08.png)
 
 如你所见，我们已经逐个添加了第1和第3行，忽略了第2行。你可以看到库的状态并且进行一次提交。
 
-![Repository after selectively adding a file](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946454git-ninja-09.png)
+![Repository after selectively adding a file](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946454git-ninja-09.png)
 
 ## 7. 合并多个提交 ###
 
@@ -118,11 +118,11 @@ comments: true
 
 一旦你运行这个命令，你将进入一个交互式界面，它将询问你想要合并哪些提交。你`pick`(拣选)最近的提交然后`squash`(合并)旧的提交。
 
-![Git squash interactive](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946455git-ninja-10.png)
+![Git squash interactive](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946455git-ninja-10.png)
 
 接着你应该提供一个对新提交的说明。这个过程会重写你的提交历史。
 
-![Adding a commit message](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946457git-ninja-11.png)
+![Adding a commit message](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946457git-ninja-11.png)
 
 ## 8. 储藏没有提交的更改 ###
 
@@ -134,7 +134,7 @@ comments: true
 
     git stash list
 
-![Stash list](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946458git-ninja-12.png)
+![Stash list](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946458git-ninja-12.png)
 
 如果你想取消储藏，覆盖当前的更改，你可以通过下面的命令使用储藏：
 
@@ -144,7 +144,7 @@ comments: true
 
     git stash apply stash@{2}
 
-![After un-stashing changes](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946461git-ninja-13.png)
+![After un-stashing changes](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946461git-ninja-13.png)
 
 ## 9. 检查丢失的提交 ###
 
@@ -152,7 +152,7 @@ comments: true
 
     git fsck --lost-found
 
-![Git fsck results](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946463git-ninja-14.png)
+![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946463git-ninja-14.png)
 
 这里你可以看到一个丢失的提交。你可以通过`git show [commit_hash]` 查看提交的更改或者通过运行`git merge [commit_hash]`命令进行恢复。
 
@@ -166,13 +166,13 @@ comments: true
 
 让我们来考虑一个可以使用这个命令的场景。我有两个分支，我想拣选`b20fd14: Cleaned junk`这个提交到另一个分支上。
 
-![Before cherry pick](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946465git-ninja-15.png)
+![Before cherry pick](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946465git-ninja-15.png)
 
 我切换到想要应用这个拣选出来的提交的分支，然后运行下面的命令：
 
     git cherry-pick [commit_hash]
 
-![After cherry pick](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946467git-ninja-16.png)
+![After cherry pick](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/1402946467git-ninja-16.png)
 
 尽管这次我们很干净的用了`cherry-pick`命令，但你应该知道这个命令经常会引起冲突，所以请小心使用。
 

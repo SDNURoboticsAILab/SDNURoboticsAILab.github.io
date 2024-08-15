@@ -32,7 +32,7 @@ git config --global user.email "email_id"
 
 下面的图片显示的例子是如何用我的 GitHub 用户名：“akshaypai” 和我的邮件地址 “abc123@gmail.com” 来配置上面的命令。
 
-[![Git config](https://www.howtoforge.com/images/ubuntu_github_getting_started/config.png)][4]
+![Git config](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/ubuntu_github_getting_started/config.png)
 
 ## 3、创建本地仓库
 
@@ -110,7 +110,7 @@ git commit -m "some_message"
 
 在 GitHub 上创建一个仓库。请注意仓库的名字必须和你本地创建的仓库的名字严格一致。在这个例子里是 “Mytest”。请首先登录你的 [GitHub](https://github.com) 账户。点击页面右上角的 “+” 符号，并选择“create nw repository”。如下图所示填入详细信息，点击 “create repository”。
 
-[![Creating a repository on GitHub](https://www.howtoforge.com/images/ubuntu_github_getting_started/details.png)][6]
+![Creating a repository on GitHub](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/ubuntu_github_getting_started/details.png)
 
 一旦创建完成，我们就能将本地的仓库推送到 GitHub 你名下的仓库，用下列命令连接 GitHub 上的仓库：
 
@@ -132,11 +132,11 @@ git push origin master
 
 下面的图片显示了步骤 5 到步骤 8 的流程
 
-[![Pushing files in local repository to GitHub repository](https://www.howtoforge.com/images/ubuntu_github_getting_started/steps.png)][8]
+![Pushing files in local repository to GitHub repository](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/ubuntu_github_getting_started/steps.png)
 
 上述将 Mytest 目录里的所有内容（文件）推送到了 GitHub。对于以后的项目或者创建新的仓库，你可以直接从步骤 3 开始。最后，如果你登录你的 GitHub 账户并点击你的 Mytest 仓库，你会看到这两个文件：`README` 和 `sample.c` 已经被上传并像如下图片显示：
 
-[![Content uploaded to Github](https://www.howtoforge.com/images/ubuntu_github_getting_started/final.png)][10]
+![Content uploaded to Github](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/ubuntu_github_getting_started/final.png)
 
 --------------------------------------------------------------------------------
 
