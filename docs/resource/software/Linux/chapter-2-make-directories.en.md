@@ -118,6 +118,6 @@ In the next chapter of the Terminal Basics series, you'll learn about [listing t
 
 Do let me know if you have questions or suggestions.
 
->via: https://itsfoss.com/make-directories/
+>via: [https://itsfoss.com/make-directories/](https://itsfoss.com/make-directories/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

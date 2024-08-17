@@ -35,7 +35,7 @@ comments: true
 
 你不会找到 shell 内置命令的 man pages。
 
-```
+```Bash
 abhishek@tuxedo:~$ man cd
 No manual entry for cd
 ```
@@ -50,7 +50,7 @@ man pages 适用于这些“外部”Linux 命令。内置命令有帮助部分�
 
 使用 man 命令很简单。只需像这样给出命令的名称：
 
-```
+```Bash
 man command_name
 ```
 
@@ -82,7 +82,7 @@ man pages 的内容远不止这些。我无法在这里全部涵盖，但我们�
 
 如前所述，内置 shell 命令没有 man pages。相反，你使用 help 命令像这样：
 
-```
+```Bash
 help command_name
 ```
 
@@ -128,7 +128,7 @@ help command_name
 
 💬 *我希望你喜欢这个初学者系列。我欢迎你对这个系列的可用性提供反馈，并提出改进建议。如果你有任何相关的新系列建议，请不要犹豫。评论部分正等着你。*
 
->source: https://itsfoss.com/linux-command-help/
+>source: [https://itsfoss.com/linux-command-help/](https://itsfoss.com/linux-command-help/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

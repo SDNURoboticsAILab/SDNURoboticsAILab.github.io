@@ -20,7 +20,7 @@ Linux 中的 `ls` 命令用于列出目录内容。 你可以把 `ls` 想象成 
 
 打开终端并切换到主目录，在 `practice` 目录下创建一个 `ls-command` 目录，然后进入这个新建的目录。
 
-```
+```Bash
 cd ~
 mkdir -p practice/ls-command
 cd practice/ls-command
@@ -30,37 +30,37 @@ cd practice/ls-command
 
 创建几个空文件：
 
-```
+```Bash
 touch empty_file_{1,2}
 ```
 
 复制一个巨大的文本文件
 
-```
+```Bash
 cp /etc/services .
 ```
 
 创建几个目录：
 
-```
+```Bash
 mkdir dir_{1..3}
 ```
 
 创建隐藏文件：
 
-```
+```Bash
 echo "Now You See Me" > .john-cena
 ```
 
 最后，我们用一个软链接（如文件的快捷方式）来结束设置：
 
-```
+```Bash
 ln -s services link_services
 ```
 
 让我们看看 `ls-command` 目录现在的样子：
 
-```
+```Bash
 abhishek@itsfoss:~/practice/ls-command$ ls
 dir_1  dir_2  dir_3  empty_file_1  empty_file_2  link_services  services
 ```
@@ -71,7 +71,7 @@ dir_1  dir_2  dir_3  empty_file_1  empty_file_2  link_services  services
 
 这时可以使用长列表选项 `-l`。
 
-```
+```Bash
 ls -l
 ```
 
@@ -94,7 +94,7 @@ ls -l
 - **文件名**：文件、目录或链接的名称。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/linux/chapter3-file-permission-explanation.webp)
-*File details at a glance*
+*文件详细信息一目了然*
 
 了解文件权限和所有权是个好主意。 我强烈建议阅读本教程。↓
 
@@ -108,13 +108,13 @@ ls -l
 
 要查看这些“隐藏文件”，你需要使用选项 `-a`：
 
-```
+```Bash
 ls -a
 ```
 
 实际上，大多数 Linux 命令中你可以组合多个选项。让我们将其与长列表选项结合起来：
 
-```
+```Bash
 ls -la
 ```
 
@@ -148,7 +148,7 @@ ls 命令有一个人类可读的选项 `-h`。将其与长列表选项结合起
 
 你可以使用 `-t` 选项根据这个时间戳对ls命令的输出进行排序：
 
-```
+```Bash
 ls -lt
 ```
 
@@ -170,7 +170,7 @@ ls -ltr
 
 到目前为止，你已经在整个当前目录上使用了 `ls` 命令。你也可以在单个文件或一组文件和目录上使用它。有什么用呢？嗯，你可以使用长列表选项来获取所选文件的详细信息。
 
-```
+```Bash
 ls path_to_file1 path_to_file2
 ```
 
@@ -203,7 +203,7 @@ ls path_to_file1 path_to_file2
 
 如果有任何问题或建议，请告诉我。
 
->source：https://itsfoss.com/list-directory-content/
+>source：[https://itsfoss.com/list-directory-content/](https://itsfoss.com/list-directory-content/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

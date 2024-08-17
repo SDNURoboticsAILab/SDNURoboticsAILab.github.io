@@ -120,9 +120,9 @@ mkdir -p dir1/subdir1/subdir2
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-15595-1.html
+>via: [https://linux.cn/article-15595-1.html](https://linux.cn/article-15595-1.html)
 >
->source: https://itsfoss.com/make-directories/
+>source: [https://itsfoss.com/make-directories/](https://itsfoss.com/make-directories/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

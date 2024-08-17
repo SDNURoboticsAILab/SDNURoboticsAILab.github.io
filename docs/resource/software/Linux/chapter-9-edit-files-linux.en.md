@@ -330,6 +330,6 @@ We are almost at the end of our terminal basics series. In the tenth and the las
 
 For now, let me know in the comment section if you encounter any issues.
 
->via: https://itsfoss.com/edit-files-linux/
+>via: [https://itsfoss.com/edit-files-linux/](https://itsfoss.com/edit-files-linux/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

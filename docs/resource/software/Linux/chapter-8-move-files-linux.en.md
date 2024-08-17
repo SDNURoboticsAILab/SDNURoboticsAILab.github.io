@@ -78,7 +78,7 @@ mv file1 file2 fileN destination_directory
 
 Let's continue our example scenario to move multiple files.
 
-```
+```Bash
 mv file_2 file_3 file_4 dir3
 ```
 
@@ -239,6 +239,6 @@ Delete all contents of `dir2` now.
 
 In the penultimate chapter of the Terminal Basics series, you'll learn about editing files in the terminal. Stay tuned.
 
->via: https://itsfoss.com/move-files-linux/
+>via: [https://itsfoss.com/move-files-linux/](https://itsfoss.com/move-files-linux/)
 >
 >Author: [Abhishek Prakash](https://itsfoss.com/author/abhishek/)

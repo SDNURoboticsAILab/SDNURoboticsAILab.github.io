@@ -172,7 +172,7 @@ rm -r dir2
 
 !!! question "💡"
 
-   交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
+    交互式删除模式在使用 `rm` 命令的递归选项删除目录时更有帮助：
 
 ```Bash
 rm-ri dir_name
@@ -208,9 +208,9 @@ rm-ri dir_name
 
 --------------------------------------------------------------------------------
 
->via: https://linux.cn/article-15809-1.html
+>via: [https://linux.cn/article-15809-1.html](https://linux.cn/article-15809-1.html)
 >
->source: https://itsfoss.com/delete-files-folders-linux/
+>source: [https://itsfoss.com/delete-files-folders-linux/](https://itsfoss.com/delete-files-folders-linux/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >

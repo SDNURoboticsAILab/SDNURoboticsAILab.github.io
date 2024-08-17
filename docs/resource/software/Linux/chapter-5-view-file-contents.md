@@ -6,19 +6,19 @@ comments: true
 
 在本章的终端基础系列中，你将学习如何在 Linux 命令行中查看文件内容。
 
-在前一章的终端基础系列中，你学会了 [创建新文件](https://itsfoss.com/create-files/)。
+在前一章的终端基础系列中，你学会了创建新文件。
 
 在本章中，你将学习如何读取文件。我将讨论最常见的Linux命令来显示文本文件的内容。
 
 在你开始之前，让我们用示例文件创建我们的“操场”。首先创建一个目录并切换到它。
 
-```
+```Bash
 mkdir display_files && cd display_files
 ```
 
 复制一个大文本文件到这里。
 
-```
+```Bash
 cp /etc/services .
 ```
 
@@ -46,13 +46,13 @@ Blueprint for Murder
 
 使用它非常简单。只需给它文件名，它就会在屏幕上显示文件内容。没有比这更简单的了。
 
-```
+```Bash
 cat filename
 ```
 
 你能尝试显示 `columbo.txt` 文件的内容吗？
 
-```
+```Bash
 cat columbo.txt
 ```
 
@@ -70,7 +70,7 @@ cat columbo.txt
 
 尝试使用 `cat` 命令查看 `services` 文件的内容。
 
-```
+```Bash
 cat services
 ```
 
@@ -82,7 +82,7 @@ cat services
 
 使用 `less` 命令读取 `services` 文件：
 
-```
+```Bash
 less services
 ```
 
@@ -123,25 +123,25 @@ less services
 
 默认情况下，`head` 命令显示文件的前 10 行。
 
-```
+```Bash
 head filename
 ```
 
 但你也可以修改它以显示前 n 行。
 
-```
+```Bash
 head -n filename
 ```
 
 `tail` 命令默认显示文件的最后 10 行。
 
-```
+```Bash
 tail filename
 ```
 
 但你也可以修改它以显示底部 n 行。
 
-```
+```Bash
 tail -n filename
 ```
 
@@ -149,7 +149,7 @@ tail -n filename
 
 让我们看一些示例。使用这个脚本生成一个易于跟随的文件：
 
-```
+```Bash
 # 创建或清空文件内容
 echo -n > sample
 
@@ -162,7 +162,7 @@ done
 
 创建一个名为 `script.sh` 的新文件，并将上述脚本内容复制粘贴到其中。然后像这样运行脚本以生成你的示例文件：
 
-```
+```Bash
 bash script.sh
 ```
 
@@ -174,7 +174,7 @@ bash script.sh
 
 让我们更进一步。你可以将它们结合起来显示文件的特定行。例如，要显示第 35 到 40 行，可以这样使用：
 
-```
+```Bash
 head -n 40 filename | tail -n +35
 ```
 
@@ -187,7 +187,7 @@ head -n 40 filename | tail -n +35
 
 你也可以将它们结合起来只显示特定的一行。假设你想显示第 55 行；可以这样结合 `head` 和 `tail`：
 
-```
+```Bash
 head -n 55 filename | tail -n 1
 ```
 
@@ -209,7 +209,7 @@ head -n 55 filename | tail -n 1
 
 这就是本章的内容。接下来，你将学习如何在命令行中删除文件和文件夹。敬请期待。
 
->source：https://itsfoss.com/view-file-contents/
+>source：[https://itsfoss.com/view-file-contents/](https://itsfoss.com/view-file-contents/)
 >
 >作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
 >
