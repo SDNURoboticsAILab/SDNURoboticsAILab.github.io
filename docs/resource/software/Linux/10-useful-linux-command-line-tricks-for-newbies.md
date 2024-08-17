@@ -19,13 +19,13 @@
 
 执行正确的命令对你的系统来说非常重要。然而在 Linux 中有如此多的、难以记忆的各种的命令行。那么怎样才能找到你需要的正确命令呢？答案是 apropos。你只需要运行：
 
-```
+```Bash
 # apropos <description>
 ```
 
 其中你要用真正描述你要查找的命令的语句代替 “description”。这里有一个例子：
 
-```
+```Bash
 # apropos "list directory"dir (1) - list directory contentsls (1) - list directory contentsntfsls (8) - list directory contents on an NTFS filesystemvdir (1) - list directory contents
 ```
 
@@ -35,25 +35,25 @@
 
 很多时候你需要一遍又一遍执行相同的命令。尽管你可以重复按你键盘上的向上光标键，但你也可以用 history 命令替代。这个命令会列出自从你上次启动终端以来所有输入过的命令：
 
-```
+```Bash
 # history    1  fdisk -l    2  apt-get install gnome-paint    3  hostname tecmint.com    4  hostnamectl tecmint.com    5  man hostnamectl     6  hostnamectl --set-hostname tecmint.com    7  hostnamectl -set-hostname tecmint.com    8  hostnamectl set-hostname tecmint.com    9  mount -t "ntfs" -o   10  fdisk -l   11  mount -t ntfs-3g /dev/sda5 /mnt   12  mount -t rw ntfs-3g /dev/sda5 /mnt   13  mount -t -rw ntfs-3g /dev/sda5 /mnt   14  mount -t ntfs-3g /dev/sda5 /mnt   15  mount man   16  man mount   17  mount -t -o ntfs-3g /dev/sda5 /mnt   18  mount -o ntfs-3g /dev/sda5 /mnt   19  mount -ro ntfs-3g /dev/sda5 /mnt   20  cd /mnt   ...
 ```
 
 正如你上面看到的，你会得到一个你运行过的命令的列表。每一行中有一个数字表示你在第几行输入了命令。你可以通过以下方法重新调用该命令：
 
-```
+```Bash
 !#
 ```
 
 其中要用命令的实际编号代替 #。为了更好的理解，请看下面的例子：
 
-```
+```Bash
 !501
 ```
 
 等价于：
 
-```
+```Bash
 # history
 ```
 
@@ -69,19 +69,19 @@
 
 简而言之 midnight 就是所谓的 “mc”。要安装 mc，只需要运行：
 
-```
+```Bash
 $ sudo apt-get install mc        [On Debian based systems]
 ```
 
 ------
 
-```
+```Bash
 # yum install mc                 [On Fedora based systems]
 ```
 
 下面是一个使用 midnight 命令器的简单例子。通过输入以下命令打开 mc：
 
-```
+```Bash
 # mc
 ```
 
@@ -105,13 +105,13 @@ $ sudo apt-get install mc        [On Debian based systems]
 
 有时候你需要在下班几个小时后再关闭计算机。你可以通过使用下面的命令在指定时间关闭你的计算机：
 
-```
+```Bash
 $ sudo shutdown 21:00
 ```
 
 这会告诉你在你指定的时间关闭计算机。你也可以告诉系统在指定分钟后关闭：
 
-```
+```Bash
 $ sudo shutdown +15
 ```
 
@@ -121,13 +121,13 @@ $ sudo shutdown +15
 
 你可以使用一个简单的命令列出你 Linux 系统的用户以及一些关于它们的基本信息。
 
-```
+```Bash
 # lslogins
 ```
 
 这会输出下面的结果：
 
-```
+```Bash
 UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 bin2 daemon 0 1 daemon3 adm 0 1 adm4 lp 0 1 lp5 sync 0 1 sync6 shutdown 0 1 Jul19/10:04 shutdown7 halt 0 1 halt8 mail 0 1 mail10 uucp 0 1 uucp11 operator 0 1 operator12 games 0 1 games13 gopher 0 1 gopher14 ftp 0 1 FTP User23 squid 0 125 named 0 1 Named27 mysql 0 1 MySQL Server47 mailnull 0 148 apache 0 1 Apache...
 ```
 
@@ -135,13 +135,13 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 查找文件有时候并不像你想象的那么简单。一个搜索文件的好例子是：
 
-```
+```Bash
 # find /home/user -type f
 ```
 
 这个命令会搜索 /home/user 目录下的所有文件。find 命令真的很强大，你可以传递更多选项给它使得你的搜索更加详细。如果你想搜索超过特定大小的文件，可以使用：
 
-```
+```Bash
 # find . -type f -size 10M
 ```
 
@@ -151,7 +151,7 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 例如，假如我们想查找一个目录中的所有文件并更改权限。可以通过以下简单命令完成：
 
-```
+```Bash
 # find /home/user/files/ -type f -exec chmod 644 {} \;
 ```
 
@@ -161,19 +161,19 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 你很可能知道可以使用 mkdir 命令创建新的目录。因此如果你想创建一个新的目录，你可能会运行：
 
-```
+```Bash
 # mkdir new_folder
 ```
 
 但如果你想在该目录下创建 5 个子目录呢？运行 5 次 mkdir 命令并非是一个好的选择。相反你可以类似下面这样使用 -p 选项：
 
-```
+```Bash
 # mkdir -p new_folder/{folder_1,folder_2,folder_3,folder_4,folder_5}
 ```
 
 最后你会在 new_folder 中有 5 个目录：
 
-```
+```Bash
 # ls new_folder/folder_1 folder_2 folder_3 folder_4 folder_5
 ```
 
@@ -181,19 +181,19 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 通常使用 cp 命令进行文件复制。复制文件通常看起来类似：
 
-```
+```Bash
 # cp /path-to-file/my_file.txt /path-to-new-directory/
 ```
 
 现在假设你需要复制该文件到多个目录：
 
-```
+```Bash
 # cp /home/user/my_file.txt /home/user/1# cp /home/user/my_file.txt /home/user/2# cp /home/user/my_file.txt /home/user/3
 ```
 
 这有点荒唐。相反，你可以用简单的一行命令解决问题：
 
-```
+```Bash
 # echo /home/user/1/ /home/user/2/ /home/user/3/ | xargs -n 1  cp /home/user/my_file.txt
 ```
 
@@ -201,7 +201,7 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 有时候文件可能会变得很大。我看过由于缺乏管理技能一个日志文件就超过 250G 的例子。用 rm 命令可能不足以删除该文件，因为有大量的数据需要移除。应该避免这个很“笨重”的操作。相反，你可以使用一个简单的方法解决这个问题：
 
-```
+```Bash
 # > /path-to-file/huge_file.log
 ```
 
@@ -211,13 +211,13 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 
 最近我们的一个读者在 [LinuxSay 论坛](http://www.linuxsay.com/)提问说如何通过 ssh 在多个 Linux 服务器上执行一个命令。他机器的 IP 地址是：
 
-```
+```Bash
 10.0.0.110.0.0.210.0.0.310.0.0.410.0.0.5
 ```
 
 这里有一个简单的解决方法。将服务器的 IP 地址写到文件 list.txt 中，像上面那样一行一个。然后运行：
 
-```
+```Bash
 # for in $i(cat list.txt); do ssh user@$i 'bash command'; done
 ```
 

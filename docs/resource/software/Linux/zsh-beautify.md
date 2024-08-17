@@ -14,7 +14,7 @@ Shell 是类 Unix 系统中超级好用的工具，而 Zsh 是 shell 中的佼�
 
 终端里面输入：
 
-```
+```Bash
 sudo pacman -Sy zsh
 ```
 
@@ -22,7 +22,7 @@ sudo pacman -Sy zsh
 
 终端里面输入：
 
-```
+```Bash
 sudo apt-get updatesudo apt-get install zsh
 ```
 
@@ -45,7 +45,7 @@ sudo apt-get updatesudo apt-get install zsh
 
 终端里面输入命令：
 
-```
+```Bash
 sudo pacman -S zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions
 ```
 
@@ -53,7 +53,7 @@ sudo pacman -S zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel1
 
 终端里面输入命令：
 
-```
+```Bash
 sudo apt-get install zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel9k
 ```
 
@@ -67,7 +67,7 @@ sudo apt-get install zsh-autosuggestions zsh-syntax-highlighting zsh-theme-power
 
 终端输入命令：
 
-```
+```Bash
 chsh -s /usr/bin/zsh
 ```
 
@@ -99,7 +99,7 @@ Zsh 的配置文件是 `~/.zshrc` 文件，这个文件在你的用户目录下 
 
 打开 `~/.zshrc` 文件，将以下行代码添加到其中：
 
-```
+```Bash
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zshsource /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zshsource /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 ```
 
@@ -107,7 +107,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 打开 `~/.zshrc` 文件，将以下行代码添加到其中：
 
-```
+```Bash
 source /usr/share/powerlevel9k/powerlevel9k.zsh-themesource /usr/share/zsh-autosuggestions/zsh-autosuggestions.zshsource /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 

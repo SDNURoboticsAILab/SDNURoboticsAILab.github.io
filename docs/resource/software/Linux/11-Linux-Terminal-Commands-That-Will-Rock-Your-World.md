@@ -25,7 +25,7 @@
 
 那么为了让上述内容更易理解来看下面的这行命令。
 
-```
+```Bash
 sudo apt-get intall programname
 ```
 
@@ -35,7 +35,7 @@ sudo apt-get intall programname
 
 我可以按两次ALT+B这样光标就会在如下的位置（这里用指代光标的位置）。
 
-```
+```Bash
 sudo apt-get^intall programname
 ```
 
@@ -51,7 +51,7 @@ sudo apt-get^intall programname
 
 如何使用sudo !!？很简单。试想你刚输入了如下命令：
 
-```
+```Bash
 apt-get install ranger
 ```
 
@@ -59,7 +59,7 @@ apt-get install ranger
 
 sudo !! 就会用 sudo 的形式运行上一条命令。所以上一条命令就变成了这样：
 
-```
+```Bash
 sudo apt-get install ranger
 ```
 
@@ -78,7 +78,7 @@ sudo apt-get install ranger
 
 试想你正用nano编辑一个文件：
 
-```
+```Bash
 sudo nano abc.txt
 ```
 
@@ -104,7 +104,7 @@ sudo nano abc.txt
 
 使用nohup的方法也很简单，只需如下例中在nohup后输入要执行的命令即可：
 
-```
+```Bash
 nohup wget http://mirror.is.co.za/mirrors/linuxmint.com/iso//stable/17.1/linuxmint-17.1-cinnamon-64bit.iso &
 ```
 
@@ -116,7 +116,7 @@ nohup wget http://mirror.is.co.za/mirrors/linuxmint.com/iso//stable/17.1/linuxmi
 
 命令‘at’就能妥善解决这一情况。以下是‘at’使用示例。
 
-```
+```Bash
 at 10:38 PM Friat> cowsay 'hello'at> CTRL + D
 ```
 
@@ -134,7 +134,7 @@ Man手册会为你列出命令和参数的使用大纲，教你如何使用她�
 
 不过这不代表你不能做些什么来使她们变得漂亮些。
 
-```
+```Bash
 export PAGER=most
 ```
 
@@ -142,13 +142,13 @@ export PAGER=most
 
 你可以用以下命令给man手册设定指定的行长：
 
-```
+```Bash
 export MANWIDTH=80
 ```
 
 最后，如果你有一个可用的浏览器，你可以使用-H在默认浏览器中打开任意的man页。
 
-```
+```Bash
 man -H <command>
 ```
 
@@ -164,7 +164,7 @@ htop在终端中将进程以列表的方式呈现，有点类似于Windows中的
 
 在终端中简单的输入htop即可运行。
 
-```
+```Bash
 htop
 ```
 
@@ -174,7 +174,7 @@ htop
 
 你在用之前可能需要先安装，不过一旦安装了以后就可以在命令行输入以下命令启动她：
 
-```
+```Bash
 ranger
 ```
 
@@ -186,7 +186,7 @@ ranger
 
 无论是在命令行还是图形用户界面[关机](http://linux.about.com/od/commands/l/blcmdl8_shutdow.htm)后，才发现自己不是真的想要关机。
 
-```
+```Bash
 shutdown -c
 ```
 
@@ -206,7 +206,7 @@ shutdown -c
 
 简单的在终端中输入以下命令并在窗口中点击你想杀死的应用程序。
 
-```
+```Bash
 xkill
 ```
 
@@ -228,7 +228,7 @@ xkill
 
 你可以用以下命令使用youtube-dl：
 
-```
+```Bash
 youtube-dl url-to-video
 ```
 
