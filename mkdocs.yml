@@ -19,7 +19,6 @@ nav:
     - 机器人世界杯中国赛: contest/RoboCup-China-Open.md
     - 机器人世界杯: contest/RoboCup.md
     - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics-Innovation-Camp-by-CYL.md
-
   - 教学资源:
     - 编程基础:
       - Python语法基础:
@@ -61,6 +60,8 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
+      - Git版本控制系统:
+        - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
       - Git版本控制:
@@ -233,7 +234,7 @@ plugins:
             第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
             第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
             Git版本控制系统: Git, Version Control System
-            Git版本控制系统简介: Introduction to Git
+            Git秘籍: Git Cheat sheet
             GNU Make编译工具: GNU Make, Compilation Tool
             GNU Make编译工具简介: Introduction to GNU Make
             CMake编译工具: CMake, Compilation Tool
