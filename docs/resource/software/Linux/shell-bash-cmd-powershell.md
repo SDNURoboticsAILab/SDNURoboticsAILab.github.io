@@ -12,7 +12,7 @@ Bash 是 Linux 系统的命令解释器，并作为可通过 Bash 脚本用于�
 
 **『Shell / 壳层』**：命令行界面的解释器，用户和系统内核的沟通桥梁。分为：①命令行界面（CLI） ；② 图形用户界面（GUI）。[注释](https://zh.wikipedia.org/wiki/殼層)
 
-![img](https://cdn.jsdelivr.net/gh/XMuli/xmuliPic@pic/2022/%E6%AE%BC%E5%B1%A4shell.png)
+![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/bash/%E6%AE%BC%E5%B1%A4shell.png)
 
 ## 图形用户界面（GUI）shell
 
@@ -342,7 +342,7 @@ PowerShell 是支持命令补全的。 比如当前目录下有一个 runme.exe 
 
 这个竖线 `|` 就是管道符, 意思是把上个命令的输出结果, 作为下个命令的输入, 可以像拼接管道一样把命令拼接起来, 形成一条流水线, 由于 cmdlet 返回的是一个 .net 对象, 可以很方便的使用管道符进行命令的拼接。
 
-![屏幕截图_20240817_165518](/home/excnies/Pictures/屏幕截图/屏幕截图_20240817_165518.png)
+![屏幕截图_20240817_165518](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/bash/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20240817_165518.png)
 
 我举几个例子带大家感受一下, 第一个命令获取前五个 CPU 占用率最高的进程, 这里 `Get-Process` 命令用来获取进程, 然后使用管道符传递给下一个命令进行排序, 这里的排序依据是根据 CPU 的占用时间, 然后通过管道符再传递到下一个命令进行筛选, 这里筛选前五个我们执行一下，就显示出 CPU 占用率最高的前五个进程：
 
@@ -423,7 +423,7 @@ pause
 
 **『Shell』 =『图形用户界面（GUI）shell』 + 『命令行界面（CLI）的 shell』**
 
-![img](https://cdn.jsdelivr.net/gh/XMuli/xmuliPic@pic/2022/Shell_GUI_CLI.svg)
+![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/bash/Shell_GUI_CLI.svg)
 
 ------
 
