@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 给新手的 10 个有用 Linux 命令行技巧
 
 作者： [Marin Todorov](http://www.tecmint.com/10-useful-linux-command-line-tricks-for-newbies/) 译者： [LCTT](https://linux.cn/lctt/) [나원호](https://linux.cn/lctt/ictlyh) 

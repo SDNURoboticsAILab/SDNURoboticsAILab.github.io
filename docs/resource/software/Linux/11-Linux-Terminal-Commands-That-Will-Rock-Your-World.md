@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 11个让你吃惊的 Linux 终端命令
 
 作者： [Gary Newell](http://linux.about.com/od/commands/tp/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.htm) 译者： [LCTT](https://linux.cn/lctt/) [Martin♡Adele](https://linux.cn/lctt/martin2011qi) 

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Shell、Bash、CMD、PowerShell 的区别与联系
 
 ## 预备知识
