@@ -291,6 +291,16 @@ plugins:
             第8章：移动文件和目录（剪切粘贴操作）: Chapter 8:Move Files and Directories (Cut-Paste Operation)
             第9章：在Linux终端中编辑文件: Chapter 9:Editing Files in Linux Terminal
             第10章：在Linux终端中获取帮助: Chapter 10:Getting Help in Linux Terminal
+            Bash脚本编程入门: Getting Started With Bash Script programming
+            Bash基础知识系列1：创建并运行你的第一个BashShell脚本: Bash Basics Series 1:Create and Run Your First Bash Shell Script
+            Bash基础知识系列2：在Bash中使用变量: Bash Basics Series 2:Using Variables in Bash
+            Bash基础知识系列3：传递参数和接受用户输入: Bash Basics Series 3:Passing Arguments and Accepting User Inputs
+            Bash基础知识系列4：算术运算: Bash Basics Series 4:Arithmetic Operations
+            Bash基础知识系列5：在Bash中使用数组: Bash Basics Series 5:Using Arrays in Bash
+            Bash基础知识系列6：处理字符串操作: Bash Basics Series 6:Handling String Operations
+            Bash基础知识系列7：IfElse语句: Bash Basics Series 7:If Else Statement
+            Bash基础知识系列8：For、While和Until循环: Bash Basics Series 8:For, While and Until Loops
+            Bash基础知识系列9：Bash中的函数: Bash Basics Series 9:Functions in Bash
             Git版本控制系统: Git, Version Control System
             Git秘籍: Git Cheat sheet
             GNU Make编译工具: GNU Make, Compilation Tool
