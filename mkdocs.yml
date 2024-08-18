@@ -72,7 +72,6 @@ nav:
       - GDB调试工具:
         - GDB调试工具简介: resource/software/GDB/GDB_Introduction.md
       - LaTeX:
-        - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
@@ -229,7 +228,7 @@ plugins:
             C++控制NAO机器人简述: Using C++ to Control NAO
             NAOqi APIs简述: Introduction to NAOqi APIs
             实用软件基础: Practical Software Basics
-            Linux指令基础: Linux Command Basics
+            Linux基础教程: Linux Command Basics
             Linux终端入门: Getting Started With Linux Terminal
             第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
             第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
