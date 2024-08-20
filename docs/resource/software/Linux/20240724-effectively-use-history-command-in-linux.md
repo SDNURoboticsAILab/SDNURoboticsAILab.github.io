@@ -46,7 +46,7 @@ echo $HISTFILE
 echo $HISTFILESIZE
 ```
 
-{% note color:green 💡 历史记录中的行数太多，让您的屏幕显得杂乱无章？您可以使用 `history N` 命令仅显示历史记录中的最后 N 行。 %}
+> 💡 历史记录中的行数太多，让您的屏幕显得杂乱无章？您可以使用 `history N` 命令仅显示历史记录中的最后 N 行。
 
 ## 从历史记录中运行命令
 
@@ -86,13 +86,13 @@ sudo !!
 
 ![fix typo in the last ran command](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/fix-typo--in-command-history.webp)
 
-{% note color:green 💡 另一个小技巧更像是终端快捷键，并非在所有地方都适用，但仍然非常方便。 要使用上一个命令的最后一个参数，可以使用 {% kbd Alt %} + {% kbd . %} 键。例如，使用 `ls` 命令查看一个深度嵌套的目录，并且想要切换到该目录中，无需重新输入所有内容，只需使用 `cd` 命令并按下 {% kbd Alt %} + {% kbd . %} 键即可。 %}
+> 💡 另一个小技巧更像是终端快捷键，并非在所有地方都适用，但仍然非常方便。 要使用上一个命令的最后一个参数，可以使用 `Alt + .` 键。例如，使用 `ls` 命令查看一个深度嵌套的目录，并且想要切换到该目录中，无需重新输入所有内容，只需使用 `cd` 命令并按下 `Alt + .` 键即可。
 
 ## 在命令历史记录中搜索
 
 您可以按向上（和向下）键循环浏览命令历史记录，并在出现所需命令时按回车键。这对于最近的几个命令来说效果很好，但您不应该连续按上箭头键 100 次来从历史记录中获取命令。
 
-{% image https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/linux-history-command-meme.webp 输入一个熟记的十个字符的简单命令（✗） 按上箭头键 100 次（✔） %}
+![](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/linux-history-command-meme.webp) *输入一个熟记的十个字符的简单命令（✗） 按上箭头键 100 次（✔) %}*
 
 一种在历史记录中搜索的方法是使用 `grep` 命令进行过滤。
 
@@ -102,13 +102,13 @@ sudo !!
 history | grep tail
 ```
 
-**另一种方法是使用反向搜索功能**。按下 {% kbd Ctrl %} + {% kbd R %}，您将进入反向搜索界面。输入您的搜索词，它会从历史记录中显示匹配的命令。![Reverse search Linux command history](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/reverse-search-command-history.webp)
+**另一种方法是使用反向搜索功能**。按下 `Ctrl + R` ，您将进入反向搜索界面。输入您的搜索词，它会从历史记录中显示匹配的命令。![Reverse search Linux command history](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/reverse-search-command-history.webp)
 
-当然，搜索同一个字符串可能会有多个匹配项。反复按 {% kbd Ctrl %} + {% kbd R %} 键可以循环浏览所有匹配项。每次只显示一个匹配项。
+当然，搜索同一个字符串可能会有多个匹配项。反复按 `Ctrl + R` 键可以循环浏览所有匹配项。每次只显示一个匹配项。
 
 如果您找到了您要查找的命令，按右箭头键退出反向搜索并开始使用该命令。
 
-按 {% kbd Ctrl %} + {% kbd C %} 退出反向搜索而不使用任何命令。
+按 `Ctrl + C` 退出反向搜索而不使用任何命令。
 
 ## 从历史记录中删除命令
 
@@ -128,7 +128,7 @@ history -d N
 history -d 160-180
 ```
 
-{% note color:green 💡 `history -c` 命令将清除整个 Bash 历史记录。 %}
+>💡 `history -c` 命令将清除整个 Bash 历史记录。
 
 ## 从历史记录中排除某些命令
 
@@ -144,7 +144,7 @@ history -d 160-180
 - ignoredups：如果连续运行两个或更多相同的命令，只有第一个会被记录。
 - ignoreboth：同时使用上述提到的两个功能。
 
-{% note color:green 💡 您还可以在 `.bashrc` 文件中设置 `HISTIGNORE` 变量，并从历史记录中排除一些常见命令。使用方法如下：`HISTIGNORE='pwd:echo *:clear'` %}
+> 💡 您还可以在 `.bashrc` 文件中设置 `HISTIGNORE` 变量，并从历史记录中排除一些常见命令。使用方法如下：`HISTIGNORE='pwd:echo *:clear'`
 
 ## 额外提示：为什么有些命令没有被记录在历史记录中？
 

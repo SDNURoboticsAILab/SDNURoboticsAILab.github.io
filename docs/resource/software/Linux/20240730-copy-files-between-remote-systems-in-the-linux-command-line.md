@@ -26,7 +26,7 @@ scp local_dir_path/filename remote_username@remote_server_IP:/dir/location
 
 您也可以在这里使用 `rsync` 命令。 让我在本教程中详细介绍这些步骤。
 
-{% note color:yellow ✋ 本教程假定您可以使用 SSH 连接到远程系统。 您需要知道远程用户的密码，并且远程用户应具有对要复制文件的文件夹的读/写访问权限。 %}
+> ✋ 本教程假定您可以使用 SSH 连接到远程系统。 您需要知道远程用户的密码，并且远程用户应具有对要复制文件的文件夹的读/写访问权限。
 
 我的环境设置包括一个用作远程服务器的树莓派。 我可以通过我的 TUXEDO 笔记本电脑 [以 SSH 方式](https://itsfoss.com/ssh-into-raspberry/) 轻松连接到树莓派。
 
@@ -34,7 +34,7 @@ scp local_dir_path/filename remote_username@remote_server_IP:/dir/location
 
 [`scp` 命令](https://itsfoss.com/scp-command/) 是安全拷贝（secure copy）的简称，它使用 SSH 连接在远程系统之间传输文件。 我喜欢它，因为它的语法与 [`cp` 命令](https://itsfoss.com/cp-command/) 相似。
 
-{% note color:green 💡 我打开了一个单独的终端会话，通过 SSH 连接到远程服务器。这样我就能查看和复制远程服务器上的文件位置。 这一点很重要，因为通过 `SCP` 无法使用 TAB 自动补全。 %}
+> 💡 我打开了一个单独的终端会话，通过 SSH 连接到远程服务器。这样我就能查看和复制远程服务器上的文件位置。 这一点很重要，因为通过 `SCP` 无法使用 TAB 自动补全。
 
 ### 将文件从本地计算机复制到远程服务器
 
