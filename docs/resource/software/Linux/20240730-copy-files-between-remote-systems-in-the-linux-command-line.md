@@ -10,7 +10,7 @@ comments: true
 
 情况是这样的。 您可以通过 SSH 连接到一个远程 Linux 系统，然后您会发现自己需要将一些文件从远程服务器复制到本地系统。
 
-怎么做？ 您可以使用老式的 `scp `命令如下：
+怎么做？您可以通过以下方式使用老式的 `scp` 命令：
 
 ```Bash
 scp remote_username@remote_server_IP:/dir/location/filename local_dir_path
@@ -26,15 +26,15 @@ scp local_dir_path/filename remote_username@remote_server_IP:/dir/location
 
 您也可以在这里使用 `rsync` 命令。 让我在本教程中详细介绍这些步骤。
 
-{% note color:yellow ✋ 本教程假定您可以使用 SSH 连接到远程系统。 您需要知道远程用户的密码，并且远程用户应具有对要复制文件的文件夹的读/写访问权限。  %}
+{% note color:yellow ✋ 本教程假定您可以使用 SSH 连接到远程系统。 您需要知道远程用户的密码，并且远程用户应具有对要复制文件的文件夹的读/写访问权限。 %}
 
-我的环境设置包括一个用作远程服务器的树莓派。 我可以通过 TUXEDO 笔记本电脑 [以 SSH 方式](https://itsfoss.com/ssh-into-raspberry/) 轻松连接到 Pi。
+我的环境设置包括一个用作远程服务器的树莓派。 我可以通过我的 TUXEDO 笔记本电脑 [以 SSH 方式](https://itsfoss.com/ssh-into-raspberry/) 轻松连接到树莓派。
 
 ## scp 命令的使用
 
 [`scp` 命令](https://itsfoss.com/scp-command/) 是安全拷贝（secure copy）的简称，它使用 SSH 连接在远程系统之间传输文件。 我喜欢它，因为它的语法与 [`cp` 命令](https://itsfoss.com/cp-command/) 相似。
 
-{% note color:green 💡 我打开了一个单独的终端会话，通过 SSH 连接到远程服务器。 这样我就能查看和复制远程服务器上的文件位置。 这一点很重要，因为通过 `SCP` 无法获得制表符完成（文件名或目录名的自动填充）。 %}
+{% note color:green 💡 我打开了一个单独的终端会话，通过 SSH 连接到远程服务器。这样我就能查看和复制远程服务器上的文件位置。 这一点很重要，因为通过 `SCP` 无法使用 TAB 自动补全。 %}
 
 ### 将文件从本地计算机复制到远程服务器
 
@@ -60,7 +60,7 @@ scp Documents/sample.txt abhishek@192.168.1.5:~/Templates
 
 我使用 `~` 符号表示用户的主目录，因为它比 `/home/username` 短。
 
-您可以通过 SSH 连接到远程服务器验证传输结果。 这也是我一直单独打开终端会话的原因。
+您可以通过 SSH 连接到远程服务器验证传输结果。 这也是我一直保持一个额外终端会话的原因。
 
 ![Verify copying of files from local to remote system](https://static.fosscope.com/articles_img/2024/08/copy-files-between-remote-systems-in-the-linux-command-line/verify-local-to-remote-copy.webp)
 
@@ -148,9 +148,9 @@ rsync abhishek@192.168.1.5:~/rpdiags.txt .
 
 如果已配置 SFTP 服务器，则可使用 [FileZilla](https://filezilla-project.org/) 等图形用户界面工具。
 
-{% link https://itsfoss.com/filezilla-ubuntu/ 在 Ubuntu 上安装并使用 FileZilla 连接 SFTP 服务器 icon:https://static.fosscope.com/articles_img/2024/08/copy-files-between-remote-systems-in-the-linux-command-line/install-filezilla-on-ubuntu.webp %}
+[在 Ubuntu 上安装并使用 FileZilla 连接 SFTP 服务器](https://itsfoss.com/filezilla-ubuntu/)
 
-我更喜欢使用 scp 命令通过 SSH 连接快速传输文件。 当我需要对包含大量文件的文件夹进行备份时，我会使用 rsync。 更多信息请见其他文章。 祝您愉快😄
+我更喜欢使用 scp 命令通过 SSH 连接快速传输文件。当我需要对包含大量文件的文件夹进行备份时，我会使用 rsync。 更多信息请见其他文章。 祝您愉快 😄
 
 ---
 
