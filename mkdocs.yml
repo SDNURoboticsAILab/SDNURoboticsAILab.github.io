@@ -124,6 +124,7 @@ nav:
         - 第四章：使用Git来管理Git服务器: resource/software/Git/d8-run-a-server-with-git.md
         - 番外篇：Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
         - 番外篇：Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
+        - 番外篇：从零开始为Github开源项目贡献源代码: resource/software/Git/e3-github-contribution.md
 
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
