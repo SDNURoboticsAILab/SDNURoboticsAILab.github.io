@@ -16,10 +16,9 @@ nav:
   - 竞赛目录:
     - 中国机器人及人工智能大赛: contest/CRAIC.md
     - 国际青年人工智能大赛: contest/IYAIC.md
-    - 机器人世界杯中国赛: contest/RoboCup China Open.md
+    - 机器人世界杯中国赛: contest/RoboCup-China-Open.md
     - 机器人世界杯: contest/RoboCup.md
-    - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics Innovation Camp by CYL.md
-
+    - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics-Innovation-Camp-by-CYL.md
   - 教学资源:
     - 编程基础:
       - Python语法基础:
@@ -61,6 +60,8 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
+      - Git版本控制系统:
+        - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - Linux指令基础:
         - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
       - Git版本控制:
@@ -71,7 +72,6 @@ nav:
       - GDB调试工具:
         - GDB调试工具简介: resource/software/GDB/GDB_Introduction.md
       - LaTeX:
-        - LaTeX简介: resource/software/LaTeX/LaTeX_Introduction.md
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
@@ -109,7 +109,9 @@ nav:
       - 获奖情况: awards/Robocode.md
       - 2023 年获奖证书: awards/Robocode-2023.md
   - 其他:
-    - 机器人实验室新媒体纳新通知: others/accept_news.md
+    - 机器人实验室新媒体纳新通知: others/publicity.md
+    - 机器人实验室技术部纳新通知: others/technical.md
+    - 纳新抽奖活动: others/Sweepstakes.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
 
@@ -233,10 +235,12 @@ plugins:
             C++控制NAO机器人简述: Using C++ to Control NAO
             NAOqi APIs简述: Introduction to NAOqi APIs
             实用软件基础: Practical Software Basics
-            Linux指令基础: Linux Command Basics
-            Linux指令基础简介: Introduction to Linux
+            Linux基础教程: Linux Command Basics
+            Linux终端入门: Getting Started With Linux Terminal
+            第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
+            第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
             Git版本控制系统: Git, Version Control System
-            Git版本控制系统简介: Introduction to Git
+            Git秘籍: Git Cheat sheet
             GNU Make编译工具: GNU Make, Compilation Tool
             GNU Make编译工具简介: Introduction to GNU Make
             CMake编译工具: CMake, Compilation Tool
