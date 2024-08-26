@@ -76,6 +76,11 @@ nav:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
         - Misc: resource/software/Misc/Misc.md
+  - 培养计划:
+    - 第一阶段: plan/training_plan_1.md
+    # - 第二阶段: plan/training_plan_2.md
+    # - 第三阶段: plan/training_plan_3.md
+    # - 第四阶段: plan/training_plan_4.md
   - 成员风采:
     - 竞赛一览:
       - 2023年: memberStyle/Competition_Chronicles/2023.md
