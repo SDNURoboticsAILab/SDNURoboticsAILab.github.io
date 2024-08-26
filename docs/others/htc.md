@@ -44,6 +44,8 @@ npm install
 
 若需修改页面，请确保文档遵守 [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md) 和 [Markdown 简体中文与西文混排要点](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en)。
 
+文档的命名方式请使用 [短横线命名法](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) 或 [下划线命名法](https://en.wikipedia.org/wiki/Letter_case#Snake_case)。
+
 此外，请同步更新 [mkdocs.yml](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/blob/master/mkdocs.yml) 的 `nav` 部分。
 
 本站支持中英双语，请确保每个页面至少有两个 `Markdown` 文件：`page.md` 和 `page.en.md`，并在 [mkdocs.yml](https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io/blob/master/mkdocs.yml) 的 `i18n` 插件中的 `nav_translations` 部分添加相应的翻译。
