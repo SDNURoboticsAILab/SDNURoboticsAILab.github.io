@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Git Quick Reference Guide
 
 ## Create Directory (Local System)
