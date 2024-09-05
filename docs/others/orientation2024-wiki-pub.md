@@ -24,7 +24,7 @@
 
 实验室官网：[https://sdnuroboticsailab.github.io](https://sdnuroboticsailab.github.io)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jF5aqYJUdN9icFU51u6hicJmiaxoA31YPwcPYom9J8wQgu3wlYg0VRK5zrNMYXQ2tqxdR8MhEOXIxl6rc9zBU3V4g/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![6408jpg](https://cfdn-img.hx-cn.top/file/ce9b24ffe85a0b108ba07.jpg)
 
 ## 🌟 我们需要什么样的你
 
@@ -104,4 +104,4 @@
 
 2024年9月4日
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jF5aqYJUdN9icFU51u6hicJmiaxoA31YPwcicA2ZbHHVGdQ4Kx6JWTcoqBdDEx7h2liaorVx5VEtMPPDSOibUXIsibcdg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![640](https://cfdn-img.hx-cn.top/file/8aaa503f7280ccc20eaf5.jpg)
