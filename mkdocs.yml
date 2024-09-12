@@ -24,7 +24,7 @@ nav:
       - Python语法基础:
         - Python简介: resource/programming/Python/Python_Introduction.md
       - C++语法基础:
-        - C++简介: resource/programming/CPP/CPP_Introduction.md
+        - C++简介: resource/programming/CPP/c-plus-plus.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
