@@ -24,7 +24,12 @@ nav:
       - Python语法基础:
         - Python简介: resource/programming/Python/Python_Introduction.md
       - C++语法基础:
-        - C++简介: resource/programming/CPP/c-plus-plus.md
+        - C++目录: resource/programming/CPP/c-plus-plus.md
+        - C++编程语言简介: resource/programming/CPP/Overview/introduction-to-c-programming-language.md
+        - C++的特点: resource/programming/CPP/Overview/features-of-cpp.md
+        - C++的历史: resource/programming/CPP/Overview/history-of-c.md
+        - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
+        - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
