@@ -24,7 +24,12 @@ nav:
       - Python语法基础:
         - Python简介: resource/programming/Python/Python_Introduction.md
       - C++语法基础:
-        - C++简介: resource/programming/CPP/CPP_Introduction.md
+        - C++目录: resource/programming/CPP/c-plus-plus.md
+        - C++编程语言简介: resource/programming/CPP/Overview/introduction-to-c-programming-language.md
+        - C++的特点: resource/programming/CPP/Overview/features-of-cpp.md
+        - C++的历史: resource/programming/CPP/Overview/history-of-c.md
+        - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
+        - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
@@ -177,8 +182,8 @@ nav:
       - 获奖情况: awards/Robocode.md
       - 2023 年获奖证书: awards/Robocode-2023.md
   - 其他:
-    - 机器人实验室新媒体纳新通知: others/publicity.md
-    - 机器人实验室技术部纳新通知: others/technical.md
+    - 机器人实验室新媒体纳新通知: others/orientation2024-wiki-pub.md
+    - 机器人实验室技术部纳新通知: others/orientation2024-wiki-tek.md
     - 纳新抽奖活动: others/Sweepstakes.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
