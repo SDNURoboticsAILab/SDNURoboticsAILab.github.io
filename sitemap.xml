@@ -491,6 +491,90 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BBasics/writing-first-c-program-hello-world-example/"/>
     </url>
     <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-loops/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-loops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-loops/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/"/>
+    </url>
+    <url>
         <loc>Noneresource/programming/CPP/C%2B%2BOverview/Difference%20between%20C%20and%20C%2B%2B/</loc>
         <lastmod>2024-09-17</lastmod>
         <changefreq>daily</changefreq>
@@ -1658,6 +1742,90 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BBasics/writing-first-c-program-hello-world-example/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BBasics/writing-first-c-program-hello-world-example/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-if-ladder-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-else-statement-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/c-c-if-statement-with-examples/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-decision-making/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-do-while-loop/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-for-loop/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-loops/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-loops/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-loops/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-nested-if-else-statement/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/cpp-while-loop/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/jump-statements-in-c/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/range-based-loop-c/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BControlStatements/switch-statement-in-cpp/"/>
     </url>
     <url>
         <loc>Noneen/resource/programming/CPP/C%2B%2BOverview/Difference%20between%20C%20and%20C%2B%2B/</loc>
