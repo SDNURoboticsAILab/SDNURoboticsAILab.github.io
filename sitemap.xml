@@ -533,6 +533,62 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BOverview/setting-c-development-environment/"/>
     </url>
     <url>
+        <loc>Noneresource/programming/CPP/Functions/cpp-recursion/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/cpp-recursion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/cpp-recursion/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/default-arguments-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/default-arguments-c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/default-arguments-c/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/functions-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/functions-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/functions-in-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/inline-functions-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/inline-functions-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/inline-functions-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/lambda-expression-in-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/lambda-expression-in-c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/lambda-expression-in-c/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/CPP/Functions/return-statement-in-cpp-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/return-statement-in-cpp-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/return-statement-in-cpp-with-examples/"/>
+    </url>
+    <url>
         <loc>Noneresource/programming/OOP/OOP_Introduction/</loc>
         <lastmod>2024-09-17</lastmod>
         <changefreq>daily</changefreq>
@@ -1644,6 +1700,62 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/C%2B%2BOverview/setting-c-development-environment/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/C%2B%2BOverview/setting-c-development-environment/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/cpp-recursion/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/cpp-recursion/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/cpp-recursion/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/default-arguments-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/default-arguments-c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/default-arguments-c/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/functions-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/functions-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/functions-in-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/inline-functions-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/inline-functions-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/inline-functions-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/lambda-expression-in-c/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/lambda-expression-in-c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/lambda-expression-in-c/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/parameter-passing-techniques-in-cpp/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/CPP/Functions/return-statement-in-cpp-with-examples/</loc>
+        <lastmod>2024-09-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/CPP/Functions/return-statement-in-cpp-with-examples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/CPP/Functions/return-statement-in-cpp-with-examples/"/>
     </url>
     <url>
         <loc>Noneen/resource/programming/OOP/OOP_Introduction/</loc>
