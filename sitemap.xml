@@ -169,6 +169,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2023test/"/>
     </url>
     <url>
+        <loc>Noneothers/2025new/</loc>
+        <lastmod>2024-09-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2025new/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025new/"/>
+    </url>
+    <url>
         <loc>Noneothers/Sweepstakes/</loc>
         <lastmod>2024-09-21</lastmod>
         <changefreq>daily</changefreq>
@@ -1497,6 +1504,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2023test/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2023test/"/>
+    </url>
+    <url>
+        <loc>Noneen/others/2025new/</loc>
+        <lastmod>2024-09-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025new/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2025new/"/>
     </url>
     <url>
         <loc>Noneen/others/Sweepstakes/</loc>
