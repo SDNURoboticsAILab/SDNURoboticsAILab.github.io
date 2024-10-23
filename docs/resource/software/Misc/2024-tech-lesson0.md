@@ -24,12 +24,14 @@
 
 2. 百度/Bing/Google：只要你正确的调教好你的浏览器(下点插件屏蔽一下广告之类的)，百度真的能查到很多东西。比如当你遇到了一个报错
 
-  ![01](https://cfdn-img.hx-cn.top/file/e5272c959934a61b625c0-7c26b2d470a1d73e8c.png)
+![01](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/01.png)
 
   **直接复制然后百度**
 
-  ![02](https://cfdn-img.hx-cn.top/file/ddff515cc75208b20acf8-86fca2bf80136f29a0.png)是不是解决方案都有啦
-  PS：所谓的百度，通常是使用搜索引擎进行检索信息的代称，推荐大家使用Bing、Google。
+ ![02](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/02.png)
+
+是不是解决方案都有啦
+  **PS：所谓的百度，通常是使用搜索引擎进行检索信息的代称，推荐大家使用Bing、Google。**
 
 3. 问ChatGPT(**详情见后文“必备工具”**)
 
@@ -49,9 +51,9 @@
 - 只说一个笼统的问题，不说细节
 - 夺命连环问
 
-![03](https://cfdn-img.hx-cn.top/file/ae7d954a9e9c92d5ad4af-33d3c4e4aeced5d584.jpg)
+![03](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/03.png)
 
-![04](https://cfdn-img.hx-cn.top/file/75f41fdb778f4cb62b512-565645b351357546dd.jpg)
+![04](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/04.jpg)
 
 #### 例子
 
@@ -154,11 +156,11 @@ AI从23年初开始流行，到现在已经不是一个新鲜玩意儿了，也�
 
 AI可以帮助程序员解决非常多的问题，尤其是针对初学者来说。
 
-而且现在使用AI的门槛也低了很多，国内也出现了不少好用的大模型，比如[Kimi ](https://kimi.moonshot.cn/)、[豆包](https://www.doubao.com/)、[通义千问](https://tongyi.aliyun.com/)等等。也可以直接去使用ChatGPT等国外的模型。
+而且现在使用AI的门槛也低了很多，国内也出现了不少好用的大模型，。也可以直接去使用ChatGPT等国外的模型。
 
-然后你就可以向它提问题了
+在提问时，尽可能提供你的代码、报错或者软件运行日志；如果你知道代码的运行过程，也可以告诉AI；如果有多个问题最好将问题拆解后提问：
 
-![05](https://cfdn-img.hx-cn.top/file/10c9acc4b0bb3cedb35ef-0193fd10ae6420c5ec.png)
+![image-20241023164818932](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/image-20241023164818932.png)
 
 但是，**千万不能太依赖AI，千万不能太依赖AI，千万不能太依赖AI！！**
 
@@ -371,9 +373,9 @@ Markdown可以广泛用于文档、博客、论坛等带格式文本内容的创
 
 官方文档其实可以说是了解一个组件最高效的方式，在有一定编程基础后看官方文档入门是不二之选
 
-以下图为例，这是 go 的官方文档，介绍了包含的所有官方库以及其他功能
+以下图为例，这是 Halo 的官方文档，介绍了包含的所有官方库以及其他功能
 
-![09](https://cfdn-img.hx-cn.top/file/f61fb430287a2545b445e-538b062bfd4eb0a880.png)
+![09](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/Misc/lesson0-2024-tech/09.png)
 
 很多组件是国外开发的，因此也是英文的，看懂其实并不难，只是一开始会有畏难情绪，能过四级就没多大阅读障碍了
 
