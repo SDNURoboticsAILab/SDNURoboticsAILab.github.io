@@ -81,7 +81,7 @@ nav:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
-        - Misc: resource/software/Misc/Misc.md
+        - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
     - 第一阶段: plan/training_plan_1.md
     # - 第二阶段: plan/training_plan_2.md
