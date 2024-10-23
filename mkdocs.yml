@@ -30,6 +30,7 @@ nav:
         - C++的历史: resource/programming/CPP/Overview/history-of-c.md
         - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
         - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
+        - C和C++的不同之处: resource/programming/CPP/Overview/difference-between-C-and-cpp.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
