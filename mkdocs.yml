@@ -98,6 +98,7 @@ nav:
         - 番外篇：11个让你吃惊的Linux终端命令: resource/software/Linux/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.md
         - 番外篇：21个专业Linux用户喜爱的实用终端快捷键: resource/software/Linux/linux-terminal-shortcuts.md
         - 番外篇：Shell、Bash、CMD、PowerShell的区别与联系: resource/software/Linux/shell-bash-cmd-powershell.md
+        - 安装Win11和Ubuntu22.04双系统: resource/software/Linux/win11-ubuntu-dual-boot.md
 
       - Git版本控制基础:
         - 第一章：什么是Git: resource/software/Git/a1-what-is-git.md
