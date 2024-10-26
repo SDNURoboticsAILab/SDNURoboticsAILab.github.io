@@ -93,7 +93,7 @@ https://ed.qcea.top/ChaIndex/Systems
 
 ### 安装 VMware Workstation
 
-[按住Ctrl点击这里（蓝色字体是超链接，这是标准打开方法）下载Vmware Workstation](https://ed.qcea.top/ChaIndex/Softwares/Windows/System/VirtualMachine/Vmware/VMware-workstation-full-17.6.1-24319023.exe)或者打开群文件发的安装包
+[按住Ctrl点击这里（彩色字体是超链接，这是标准打开方法）下载Vmware Workstation](https://ed.qcea.top/ChaIndex/Softwares/Windows/System/VirtualMachine/Vmware/VMware-workstation-full-17.6.1-24319023.exe)或者打开群文件发的安装包
 
 一直点下一步就可以
 
