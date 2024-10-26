@@ -67,6 +67,7 @@ nav:
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux基础教程:
+        - 搭建年轻人的第一个虚拟机: resource/software/Linux/first-vm-2024.md
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
         - Linux终端基础1：目录切换: resource/software/Linux/chapter-1-change-directories.md
         - Linux终端基础2：创建目录: resource/software/Linux/chapter-2-make-directories.md
