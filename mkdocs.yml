@@ -185,12 +185,12 @@ nav:
       - 获奖情况: awards/Robocode.md
       - 2023 年获奖证书: awards/Robocode-2023.md
   - 产品介绍:
+    - 教学培训:
+      - 网络安全培训: others/doing.md
+      - 机器人编程培训: others/doing.md
+      - 信息学算法培训: others/doing.md
+      - 机器学习方向研发培训: others/doing.md
     - 网页/小程序开发: others/doing.md
-    - 网络安全: 
-      - 安全服务和安全运维: others/doing.md
-      - 渗透测试: others/doing.md
-      - web安全: others/doing.md
-      - 安全培训: others/doing.md
     - 视觉:
       - 目标识别: others/doing.md
       - 人脸识别:  others/doing.md  #(活体检测，人脸属性分析，人脸检测)
@@ -200,7 +200,7 @@ nav:
       - 图像生成: others/doing.md
     - 虚拟技术:
       - AI虚拟人: others/doing.md
-      - AI虚拟声音: others/doing.md
+      - AI虚拟声音: others/doing.md   # add VR & AR
     - 数据挖掘/数据处理: others/doing.md
     - 私人定制业务: others/doing.md
   - 商业合作:
