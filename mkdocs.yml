@@ -196,7 +196,7 @@ nav:
       - 人脸识别:  others/doing.md  #(活体检测，人脸属性分析，人脸检测)
     - 大模型:
       - 代码生成: others/doing.md
-      - 文档生成: others/doing.md
+      - 文档生成: others/doing.md 
       - 图像生成: others/doing.md
     - 虚拟技术:
       - AI虚拟人: others/doing.md
