@@ -11,7 +11,7 @@ repo_url: https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io
 copyright: Copyright &copy; 2024-present <a href="https://github.com/SDNURoboticsAILab" target="_blank" rel="noopener noreferrer">Robotics and AI Lab, SDNU</a>
 
 #[Navigation]
-nav:
+nav: 
   - 介绍: index.md
   - 竞赛目录:
     - 中国机器人及人工智能大赛: contest/CRAIC.md
@@ -114,6 +114,27 @@ nav:
     - 浪曦杯机器人编程大赛:
       - 获奖情况: awards/Robocode.md
       - 2023 年获奖证书: awards/Robocode-2023.md
+  - 产品介绍:
+    - 教学培训:
+      - 网络安全培训: others/doing.md
+      - 机器人编程培训: others/doing.md
+      - 信息学算法培训: others/doing.md
+      - 机器学习方向研发培训: others/doing.md
+    - 网页/小程序开发: others/doing.md
+    - 视觉:
+      - 目标识别: others/doing.md
+      - 人脸识别:  others/doing.md  #(活体检测，人脸属性分析，人脸检测)
+    - 大模型:
+      - 代码生成: others/doing.md
+      - 文档生成: others/doing.md
+      - 图像生成: others/doing.md
+    - 虚拟技术:
+      - AI虚拟人: others/doing.md
+      - AI虚拟声音: others/doing.md   # add VR & AR
+    - 数据挖掘/数据处理: others/doing.md
+    - 私人定制业务: others/doing.md
+  - 商业合作:
+    - 商业合作: commercial/commercial.md
   - 其他:
     - 机器人实验室新媒体纳新通知: others/publicity.md
     - 机器人实验室技术部纳新通知: others/technical.md
@@ -121,6 +142,7 @@ nav:
     - 纳新抽奖活动: others/Sweepstakes.md
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
+  
 
 #[UI]
 theme:
