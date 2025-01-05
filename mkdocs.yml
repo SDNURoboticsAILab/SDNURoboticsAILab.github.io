@@ -30,6 +30,7 @@ nav:
         - C++的历史: resource/programming/CPP/Overview/history-of-c.md
         - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
         - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
+        - C和C++的不同之处: resource/programming/CPP/Overview/difference-between-C-and-cpp.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
@@ -80,7 +81,7 @@ nav:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
-        - Misc: resource/software/Misc/Misc.md
+        - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
     - 第一阶段: plan/training_plan_1.md
     # - 第二阶段: plan/training_plan_2.md
