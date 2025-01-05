@@ -30,6 +30,7 @@ nav:
         - C++的历史: resource/programming/CPP/Overview/history-of-c.md
         - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
         - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
+        - C和C++的不同之处: resource/programming/CPP/Overview/difference-between-C-and-cpp.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
@@ -66,6 +67,7 @@ nav:
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux基础教程:
+        - 搭建年轻人的第一个虚拟机: resource/software/Linux/first-vm-2024.md
         - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
         - Linux终端基础1：目录切换: resource/software/Linux/chapter-1-change-directories.md
         - Linux终端基础2：创建目录: resource/software/Linux/chapter-2-make-directories.md
@@ -96,6 +98,7 @@ nav:
         - 番外篇：11个让你吃惊的Linux终端命令: resource/software/Linux/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.md
         - 番外篇：21个专业Linux用户喜爱的实用终端快捷键: resource/software/Linux/linux-terminal-shortcuts.md
         - 番外篇：Shell、Bash、CMD、PowerShell的区别与联系: resource/software/Linux/shell-bash-cmd-powershell.md
+        - 安装Win11和Ubuntu22.04双系统: resource/software/Linux/win11-ubuntu-dual-boot.md
 
       - Git版本控制基础:
         - 第一章：什么是Git: resource/software/Git/a1-what-is-git.md
@@ -148,7 +151,7 @@ nav:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
-        - Misc: resource/software/Misc/Misc.md
+        - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
     - 第一阶段: plan/training_plan_1.md
     # - 第二阶段: plan/training_plan_2.md
