@@ -186,23 +186,23 @@ nav:
       - 2023 年获奖证书: awards/Robocode-2023.md
   - 产品介绍:
     - 教学培训:
-      - 网络安全培训: others/doing.md
-      - 机器人编程培训: others/doing.md
-      - 信息学算法培训: others/doing.md
-      - 机器学习方向研发培训: others/doing.md
-    - 网页/小程序开发: others/doing.md
+      - 网络安全培训: products/Teach/Network-security/Network.md
+      - 机器人编程培训: products/Teach/robot/robot.md
+      - 信息学算法培训: products/Teach/Algorithm/Algorithm.md
+      - 机器学习方向研发培训: products/Teach/Learn/Learn.md
+    - 网页/小程序开发: products/Web/Web.md
     - 视觉:
-      - 目标识别: others/doing.md
-      - 人脸识别:  others/doing.md  #(活体检测，人脸属性分析，人脸检测)
+      - 目标识别: products/CV/Object/Object.md
+      - 人脸识别:  products/CV/Face/Face.md  #(活体检测，人脸属性分析，人脸检测)
     - 大模型:
-      - 代码生成: others/doing.md
-      - 文档生成: others/doing.md
-      - 图像生成: others/doing.md
+      - 代码生成: products/LLM/Code/Code.md
+      - 文档生成: products/LLM/Document/Document.md
+      - 图像生成: products/LLM/Image/Image.md
     - 虚拟技术:
-      - AI虚拟人: others/doing.md
-      - AI虚拟声音: others/doing.md   # add VR & AR
-    - 数据挖掘/数据处理: others/doing.md
-    - 私人定制业务: others/doing.md
+      - AI虚拟人: products/Virtual/People/People.md
+      - AI虚拟声音: products/Virtual/Sound/Sound.md   # add VR & AR
+    - 数据挖掘/数据处理: products/Data/Data.md
+    - 私人定制业务: products/Custom-made/Custom.md
   - 商业合作:
     - 商业合作: commercial/commercial.md
   - 其他:
