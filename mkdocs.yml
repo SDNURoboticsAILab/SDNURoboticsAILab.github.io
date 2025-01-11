@@ -83,10 +83,11 @@ nav:
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
+    - 必读: plan/introduction.md
     - 第一阶段: plan/training_plan_1.md
-    # - 第二阶段: plan/training_plan_2.md
-    # - 第三阶段: plan/training_plan_3.md
-    # - 第四阶段: plan/training_plan_4.md
+    - 第二阶段: plan/training_plan_2.md
+    - 第三阶段: plan/training_plan_3.md
+    - 第四阶段: plan/training_plan_4.md
   - 成员风采:
     - 竞赛一览:
       - 2023年: memberStyle/Competition_Chronicles/2023.md
