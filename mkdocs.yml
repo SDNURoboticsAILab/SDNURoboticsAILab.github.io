@@ -125,9 +125,9 @@ nav:
       - 目标识别: products/CV/Object/Object.md
       - 人脸识别:  products/CV/Face/Face.md  #(活体检测，人脸属性分析，人脸检测)
     - 大模型:
-      - 代码生成: products/LLM/Code/Code.md
-      - 文档生成: products/LLM/Document/Document.md
-      - 图像生成: products/LLM/Image/Image.md
+      - 代码生成: others/doing.md
+      - 文档生成: others/doing.md 
+      - 图像生成: others/doing.md
     - 虚拟技术:
       - AI虚拟人: products/Virtual/People/People.md
       - AI虚拟声音: products/Virtual/Sound/Sound.md   # add VR & AR
