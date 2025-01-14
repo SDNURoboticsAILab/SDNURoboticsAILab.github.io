@@ -6,12 +6,6 @@
 2. 算法/数据结构模块 - 1
 3. 熟练使用Linux指令以及Shell脚本
 
-## 第一阶段大纲
-
-### Linux基础
-
-... to be continued
-
 ### 基础知识与编程环境
 
 #### 计算机基础
@@ -35,6 +29,338 @@
 ##### 使用Linux系统下的集成开发环境
 
 ##### GNU、Clang、MinGW软件集合中等常见编译器的基本使用
+
+## 第一阶段大纲
+
+### Linux基础
+
+#### Linux环境部署
+
+##### Windows-WSL
+
+##### 虚拟机
+
+##### 双系统
+
+##### Docker
+
+##### 云服务器
+
+#### Linux概述
+
+##### Linux历史
+
+##### 系统启动过程
+
+##### Linux目录结构
+
+#### Vim编辑器
+
+#### Linux常用指令精学
+
+##### 文件管理
+
+###### diff
+
+###### diffstat
+
+###### file
+
+###### find
+
+###### ln
+
+###### locate
+
+###### mv
+
+###### od
+
+###### paste
+
+###### rm
+
+###### split
+
+###### tee
+
+###### touch
+
+###### whereis
+
+###### which
+
+###### cat
+
+###### chgrp
+
+###### chmod
+
+###### chown
+
+###### cksum
+
+###### cmp
+
+###### cp
+
+###### cut
+
+###### indent
+
+##### 磁盘管理
+
+###### cd
+
+###### df
+
+###### dirs
+
+###### du
+
+###### equota
+
+###### lndir
+
+###### ls
+
+###### mkdir
+
+###### pwd
+
+###### quota
+
+###### quotacheck
+
+###### quotaoff
+
+###### quotaon
+
+###### repquota
+
+###### rmdir
+
+###### stat
+
+###### tree
+
+###### umount
+
+###### mount
+
+##### 系统管理
+
+###### systemctl
+
+###### adduser
+
+###### chfn
+
+###### chsh
+
+###### date
+
+###### exit
+
+###### free
+
+###### finger
+
+###### groupdel
+
+###### groupmod
+
+###### halt
+
+###### id
+
+###### kill
+
+###### last
+
+###### login
+
+###### logname
+
+###### logout
+
+###### newgrp
+
+###### nice
+
+###### ps
+
+###### reboot
+
+###### renice
+
+###### who
+
+###### clear
+
+###### shutdown
+
+###### su
+
+###### sudo
+
+###### top
+
+###### htop
+
+###### uname
+
+###### useradd
+
+###### userdel
+
+###### userconf
+
+###### usermod
+
+###### w
+
+###### whoami
+
+###### whois
+
+##### 系统设置
+
+##### 文档编辑
+
+###### col
+
+###### colrm
+
+###### comm
+
+###### csplit
+
+###### ed
+
+###### egrep
+
+###### fgrep
+
+###### grep
+
+###### fold
+
+###### join
+
+###### look
+
+###### sed
+
+###### sort
+
+###### uniq
+
+###### tr
+
+###### wc
+
+##### 网络通讯
+
+###### ssh
+
+###### sshd
+
+###### iptables
+
+###### ufw
+
+###### smbd
+
+###### telnet
+
+###### ifconfig
+
+###### httpd
+
+###### cu
+
+###### dnsconf
+
+###### nc
+
+###### netstat
+
+###### ping
+
+###### talk
+
+###### tcpdump
+
+###### traceroute
+
+###### tty
+
+###### uuname
+
+###### wall
+
+###### write
+
+###### arpwatch
+
+###### apachectl
+
+###### mail
+
+##### 备份压缩
+
+###### ar
+
+###### bzip2
+
+###### bzip2recover
+
+###### bunzip2
+
+###### zip
+
+###### unzip
+
+###### zipinfo
+
+###### tar
+
+##### 其他常用
+
+###### 性能调优
+
+###### 网络分析
+
+#### Linux用户身份和文件权限
+
+##### 使用者和群组
+
+##### Linux文件权限
+
+##### 文件种类以及扩展名
+
+#### 储存结构以及硬盘管理
+
+##### Linux文件系统
+
+##### 文件系统的操作
+
+##### 磁盘分区/格式化/检验/挂载
+
+##### swap分区
+
+#### Shell脚本
+
+##### Shell是什么
+
+##### 变量
+
+##### 条件
+
+##### 控制结构
+
+##### Shell中的命令
 
 ### C++程序设计
 
