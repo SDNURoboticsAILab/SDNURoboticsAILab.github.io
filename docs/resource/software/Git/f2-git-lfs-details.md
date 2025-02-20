@@ -2,12 +2,10 @@
 comments: true
 ---
 
-> 本文主要讲解在 Git 仓库中如何管理大的二进制文件，详细介绍了什么是 Git LFS，Git LFS 是如何工作的，以及如何使用 Git LFS。
-
 ![动图封面](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/v2-009bcc927053275ba01fdc279a6c3ecb_b.jpg)
 
-
-
+> 本文主要讲解在 Git 仓库中如何管理大的二进制文件，详细介绍了什么是 Git LFS，Git LFS 是如何工作的，以及如何使用 Git LFS。
+>
 > 本文翻译自 Atlassian 官方介绍 Git LFS 的文章，Atlassian 是 Git LFS 的主要开发者之一，这篇介绍 Git LFS 的文章比较权威，讲的也很详细。原文地址：
 >
 > **[https://www.atlassian.com/git/tutorials/git-lfs](https://www.atlassian.com/git/tutorials/git-lfs)**
@@ -16,19 +14,21 @@ comments: true
 
 ### **什么是 Git LFS？**
 
-Git 是*分布式* 版本控制系统，这意味着在克隆过程中会将仓库的整个历史记录传输到客户端。对于包涵大文件（尤其是经常被修改的大文件）的项目，初始克隆需要大量时间，因为客户端会下载每个文件的每个版本。**Git LFS**（Large File Storage）是由 Atlassian, GitHub 以及其他开源贡献者开发的 Git 扩展，它通过延迟地（lazily）下载大文件的相关版本来减少大文件在仓库中的影响，具体来说，大文件是在 checkout 的过程中下载的，而不是 clone 或 fetch 过程中下载的（**这意味着你在后台定时 fetch 远端仓库内容到本地时，并不会下载大文件内容，而是在你 checkout 到工作区的时候才会真正去下载大文件的内容**）。
+Git 是*分布式* 版本控制系统，clone时会将文件的所有版本都传输到客户端，如果遇到大文件，初始clone就会需要很长时间，也就是说大文件会导致Git出现**性能瓶颈**。为了解决这个问题，Git引入了Git LFS（Large File Storage）——专门用于管理大型文件的扩展。
 
-Git LFS 通过将仓库中的大文件替换为微小的*指针（pointer）* 文件来做到这一点。在正常使用期间，你将永远不会看到这些指针文件，因为它们是由 Git LFS 自动处理的：
+**Git LFS**（Large File Storage）是由 Atlassian, GitHub 以及其他开源贡献者开发的 Git 扩展，它通过延迟地（lazily）下载大文件的相关版本来减少大文件在仓库中的影响，具体来说，大文件是在 checkout 的过程中下载的，而不是 clone 或 fetch 过程中下载的（**这意味着你在后台定时** **fetch** **远端仓库内容到本地时，并不会下载大文件内容，而是在你** **checkout** **到工作区的时候才会真正去下载大文件的内容**）。
 
-\1. 当你添加（**执行 git add 命令**）一个文件到你的仓库时，Git LFS 用一个指针替换其内容，并将文件内容存储在本地 Git LFS 缓存中（**本地 Git LFS 缓存位于仓库的.git/lfs/objects 目录中**）。
+Git LFS 通过将仓库中的大文件替换为微小的指针（pointer） 文件来做到这一点。在正常使用期间，你将永远不会看到这些指针文件，因为它们是由 Git LFS 自动处理的：
+
+1. 当你添加（**执行 git add 命令**）一个文件到你的仓库时，Git LFS 用一个指针替换其内容，并将文件内容存储在本地 Git LFS 缓存中（**本地 Git LFS 缓存位于仓库的.git/lfs/objects 目录中**）。
 
 ![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/v2-ba2b7ea48f0a48396fe656657ee19682_1440w.jpg)
 
-\2. 当你推送新的提交到服务器时，新推送的提交引用的所有 Git LFS 文件都会从本地 Git LFS 缓存传输到绑定到 Git 仓库的远程 Git LFS 存储（**即 LFS 文件内容会直接从本地 Git LFS 缓存传输到远程 Git LFS 存储服务器**）。
+2. 当你推送新的提交到服务器时，新推送的提交引用的所有 Git LFS 文件都会从本地 Git LFS 缓存传输到绑定到 Git 仓库的远程 Git LFS 存储（**即 LFS 文件内容会直接从本地 Git LFS 缓存传输到远程 Git LFS 存储服务器**）。
 
 ![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/v2-546c2213c530bb6b1e61c377d5225a16_1440w.jpg)
 
-\3. 当你 checkout 一个包含 Git LFS 指针的提交时，指针文件将替换为本地 Git LFS 缓存中的文件，或者从远端 Git LFS 存储区下载。
+3. 当你 checkout 一个包含 Git LFS 指针的提交时，指针文件将替换为本地 Git LFS 缓存中的文件，或者从远端 Git LFS 存储区下载。
 
 ![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/v2-805341628b82fdd7a68876d9e953aa46_1440w.jpg)
 
@@ -50,7 +50,7 @@ Git LFS 是无缝的：在你的工作副本中，你只会看到实际的文件
 
 ### **安装 Git LFS**
 
-\1. 有三种简单的方式来安装 Git LFS：
+1. 有三种简单的方式来安装 Git LFS：
 
 a. 用你最喜欢的软件包管理器来安装它。git-lfs 软件包在 [Homebrew](https://zhida.zhihu.com/search?content_id=120729033&content_type=Article&match_order=1&q=Homebrew&zhida_source=entity)，[MacPorts](https://zhida.zhihu.com/search?content_id=120729033&content_type=Article&match_order=1&q=MacPorts&zhida_source=entity)，[dnf](https://zhida.zhihu.com/search?content_id=120729033&content_type=Article&match_order=1&q=dnf&zhida_source=entity) 和**[packagecloud](https://github.com/github/git-lfs/blob/master/INSTALLING.md)**中都是可用的；或者
 
@@ -58,7 +58,7 @@ b. 从项目网站下载并安装**[Git LFS](https://git-lfs.github.com/)**；
 
 c. 安装 Sourcetree，它是捆绑了 Git LFS 的一个免费的 Git GUI 客户端。
 
-\2. 一旦安装好了 Git LFS，请运行 git lfs install 来初始化 Git LFS（如果你安装了 Sourcetree，可以跳过此步骤）：
+2. 一旦安装好了 Git LFS，请运行 git lfs install 来初始化 Git LFS（如果你安装了 Sourcetree，可以跳过此步骤）：
 
 ```bash
 $ git lfs install
@@ -89,7 +89,13 @@ Git LFS initialized.
 
 ![img](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/v2-96ee05f9362470f99dd8e0f83320cd81_1440w.jpg)
 
+Github需要在仓库 settings需要打开lfs按钮：
+
+![image-20250220194416138](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/image-20250220194416138.png)
+
 当你的仓库初始化了 Git LFS 后，你可以通过使用 git lfs track 来指定要跟踪的文件。
+
+LFS是要收费的。归档中的Git LFS使用与客户端使用的费率相同。貌似超过一个G就要收费了。
 
 ### **克隆现有的 Git LFS 仓库**
 
@@ -427,6 +433,24 @@ Git LFS 命令行客户端不支持删除服务器上的文件，因此如何删
 
 - 在 Bitbucket Git LFS UI 的左栏中查看文件预览图像和文件类型
 - 使用 Bitbucket Git LFS UI 右栏中的链接下载文件-搜索引用 Git LFS 对象的 SHA-256 OID 的提交，如下一节所述
+
+Github可以使用下面指令彻底取消lfs：
+
+```bash
+git lfs uninstall
+
+
+
+# results_bears/results_bears_processed_machine_1.tar.lrz results_bears/results_bears_processed_machine_2.tar.lrz 就是你要删的大文件
+
+git filter-branch --force --index-filter \
+
+   "git rm --cached --ignore-unmatch results_bears/results_bears_processed_machine_1.tar.lrz results_bears/results_bears_processed_machine_2.tar.lrz" \
+
+   --prune-empty --tag-name-filter cat -- --all
+```
+
+然后重新git push origin master -f 就行
 
 ### **查找引用 Git LFS 对象的路径或提交**
 
