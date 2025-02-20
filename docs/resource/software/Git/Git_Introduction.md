@@ -32,7 +32,7 @@ comments: true
 - [6个最佳的Git仓库管理实践](resource/software/Git/c5-6-best-practices-for-managing-git-repos.md)
 - [6个在团队中使用Git的最佳实践](resource/software/Git/c6-6-best-practices-for-teams-using-git.md)
 
-3. 大文件
+3. **大文件**
 
 - [使用Git管理二进制大对象](resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md)
 - [详解 Git 大文件存储（Git LFS）](resource/software/Git/f2-git-lfs-details.md)

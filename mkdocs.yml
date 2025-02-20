@@ -119,6 +119,7 @@ nav:
         - 6个最佳的Git仓库管理实践: resource/software/Git/c5-6-best-practices-for-managing-git-repos.md
         - 6个在团队中使用Git的最佳实践: resource/software/Git/c6-6-best-practices-for-teams-using-git.md
         - 使用Git管理二进制大对象: resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md
+        - 详解Git大文件存储（Git LFS）: resource/software/Git/f2-git-lfs-details.md
         - 已经会用Git了，不会这十招怎么行: resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md
         - GIT命令"从初学到专业"完整进阶指南: resource/software/Git/c4-complete-beginners-to-pro-guide-for-git-commands.md
         - 10个提高Git技能的资源: resource/software/Git/b6-10-resources-to-boost-your-git-skills.md
