@@ -104,3 +104,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
 > https://www.geeksforgeeks.org/what-is-ci-cd
 >
 > https://blog.csdn.net/weixin_44268936/article/details/133753519
+>
+> https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know
+>
+> https://www.geeksforgeeks.org/what-is-ci-cd/
