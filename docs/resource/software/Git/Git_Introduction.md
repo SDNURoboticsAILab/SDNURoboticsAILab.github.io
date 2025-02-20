@@ -54,7 +54,12 @@ comments: true
 - [12件可以用GitHub完成的很酷的事情](.//d5-12-cool-things-you-can-do-with-github.md)
 - [Git多账号配置](./d8-run-a-server-with-git.md)
 
-3. **CI/CD**
+3. **CI/CD与工作流**
+
+- [CI/CD](./f3-ci-cd.md)
+- [Github Actions](./f4-github-actions.md)
+- [Github Pages](./f5-github-pages.md)
+- [REST API & Git Hooks](./f6-rest-api-and-git-hooks.md)
 
 ## 秘籍篇
 1. **Git急救包**

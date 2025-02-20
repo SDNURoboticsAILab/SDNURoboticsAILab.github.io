@@ -130,6 +130,10 @@ nav:
         - 用Jekyll和Git展示你的源码: resource/software/Git/d5-reveal-your-source-code-with-jinja2-and-git.md
         - 12件可以用GitHub完成的很酷的事情: resource/software/Git/d5-12-cool-things-you-can-do-with-github.md
         - Git多账号配置: resource/software/Git/d8-run-a-server-with-git.md
+        - CI/CD: resource/software/Git/f3-ci-cd.md
+        - Github Actions: resource/software/Git/f4-github-actions.md
+        - Github Pages: resource/software/Git/f5-github-pages.md
+        - REST API & Git Hooks: resource/software/Git/f6-rest-api-and-git-hooks.md
         - Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
         - Git入门：术语基础: resource/software/Git/c1-getting-started-with-git-terminology.md
         - Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
