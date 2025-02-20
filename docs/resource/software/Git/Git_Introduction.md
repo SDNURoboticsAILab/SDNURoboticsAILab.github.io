@@ -6,59 +6,63 @@ comments: true
 
 ## 基础篇
 1. **Git核心概念**
-- [什么是Git](resource/software/Git/Basic/CoreConcepts/a1-what-is-git.md)
-- [解读那些令人困惑Git术语](resource/software/Git/Basic/CoreConcepts/c2-confusing-git-terminology.md)
-- [在Git仓库中，文件究竟被存储在哪里](resource/software/Git/Basic/CoreConcepts/c7-in-a-git-repository-where-do-your-files-live.md)
+- [什么是Git](resource/software/Git/a1-what-is-git.md)
+- [解读那些令人困惑Git术语](resource/software/Git/c2-confusing-git-terminology.md)
+- [在Git仓库中，文件究竟被存储在哪里](resource/software/Git/c7-in-a-git-repository-where-do-your-files-live.md)
 
 2. **环境搭建**
-- [初学者指南：在UbuntuLinux上安装和使用Git和GitHub](resource/software/Git/Basic/EnvironmentSetup/d3-installing-and-using-git-and-github-on-ubuntu-linux-a-beginner-s-guide.md)
-- [GitHub简易入门指南](resource/software/Git/Pro/AdvancedApplications/d1-getting-started-with-github.md)
-- [三个Git图形化工具](resource/software/Git/Basic/EnvironmentSetup/a5-3-graphical-tools-for-git.md)
+- [初学者指南：在UbuntuLinux上安装和使用Git和GitHub](resource/software/Git/d3-installing-and-using-git-and-github-on-ubuntu-linux-a-beginner-s-guide.md)
+- [GitHub简易入门指南](resource/software/Git//d1-getting-started-with-github.md)
+- [三个Git图形化工具](resource/software/Git/a5-3-graphical-tools-for-git.md)
 
 3. **基础操作实战**
-- [建立你的第一个Git仓库](resource/software/Git/Basic/BasicOperations/a3-creating-your-first-git-repository.md)
-- [在Git中怎样克隆、修改、添加和删除文件](resource/software/Git/Basic/BasicOperations/d4-how-to-clone-modify-add-and-delete-files-in-git.md)
-- [在Git中进行版本回退](resource/software/Git/Basic/BasicOperations/a4-how-to-restore-older-file-versions-in-git.md)
-- [Git教程：重命名分支、删除分支](resource/software/Git/Basic/BasicOperations/b8-how-to-rename-a-branch-delete-a-branch-and-find-the-author-of-a-branch-in-git.md)
+- [建立你的第一个Git仓库](resource/software/Git/a3-creating-your-first-git-repository.md)
+- [在Git中怎样克隆、修改、添加和删除文件](resource/software/Git/d4-how-to-clone-modify-add-and-delete-files-in-git.md)
+- [在Git中进行版本回退](resource/software/Git/a4-how-to-restore-older-file-versions-in-git.md)
+- [Git教程：重命名分支、删除分支](resource/software/Git/b8-how-to-rename-a-branch-delete-a-branch-and-find-the-author-of-a-branch-in-git.md)
 
 ## 进阶篇
 1. **分支深度掌握**
-- [Git分支操作介绍](resource/software/Git/Advanced/BranchMastery/b3-a-guide-to-git-branching.md)
-- [掌握强大的Git变基命令](resource/software/Git/Advanced/BranchMastery/b1-learn-git-3-commands-to-level-up-your-skill.md)
-- [GitRebase教程：用GitRebase让时光倒流](resource/software/Git/Advanced/BranchMastery/b2-git-rebase-tutorial-going-back-in-time-with-git-rebase.md)
-- [Git的遴选和撤销操作是如何利用三路合并的](resource/software/Git/Advanced/BranchMastery/b8-how-git-cherry-pick-and-revert-use-3-way-merge.md)
+- [Git分支操作介绍](resource/software/Git/b3-a-guide-to-git-branching.md)
+- [掌握强大的Git变基命令](resource/software/Git/b1-learn-git-3-commands-to-level-up-your-skill.md)
+- [GitRebase教程：用GitRebase让时光倒流](resource/software/Git/b2-git-rebase-tutorial-going-back-in-time-with-git-rebase.md)
+- [Git的遴选和撤销操作是如何利用三路合并的](resource/software/Git/b8-how-git-cherry-pick-and-revert-use-3-way-merge.md)
 
-2. **高效工作流**
-- [6个最佳的Git仓库管理实践](resource/software/Git/Advanced/Workflow/c5-6-best-practices-for-managing-git-repos.md)
-- [6个在团队中使用Git的最佳实践](resource/software/Git/Advanced/Workflow/c6-6-best-practices-for-teams-using-git.md)
-- [使用Git管理二进制大对象](resource/software/Git/Advanced/Workflow/a7-how-to-manage-binary-blobs-with-git.md)
+2. **高效管理**
+- [6个最佳的Git仓库管理实践](resource/software/Git/c5-6-best-practices-for-managing-git-repos.md)
+- [6个在团队中使用Git的最佳实践](resource/software/Git/c6-6-best-practices-for-teams-using-git.md)
 
-3. **性能提升**
-- [已经会用Git了，不会这十招怎么行](resource/software/Git/Advanced/Productivity/c3-tips-to-push-your-git-skills-to-the-next-level.md)
-- [GIT命令"从初学到专业"完整进阶指南](resource/software/Git/Advanced/Productivity/c4-complete-beginners-to-pro-guide-for-git-commands.md)
-- [10个提高Git技能的资源](resource/software/Git/Advanced/Productivity/b6-10-resources-to-boost-your-git-skills.md)
+3. 大文件
+
+- [使用Git管理二进制大对象](resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md)
+- [详解 Git 大文件存储（Git LFS）](resource/software/Git/f2-git-lfs-details.md)
+
+3. **效率提升**
+- [已经会用Git了，不会这十招怎么行](resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md)
+- [GIT命令"从初学到专业"完整进阶指南](resource/software/Git/c4-complete-beginners-to-pro-guide-for-git-commands.md)
+- [10个提高Git技能的资源](resource/software/Git/b6-10-resources-to-boost-your-git-skills.md)
 
 ## 高级篇
 1. **服务器管理**
-- [如何搭建你自己的Git服务器](resource/software/Git/Pro/ServerManagement/a6-how-to-build-your-own-git-server.md)
-- [6个托管git仓库的地方](resource/software/Git/Pro/ServerManagement/d7-6-places-to-host-your-git-repository.md)
-- [使用Git来管理Git服务器](resource/software/Git/Pro/ServerManagement/d8-run-a-server-with-git.md)
-- [GitHub的DNS基础设施](resource/software/Git/Pro/ServerManagement/d6-dns-infrastructure-at-github.md)
+- [如何搭建你自己的Git服务器](resource/software/Git/a6-how-to-build-your-own-git-server.md)
+- [6个托管git仓库的地方](resource/software/Git/d7-6-places-to-host-your-git-repository.md)
+- [使用Git来管理Git服务器](resource/software/Git/d8-run-a-server-with-git.md)
+- [GitHub的DNS基础设施](resource/software/Git/d6-dns-infrastructure-at-github.md)
 
 2. **扩展应用**
-- [用Jekyll和Git展示你的源码](resource/software/Git/Pro/AdvancedApplications/d5-reveal-your-source-code-with-jinja2-and-git.md)
-- [12件可以用GitHub完成的很酷的事情](resource/software/Git/Pro/AdvancedApplications/d5-12-cool-things-you-can-do-with-github.md)
-- [Git多账号配置](resource/software/Git/Basic/EnvironmentSetup/d8-run-a-server-with-git.md)
+- [用Jekyll和Git展示你的源码](resource/software/Git//d5-reveal-your-source-code-with-jinja2-and-git.md)
+- [12件可以用GitHub完成的很酷的事情](resource/software/Git//d5-12-cool-things-you-can-do-with-github.md)
+- [Git多账号配置](resource/software/Git/d8-run-a-server-with-git.md)
 
 ## 秘籍篇
 1. **Git急救包**
-- [Git秘籍](resource/software/Git/Cheatsheets/GitEmergency/e1-git-cheat-sheet.md)
-- [Git入门：术语基础](resource/software/Git/Cheatsheets/GitEmergency/c1-getting-started-with-git-terminology.md)
+- [Git秘籍](resource/software/Git/e1-git-cheat-sheet.md)
+- [Git入门：术语基础](resource/software/Git/c1-getting-started-with-git-terminology.md)
 
 2. **GitHub生存手册**
-- [Github秘籍](resource/software/Git/Cheatsheets/GitHubSurvival/e2-github-cheat-sheet.md)
-- [手把手指导您使用Git](resource/software/Git/Cheatsheets/GitHubSurvival/d2-a-step-by-step-guide-to-git.md)
+- [Github秘籍](resource/software/e2-github-cheat-sheet.md)
+- [手把手指导您使用Git](resource/software/d2-a-step-by-step-guide-to-git.md)
 
 3. **可视化工具集**
-- [从零开始使用Github Desktop在Github上贡献源代码](resource/software/Git/Cheatsheets/GUITools/e3-github-contribution.md)
-- [三个Git图形化工具（扩展）](resource/software/Git/Cheatsheets/GUITools/a5-3-graphical-tools-for-git.md)
+- [从零开始使用Github Desktop在Github上贡献源代码](resource/software/Git/e3-github-contribution.md)
+- [三个Git图形化工具（扩展）](resource/software/Git/a5-3-graphical-tools-for-git.md)
