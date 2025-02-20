@@ -86,21 +86,26 @@ git subtree push --prefix=dist origin gh-pages
 
 ![image-20250220202427975](C:\Users\excnies\AppData\Roaming\Typora\typora-user-images\image-20250220202427975.png)
 
+## 静态网站生成工具
+
+我们需要的页面肯定不是只有一行文本的，希望其更加的丰富，其实GitHub Pages支持多种静态网站生成工具。
+
+以下是一些GitHub Pages支持的主要静态网站生成工具：
+
+- Jekyll（[https://jekyllrb.com](https://jekyllrb.com/)）： Jekyll是GitHub Pages的默认静态网站生成工具，它使用Markdown文件和Liquid模板引擎来创建静态网站，Jekyll对于博客和文档站点非常流行。
+
+- Hugo（https://gohugo.io/）： Hugo是另一个受欢迎的静态网站生成工具，它非常快速且易于使用，它使用Go语言编写，支持多种主题和内容组织方式。
+
+- Gatsby（https://www.gatsbyjs.com/）： Gatsby是基于React的静态网站生成工具，它可以构建高性能、现代化的网站，Gatsby适用于博客、电子商务、应用程序文档等。
+
+- VuePress（https://vuepress.vuejs.org/）： VuePress是Vue.js驱动的静态网站生成工具，专注于文档站点，它支持Markdown文件和Vue组件。
+- Hexo（https://hexo.io/）： Hexo是一个快速、简单的博客框架，使用Markdown文件来生成静态博客，它是Node.js应用程序。
+- Pelican（https://blog.getpelican.com/）： Pelican是使用Python编写的静态网站生成器，适用于博客和文档。
+- Middleman（https://middlemanapp.com/）： Middleman是Ruby编写的静态网站生成工具，支持多种模板和数据源，适用于各种项目。
+- Sphinx（https://www.sphinx-doc.org/）： Sphinx是一个Python文档生成工具，通常用于技术文档和文档站点。
+- MkDocs（https://www.mkdocs.org）： MkDocs是Python编写的文档生成工具，使用Markdown文件创建文档站点。
+
 ## 实战：GitHub Pages托管Vue3+Vite项目
-
-
-
-> https://www.cnblogs.com/qmcx/p/18236736
->
-> https://docs.github.com/zh/pages/getting-started-with-github-pages
->
-> https://www.github-zh.com/getting-started/github-pages
->
-> https://www.cnblogs.com/MuYunyun/p/6082359.html
->
-> https://blog.csdn.net/WHYbeHERE/article/details/140378572
->
-> https://blog.csdn.net/qq_20042935/article/details/133920722
 
 > 前面都没有问题的，可以直接跳到第七步
 
@@ -347,3 +352,15 @@ GitHub
 点击链接即可访问😆
 
 不要忘了，远程仓库加了配置文件后，本地也需要做一次拉取的，同步一下
+
+> https://www.cnblogs.com/qmcx/p/18236736
+>
+> https://docs.github.com/zh/pages/getting-started-with-github-pages
+>
+> https://www.github-zh.com/getting-started/github-pages
+>
+> https://www.cnblogs.com/MuYunyun/p/6082359.html
+>
+> https://blog.csdn.net/WHYbeHERE/article/details/140378572
+>
+> https://blog.csdn.net/qq_20042935/article/details/133920722
