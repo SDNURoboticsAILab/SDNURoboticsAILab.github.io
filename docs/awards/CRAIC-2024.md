@@ -2,26 +2,31 @@
 comments: true
 ---
 
-# <center>2023 年中国机器人及人工智能大赛获奖证书</center>  
+# <center>2024 年中国机器人及人工智能大赛获奖证书</center>  
 
-## 省一
-
-### 机器人竞技赛（仿人短跑）
-
-![CRAIC-2024-Provincial-1-BaoMin](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-Provincial-1-BaoMin.jpg)
-
-![CRAIC-2024-Provincial-RenHongtu](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-Provincial-RenHongtu.jpg)
-
-## 省二
+## 国二
 
 ### 机器人竞技赛（仿人短跑）
 
-![CRAIC-2024-Provincial-2-ChenLin](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-Provincial-2-ChenLin.jpg)
+![CRAIC-2024-National-1-RenHongtu](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-National-1-RenHongtu.jpg)
 
-### 机器人舞蹈赛（仿人单人）
 
-![CRAIC-2024-Provincial-2-HuangChen](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-Provincial-2-HuangChen.jpg)
 
-## 优秀指导教师
+### 机器人竞技赛（仿人短跑）
 
-![CRAIC-2024-Provincial-LiChenghao](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-Provincial-LiChenghao.jpg)
+![CRAIC-2024-National-2-Baomin](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-National-2-Baomin.jpg)
+
+
+
+### 机器人竞技赛（仿人点球）
+
+![CRAIC-2024-National-3-ZhangChangyu](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-National-3-ZhangChangyu.jpg)
+
+
+
+## 国三
+
+### 机器人竞技赛（不规则地形）
+
+![CRAIC-2024-National-4-WangYiran](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/awards/CRAIC-2024-National-4-WangYiran.jpg)
+
