@@ -176,6 +176,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/memberStyle/Competition_Chronicles/2024/"/>
     </url>
     <url>
+        <loc>NonememberStyle/Competition_Chronicles/2025/</loc>
+        <lastmod>2025-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="NonememberStyle/Competition_Chronicles/2025/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/memberStyle/Competition_Chronicles/2025/"/>
+    </url>
+    <url>
         <loc>NonememberStyle/Daily_Echos/2023/</loc>
         <lastmod>2025-06-26</lastmod>
         <changefreq>daily</changefreq>
@@ -1714,6 +1721,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/memberStyle/Competition_Chronicles/2024/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="NonememberStyle/Competition_Chronicles/2024/"/>
+    </url>
+    <url>
+        <loc>Noneen/memberStyle/Competition_Chronicles/2025/</loc>
+        <lastmod>2025-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/memberStyle/Competition_Chronicles/2025/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="NonememberStyle/Competition_Chronicles/2025/"/>
     </url>
     <url>
         <loc>Noneen/memberStyle/Daily_Echos/2023/</loc>
