@@ -21,7 +21,7 @@ nav:
     - 全国大学生机器人科技创新交流营暨机器人大赛: contest/Robotics-Innovation-Camp-by-CYL.md
   - 教学资源:
     - 编程基础:
-      - Python语法基础:
+      - Python基础:
         - Python 精选资源: resource/programming/Python/awesome-python.md
         - 30天学习Python:
           - 介绍: resource/programming/Python/30-Days-Of-Python/01_content_and_introduction.md
@@ -55,7 +55,7 @@ nav:
           - 构建API: resource/programming/Python/30-Days-Of-Python/29_building_API_cn.md
           - 总结: resource/programming/Python/30-Days-Of-Python/30_conclusions_cn.md
         - 100+道Python3具有挑战性的编程练习题: resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3.md
-      - C++语法基础:
+      - C++基础:
         - C++目录: resource/programming/CPP/c-plus-plus.md
         - C++概述:
           - C++编程语言简介: resource/programming/CPP/Overview/introduction-to-c-programming-language.md
@@ -160,8 +160,8 @@ nav:
         - NAOqi Vision: resource/NAO/APIs/NAOqi_Vision.md
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
-    - 实用软件基础:
-      - Linux基础教程:
+    - 现代软件开发基础:
+      - Linux:
         - Linux安装:
           - 搭建年轻人的第一个虚拟机: resource/software/Linux/first-vm-2024.md
           - 安装Win11和Ubuntu22.04双系统: resource/software/Linux/win11-ubuntu-dual-boot.md
@@ -199,8 +199,7 @@ nav:
           - 11个让你吃惊的Linux终端命令: resource/software/Linux/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.md
           - 21个专业Linux用户喜爱的实用终端快捷键: resource/software/Linux/linux-terminal-shortcuts.md
           - Shell、Bash、CMD、PowerShell的区别与联系: resource/software/Linux/shell-bash-cmd-powershell.md
-
-      - Git版本控制基础:
+      - Git版本控制:
         - Git目录: resource/software/Git/Git_Introduction.md
         - Git入门:
           - 什么是Git: resource/software/Git/a1-what-is-git.md
@@ -265,7 +264,7 @@ nav:
         - LaTex公式速查: resource/software/LaTeX/04-Latex-formula-list.md
         - LaTeX文档元素: resource/software/LaTeX/05-LaTeX-doc.md
         - LaTeX样式设定: resource/software/LaTeX/06-LaTeX-style.md
-      - Docker:
+      - 虚拟化与容器化:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
