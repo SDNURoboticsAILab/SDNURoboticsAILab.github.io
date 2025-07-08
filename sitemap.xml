@@ -967,11 +967,221 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/OOP/OOP_Introduction/"/>
     </url>
     <url>
-        <loc>Noneresource/programming/Python/Python_Introduction/</loc>
+        <loc>Noneresource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/</loc>
         <lastmod>2025-07-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/Python_Introduction/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/Python_Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/01_content_and_introduction/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/01_content_and_introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/01_content_and_introduction/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/03_operators/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/03_operators/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/03_operators/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/04_strings/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/04_strings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/04_strings/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/05_lists/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/05_lists/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/05_lists/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/06_tuples/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/06_tuples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/06_tuples/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/07_sets/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/07_sets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/07_sets/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/08_dictionaries/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/08_dictionaries/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/08_dictionaries/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/09_conditionals/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/09_conditionals/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/09_conditionals/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/10_loops/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/10_loops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/10_loops/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/11_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/11_functions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/11_functions/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/12_modules/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/12_modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/12_modules/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/13_list_comprehension/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/13_list_comprehension/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/13_list_comprehension/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/14_higher_order_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/14_higher_order_functions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/14_higher_order_functions/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/19_file_handling_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/19_file_handling_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/19_file_handling_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/24_statistics_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/24_statistics_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/24_statistics_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/25_pandas_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/25_pandas_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/25_pandas_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/26_python_web_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/26_python_web_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/26_python_web_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/28_API_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/28_API_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/28_API_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/29_building_API_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/29_building_API_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/29_building_API_cn/"/>
+    </url>
+    <url>
+        <loc>Noneresource/programming/Python/30-Days-Of-Python/30_conclusions_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/30_conclusions_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/30_conclusions_cn/"/>
     </url>
     <url>
         <loc>Noneresource/software/CMake/CMake_Introduction/</loc>
@@ -2570,11 +2780,221 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/OOP/OOP_Introduction/"/>
     </url>
     <url>
-        <loc>Noneen/resource/programming/Python/Python_Introduction/</loc>
+        <loc>Noneen/resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/</loc>
         <lastmod>2025-07-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/Python_Introduction/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/Python_Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/01_content_and_introduction/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/01_content_and_introduction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/01_content_and_introduction/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/03_operators/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/03_operators/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/03_operators/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/04_strings/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/04_strings/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/04_strings/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/05_lists/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/05_lists/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/05_lists/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/06_tuples/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/06_tuples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/06_tuples/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/07_sets/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/07_sets/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/07_sets/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/08_dictionaries/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/08_dictionaries/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/08_dictionaries/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/09_conditionals/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/09_conditionals/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/09_conditionals/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/10_loops/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/10_loops/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/10_loops/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/11_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/11_functions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/11_functions/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/12_modules/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/12_modules/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/12_modules/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/13_list_comprehension/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/13_list_comprehension/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/13_list_comprehension/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/14_higher_order_functions/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/14_higher_order_functions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/14_higher_order_functions/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/16_python_datetime_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/17_exception_handling_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/19_file_handling_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/19_file_handling_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/19_file_handling_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/22_web_scraping_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/24_statistics_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/24_statistics_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/24_statistics_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/25_pandas_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/25_pandas_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/25_pandas_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/26_python_web_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/26_python_web_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/26_python_web_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/28_API_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/28_API_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/28_API_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/29_building_API_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/29_building_API_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/29_building_API_cn/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/30-Days-Of-Python/30_conclusions_cn/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/30-Days-Of-Python/30_conclusions_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/30-Days-Of-Python/30_conclusions_cn/"/>
     </url>
     <url>
         <loc>Noneen/resource/software/CMake/CMake_Introduction/</loc>
