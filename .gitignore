@@ -13,3 +13,4 @@ site/
 # log
 npm-debug.log
 yarn-error.log
+.cache/plugin/git-committers/page-authors.json
