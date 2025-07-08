@@ -404,7 +404,7 @@ int main()
 
 ```
 
-***\*Output\****
+**Output**
 
 ```
 Thread 1 value: 28

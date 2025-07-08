@@ -39,7 +39,7 @@
 
 5. 向学长/姐提问
 
-  ### 提问的智慧（非常重要）
+### 提问的智慧（非常重要）
 
   如何提问也是一门大学问，详见[这个文档](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)🙏
 

@@ -45,8 +45,8 @@ for 循环的各个部分：
 
 C++ 中 for 循环的语法如下：
 
-```
-cpp复制代码for ( initialization; test condition; updation) 
+```cpp
+for ( initialization; test condition; updation) 
 { 
      // for 循环体
 }
@@ -388,8 +388,8 @@ Printing vector elements:
 
 - C++
 
-```
-cpp复制代码// 演示在 for 循环中使用多个变量
+```cpp
+// 演示在 for 循环中使用多个变量
 #include <iostream>
 using namespace std;
 
@@ -410,7 +410,7 @@ int main() {
 **输出**
 
 ```
-yaml复制代码iteration 1
+iteration 1
 m is: 1
 n is: 1
 iteration 2
@@ -441,8 +441,8 @@ n is: 9
 
 - C++
 
-```
-cpp复制代码// 演示无限循环的 C++ 程序
+```cpp
+// 演示无限循环的 C++ 程序
 #include <iostream>
 using namespace std;
 
@@ -460,7 +460,7 @@ int main() {
 **输出**
 
 ```
-复制代码gfg
+gfg
 gfg
 .
 .
@@ -476,8 +476,8 @@ C++ 中的[**范围基**](https://www.geeksforgeeks.org/range-based-loop-c/) for
 
 **语法：**
 
-```
-cpp复制代码for ( range_declaration : range_expression ) {
+```cpp
+for ( range_declaration : range_expression ) {
   // 在此处编写循环语句
 }
 ```
@@ -491,8 +491,8 @@ cpp复制代码for ( range_declaration : range_expression ) {
 
 - C++
 
-```
-cpp复制代码// 演示 C++ 中范围基 for 循环的程序
+```cpp
+// 演示 C++ 中范围基 for 循环的程序
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -523,7 +523,7 @@ int main() {
 **输出**
 
 ```
-复制代码打印数组元素： 
+打印数组元素： 
 10 20 30 40 50 
 打印向量元素： 
 10 20 30 40 50 

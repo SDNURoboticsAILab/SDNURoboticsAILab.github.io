@@ -12,8 +12,8 @@ C++ 中的 Hello World 程序是一个基本程序，用于演示编码过程的
 
 - C++
 
-```
-cpp// C++ 程序显示 "Hello World"
+```cpp
+// C++ 程序显示 "Hello World"
 // 输入输出函数的头文件
 #include <iostream>
 

@@ -477,11 +477,11 @@ This loop will run forever.
 ................... 
 ```
 
-***\*Time complexity:\**** O(infinity) as the loop will run forever.
+**Time complexity:** O(infinity) as the loop will run forever.
 
-***\*Space complexity:\**** O(1) 
+**Space complexity:** O(1) 
 
-### ***\*Using While loop:\****
+### **Using While loop:**
 
 - C++
 
@@ -489,7 +489,7 @@ This loop will run forever.
 #include <iostream>``using` `namespace` `std;` `int` `main()``{` `  ``while` `(1)``    ``cout << ``"This loop will run forever.\n"``;``  ``return` `0;``}
 ```
 
-***\*Output:\**** 
+**Output:** 
 
 ```
 This loop will run forever.

@@ -22,7 +22,7 @@ C++ 是一种强大的语言。在 [C++](https://www.geeksforgeeks.org/c-plus-pl
 
 关键字（也称为 ***保留字***）对 [C++ 编译器](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/) 有特殊的含义，并且总是以小写字母书写。关键字是语言用于特定目的的词汇，如 ***void***、***int***、***public*** 等。它不能用作变量名、函数名或任何其他标识符。总共有 95 个保留关键字。以下是一些常用 C++ 关键字的表格。
 
-| ***\*C++ Keyword\**** |                                                              |           |                                                              |
+| **C++ Keyword** |                                                              |           |                                                              |
 | :-------------------: | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 |          asm          | double                                                       | new       | [switch](https://www.geeksforgeeks.org/switch-statement-cc/) |
 |         auto          | else                                                         | operator  | template                                                     |
