@@ -143,6 +143,7 @@ nav:
       - LaTeX:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
+      - 软件工程与现代软件开发:
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
