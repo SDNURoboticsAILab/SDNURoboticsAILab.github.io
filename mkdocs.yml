@@ -266,6 +266,8 @@ nav:
         - LaTeX样式设定: resource/software/LaTeX/06-LaTeX-style.md
       - 虚拟化与容器化:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
+      - 软件工程与现代软件开发:
+        - 软件工程导论期末复习: resource/software/Software_Engineering/SE_Final_Review.md
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
