@@ -399,7 +399,7 @@ markdown_extensions:
       anchor_linenums: true
       linenums: true # 显示行号
       use_pygments: true # 代码高亮
-      pygments_lang_class: true
+      pygments_lang_class: true # 代码高亮
       auto_title: true # 显示编程语言名称
       linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
   - pymdownx.inlinehilite
