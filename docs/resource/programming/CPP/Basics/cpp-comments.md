@@ -26,16 +26,16 @@
 
 **语法：**
 
-```
-cpp// 单行注释
+```cpp
+// 单行注释
 ```
 
 **示例：**
 
 - C++
 
-```
-cpp// C++ 程序演示单行注释
+```cpp
+// C++ 程序演示单行注释
 #include <iostream>
 using namespace std;
 int main() {
@@ -57,8 +57,8 @@ GFG!
 
 **语法：**
 
-```
-cpp/*
+```cpp
+/*
     多行注释
     .
     .
@@ -70,8 +70,8 @@ cpp/*
 
 - C++
 
-```
-cpp// C++ 程序演示多行注释
+```cpp
+// C++ 程序演示多行注释
 #include <iostream>
 using namespace std;
 int main() {

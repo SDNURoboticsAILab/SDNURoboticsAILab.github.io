@@ -8,7 +8,7 @@ C++中的`cout`对象是`iostream`类的一个实例。它在`iostream`头文件
 
 - C++
 
-```
+```cpp
 // C++程序演示cout对象的使用
 #include <iostream>
 using namespace std;
@@ -39,7 +39,7 @@ Welcome to GFG
 
 - C++
 
-```
+```cpp
 // C++程序演示在单个cout语句中打印多个语句
 #include <iostream>
 using namespace std;
@@ -79,7 +79,7 @@ Age : 18
 
 - C++
 
-```
+```cpp
 // C++程序演示cout.write()和cout.put()的使用
 #include <iostream>
 using namespace std;
@@ -113,7 +113,7 @@ Welcome
 
 - C++
 
-```
+```cpp
 // C++程序演示cout.precision()的使用
 #include <iostream>
 using namespace std;
