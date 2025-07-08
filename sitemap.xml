@@ -974,6 +974,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
     </url>
     <url>
+        <loc>Noneresource/programming/Python/awesome-python/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/awesome-python/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/awesome-python/"/>
+    </url>
+    <url>
         <loc>Noneresource/programming/Python/30-Days-Of-Python/01_content_and_introduction/</loc>
         <lastmod>2025-07-08</lastmod>
         <changefreq>daily</changefreq>
@@ -2785,6 +2792,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/100_Python_challenging_programming_exercises_for_Python3/"/>
+    </url>
+    <url>
+        <loc>Noneen/resource/programming/Python/awesome-python/</loc>
+        <lastmod>2025-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/resource/programming/Python/awesome-python/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneresource/programming/Python/awesome-python/"/>
     </url>
     <url>
         <loc>Noneen/resource/programming/Python/30-Days-Of-Python/01_content_and_introduction/</loc>
