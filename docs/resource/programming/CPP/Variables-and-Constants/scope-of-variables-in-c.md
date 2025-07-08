@@ -7,7 +7,7 @@
 
 ![Variable scope in C++](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Variable-scope-in-C.png)
 
-- ## 局部变量
+## 局部变量
 
   在函数或代码块中定义的变量被称为局部变量。
 
@@ -77,7 +77,7 @@ Output:
 Age is: 18
 ```
 
-- ## 全局变量
+## 全局变量
 
   顾名思义，全局变量可以从程序的任何部分访问。
 

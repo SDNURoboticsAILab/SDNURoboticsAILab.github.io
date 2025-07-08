@@ -96,11 +96,11 @@ g++ helloworld.cpp -o hello
 
 **I.** 该命令将在终端窗口中运行您的程序。
 
-- ### **2. 文本编辑器**
+### **2. 文本编辑器**
 
   文本编辑器是用来编辑或编写文本的程序。我们将使用文本编辑器来输入我们的 C++ 程序。普通文本文件的扩展名是 (.txt)，但包含 C++ 程序的文件应保存为 '.cpp' 或 '.c' 扩展名。以 ‘.CPP’ 和 ‘.C’ 结尾的文件称为源代码文件，它们应该包含用 C++ 编程语言编写的源代码。这些扩展名帮助编译器识别文件中包含 C++ 程序。开始 C++ 编程之前，必须安装文本编辑器以编写程序。请按照以下说明在不同操作系统（如 Windows、Mac OS 等）上安装流行的代码编辑器，如 VS Code 和 Code::Blocks。
 
-  #### 1. Code::Blocks 安装
+#### 1. Code::Blocks 安装
 
   有许多 IDE 可用于轻松进行 C++ 编程。其中一个流行的 IDE 是 **Code::Blocks**。
 
@@ -110,7 +110,7 @@ g++ helloworld.cpp -o hello
   - 在空文件中编写您的 C++ 程序，并以 '.cpp' 扩展名保存文件。
   - 保存文件后，进入 *构建* 菜单，选择 *构建并运行* 选项。
 
-  #### 2. XCode Mac OS X 安装
+#### 2. XCode Mac OS X 安装
 
   如果您是 Mac 用户，可以下载 Xcode 作为代码编辑器。
 
@@ -124,7 +124,7 @@ g++ helloworld.cpp -o hello
 
   另一个非常易于使用且现在最受欢迎的 IDE 是 **VSC（Visual Studio Code）**，适用于 Windows 和 Mac OS。
 
-  #### 3. 在 Windows 上安装 VS Code
+#### 3. 在 Windows 上安装 VS Code
 
   首先安装 [Visual Studio Code](https://code.visualstudio.com/)。打开下载的文件，点击运行 -> （接受协议）下一步 -> 下一步 -> 下一步 -> （选中所有选项）-> 下一步 -> 安装 -> 完成。现在，您将能够在桌面上看到 Visual Studio Code 图标。
 
