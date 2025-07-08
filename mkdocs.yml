@@ -22,7 +22,7 @@ nav:
   - 教学资源:
     - 编程基础:
       - Python语法基础:
-        - Python简介: resource/programming/Python/Python_Introduction.md
+        - Python 精选资源: resource/programming/Python/awesome-python.md
         - 30天学习Python:
           - 介绍: resource/programming/Python/30-Days-Of-Python/01_content_and_introduction.md
           - 变量与内置函数: resource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions.md
