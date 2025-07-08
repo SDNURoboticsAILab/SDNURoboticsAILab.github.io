@@ -80,7 +80,7 @@ int main()
 ```
 
 
-***\*Output\****
+**Output**
 
 ```
 undefined reference to `GfG::i'

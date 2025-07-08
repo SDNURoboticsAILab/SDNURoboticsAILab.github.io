@@ -1,14 +1,14 @@
-- # C++ 编程语言
+# C++ 编程语言
 
   C++ 是由比雅尼·斯特劳斯特鲁普（Bjarne Stroustrup）开发的最常用和最受欢迎的编程语言。C++ 是一种高级的面向对象编程语言。这种语言允许开发者编写干净且高效的代码，用于大型应用程序和软件开发、游戏开发以及操作系统编程。C++ 是对 C 编程语言的扩展，加入了面向对象编程（OOPs）的特性，并用于开发计算机程序。这个 C++ 教程将涵盖从基础到高级的所有 C++ 主题，如 C++ 基础、C++ 函数、C++ 类、面向对象编程（OOPs）和 STL 概念。
 
   ![C++ Tutorial](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230703144619/CPP-Language.png)
 
-  ## 什么是C++?
+## 什么是C++?
 
   C++ 是一种非常受欢迎的跨平台编程语言，用于创建高性能的应用程序和软件，如操作系统、游戏、电子商务软件等。它由比雅尼·斯特劳斯特鲁普（Bjarne Stroustrup）开发，是 C 语言的扩展。C++ 提供了对系统资源和内存的高级控制。
 
-  ## 为什么学习 C++?
+## 为什么学习 C++?
 
   - C++ 是最常用和最受欢迎的编程语言之一。
   - C++ 被用于开发操作系统、嵌入式系统和图形用户界面。
@@ -17,7 +17,7 @@
   - C++ 容易学习，因此你可以选择它作为你的第一个编程语言。
   - 由于其语法类似于 C、Java 和 C#，它使得程序员在切换到 C++ 时变得容易。
 
-  ## C++ 教程 – 目录
+## C++ 教程 – 目录
 
   - [C++概述](https://www.geeksforgeeks.org/c-plus-plus/#cpp_overview)
   - [C++基础](https://www.geeksforgeeks.org/c-plus-plus/#cpp_basics)
@@ -52,7 +52,7 @@
   - [C++中的竞赛编程](https://www.geeksforgeeks.org/c-plus-plus/#cp_cpp)
   - [C++中的面试问题](https://www.geeksforgeeks.org/c-plus-plus/#cpp_interview)
 
-  ## C++ 概述
+## C++ 概述
 
   - [C++ 介绍](https://www.geeksforgeeks.org/introduction-to-c-programming-language/)
   - [C++ 特性](https://www.geeksforgeeks.org/features-of-c/)
@@ -61,7 +61,7 @@
   - [设置 C++ 开发环境](https://www.geeksforgeeks.org/setting-c-development-environment/)
   - [C++ 和 C 的相似性与差异](https://www.geeksforgeeks.org/difference-between-c-and-c/)
 
-  ## C++ 基础知识
+## C++ 基础知识
 
   - [第一个 C++ 程序](https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/)
   - [C++ 基本语法](https://www.geeksforgeeks.org/cpp-basic-syntax/)
@@ -71,7 +71,7 @@
   - [C++ 关键字](https://www.geeksforgeeks.org/cpp-keywords/)
   - [关键字与标识符的区别](https://www.geeksforgeeks.org/difference-between-keyword-and-identifier/)
 
-  ## C++ 变量与常量
+## C++ 变量与常量
 
   - [C++ 变量](https://www.geeksforgeeks.org/cpp-variables/)
   - [C++ 常量](https://www.geeksforgeeks.org/cpp-constants/)
@@ -79,7 +79,7 @@
   - [C++ 存储类](https://www.geeksforgeeks.org/storage-classes-in-c-with-examples/)
   - [C++ 静态变量](https://www.geeksforgeeks.org/static-keyword-cpp/)
 
-  ## C++ 数据类型与字面量
+## C++ 数据类型与字面量
 
   - [C++ 数据类型](https://www.geeksforgeeks.org/cpp-data-types/)
   - [C++ 字面量](https://www.geeksforgeeks.org/cpp-literals/)
@@ -90,7 +90,7 @@
   - [C++ 数据类型转换](https://www.geeksforgeeks.org/type-conversion-in-c/)
   - [C++ 类型转换运算符](https://www.geeksforgeeks.org/casting-operators-in-cpp/)
 
-  ## C++ 运算符
+## C++ 运算符
 
   - [C++ 运算符](https://www.geeksforgeeks.org/operators-in-cpp/)
   - [C++ 算术运算符](https://www.geeksforgeeks.org/cpp-arithmetic-operators/)
@@ -103,7 +103,7 @@
   - [C++ sizeof 运算符](https://www.geeksforgeeks.org/cpp-sizeof-operator/)
   - [C++ 范围解析运算符](https://www.geeksforgeeks.org/scope-resolution-operator-in-c/)
 
-  ## C++ 输入/输出
+## C++ 输入/输出
 
   - [C++ 基本输入/输出](https://www.geeksforgeeks.org/basic-input-output-c/)
   - [C++ 标准输入流 (cin)](https://www.geeksforgeeks.org/cin-in-c/)
@@ -111,7 +111,7 @@
   - [C++ 标准错误流 (cerr)](https://www.geeksforgeeks.org/cerr-standard-error-stream-object-in-cpp/)
   - [C++ 输入/输出操控符](https://www.geeksforgeeks.org/manipulators-in-c-with-examples/)
 
-  ## C++ 控制语句
+## C++ 控制语句
 
   - [C++ 决策语句](https://www.geeksforgeeks.org/cpp-decision-making/)
   - [C++ if 语句](https://www.geeksforgeeks.org/c-c-if-statement-with-examples/)
@@ -126,7 +126,7 @@
   - [C++ while 循环](https://www.geeksforgeeks.org/c-c-while-loop-with-examples/)
   - [C++ do…while 循环](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)
 
-  ## C++ 函数
+## C++ 函数
 
   - [C++ 函数](https://www.geeksforgeeks.org/functions-in-c/)
   - [C++ return 语句](https://www.geeksforgeeks.org/return-statement-in-cpp-with-examples/)
@@ -137,7 +137,7 @@
   - [C++ 内联函数](https://www.geeksforgeeks.org/inline-functions-cpp/)
   - [C++ Lambda 表达式](https://www.geeksforgeeks.org/lambda-expression-in-c/)
 
-  ## C++ 指针和引用
+## C++ 指针和引用
 
   - [C++ 指针和引用](https://www.geeksforgeeks.org/pointers-and-references-in-c/)
   - [C++ 指针](https://www.geeksforgeeks.org/pointers-c-examples/)
@@ -151,7 +151,7 @@
   - [在 C++ 中通过指针传递与通过引用传递的区别](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
   - [我们什么时候通过引用或指针传递参数？](https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/)
 
-  ## C++ 数组
+## C++ 数组
 
   - [C++ 指针和引用](https://www.geeksforgeeks.org/pointers-and-references-in-c/)
   - [C++ 指针](https://www.geeksforgeeks.org/pointers-c-examples/)
@@ -165,7 +165,7 @@
   - [通过指针传递与通过引用传递的区别](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
   - [何时通过引用或指针传递参数？](https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/)
   
-  ## C++ 字符串
+## C++ 字符串
   
   - [C++ 字符串](https://www.geeksforgeeks.org/strings-in-cpp/)
   - [C++ std::string 类](https://www.geeksforgeeks.org/stdstring-class-in-c/)
@@ -175,7 +175,7 @@
   - [在 C++ 中分词字符串](https://www.geeksforgeeks.org/tokenizing-a-string-cpp/)
   - [C++ 子字符串](https://www.geeksforgeeks.org/substring-in-cpp/)
   
-  ## C++ 结构体和共用体
+## C++ 结构体和共用体
   
   - [C++ 结构体、共用体和枚举](https://www.geeksforgeeks.org/structures-unions-and-enumerations-in-cpp/)
   - [C++ 结构体](https://www.geeksforgeeks.org/structures-in-cpp/)
@@ -188,7 +188,7 @@
   - [C++ typedef](https://www.geeksforgeeks.org/typedef-in-cpp/)
   - [结构体数组与结构体内数组的比较](https://www.geeksforgeeks.org/array-of-structures-vs-array-within-a-structure-in-c-and-cpp/)
   
-  ## C++ 动态内存管理
+## C++ 动态内存管理
   
   - [C++ 动态内存管理](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
   - [C++ 的 new 和 delete 操作符](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
@@ -196,7 +196,7 @@
   - [C++ 中的内存泄漏及如何避免](https://www.geeksforgeeks.org/memory-leak-in-c-and-how-to-avoid-it/)
   - [C++ 中静态内存分配与动态内存分配的区别](https://www.geeksforgeeks.org/difference-between-static-and-dynamic-memory-allocation-in-c/)
   
-  ## C++ 面向对象编程
+## C++ 面向对象编程
   
   - [C++ 面向对象编程 (OOPs)](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
      C++ 面向对象编程的基本概念和应用。
@@ -243,13 +243,13 @@
   - [为什么 C++ 是一种部分面向对象的语言？](https://www.geeksforgeeks.org/c-partially-object-oriented-language/)
      C++ 为什么被认为是部分面向对象的语言。
 
-  ## “C++ 封装和抽象
+## “C++ 封装和抽象
 
   - [C++ 封装](https://www.geeksforgeeks.org/encapsulation-in-c/)
   - [C++ 抽象](https://www.geeksforgeeks.org/abstraction-in-c/)
   - [C++ 中抽象与封装的区别](https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/)
   
-  ## C++ 多态性
+## C++ 多态性
   
   - [C++ 多态性](https://www.geeksforgeeks.org/polymorphism-in-c/)
   - [C++ 函数重写](https://www.geeksforgeeks.org/function-overriding-in-cpp/)
@@ -257,7 +257,7 @@
   - [C++ 中编译时多态性与运行时多态性的区别](https://www.geeksforgeeks.org/difference-between-compile-time-and-run-time-polymorphism-in-java/)
   - [C++ 中继承和多态性的区别](https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/)
   
-  ## C++ 函数重载
+## C++ 函数重载
   
   - [C++ 函数重载](https://www.geeksforgeeks.org/function-overloading-c/)
   - [C++ 构造函数重载](https://www.geeksforgeeks.org/constructor-overloading-c/)
@@ -270,14 +270,14 @@
   - [C++ 函数重载与函数重写的区别](https://www.geeksforgeeks.org/function-overloading-vs-function-overriding-in-cpp/)
   - [C++ 函数重载的优缺点](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-function-overloading-in-cpp/)
   
-  ## C++ 运算符重载
+## C++ 运算符重载
   
   - [C++ 运算符重载](https://www.geeksforgeeks.org/operator-overloading-cpp/)
   - [C++ 运算符重载的类型](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/)
   - [C++ 函子](https://www.geeksforgeeks.org/functors-in-cpp/)
   - [C++ 中不能重载的运算符](https://www.geeksforgeeks.org/what-are-the-operators-that-can-be-and-cannot-be-overloaded-in-cpp/)
 
-  ## C++ 继承
+## C++ 继承
 
   - [C++ 继承](https://www.geeksforgeeks.org/inheritance-in-c/)
   - [C++ 继承访问权限](https://www.geeksforgeeks.org/cpp-inheritance-access/)
@@ -289,7 +289,7 @@
   - [函数重载在 C++ 继承中有效吗？](https://www.geeksforgeeks.org/does-overloading-work-with-inheritance/)
   - [C++ 中继承与多态的区别](https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/)
 
-  ## C++ 虚函数
+## C++ 虚函数
 
   - [C++ 虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)
   - [C++ 派生类中的虚函数](https://www.geeksforgeeks.org/virtual-functions-in-derived-classes-in-cpp/)
@@ -304,25 +304,25 @@
   - [C++ RTTI（运行时类型信息）](https://www.geeksforgeeks.org/g-fact-33/)
   - [C++ 虚函数可以是私有的吗？](https://www.geeksforgeeks.org/can-virtual-functions-be-private-in-c/)
   
-  ## C++ 异常处理
+## C++ 异常处理
   
   - [C++ 异常处理](https://www.geeksforgeeks.org/exception-handling-c/)
   - [C++ 使用类进行异常处理](https://www.geeksforgeeks.org/exception-handling-using-classes-in-cpp/)
   - [C++ 栈展开](https://www.geeksforgeeks.org/stack-unwinding-in-c/)
   - [C++ 用户定义的异常](https://www.geeksforgeeks.org/user-defined-custom-exception-with-class-in-c/)
   
-  ## C++ 文件与流
+## C++ 文件与流
   
   - [C++ 文件与流](https://www.geeksforgeeks.org/file-handling-c-classes/)
   - [C++ 输入输出重定向](https://www.geeksforgeeks.org/io-redirection-c/)
   
-  ## C++ 模板
+## C++ 模板
 
   - [C++ 模板](https://www.geeksforgeeks.org/templates-cpp/)
   - [C++ 模板特化](https://www.geeksforgeeks.org/template-specialization-c/)
   - [C++ using 关键字](https://www.geeksforgeeks.org/using-keyword-in-cpp-stl/)
   
-  ## C++ 标准模板库 (STL)
+## C++ 标准模板库 (STL)
   
   - [C++ 标准模板库 (STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
   - [STL 算法](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)
@@ -354,7 +354,7 @@
   - [C++ istream_iterator 和 ostream_iterator](https://www.geeksforgeeks.org/stdistream_iterator-stdostream_iterator-c-stl/)
   - [C++ 迭代器与指针的区别](https://www.geeksforgeeks.org/difference-between-iterators-and-pointers-in-c-c-with-examples/)
   
-  ## C++ 预处理器
+## C++ 预处理器
 
   - [C++ 预处理器](https://www.geeksforgeeks.org/cc-preprocessors/)
   - [C++ 预处理器指令](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/)
@@ -363,14 +363,14 @@
   - [C++ 条件预处理](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/)
   - [C++ 预处理器指令与函数模板的区别](https://www.geeksforgeeks.org/difference-between-preprocessor-directives-and-function-templates-in-c/)
   
-  ## C++ 命名空间
+## C++ 命名空间
   
   - [C++ 命名空间](https://www.geeksforgeeks.org/namespace-in-c/)
   - [扩展 C++ 命名空间和无名命名空间](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
   - [访问、创建头文件、嵌套和别名命名空间](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
   - [C++ 内联命名空间](https://www.geeksforgeeks.org/inline-namespaces-usage-using-directive-inside-namespaces/)
   
-  ## 高级 C++
+## 高级 C++
   
   - [C++ 多线程](https://www.geeksforgeeks.org/multithreading-in-cpp/)
   - [C++ 智能指针](https://www.geeksforgeeks.org/smart-pointers-cpp/)
@@ -381,7 +381,7 @@
   - [C++ 信号处理](https://www.geeksforgeeks.org/signal-handling-in-cpp/)
   - [C++ 泛型](https://www.geeksforgeeks.org/generics-in-c/)
   
-  ## C vs C++
+## C vs C++
   
   - [C++ 和 C 之间的区别与相似之处](https://www.geeksforgeeks.org/difference-between-c-and-c/)
   - [C++ 和 Objective-C 之间的区别](https://www.geeksforgeeks.org/difference-between-c-and-objective-c-2/)
@@ -392,7 +392,7 @@
   - [C 中的结构体与 C++ 中的结构体的区别](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)
   - [Cin-Cout 与 Scanf-Printf](https://www.geeksforgeeks.org/cincout-vs-scanfprintf/)
   
-  ## C++ vs Java
+## C++ vs Java
   
   - [C++ 和 Java 之间的区别与相似之处](https://www.geeksforgeeks.org/similarities-and-difference-between-java-and-c/)
   - [C++ 与 Java 中的继承](https://www.geeksforgeeks.org/comparison-of-inheritance-in-c-and-java/)
@@ -403,7 +403,7 @@
   - [C++ 中的模板与 Java 中的泛型](https://www.geeksforgeeks.org/templates-in-c-vs-generics-in-java/)
   - [C、C++ 和 Java 中的浮点运算及结合性](https://www.geeksforgeeks.org/g-fact-39-floating-point-operations-associativity/)
   
-  ##  C++编程竞赛
+##  C++编程竞赛
   
   - [竞赛编程完全指南](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
   - [C++ 竞赛编程技巧](https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/)
@@ -416,7 +416,7 @@
   - [哪些 C++ 库对竞赛编程有用？](https://www.geeksforgeeks.org/which-c-libraries-are-useful-for-competitive-programming/)
   - [在 C++ 竞赛编程中需要避免的常见错误](https://www.geeksforgeeks.org/common-mistakes-avoided-competitive-programming-c-beginners/)
 
-  ## C++ 面试题
+## C++ 面试题
 
   - [Top 50 C++ 面试题及答案](https://www.geeksforgeeks.org/cpp-interview-questions/)
   - [顶级 C++ STL 面试题及答案](https://www.geeksforgeeks.org/cpp-stl-interview-questions/)
@@ -429,19 +429,19 @@
   >
   >   C++ 是最广泛使用的编程语言，成为开发操作系统的理想选择。Mac OS X 的大部分部分是用 C++ 编写的，微软的大多数软件，如 Windows、Microsoft Office、IDE Visual Studio 和 Internet Explorer 也都是用 C++ 编写的。
   >
-  >   ### 2. 游戏
+  > - ### 2. 游戏
   >
   >   C++ 广泛用于游戏开发，公司通常选择它作为开发游戏系统的首选。C++ 是一种编译语言，这意味着代码直接被翻译成处理器可以执行的机器代码。这减少了编译所需的时间，提供了快速的渲染和快速的响应时间，这对任何游戏都至关重要。此外，C++ 靠近机器，能够有效地操作资源，从而使复杂的 3D 游戏和多人游戏的创建成为可能。著名的游戏引擎 Unreal Engine 就是由于这些原因使用 C++。
   >
-  >   ### 3. 网页浏览器
+  > - ### 3. 网页浏览器
   >
   >   大多数计算机上的浏览器都是用 C++ 开发的，以实现高效的目标。Mozilla Firefox 完全由 C++ 开发，谷歌的应用程序和软件如 Chrome 和 Google 文件系统也部分使用了 C++。
   >
-  >   ### 4. 编译器
+  > - ### 4. 编译器
   >
   >   许多编程语言的编译器是用 C 和 C++ 设计的，因为它们相对于其他高级编程语言来说较为低级，C/C++ 更接近硬件。
   >
-  >   ### 5. 嵌入式系统
+  > - ### 5. 嵌入式系统
   >
   >   需要程序更靠近硬件的嵌入式系统，如智能手表、医疗设备系统、手机等，都是用 C++ 开发的。与其他高级编程语言不同，C++ 能够执行大量低级函数调用。
   >
@@ -449,11 +449,11 @@
   >   > - [C++ 程序](https://www.geeksforgeeks.org/cpp-programming-examples/)
   >   > - [C++ 面试题](https://www.geeksforgeeks.org/cpp-interview-questions/)
   
-  ## C++常见问题
+## C++常见问题
 
   1. C++ 和 C 有什么区别？
 
-  ***\*Answer:\****
+  **Answer:**
 
   |                C++                |                 C                 |
   | :-------------------------------: | :-------------------------------: |
@@ -461,9 +461,9 @@
   | C++ 支持面向对象编程（OOP）概念。 | C 不支持面向对象编程（OOP）概念。 |
   | C++ 使用命名空间以避免名称冲突。  |      C 不支持命名空间功能。       |
 
-  ### 2. struct 和 class 之间有什么区别？
+### 2. struct 和 class 之间有什么区别？
 
-  ***\*Answer:\****
+  **Answer:**
 
   C++ 中的 `struct` 与 `class` 基本相同，除了在安全性等方面存在一些区别。`struct` 和 `class` 之间的区别如下：
   
@@ -474,15 +474,15 @@
   | 语法：`struct structure_name { type structure_member1; type structure_member2; };` | 语法：`class class_name { data_member; member_function; };` |
   | 结构体通常用于主要目的是存储数据且方法较少或没有方法的对象。 |          类通常用于表示具有数据和行为的实体对象。           |
   
-  ### 3. 在 C++ 中，抽象是什么意思？
+### 3. 在 C++ 中，抽象是什么意思？
   
-  ***\*Answer:\****
+  **Answer:**
   
   > 抽象是向用户展示必要信息的过程，同时隐藏程序员不希望向用户展示的细节或与特定用户无关的细节。
   
-  ### 4. C++ 最适合于什么?
+### 4. C++ 最适合于什么?
   
-  ***\*Answer:\****
+  **Answer:**
   
   > C++ 用于开发浏览器、操作系统和应用程序，还用于游戏编程、软件工程、数据结构等。
   

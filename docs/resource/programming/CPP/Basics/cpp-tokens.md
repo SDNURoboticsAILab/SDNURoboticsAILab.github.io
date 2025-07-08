@@ -19,8 +19,8 @@
 
 建议选择有效且相关的标识符名称，以编写可读性强且易于维护的程序。关键字不能作为标识符，因为它们是用于执行特定任务的保留字。在以下示例中，“first_name” 是一个标识符。
 
-```
-cppstring first_name = "Raju";
+```cpp
+string first_name = "Raju";
 ```
 
 定义标识符名称时必须遵循以下规则：
@@ -62,8 +62,8 @@ break, try, catch, char, class, const, continue, default, delete, auto, else, fr
 
 **语法：**
 
-```
-cppconst data_type variable_name = value;
+```cpp
+const data_type variable_name = value;
 ```
 
 1. 使用‘#define’预处理指令定义常量
@@ -72,8 +72,8 @@ cppconst data_type variable_name = value;
 
 **语法：**
 
-```
-cpp// constant_Name 在程序中出现的地方都会被其值替换
+```cpp
+// constant_Name 在程序中出现的地方都会被其值替换
 #define constant_Name value
 ```
 
@@ -85,14 +85,14 @@ cpp// constant_Name 在程序中出现的地方都会被其值替换
 
 **声明字符串的语法：**
 
-```
-cppstring variable_name;
+```cpp
+string variable_name;
 ```
 
 用双引号（“”）初始化字符串对象。
 
-```
-cppstring variable_name = "This is string";
+```cpp
+string variable_name = "This is string";
 ```
 
 ## 5. 特殊符号
@@ -131,8 +131,8 @@ C++ 运算符是用于对操作数（如变量、常量或表达式）执行操�
 
 **语法：**
 
-```
-cppExpression1 ? Expression2 : Expression3;
+```cpp
+Expression1 ? Expression2 : Expression3;
 ```
 
 如果 ‘Expression1’ 为 true，则执行 ‘Expression2’，否则执行 ‘Expression3’

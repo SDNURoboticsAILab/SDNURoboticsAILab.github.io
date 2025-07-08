@@ -43,7 +43,7 @@ int main()
 }
 ```
 
-***\*Output:\**** 
+**Output:** 
 
 ```
 GeeksforGeeks - A computer science portal for geeks
@@ -73,13 +73,13 @@ int main()
 }
 ```
 
-***\*Input :\**** 
+**Input :** 
 
 ```
 18
 ```
 
-***\*Output:\**** 
+**Output:** 
 
 ```
 Enter your age:
@@ -108,7 +108,7 @@ int main()
 }
 ```
 
-***\*Output:\**** 
+**Output:** 
 
 ```
 An error occurred
@@ -135,7 +135,7 @@ int main()
 }
 ```
 
-***\*Output:\**** 
+**Output:** 
 
 ```
 An error occurred

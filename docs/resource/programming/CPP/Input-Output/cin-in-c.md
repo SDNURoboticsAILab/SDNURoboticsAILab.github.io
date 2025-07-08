@@ -33,14 +33,14 @@ int main()
  
  
 
-***\*Input:\**** 
+**Input:** 
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125212825/cin1.PNG)
 
 
  
 
-***\*Output:\****
+**Output:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125212912/cin2.PNG)
 
@@ -75,14 +75,14 @@ int main()
  
  
 
-***\*Input:\****
+**Input:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125213319/cin3.PNG)
 
 
  
 
-***\*Output:\****
+**Output:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125213405/cin4.PNG)
 
@@ -114,7 +114,7 @@ int main()
 }
 ```
 
-***\*Input:\****
+**Input:**
  
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125214045/cin5.PNG)
@@ -122,7 +122,7 @@ int main()
 
  
 
-***\*Output:\****
+**Output:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125214122/cin6.PNG)
 
@@ -149,11 +149,11 @@ int main()
 }
 ```
 
-***\*Input:\****
+**Input:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125215557/cin7.PNG)
 
-***\*Output:\****
+**Output:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125215645/cin8.PNG)
 
@@ -184,7 +184,7 @@ int main()
 }
 ```
 
-***\*Input:\****
+**Input:**
 
 
  
@@ -194,7 +194,7 @@ int main()
 
  
 
-***\*Output:\****
+**Output:**
 
 
  
@@ -239,14 +239,14 @@ int main()
  
  
 
-***\*Input:\****
+**Input:**
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20210125223339/cin9.PNG)
 
 
  
 
-***\*Output:\****
+**Output:**
 
 
  
