@@ -23,6 +23,38 @@ nav:
     - 编程基础:
       - Python语法基础:
         - Python简介: resource/programming/Python/Python_Introduction.md
+        - 30天学习Python:
+          - 介绍: resource/programming/Python/30-Days-Of-Python/01_content_and_introduction.md
+          - 变量与内置函数: resource/programming/Python/30-Days-Of-Python/02_variables_builtin_functions.md
+          - 运算符: resource/programming/Python/30-Days-Of-Python/03_operators.md
+          - 字符串: resource/programming/Python/30-Days-Of-Python/04_strings.md
+          - 列表: resource/programming/Python/30-Days-Of-Python/05_lists.md
+          - 元组: resource/programming/Python/30-Days-Of-Python/06_tuples.md
+          - 集合: resource/programming/Python/30-Days-Of-Python/07_sets.md
+          - 字典: resource/programming/Python/30-Days-Of-Python/08_dictionaries.md
+          - 条件语句: resource/programming/Python/30-Days-Of-Python/09_conditionals.md
+          - 循环: resource/programming/Python/30-Days-Of-Python/10_loops.md
+          - 函数: resource/programming/Python/30-Days-Of-Python/11_functions.md
+          - 模块: resource/programming/Python/30-Days-Of-Python/12_modules.md
+          - 列表推导式: resource/programming/Python/30-Days-Of-Python/13_list_comprehension.md
+          - 高阶函数: resource/programming/Python/30-Days-Of-Python/14_higher_order_functions.md
+          - Python类型错误: resource/programming/Python/30-Days-Of-Python/15_python_type_errors_cn.md
+          - Python日期时间: resource/programming/Python/30-Days-Of-Python/16_python_datetime_cn.md
+          - 异常处理: resource/programming/Python/30-Days-Of-Python/17_exception_handling_cn.md
+          - 正则表达式: resource/programming/Python/30-Days-Of-Python/18_regular_expressions_cn.md
+          - 文件处理: resource/programming/Python/30-Days-Of-Python/19_file_handling_cn.md
+          - 包管理器: resource/programming/Python/30-Days-Of-Python/20_python_package_manager_cn.md
+          - 类与对象: resource/programming/Python/30-Days-Of-Python/21_classes_and_objects_cn.md
+          - Web爬虫: resource/programming/Python/30-Days-Of-Python/22_web_scraping_cn.md
+          - 虚拟环境: resource/programming/Python/30-Days-Of-Python/23_virtual_environment_cn.md
+          - 统计: resource/programming/Python/30-Days-Of-Python/24_statistics_cn.md
+          - Pandas: resource/programming/Python/30-Days-Of-Python/25_pandas_cn.md
+          - Web开发: resource/programming/Python/30-Days-Of-Python/26_python_web_cn.md
+          - MongoDB: resource/programming/Python/30-Days-Of-Python/27_python_with_mongodb_cn.md
+          - API: resource/programming/Python/30-Days-Of-Python/28_API_cn.md
+          - 构建API: resource/programming/Python/30-Days-Of-Python/29_building_API_cn.md
+          - 总结: resource/programming/Python/30-Days-Of-Python/30_conclusions_cn.md
+        - 100+道Python3具有挑战性的编程练习题: resource/programming/Python/100_Python_challenging_programming_exercises_for_Python3.md
       - C++语法基础:
         - C++目录: resource/programming/CPP/c-plus-plus.md
         - C++概述:
