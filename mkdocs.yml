@@ -25,12 +25,75 @@ nav:
         - Python简介: resource/programming/Python/Python_Introduction.md
       - C++语法基础:
         - C++目录: resource/programming/CPP/c-plus-plus.md
-        - C++编程语言简介: resource/programming/CPP/Overview/introduction-to-c-programming-language.md
-        - C++的特点: resource/programming/CPP/Overview/features-of-cpp.md
-        - C++的历史: resource/programming/CPP/Overview/history-of-c.md
-        - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
-        - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
-        - C和C++的不同之处: resource/programming/CPP/Overview/difference-between-C-and-cpp.md
+        - C++概述:
+          - C++编程语言简介: resource/programming/CPP/Overview/introduction-to-c-programming-language.md
+          - C++的特点: resource/programming/CPP/Overview/features-of-cpp.md
+          - C++的历史: resource/programming/CPP/Overview/history-of-c.md
+          - 关于C++的有趣事实: resource/programming/CPP/Overview/interesting-facts-about-c.md
+          - 设置 C++ 开发环境: resource/programming/CPP/Overview/setting-c-development-environment.md
+          - C和C++的不同之处: resource/programming/CPP/Overview/difference-between-C-and-cpp.md
+        - C++基础:
+          - C++基础语法: resource/programming/CPP/Basics/cpp-basic-syntax.md
+          - C++注释: resource/programming/CPP/Basics/cpp-comments.md
+          - C++标识符: resource/programming/CPP/Basics/cpp-identifiers.md
+          - C++关键字: resource/programming/CPP/Basics/cpp-keywords.md
+          - C++标记: resource/programming/CPP/Basics/cpp-tokens.md
+          - 关键字和标识符的区别: resource/programming/CPP/Basics/difference-between-keyword-and-identifier.md
+          - 编写第一个C++程序: resource/programming/CPP/Basics/writing-first-c-program-hello-world-example.md
+        - C++数据类型和字面量:
+          - C++数据类型: resource/programming/CPP/Data-Types-and-Literals/cpp-Data-Types.md
+          - C++派生数据类型: resource/programming/CPP/Data-Types-and-Literals/cpp-Derived-Data-Types.md
+          - C++用户定义数据类型: resource/programming/CPP/Data-Types-and-Literals/cpp-User-Defined-Data-Types.md
+          - C++类型修饰符: resource/programming/CPP/Data-Types-and-Literals/cpp-Type-Modifiers.md
+          - C++数据类型范围及其宏: resource/programming/CPP/Data-Types-and-Literals/cpp-Data-Type-Ranges-and-Their-Macros.md
+          - C++字面量: resource/programming/CPP/Data-Types-and-Literals/cpp-Literals.md
+          - C++数据类型转换: resource/programming/CPP/Data-Types-and-Literals/cpp-Data-Type-Conversion.md
+          - C++类型转换运算符: resource/programming/CPP/Data-Types-and-Literals/cpp-Typecasting-Operators.md
+        - C++变量和常量:
+          - C++变量: resource/programming/CPP/Variables-and-Constants/cpp-variables.md
+          - C++常量: resource/programming/CPP/Variables-and-Constants/cpp-constants.md
+          - C++变量作用域: resource/programming/CPP/Variables-and-Constants/scope-of-variables-in-c.md
+          - C++存储类: resource/programming/CPP/Variables-and-Constants/storage-classes-in-c-with-examples.md
+          - C++ static关键字: resource/programming/CPP/Variables-and-Constants/static-keyword-cpp.md
+        - C++运算符:
+          - C++运算符: resource/programming/CPP/Operators/cpp-operators.md
+          - C++算术运算符: resource/programming/CPP/Operators/cpp-arithmetic-operators.md
+          - C++关系运算符: resource/programming/CPP/Operators/cpp-relational-operators.md
+          - C++逻辑运算符: resource/programming/CPP/Operators/cpp-logical-operators.md
+          - C++位运算符: resource/programming/CPP/Operators/cpp-bitwise-operators.md
+          - C++赋值运算符: resource/programming/CPP/Operators/cpp-assignment-operators.md
+          - C++一元运算符: resource/programming/CPP/Operators/cpp-unary-operators.md
+          - C++三元运算符: resource/programming/CPP/Operators/cpp-ternary-or-conditional-operators.md
+          - C++ sizeof运算符: resource/programming/CPP/Operators/cpp-sizeof-operator.md
+          - C++作用域解析运算符: resource/programming/CPP/Operators/cpp-scope-resolution-operator.md
+        - C++输入输出:
+          - C++基本输入输出: resource/programming/CPP/Input-Output/basic-input-output-c.md
+          - C++ cin: resource/programming/CPP/Input-Output/cin-in-c.md
+          - C++ cout: resource/programming/CPP/Input-Output/cout-in-c.md
+          - C++ cerr: resource/programming/CPP/Input-Output/cerr-standard-error-stream-object-in-cpp.md
+          - C++操纵符: resource/programming/CPP/Input-Output/manipulators-in-c-with-examples.md
+        - C++控制语句:
+          - C++决策: resource/programming/CPP/ControlStatements/cpp-decision-making.md
+          - C++ if语句: resource/programming/CPP/ControlStatements/c-if-statement-with-examples.md
+          - C++ if-else语句: resource/programming/CPP/ControlStatements/c-if-else-statement-with-examples.md
+          - C++ if-else-if阶梯: resource/programming/CPP/ControlStatements/c-if-else-if-ladder-with-examples.md
+          - C++嵌套if-else: resource/programming/CPP/ControlStatements/cpp-nested-if-else-statement.md
+          - C++ switch语句: resource/programming/CPP/ControlStatements/switch-statement-in-cpp.md
+          - C++循环: resource/programming/CPP/ControlStatements/cpp-loops.md
+          - C++ for循环: resource/programming/CPP/ControlStatements/cpp-for-loop.md
+          - C++ while循环: resource/programming/CPP/ControlStatements/cpp-while-loop.md
+          - C++ do-while循环: resource/programming/CPP/ControlStatements/cpp-do-while-loop.md
+          - C++基于范围的for循环: resource/programming/CPP/ControlStatements/range-based-loop-c.md
+          - C++跳转语句: resource/programming/CPP/ControlStatements/jump-statements-in-c.md
+        - C++函数:
+          - C++函数: resource/programming/CPP/Functions/functions-in-cpp.md
+          - C++参数传递技术: resource/programming/CPP/Functions/parameter-passing-techniques-in-cpp.md
+          - C++按值调用和按引用调用的区别: resource/programming/CPP/Functions/difference-between-call-by-value-and-call-by-reference.md
+          - C++返回语句: resource/programming/CPP/Functions/return-statement-in-cpp-with-examples.md
+          - C++默认参数: resource/programming/CPP/Functions/default-arguments-c.md
+          - C++内联函数: resource/programming/CPP/Functions/inline-functions-cpp.md
+          - C++ Lambda表达式: resource/programming/CPP/Functions/lambda-expression-in-c.md
+          - C++递归: resource/programming/CPP/Functions/cpp-recursion.md
       - 面向对象的编程:
         - 面向对象的编程简介: resource/programming/OOP/OOP_Introduction.md
     - 理论基础:
