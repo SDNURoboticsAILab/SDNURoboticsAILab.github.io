@@ -19,7 +19,7 @@ C++ 关系运算符用于比较两个值或表达式，基于此比较，它返�
 
 所有 C++ 关系运算符都是与两个操作数一起使用的二元运算符，如下所示：
 
-```C++
+```cpp
 operand1   relational_operator  operand2
 expression1   relational_operator  expression2
 ```
@@ -43,7 +43,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 29 > 21 // returns true
 12 > 12 // return false
 10 > 57 // return false
@@ -55,7 +55,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 2 < 21 // returns true
 12 < 12 // return false
 12 < 5 // return false
@@ -67,7 +67,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 29 >= 21 // returns true 
 12 >= 12 // return true 
 10 >= 58 // return false
@@ -79,7 +79,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 2 <= 21 // returns true 
 12 <= 12 // return true 
 12 <= 5 // return false
@@ -91,7 +91,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 9 == 9 // returns true 
 19 == 12 // return false
 ```
@@ -102,7 +102,7 @@ expression1   relational_operator  expression2
 
 **例**
 
-```C++
+```cpp
 12 != 21 // returns true
 12 != 12 // return false
 ```
@@ -113,7 +113,7 @@ expression1   relational_operator  expression2
 
 
 
-```C++
+```cpp
 // C++ Program to illustrate the relational operators 
 #include <iostream> 
 using namespace std; 
@@ -144,7 +144,7 @@ int main()
 
 **输出**
 
-```C++
+```
 a > b = 1
 a < b = 0
 a == b = 0

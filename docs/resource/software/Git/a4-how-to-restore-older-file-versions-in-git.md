@@ -158,7 +158,7 @@ $ git push origin HEAD
 ```Bash
 $ git checkout contributor
 $ git pull
-$ less blah.txt  ## 检查改变的文件
+$ less blah.txt## 检查改变的文件
 $ git checkout master
 $ git merge contributor
 ```

@@ -10,7 +10,7 @@
 
 例如，如果我们想要打印100的十六进制值，可以这样打印：
 
-```
+```cpp
 cout << setbase(16) << 100;
 ```
 
@@ -29,8 +29,8 @@ cout << setbase(16) << 100;
 
 - C++ 代码：
 
-```
-cpp#include <iostream>
+```cpp
+#include <iostream>
 #include <istream>
 #include <sstream>
 #include <string>
@@ -94,7 +94,7 @@ abc
 1. 带参数的
 2. 不带参数的
 
-- ### 1] 带参数的操控符：
+### 1] 带参数的操控符：
 
   操控符        ->      含义
    setw (int n)         ->      设置字段宽度为 n
@@ -111,8 +111,8 @@ abc
      `setw(int n)`
      示例：
 
-    ```
-    cppint a = 15;  
+    ```cpp
+    int a = 15;  
     int b = 20;  
     cout << setw(10) << a << setw(10) << b << endl;  
     ```
@@ -123,8 +123,8 @@ abc
      `setfill(char ch)`
      **示例：**
 
-    ```
-    cppint a, b;  
+    ```cpp
+    int a, b;  
     a = 15;  
     b = 20;  
     cout << setfill('*') << endl;  
@@ -137,8 +137,8 @@ abc
      `setprecision(int p)`
      **示例：**
 
-    ```
-    cppfloat A = 1.34255;  
+    ```cpp
+    float A = 1.34255;  
     cout << fixed << setprecision(3) << A << endl;  
     ```
 
@@ -153,8 +153,8 @@ abc
 
   - C++ 示例：
 
-  ```
-  cpp#include <iostream>
+  ```cpp
+  #include <iostream>
   #include <iomanip>
   using namespace std;
   
@@ -177,7 +177,7 @@ abc
   Setbase Value = 64
   ```
 
-  ### 2] 无参数的操控符
+### 2] 无参数的操控符
 
   示例包括 `endl`、`fixed`、`showpoint` 和 `flush`。
 
@@ -188,8 +188,8 @@ abc
   - **hex**、**oct**、**dec** – 以十六进制、八进制或十进制格式显示数字
   - C++ 示例：
 
-  ```
-  cpp#include <iostream>
+  ```cpp
+  #include <iostream>
   using namespace std;
   
   int main() {

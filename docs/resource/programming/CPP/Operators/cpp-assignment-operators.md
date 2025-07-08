@@ -9,7 +9,7 @@ C++ 赋值运算符
 
 ## 语法
 
-```C++
+```cpp
 variable = value;
 ```
 
@@ -19,7 +19,7 @@ variable = value;
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of assignment operator 
 #include <iostream> 
 using namespace std; 
@@ -38,7 +38,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 The value of x is: 20
 ```
 
@@ -67,19 +67,19 @@ The value of x is: 20
 
 **语法**
 
-```C++
+```cpp
 variable += value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable + value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the addition assignment operator 
 #include <iostream> 
 using namespace std; 
@@ -102,7 +102,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 The total is: 150
 ```
 
@@ -114,19 +114,19 @@ C++ 中的减法赋值运算符 （-=） 使您能够通过从变量中减去另
 
 **语法**
 
-```C++
+```cpp
 variable -= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable - value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the substraction assignment 
 // operator 
 #include <iostream> 
@@ -146,7 +146,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 After subtraction x is now: 15
 ```
 
@@ -158,19 +158,19 @@ After subtraction x is now: 15
 
 **语法**
 
-```C++
+```cpp
 variable *= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C+=
+```cpp
 variable = variable * value;
 ```
 
 **例**
 
-```C++
+```cpp
 #include <iostream> 
 using namespace std; 
   
@@ -184,7 +184,7 @@ int main() {
 
 **输出**
 
-```C++
+```cpp
 The updated value of x is: 28
 ```
 
@@ -196,19 +196,19 @@ The updated value of x is: 28
 
 **语法**
 
-```C++
+```cpp
 variable /= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable / value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of divide assignment 
 // operator 
 #include <iostream> 
@@ -230,7 +230,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 7.5
 ```
 
@@ -242,19 +242,19 @@ value : 7.5
 
 **语法**
 
-```C++
+```cpp
 variable %= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable % value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of modulus assignment 
 // operator 
 #include <iostream> 
@@ -275,7 +275,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 0
 ```
 
@@ -287,19 +287,19 @@ value : 0
 
 **语法**
 
-```C++
+```cpp
 variable &= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable & value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of Bitwise AND 
 // Assignment Operator 
 #include <iostream> 
@@ -318,7 +318,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 1
 ```
 
@@ -330,19 +330,19 @@ value : 1
 
 **语法**
 
-```C++
+```cpp
 variable |= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable | value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of Bitwise OR 
 // Assignment Operator 
 #include <iostream> 
@@ -361,7 +361,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 7
 ```
 
@@ -373,19 +373,19 @@ value : 7
 
 **语法**
 
-```C++
+```cpp
 variable ^= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable ^ value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of Bitwise XOR 
 // Assignment Operator 
 #include <iostream> 
@@ -404,7 +404,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 4
 ```
 
@@ -416,19 +416,19 @@ value : 4
 
 **语法**
 
-```C++
+```cpp
 variable <<= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable << value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of Left Shift 
 // Assignment Operator 
 #include <iostream> 
@@ -447,7 +447,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 144
 ```
 
@@ -459,19 +459,19 @@ value : 144
 
 **语法**
 
-```C++
+```cpp
 variable >>= value;
 ```
 
 上述表达式等效于以下表达式：
 
-```C++
+```cpp
 variable = variable >> value;
 ```
 
 **例**
 
-```C++
+```cpp
 // C++ program to illustrate the use of Right Shift 
 // Assignment Operator 
 #include <iostream> 
@@ -490,7 +490,7 @@ int main()
 
 **输出**
 
-```C++
+```cpp
 value : 1
 ```
 

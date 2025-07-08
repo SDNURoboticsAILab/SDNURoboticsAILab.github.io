@@ -104,8 +104,8 @@ Outside if-else block
 
 ## **语法**
 
-```
-arduino复制代码if (condition)
+```arduino
+if (condition)
 {
     // 当条件为真时执行该代码块
 }
@@ -136,8 +136,8 @@ else
 
 下面的程序演示了 C++ 中 if else 语句的使用。
 
-```
-cpp复制代码#include <iostream>
+```cpp
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -157,7 +157,7 @@ int main() {
 **输出**
 
 ```
-csharp复制代码i is 20
+i is 20
 Outside if-else block
 ```
 
