@@ -130,80 +130,94 @@ nav:
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
       - Linux基础教程:
-        - 搭建年轻人的第一个虚拟机: resource/software/Linux/first-vm-2024.md
-        - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
-        - Linux终端基础1：目录切换: resource/software/Linux/chapter-1-change-directories.md
-        - Linux终端基础2：创建目录: resource/software/Linux/chapter-2-make-directories.md
-        - Linux终端基础3：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
-        - Linux终端基础4：创建文件: resource/software/Linux/chapter-4-create-files.md
-        - Linux终端基础5：查看文件内容: resource/software/Linux/chapter-5-view-file-contents.md
-        - Linux终端基础6：删除文件和文件夹: resource/software/Linux/chapter-6-delete-files-folders-linux.md
-        - Linux终端基础7：复制文件和目录: resource/software/Linux/chapter-7-copy-files-directory-linux.md
-        - Linux终端基础8：移动文件和目录（剪切粘贴操作）: resource/software/Linux/chapter-8-move-files-linux.md
-        - Linux终端基础9：编辑文件: resource/software/Linux/chapter-9-edit-files-linux.md
-        - Linux终端基础10：获取帮助: resource/software/Linux/chapter-10-linux-command-help.md
-        - Linux终端基础11：远程复制文件: resource/software/Linux/20240730-copy-files-between-remote-systems-in-the-linux-command-line.md
-        - Linux终端进阶1：高效使用history命令: resource/software/Linux/20240724-effectively-use-history-command-in-linux.md
-        - Linux终端进阶2：使用别名提高你在Linux终端中的效率: resource/software/Linux/20240403-linux-alias.md
-        - Linux终端进阶3：使用Tailspin带高亮地查看日志文件: resource/software/Linux/20240330-tailspin.md
-        - Bash脚本编程入门: resource/software/Linux/bash-basics-series-0-introduction-to-bash-scripting.md
-        - Bash基础知识1：创建并运行你的第一个Bash脚本: resource/software/Linux/bash-basics-series-1-create-and-run-your-first-bash-shell-script.md
-        - Bash基础知识2：使用变量: resource/software/Linux/bash-basics-series-2-using-variables-in-bash.md
-        - Bash基础知识3：传递参数和接受用户输入: resource/software/Linux/bash-basics-series-3-passing-arguments-and-accepting-user-inputs.md
-        - Bash基础知识4：算术运算: resource/software/Linux/bash-basics-series-4-arithmetic-operations.md
-        - Bash基础知识5：使用数组: resource/software/Linux/bash-basics-series-5-using-arrays-in-bash.md
-        - Bash基础知识6：处理字符串操作: resource/software/Linux/bash-basics-series-6-handling-string-operations.md
-        - Bash基础知识7：IfElse语句: resource/software/Linux/bash-basics-series-7-if-else-statement.md
-        - Bash基础知识8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
-        - Bash基础知识9：函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
-        - 美化篇：配置一个简洁高效的Zsh: resource/software/Linux/zsh-beautify.md
-        - 番外篇：给新手的10个有用Linux命令行技巧: resource/software/Linux/10-useful-linux-command-line-tricks-for-newbies.md
-        - 番外篇：11个让你吃惊的Linux终端命令: resource/software/Linux/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.md
-        - 番外篇：21个专业Linux用户喜爱的实用终端快捷键: resource/software/Linux/linux-terminal-shortcuts.md
-        - 番外篇：Shell、Bash、CMD、PowerShell的区别与联系: resource/software/Linux/shell-bash-cmd-powershell.md
-        - 安装Win11和Ubuntu22.04双系统: resource/software/Linux/win11-ubuntu-dual-boot.md
+        - Linux安装:
+          - 搭建年轻人的第一个虚拟机: resource/software/Linux/first-vm-2024.md
+          - 安装Win11和Ubuntu22.04双系统: resource/software/Linux/win11-ubuntu-dual-boot.md
+        - Linux终端基础:
+          - Linux终端入门: resource/software/Linux/getting-started-with-linux-terminal.md
+          - 1：目录切换: resource/software/Linux/chapter-1-change-directories.md
+          - 2：创建目录: resource/software/Linux/chapter-2-make-directories.md
+          - 3：列出目录的内容: resource/software/Linux/chapter-3-list-directory-content.md
+          - 4：创建文件: resource/software/Linux/chapter-4-create-files.md
+          - 5：查看文件内容: resource/software/Linux/chapter-5-view-file-contents.md
+          - 6：删除文件和文件夹: resource/software/Linux/chapter-6-delete-files-folders-linux.md
+          - 7：复制文件和目录: resource/software/Linux/chapter-7-copy-files-directory-linux.md
+          - 8：移动文件和目录: resource/software/Linux/chapter-8-move-files-linux.md
+          - 9：编辑文件: resource/software/Linux/chapter-9-edit-files-linux.md
+          - 10：获取帮助: resource/software/Linux/chapter-10-linux-command-help.md
+          - 11：远程复制文件: resource/software/Linux/20240730-copy-files-between-remote-systems-in-the-linux-command-line.md
+        - Linux终端进阶:
+          - 高效使用history命令: resource/software/Linux/20240724-effectively-use-history-command-in-linux.md
+          - 使用别名提高效率: resource/software/Linux/20240403-linux-alias.md
+          - 使用Tailspin带高亮地查看日志文件: resource/software/Linux/20240330-tailspin.md
+        - Bash脚本编程:
+          - Bash脚本编程入门: resource/software/Linux/bash-basics-series-0-introduction-to-bash-scripting.md
+          - 1：创建并运行你的第一个Bash脚本: resource/software/Linux/bash-basics-series-1-create-and-run-your-first-bash-shell-script.md
+          - 2：使用变量: resource/software/Linux/bash-basics-series-2-using-variables-in-bash.md
+          - 3：传递参数和接受用户输入: resource/software/Linux/bash-basics-series-3-passing-arguments-and-accepting-user-inputs.md
+          - 4：算术运算: resource/software/Linux/bash-basics-series-4-arithmetic-operations.md
+          - 5：使用数组: resource/software/Linux/bash-basics-series-5-using-arrays-in-bash.md
+          - 6：处理字符串操作: resource/software/Linux/bash-basics-series-6-handling-string-operations.md
+          - 7：IfElse语句: resource/software/Linux/bash-basics-series-7-if-else-statement.md
+          - 8：For、While和Until循环: resource/software/Linux/bash-basics-series-8-for-while-and-until-Loops.md
+          - 9：函数: resource/software/Linux/bash-basics-series-9-functions-in-bash.md
+        - 美化与技巧:
+          - 配置一个简洁高效的Zsh: resource/software/Linux/zsh-beautify.md
+          - 给新手的10个有用Linux命令行技巧: resource/software/Linux/10-useful-linux-command-line-tricks-for-newbies.md
+          - 11个让你吃惊的Linux终端命令: resource/software/Linux/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.md
+          - 21个专业Linux用户喜爱的实用终端快捷键: resource/software/Linux/linux-terminal-shortcuts.md
+          - Shell、Bash、CMD、PowerShell的区别与联系: resource/software/Linux/shell-bash-cmd-powershell.md
 
       - Git版本控制基础:
         - Git目录: resource/software/Git/Git_Introduction.md
-        - 什么是Git: resource/software/Git/a1-what-is-git.md
-        - 解读那些令人困惑Git术语: resource/software/Git/c2-confusing-git-terminology.md
-        - 在Git仓库中，文件究竟被存储在哪里: resource/software/Git/c7-in-a-git-repository-where-do-your-files-live.md
-        - 初学者指南：在UbuntuLinux上安装和使用Git和GitHub: resource/software/Git/d3-installing-and-using-git-and-github-on-ubuntu-linux-a-beginner-s-guide.md
-        - GitHub简易入门指南: resource/software/Git/d1-getting-started-with-github.md
-        - 三个Git图形化工具: resource/software/Git/a5-3-graphical-tools-for-git.md
-        - 建立你的第一个Git仓库: resource/software/Git/a3-creating-your-first-git-repository.md
-        - 在Git中怎样克隆、修改、添加和删除文件: resource/software/Git/d4-how-to-clone-modify-add-and-delete-files-in-git.md
-        - 在Git中进行版本回退: resource/software/Git/a4-how-to-restore-older-file-versions-in-git.md
-        - Git教程：重命名分支、删除分支: resource/software/Git/b8-how-to-rename-a-branch-delete-a-branch-and-find-the-author-of-a-branch-in-git.md
-        - Git分支操作介绍: resource/software/Git/b3-a-guide-to-git-branching.md
-        - 掌握强大的Git变基命令: resource/software/Git/b1-learn-git-3-commands-to-level-up-your-skill.md
-        - GitRebase教程：用GitRebase让时光倒流: resource/software/Git/b2-git-rebase-tutorial-going-back-in-time-with-git-rebase.md
-        - Git的遴选和撤销操作是如何利用三路合并的: resource/software/Git/b8-how-git-cherry-pick-and-revert-use-3-way-merge.md
-        - 6个最佳的Git仓库管理实践: resource/software/Git/c5-6-best-practices-for-managing-git-repos.md
-        - 6个在团队中使用Git的最佳实践: resource/software/Git/c6-6-best-practices-for-teams-using-git.md
-        - 使用Git管理二进制大对象: resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md
-        - 详解Git大文件存储（Git LFS）: resource/software/Git/f2-git-lfs-details.md
-        - 已经会用Git了，不会这十招怎么行: resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md
-        - GIT命令"从初学到专业"完整进阶指南: resource/software/Git/c4-complete-beginners-to-pro-guide-for-git-commands.md
-        - 10个提高Git技能的资源: resource/software/Git/b6-10-resources-to-boost-your-git-skills.md
-        - 如何搭建你自己的Git服务器: resource/software/Git/a6-how-to-build-your-own-git-server.md
-        - 6个托管git仓库的地方: resource/software/Git/d7-6-places-to-host-your-git-repository.md
-        - 使用Git来管理Git服务器: resource/software/Git/d8-run-a-server-with-git.md
-        - GitHub的DNS基础设施: resource/software/Git/d6-dns-infrastructure-at-github.md
-        - 用Jekyll和Git展示你的源码: resource/software/Git/d5-reveal-your-source-code-with-jinja2-and-git.md
-        - 12件可以用GitHub完成的很酷的事情: resource/software/Git/d5-12-cool-things-you-can-do-with-github.md
-        - Git多账号配置: resource/software/Git/d8-run-a-server-with-git.md
-        - CI/CD: resource/software/Git/f3-ci-cd.md
-        - Github Actions: resource/software/Git/f4-github-actions.md
-        - Github Pages: resource/software/Git/f5-github-pages.md
-        - REST API & Git Hooks: resource/software/Git/f6-rest-api-and-git-hooks.md
-        - Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
-        - Git入门：术语基础: resource/software/Git/c1-getting-started-with-git-terminology.md
-        - Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
-        - 手把手指导您使用Git: resource/software/Git/d2-a-step-by-step-guide-to-git.md
-        - 从零开始使用Github Desktop在Github上贡献源代码: resource/software/Git/e3-github-contribution.md
-        - 三个Git图形化工具（扩展）: resource/software/Git/a5-3-graphical-tools-for-git.md
-
+        - Git入门:
+          - 什么是Git: resource/software/Git/a1-what-is-git.md
+          - Git术语: resource/software/Git/c2-confusing-git-terminology.md
+          - Git文件存储: resource/software/Git/c7-in-a-git-repository-where-do-your-files-live.md
+          - Git术语基础: resource/software/Git/c1-getting-started-with-git-terminology.md
+        - Git安装与配置:
+          - 在Ubuntu上安装和使用Git: resource/software/Git/d3-installing-and-using-git-and-github-on-ubuntu-linux-a-beginner-s-guide.md
+          - Git多账号配置: resource/software/Git/d8-run-a-server-with-git.md
+        - Git基本操作:
+          - 建立你的第一个Git仓库: resource/software/Git/a3-creating-your-first-git-repository.md
+          - 克隆、修改、添加和删除文件: resource/software/Git/d4-how-to-clone-modify-add-and-delete-files-in-git.md
+          - 版本回退: resource/software/Git/a4-how-to-restore-older-file-versions-in-git.md
+        - Git分支:
+          - Git分支操作介绍: resource/software/Git/b3-a-guide-to-git-branching.md
+          - 重命名分支、删除分支: resource/software/Git/b8-how-to-rename-a-branch-delete-a-branch-and-find-the-author-of-a-branch-in-git.md
+        - Git进阶:
+          - Git Rebase: resource/software/Git/b1-learn-git-3-commands-to-level-up-your-skill.md
+          - Git Rebase教程: resource/software/Git/b2-git-rebase-tutorial-going-back-in-time-with-git-rebase.md
+          - Git Cherry-pick和Revert: resource/software/Git/b8-how-git-cherry-pick-and-revert-use-3-way-merge.md
+          - 使用Git管理二进制大对象: resource/software/Git/a7-how-to-manage-binary-blobs-with-git.md
+          - Git LFS详解: resource/software/Git/f2-git-lfs-details.md
+        - Git最佳实践与技巧:
+          - 6个最佳的Git仓库管理实践: resource/software/Git/c5-6-best-practices-for-managing-git-repos.md
+          - 6个在团队中使用Git的最佳实践: resource/software/Git/c6-6-best-practices-for-teams-using-git.md
+          - 10个提高Git技能的资源: resource/software/Git/b6-10-resources-to-boost-your-git-skills.md
+          - 10招提升Git技能: resource/software/Git/c3-tips-to-push-your-git-skills-to-the-next-level.md
+        - Git服务器:
+          - 如何搭建你自己的Git服务器: resource/software/Git/a6-how-to-build-your-own-git-server.md
+          - 6个托管git仓库的地方: resource/software/Git/d7-6-places-to-host-your-git-repository.md
+          - 使用Git来管理Git服务器: resource/software/Git/d8-run-a-server-with-git.md
+        - GitHub:
+          - GitHub简易入门指南: resource/software/Git/d1-getting-started-with-github.md
+          - GitHub的DNS基础设施: resource/software/Git/d6-dns-infrastructure-at-github.md
+          - 用Jekyll和Git展示你的源码: resource/software/Git/d5-reveal-your-source-code-with-jinja2-and-git.md
+          - 12件可以用GitHub完成的很酷的事情: resource/software/Git/d5-12-cool-things-you-can-do-with-github.md
+          - Github Actions: resource/software/Git/f4-github-actions.md
+          - Github Pages: resource/software/Git/f5-github-pages.md
+        - CI/CD与API:
+          - CI/CD: resource/software/Git/f3-ci-cd.md
+          - REST API & Git Hooks: resource/software/Git/f6-rest-api-and-git-hooks.md
+        - 指南与工具:
+          - GIT命令"从初学到专业"完整进阶指南: resource/software/Git/c4-complete-beginners-to-pro-guide-for-git-commands.md
+          - 手把手指导您使用Git: resource/software/Git/d2-a-step-by-step-guide-to-git.md
+          - 从零开始使用Github Desktop在Github上贡献源代码: resource/software/Git/e3-github-contribution.md
+          - 三个Git图形化工具: resource/software/Git/a5-3-graphical-tools-for-git.md
+        - 速查表:
+          - Git秘籍: resource/software/Git/e1-git-cheat-sheet.md
+          - Github秘籍: resource/software/Git/e2-github-cheat-sheet.md
 
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
@@ -486,7 +500,7 @@ markdown_extensions:
       anchor_linenums: true
       linenums: true # 显示行号
       use_pygments: true # 代码高亮
-      pygments_lang_class: true
+      pygments_lang_class: true # 代码高亮
       auto_title: true # 显示编程语言名称
       linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
   - pymdownx.inlinehilite
