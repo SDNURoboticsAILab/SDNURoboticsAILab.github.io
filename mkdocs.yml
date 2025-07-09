@@ -131,8 +131,8 @@ nav:
     - 理论基础:
       - 数据结构与算法:
         - 数据结构与算法简介: resource/theory/Algorithm&DS/Algorithm&DS_Introduction.md
-      - 线性代数相关补充:
-        - 线性代数相关补充简介: resource/theory/Linear_Algebra/Linear_Algebra_Introduction.md
+      - 线性代数:
+        - 线性代数的艺术: resource/theory/Linear_Algebra/The-Art-of-Linear-Algebra-zh-CN.md
       - 机器人运动学:
         - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
       - 数字图像处理(基于OpenCV C++):
