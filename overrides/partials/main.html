@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    window.MathJax = {
+      tex: {
+        packages: {'[+]': ['ams']}
+      }
+    };
+  </script>
+{% endblock %}

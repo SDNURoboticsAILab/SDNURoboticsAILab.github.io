@@ -383,14 +383,14 @@ plugins:
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
-  - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
 
 markdown_extensions:
-  - attr_list
   - admonition # 那些提醒
   - footnotes # 脚注
-  - toc
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
