@@ -143,6 +143,7 @@ nav:
       - LaTeX:
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
+      - 软件工程与现代软件开发:
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
@@ -382,14 +383,14 @@ plugins:
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
-  - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
 
 markdown_extensions:
-  - attr_list
   - admonition # 那些提醒
   - footnotes # 脚注
-  - toc
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
