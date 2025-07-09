@@ -131,8 +131,8 @@ nav:
     - 理论基础:
       - 数据结构与算法:
         - 数据结构与算法简介: resource/theory/Algorithm&DS/Algorithm&DS_Introduction.md
-      - 线性代数相关补充:
-        - 线性代数相关补充简介: resource/theory/Linear_Algebra/Linear_Algebra_Introduction.md
+      - 线性代数:
+        - 线性代数的艺术: resource/theory/Linear_Algebra/The-Art-of-Linear-Algebra-zh-CN.md
       - 机器人运动学:
         - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
       - 数字图像处理(基于OpenCV C++):
@@ -266,6 +266,8 @@ nav:
         - LaTeX样式设定: resource/software/LaTeX/06-LaTeX-style.md
       - 虚拟化与容器化:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
+      - 软件工程与现代软件开发:
+        - 软件工程导论期末复习: resource/software/Software_Engineering/SE_Final_Review.md
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
@@ -514,14 +516,14 @@ plugins:
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
-  - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
 
 markdown_extensions:
-  - attr_list
   - admonition # 那些提醒
   - footnotes # 脚注
-  - toc
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
