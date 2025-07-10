@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 22 天：网页抓取
 
 - [第22天](#-第22天)
@@ -86,4 +89,4 @@ for td in table.find('tr').find_all('td'):
 
 🎉 恭喜！🎉
 
-[<< 第21天](./21_Day_Classes_and_objects/21_classes_and_objects_cn.md) | [第23天 >>](./23_Day_Virtual_environment/23_virtual_environment_cn.md) 
+[<< 第21天](./21_classes_and_objects_cn.md) | [第23天 >>](./23_virtual_environment_cn.md) 

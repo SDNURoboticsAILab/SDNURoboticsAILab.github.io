@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 30 天：总结
 
 - [第30天](#第30天)
@@ -19,4 +22,4 @@ http://thirtydayofpython-api.herokuapp.com/feedback
 
 🎉 恭喜！🎉
 
-[<< 第29天](./29_Day_Building_API/29_building_API_cn.md) 
+[<< 第29天](./29_building_API_cn.md) 

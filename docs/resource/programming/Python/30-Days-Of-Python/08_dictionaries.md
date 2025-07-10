@@ -1,6 +1,9 @@
+---
+comments: true
+---
 # 第 8 天：字典
 
-[<< 第 7 天 ](../07_Day_Sets/07_sets.md) | [第 9 天 >>](../09_Day_Conditionals/09_conditionals.md)
+[<< 第 7 天 ](./07_Day_Sets/07_sets.md) | [第 9 天 >>](./09_conditionals.md)
 
 ![30 天 Python 学习](./images/30DaysOfPython_banner3@2x.png)
 
@@ -326,4 +329,4 @@ print(values) # dict_values(['value1', 'value2', 'value3', 'value4'])
 
 🎉 恭喜你! 🎉
 
-[<< 第 7 天 ](../07_Day_Sets/07_sets.md) | [第 9 天 >>](../09_Day_Conditionals/09_conditionals.md)
+[<< 第 7 天 ](./07_Day_Sets/07_sets.md) | [第 9 天 >>](./09_conditionals.md)

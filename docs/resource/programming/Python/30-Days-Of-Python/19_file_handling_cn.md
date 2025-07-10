@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 19 天：文件处理
 
 - [第19天](#-第19天)
@@ -546,4 +549,4 @@ Python
 
 🎉 恭喜！🎉
 
-[<< 第18天](./18_Day_Regular_expressions/18_regular_expressions_cn.md) | [第20天 >>](./20_Day_Python_package_manager/20_python_package_manager_cn.md) 
+[<< 第18天](./18_regular_expressions_cn.md) | [第20天 >>](./20_python_package_manager_cn.md) 

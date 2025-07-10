@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # The Art of Linear Algebra
 #### -- Graphic Notes on “Linear Algebra for Everyone" --
 

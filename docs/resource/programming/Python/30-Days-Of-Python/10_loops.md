@@ -1,6 +1,9 @@
+---
+comments: true
+---
 # 第 10 天：循环
 
-[<<第九天](../Chinese/09_conditionals.md) | [第十一天>>](../Chinese/11_functions.md)
+[<<第九天](./09_conditionals.md) | [第十一天>>](./11_functions.md)
 
 
 

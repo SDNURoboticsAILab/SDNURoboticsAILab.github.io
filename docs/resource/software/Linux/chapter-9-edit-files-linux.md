@@ -1,5 +1,5 @@
 ---
-comments: true基础
+comments: true
 ---
 
 # 终端基础：在 Linux 终端中编辑文件

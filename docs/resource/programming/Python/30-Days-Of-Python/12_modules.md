@@ -1,6 +1,9 @@
+---
+comments: true
+---
 # 第 12 天：模块
 
-[<< 第 11 天](../11_Day_Functions/11_functions.md) | [第 13 天>>](../13_Day_List_comprehension/13_list_comprehension.md)
+[<< 第 11 天](./11_functions.md) | [第 13 天>>](./13_list_comprehension.md)
 
 
 - [📘 第 12 天](#-第12天)
@@ -284,4 +287,4 @@ print(rgb_color_gen())
 
 🎉 恭喜！ 🎉
 
-[<< 第 11 天](../11_Day_Functions/11_functions.md) | [第 13 天>>](../13_Day_List_comprehension/13_list_comprehension.md)
+[<< 第 11 天](./11_functions.md) | [第 13 天>>](./13_list_comprehension.md)

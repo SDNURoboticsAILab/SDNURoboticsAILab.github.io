@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # 第 5 天：列表
 
 [<< 第四天](./04_strings.md) | [第六天 >>](./06_tuples.md)

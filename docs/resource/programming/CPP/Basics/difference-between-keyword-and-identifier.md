@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C语言中关键词和标识符的区别
 
 [关键词](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)**:** 关键词是C语言中具有特定功能的保留字。几乎所有帮助我们使用C语言功能的词汇都包含在关键词列表中。因此，你可以想象，关键词列表不会很小！C语言中共有32个关键词：

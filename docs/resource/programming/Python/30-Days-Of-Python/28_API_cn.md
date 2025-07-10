@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 28 天：API
 
 - [第28天](#-第28天)
@@ -140,4 +143,4 @@ GET、POST、PUT和DELETE是我们将实现API或CRUD操作应用程序的HTTP�
 
 🎉 恭喜！🎉
 
-[<< 第27天](./27_Day_Python_with_mongodb/27_python_with_mongodb_cn.md) | [第29天 >>](./29_Day_Building_API/29_building_API_cn.md) 
+[<< 第27天](./27_python_with_mongodb_cn.md) | [第29天 >>](./29_building_API_cn.md) 

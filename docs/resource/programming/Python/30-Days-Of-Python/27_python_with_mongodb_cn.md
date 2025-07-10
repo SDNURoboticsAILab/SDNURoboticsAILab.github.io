@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 27 天：Python与MongoDB
 
 - [第27天](#-第27天)
@@ -629,4 +632,4 @@ db.students.drop()
 
 🎉 恭喜！🎉
 
-[<< 第26天](./26_Day_Python_web/26_python_web_cn.md) | [第28天 >>](./28_Day_API/28_API_cn.md) 
+[<< 第26天](./26_python_web_cn.md) | [第28天 >>](./28_API_cn.md) 

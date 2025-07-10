@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C++ 关键字
 
 C++ 是一种强大的语言。在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们可以编写结构化程序和 [面向对象的程序](https://www.geeksforgeeks.org/oops-object-oriented-design/)。C++ 是 [C](https://www.geeksforgeeks.org/c-programming-language/) 的超集，因此大多数 C 的结构在 C++ 中是合法的，其含义不变。然而，也有一些例外和新增内容。

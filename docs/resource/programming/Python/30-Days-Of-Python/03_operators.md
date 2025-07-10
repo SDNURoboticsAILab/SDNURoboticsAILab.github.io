@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # 第 3 天：运算符
 
 [<< 第二天](./02_variables_builtin_functions.md) | [第四天 >>](./04_strings.md)

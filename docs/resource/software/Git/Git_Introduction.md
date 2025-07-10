@@ -67,8 +67,8 @@ comments: true
 - [Git入门：术语基础](./c1-getting-started-with-git-terminology.md)
 
 ### **GitHub生存手册**
-- [Github秘籍](resource/software/e2-github-cheat-sheet.md)
-- [手把手指导您使用Git](resource/software/d2-a-step-by-step-guide-to-git.md)
+- [Github秘籍](./e2-github-cheat-sheet.md)
+- [手把手指导您使用Git](./d2-a-step-by-step-guide-to-git.md)
 
 ### **可视化工具集**
 - [从零开始使用Github Desktop在Github上贡献源代码](./e3-github-contribution.md)
