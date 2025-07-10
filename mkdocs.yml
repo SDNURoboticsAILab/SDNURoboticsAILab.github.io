@@ -105,7 +105,7 @@ nav:
         - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
       - 数字图像处理(基于OpenCV C++):
         - 数字图像处理简介: resource/theory/CV/CV_Introduction.md
-      - 机器学习(基于PyTorch):
+      - 机器学习:
         - 机器学习简介: resource/theory/Machine_Learning/Machine_Learning_Introduction.md
     - NAO机器人:
       - NAO机器人简介:
