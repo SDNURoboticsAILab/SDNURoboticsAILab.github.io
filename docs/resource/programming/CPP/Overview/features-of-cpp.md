@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C++的特点
 
 C++是一种通用编程语言，它是在[C语言](https://www.geeksforgeeks.org/c-language-set-1-introduction/)的基础上发展起来的，加入了[面向对象的编程范式](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)。它是一种命令式和**编译型**语言。C++具有以下特点：

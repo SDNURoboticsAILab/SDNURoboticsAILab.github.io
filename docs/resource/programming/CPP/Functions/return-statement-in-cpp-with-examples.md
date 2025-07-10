@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C++中的return语句示例
 
 **先决条件：**[C++中的函数](https://www.geeksforgeeks.org/functions-in-c/)
