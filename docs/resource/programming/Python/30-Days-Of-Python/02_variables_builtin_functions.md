@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # 第二：变量, 内置函数
 
 [<< 第一天](./readme.md) | [第三天 >>](./03_operators.md)

@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C++的历史
 
 [C++语言](https://www.geeksforgeeks.org/c-plus-plus/)是一种[面向对象编程语言](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)，它结合了低级语言和高级语言的特点——即中级语言。该编程语言由丹麦计算机科学家比亚内·斯特劳斯特鲁普（Bjarne Stroustrup）在贝尔电话实验室（现称诺基亚贝尔实验室）创建、设计和开发，地点在新泽西州的穆雷山。他希望有一种灵活且动态的语言，与C语言相似，但增加了主动类型检查、基本继承、默认函数参数、类、内联等特性，因此推出了C++（即“C与类”）。

@@ -1,6 +1,9 @@
+---
+comments: true
+---
 # 第 13 天：列表推导式
 
-[<< 第 12 天](../12_Day_Modules/12_modules.md) | [第 14 天>>](../14_Day_Higher_order_functions/14_higher_order_functions.md)
+[<< 第 12 天](./12_modules.md) | [第 14 天>>](./14_higher_order_functions.md)
 
 
 - [📘 第 13 天](#📘-第-13-天)
@@ -189,4 +192,4 @@ print(two_power_of_five)  # 32
 
 🎉 祝贺你！🎉
 
-[<< 第 12 天](../12_Day_Modules/12_modules.md) | [第 14 天>>](../14_Day_Higher_order_functions/14_higher_order_functions.md)
+[<< 第 12 天](./12_modules.md) | [第 14 天>>](./14_higher_order_functions.md)

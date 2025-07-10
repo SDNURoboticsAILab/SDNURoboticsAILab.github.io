@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # 第 4 天：字符串
 
 [<< 第三天](./03_operators.md) | [第五天 >>](./05_lists.md)

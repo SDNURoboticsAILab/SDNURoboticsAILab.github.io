@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # C++ 嵌套 if-else 语句
 
 在 C++ 中，有多种条件语句，例如 if、if-else、嵌套 if、嵌套 if-else 和 switch。在本文中，我们将学习嵌套 if-else 语句。

@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 17 天：异常处理
 
 - [第17天](#-第17天)
@@ -282,4 +285,4 @@ print(fruits_and_veges)
 
 🎉 恭喜！🎉
 
-[<< 第16天](./16_Day_Python_date_time/16_python_datetime_cn.md) | [第18天 >>](./18_Day_Regular_expressions/18_regular_expressions_cn.md) 
+[<< 第16天](./16_python_datetime_cn.md) | [第18天 >>](./18_regular_expressions_cn.md) 

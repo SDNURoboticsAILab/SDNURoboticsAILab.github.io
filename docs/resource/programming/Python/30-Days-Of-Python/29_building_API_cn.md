@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 29 天：构建API
 
 - [第29天](#第29天)
@@ -457,4 +460,4 @@ if __name__ == '__main__':
 
 🎉 恭喜！🎉
 
-[<< 第28天](./28_Day_API/28_API_cn.md) | [第30天 >>](./30_Day_Conclusions/30_conclusions_cn.md) 
+[<< 第28天](./28_API_cn.md) | [第30天 >>](./30_conclusions_cn.md) 

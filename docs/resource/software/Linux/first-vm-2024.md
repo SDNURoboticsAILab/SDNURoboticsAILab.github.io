@@ -1,3 +1,6 @@
+---
+comments: true
+---
 ## 前情提要
 
 在 Windows 下想要完成 Linux 虚拟机的搭建，通常有以下几种常用方法：

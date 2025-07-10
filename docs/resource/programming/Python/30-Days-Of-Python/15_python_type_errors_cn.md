@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 15 天：Python类型错误
 
 - [Day 15](#day-15)

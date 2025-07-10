@@ -1,3 +1,6 @@
+---
+comments: true
+---
 #  第 18 天：正则表达式
 
 - [第18天](#-第18天)
@@ -414,4 +417,4 @@ alex@yahoo
 
 🎉 恭喜！🎉
 
-[<< 第17天](./17_Day_Exception_handling/17_exception_handling_cn.md) | [第19天 >>](./19_Day_File_handling/19_file_handling_cn.md) 
+[<< 第17天](./17_exception_handling_cn.md) | [第19天 >>](./19_file_handling_cn.md) 

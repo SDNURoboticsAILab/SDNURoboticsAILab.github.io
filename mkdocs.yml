@@ -137,8 +137,72 @@ nav:
         - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
       - 数字图像处理(基于OpenCV C++):
         - 数字图像处理简介: resource/theory/CV/CV_Introduction.md
-      - 机器学习(基于PyTorch):
+      - 机器学习:
         - 机器学习简介: resource/theory/Machine_Learning/Machine_Learning_Introduction.md
+        - 机器学习初学者课程:
+          - 1. 机器学习简介: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/README.md
+          - 机器学习简介: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/1-intro-to-ML/README.md
+          - 机器学习简介作业: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/1-intro-to-ML/assignment.md
+          - 机器学习的历史: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/2-history-of-ML/README.md
+          - 机器学习的历史作业: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/2-history-of-ML/assignment.md
+          - 机器学习中的公平性: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/3-fairness/README.md
+          - 机器学习中的公平性作业: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/3-fairness/assignment.md
+          - 机器学习技术: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/4-techniques-of-ML/README.md
+          - 机器学习技术作业: resource/theory/Machine_Learning/ML-For-Beginners/1-Introduction/4-techniques-of-ML/assignment.md
+          - 2. 回归: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/README.md
+          - 机器学习工具: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/1-Tools/README.md
+          - 机器学习工具作业: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/1-Tools/assignment.md
+          - 管理数据: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/2-Data/README.md
+          - 管理数据作业: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/2-Data/assignment.md
+          - 线性回归和多项式回归: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/3-Linear/README.md
+          - 线性回归和多项式回归作业: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/3-Linear/assignment.md
+          - 逻辑回归: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/4-Logistic/README.md
+          - 逻辑回归作业: resource/theory/Machine_Learning/ML-For-Beginners/2-Regression/4-Logistic/assignment.md
+          - 3. Web应用: resource/theory/Machine_Learning/ML-For-Beginners/3-Web-App/README.md
+          - 构建Web应用程序: resource/theory/Machine_Learning/ML-For-Beginners/3-Web-App/1-Web-App/README.md
+          - 构建Web应用程序作业: resource/theory/Machine_Learning/ML-For-Beginners/3-Web-App/1-Web-App/assignment.md
+          - 4. 分类: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/README.md
+          - 分类技术简介: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/1-Introduction/README.md
+          - 分类技术简介作业: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/1-Introduction/assignment.md
+          - 更多分类器: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/2-Classifiers-1/README.md
+          - 更多分类器作业: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/2-Classifiers-1/assignment.md
+          - 其他分类器: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/3-Classifiers-2/README.md
+          - 其他分类器作业: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/3-Classifiers-2/assignment.md
+          - 构建美食推荐Web应用: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/4-Applied/README.md
+          - 构建美食推荐Web应用作业: resource/theory/Machine_Learning/ML-For-Beginners/4-Classification/4-Applied/assignment.md
+          - 5. 聚类: resource/theory/Machine_Learning/ML-For-Beginners/5-Clustering/README.md
+          - 介绍聚类: resource/theory/Machine_Learning/ML-For-Beginners/5-Clustering/1-Visualize/README.md
+          - 介绍聚类作业: resource/theory/Machine_Learning/ML-For-Beginners/5-Clustering/1-Visualize/assignment.md
+          - K-Means聚类: resource/theory/Machine_Learning/ML-For-Beginners/5-Clustering/2-K-Means/README.md
+          - K-Means聚类作业: resource/theory/Machine_Learning/ML-For-Beginners/5-Clustering/2-K-Means/assignment.md
+          - 6. 自然语言处理: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/README.md
+          - 自然语言处理简介: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/1-Introduction-to-NLP/README.md
+          - 自然语言处理简介作业: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/1-Introduction-to-NLP/assignment.md
+          - 常见的NLP任务: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/2-Tasks/README.md
+          - 常见的NLP任务作业: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/2-Tasks/assignment.md
+          - 翻译与情感分析: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/3-Translation-Sentiment/README.md
+          - 翻译与情感分析作业: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/3-Translation-Sentiment/assignment.md
+          - 酒店评论与情感分析1: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/4-Hotel-Reviews-1/README.md
+          - 酒店评论与情感分析1作业: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/4-Hotel-Reviews-1/assignment.md
+          - 酒店评论与情感分析2: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/5-Hotel-Reviews-2/README.md
+          - 酒店评论与情感分析2作业: resource/theory/Machine_Learning/ML-For-Beginners/6-NLP/5-Hotel-Reviews-2/assignment.md
+          - 7. 时间序列预测: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/README.md
+          - 时间序列预测简介: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/1-Introduction/README.md
+          - 时间序列预测简介作业: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/1-Introduction/assignment.md
+          - 构建ARIMA模型: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/2-ARIMA/README.md
+          - 构建ARIMA模型作业: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/2-ARIMA/assignment.md
+          - 支持向量回归时间序列: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/3-SVR/README.md
+          - 支持向量回归时间序列作业: resource/theory/Machine_Learning/ML-For-Beginners/7-TimeSeries/3-SVR/assignment.md
+          - 8. 强化学习: resource/theory/Machine_Learning/ML-For-Beginners/8-Reinforcement/README.md
+          - Q-Learning简介: resource/theory/Machine_Learning/ML-For-Beginners/8-Reinforcement/1-QLearning/README.md
+          - Q-Learning简介作业: resource/theory/Machine_Learning/ML-For-Beginners/8-Reinforcement/1-QLearning/assignment.md
+          - 使用Gym环境: resource/theory/Machine_Learning/ML-For-Beginners/8-Reinforcement/2-Gym/README.md
+          - 使用Gym环境作业: resource/theory/Machine_Learning/ML-For-Beginners/8-Reinforcement/2-Gym/assignment.md
+          - 9. 现实世界的应用: resource/theory/Machine_Learning/ML-For-Beginners/9-Real-World/README.md
+          - 机器学习的现实应用: resource/theory/Machine_Learning/ML-For-Beginners/9-Real-World/1-Applications/README.md
+          - 机器学习的现实应用作业: resource/theory/Machine_Learning/ML-For-Beginners/9-Real-World/1-Applications/assignment.md
+          - 调试机器学习模型: resource/theory/Machine_Learning/ML-For-Beginners/9-Real-World/2-Debugging-ML-Models/README.md
+          - 调试机器学习模型作业: resource/theory/Machine_Learning/ML-For-Beginners/9-Real-World/2-Debugging-ML-Models/assignment.md
     - NAO机器人:
       - NAO机器人简介:
         - 基本简述: resource/NAO/Introduction/Basic_Introduction.md
