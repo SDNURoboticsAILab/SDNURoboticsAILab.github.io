@@ -1,10 +1,11 @@
-# Poetic license
+# 诗的自由
 
-## Instructions
+## 说明
 
-In [this notebook](https://www.kaggle.com/jenlooper/emily-dickinson-word-frequency) you can find over 500 Emily Dickinson poems previously analyzed for sentiment using Azure text analytics. Using this dataset, analyze it using the techniques described in the lesson. Does the suggested sentiment of a poem match the more sophistic Azure service's decision? Why or why not, in your opinion? Does anything surprise you?
-## Rubric
+在[此笔记本](https://www.kaggle.com/jenlooper/emily-dickinson-word-frequency)中，你可以找到超过500首艾米莉·狄金森的诗歌，这些诗歌先前已使用 Azure 文本分析服务进行了情感分析。请使用本课程中描述的技术来分析此数据集。一首诗的建议情感是否与更复杂的 Azure 服务的决策相匹配？在你看来，为什么匹配或为什么不匹配？有什么让你感到惊讶的吗？
 
-| Criteria | Exemplary                                                                  | Adequate                                                | Needs Improvement        |
-| -------- | -------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------ |
-|          | A notebook is presented with a solid analysis of an author's sample output | The notebook is incomplete or does not perform analysis | No notebook is presented |
+## 评量标准
+
+| 标准 | 优良 | 合格 | 有待改进 |
+| --- | --- | --- | --- |
+| | 呈现的笔记本对作者的示例文本进行了扎实的分析 | 笔记本不完整或未执行分析 | 未呈现笔记本 |
