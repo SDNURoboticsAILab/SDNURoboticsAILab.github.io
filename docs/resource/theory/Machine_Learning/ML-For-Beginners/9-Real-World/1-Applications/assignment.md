@@ -1,13 +1,12 @@
-# A ML Scavenger Hunt
+# 机器学习寻宝活动 
 
-## Instructions
+## 说明 
+在本节课中，你了解了许多使用经典机器学习解决的现实生活中的用例。虽然深度学习、人工智能中的新技术和工具以及神经网络的应用有助于加快这些领域工具的开发，但本课程中所涉及的经典机器学习技术仍然具有巨大的价值。 
 
-In this lesson, you learned about many real-life use cases that were solved using classical ML. While the use of deep learning, new techniques and tools in AI, and leveraging neural networks has helped speed up the production of tools to help in these sectors, classic ML using the techniques in this curriculum still hold great value.
+在本次作业中，假设你正在参加一场黑客马拉松。运用你在课程中学到的知识，提出一个使用经典机器学习解决本节课所讨论的某个领域问题的方案。创建一个演示文稿，阐述你将如何实施你的想法。如果你能收集样本数据并构建一个机器学习模型来支持你的概念，还将获得额外加分！
 
-In this assignment, imagine that you are participating in a hackathon. Use what you learned in the curriculum to propose a solution using classic ML to solve a problem in one of the sectors discussed in this lesson. Create a presentation where you discuss how you will implement your idea. Bonus points if you can gather sample data and build a ML model to support your concept!
+## 评分标准 
+| 标准 | 优秀 | 合格 | 需要改进 |
+| ---- | ---- | ---- | ---- |
+|  | 展示了一个 PowerPoint 演示文稿 - 构建模型的奖励 | 展示了一个缺乏创新性的基础演示文稿 | 作业未完成 |
 
-## Rubric
-
-| Criteria | Exemplary                                                           | Adequate                                          | Needs Improvement      |
-| -------- | ------------------------------------------------------------------- | ------------------------------------------------- | ---------------------- |
-|          | A PowerPoint presentation is presented - bonus for building a model | A non-innovative, basic presentation is presented | The work is incomplete |

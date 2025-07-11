@@ -1,11 +1,12 @@
-# Explore Responsible AI (RAI) dashboard
+# 探索负责任的人工智能（RAI）仪表板
 
-## Instructions
+## 说明
 
-In this lesson you learned about the RAI dashboard, a suite of components built on "open-source" tools  to help data scientists perform error analysis, data exploration, fairness assessment, model interpretability, counterfact/what-if assesments and causal analysis on AI systems." For this assignment, explore some of RAI dashboard's sample [notebooks](https://github.com/Azure/RAI-vNext-Preview/tree/main/examples/notebooks) and report your findings in a paper or presentation.
+在本节课中，您了解了 RAI 面板，这是一套基于 “开源 ”工具构建的组件，旨在帮助数据科学家对人工智能系统开展错误分析、数据探索、公平性评估、模型可解释性分析、反事实 / 假设分析以及因果分析。在本次作业中，请探索 RAI 仪表盘的一些示例[笔记本](https://github.com/Azure/RAI-vNext-Preview/tree/main/examples/notebooks)，并以论文或演示文稿的形式汇报你的发现。
 
-## Rubric
+## 评分标准
 
-| Criteria | Exemplary                                                                                                                                                   | Adequate                                 | Needs Improvement     |
-| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | --------------------- |
-|          | A paper or powerpoint presentation is presented discussing RAI dashboard's components, the notebook that was run, and the conclusions drawn from running it | A paper is presented without conclusions | No paper is presented |
+| 标准 | 优秀                                                         | 合格                 | 需要改进   |
+| ---- | ------------------------------------------------------------ | -------------------- | ---------- |
+|      | 提交一篇论文或 PowerPoint 演示文稿，内容涵盖对 RAI 仪表板各组件的讨论、所运行的笔记本以及从运行得出的结论 | 提交一篇无结论的论文 | 未提交论文 |
+
