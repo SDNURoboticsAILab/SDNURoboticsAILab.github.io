@@ -1,11 +1,11 @@
-# Visualize some more Time Series
+# 可视化更多时间序列
 
-## Instructions
+## 说明
 
-You've begun to learn about Time Series Forecasting by looking at the type of data that requires this special modeling. You've visualized some data around energy. Now, look around for some other data that would benefit from Time Series Forecasting. Find three examples (try [Kaggle](https://kaggle.com) and [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/?WT.mc_id=academic-77952-leestott)) and create a notebook to visualize them. Notate any special characteristics they have (seasonality, abrupt changes, or other trends) in the notebook.
+你已经通过研究需要这种特殊建模的数据集，开始学习时间序列预测。你已经可视化了一些能源相关数据。现在，寻找其他一些适合时间序列预测的数据集。找三个例子（可以尝试[Kaggle](https://kaggle.com)和[Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/?WT.mc_id=academic-77952-leestott)），并创建一个笔记本以可视化这些数据。在笔记本中记录它们的任何特殊特征（季节性、突变或其他趋势）。
 
-## Rubric
+## 评分标准
 
-| Criteria | Exemplary                                              | Adequate                                             | Needs Improvement                                                                         |
+| 标准 | 优秀 | 合格 | 需改进 |
 | -------- | ------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-|          | Three datasets are plotted and explained in a notebook | Two datasets are plotted and explained in a notebook | Few datasets are plotted or explained in a notebook or the data presented is insufficient |
+|          | 在笔记本中绘制并解释了三个数据集 | 在笔记本中绘制并解释了两个数据集 | 笔记本中绘制或解释的数据集很少，或者所呈现的数据不充分 |
