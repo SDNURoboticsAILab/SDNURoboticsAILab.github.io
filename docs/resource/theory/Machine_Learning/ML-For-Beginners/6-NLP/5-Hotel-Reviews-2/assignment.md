@@ -1,11 +1,11 @@
-# Try a different dataset
+# 尝试不同的数据集
 
-## Instructions
+## 说明
 
-Now that you have learned about using NLTK to assign sentiment to text, try a different dataset. You will probably need to do some data processing around it, so create a notebook and document your thought process. What do you discover?
+既然您已经了解了如何使用 NLTK 为文本分配情感，那就尝试一个不同的数据集吧。您可能需要围绕它进行一些数据处理，因此请创建一个笔记本并记录您的思考过程。您有什么发现？
 
-## Rubric
+## 评分标准
 
-| Criteria | Exemplary                                                                                                         | Adequate                                  | Needs Improvement      |
-| -------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------------------- |
-|          | A complete notebook and dataset are presented with well-documented cells explaining how the sentiment is assigned | The notebook is missing good explanations | The notebook is flawed |
+| 标准 | 优秀                                                         | 合格                 | 需改进         |
+| ---- | ------------------------------------------------------------ | -------------------- | -------------- |
+|      | 呈现完整的笔记本和数据集，带有记录详实的单元格，解释情感是如何分配的 | 笔记本缺少充分的解释 | 笔记本存在缺陷 |
