@@ -1,6 +1,5 @@
 # NLTK
 
-## Instructions
+## 说明
 
-NLTK is a well-known library for use in computational linguistics and NLP. Take this opportunity to read through the '[NLTK book](https://www.nltk.org/book/)' and try out its exercises. In this ungraded assignment, you will get to know this library more deeply.
-
+NLTK 是一个广泛应用于计算语言学和自然语言处理（NLP）的知名库。请借此机会阅读『[NLTK 电子书](https://www.nltk.org/book/)』，并尝试书中的练习题。在这个不计分的作业中，你将更深入地了解这个库。
