@@ -1,14 +1,15 @@
-# A new SVR model
+# 一个新的 SVR 模型
 
-## Instructions [^1]
+## 任务说明 [^1]
 
-Now that you have built an SVR model, build a new one with fresh data (try one of [these datasets from Duke](http://www2.stat.duke.edu/~mw/ts_data_sets.html)). Annotate your work in a notebook, visualize the data and your model, and test its accuracy using appropriate plots and MAPE. Also try tweaking the different hyperparameters and also using different values for the timesteps.
-## Rubric [^1]
+既然你已经构建了一个 SVR 模型，现在请用一份新的数据再构建一个（可以尝试[杜克大学的这些数据集](http://www2.stat.duke.edu/~mw/ts_data_sets.html)中的一个）。在 notebook 中为你的工作添加注释，将数据和你的模型进行可视化，并使用合适的图表和 MAPE 来测试其准确度。另外，也请尝试调整不同的超参数以及为时间步（timesteps）设置不同的值。
 
-| Criteria | Exemplary                                                    | Adequate                                                  | Needs Improvement                   |
+## 评分标准 [^1]
+
+| 评分项 | 优秀                                                    | 合格                                                  | 有待改进                   |
 | -------- | ------------------------------------------------------------ | --------------------------------------------------------- | ----------------------------------- |
-|          | A notebook is presented with an SVR model built, tested and explained with visualizations and accuracy stated. | The notebook presented is not annotated or contains bugs. | An incomplete notebook is presented |
+|          | 提交的 notebook 中构建、测试并解释了 SVR 模型，附有可视化图表并说明了准确度。 | 提交的 notebook 未添加注释或包含错误（bug）。 | 提交的 notebook 不完整。 |
 
 
 
-[^1]:The text in this section was based on the [assignment from ARIMA](https://github.com/microsoft/ML-For-Beginners/tree/main/7-TimeSeries/2-ARIMA/assignment.md)
+[^1]:本节中的文本基于[ARIMA 任务](https://github.com/microsoft/ML-For-Beginners/tree/main/7-TimeSeries/2-ARIMA/assignment.md)
