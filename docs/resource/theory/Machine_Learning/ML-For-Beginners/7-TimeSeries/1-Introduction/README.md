@@ -8,7 +8,7 @@
 
 [![时间序列预测简介](https://img.youtube.com/vi/cBojo1hsHiI/0.jpg)](https://youtu.be/cBojo1hsHiI "时间序列预测简介")
 
-> ? 点击上方图片观看关于时间序列预测的视频
+> 点击上方图片观看关于时间序列预测的视频
 
 ## [课前小测](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/41/)
 
@@ -32,17 +32,17 @@
 
 当遇到“时间序列”这个术语时，你需要理解它在不同语境中的用法。
 
-? **时间序列**
+**时间序列**
 
 在数学中，“时间序列是按时间顺序索引（或列出或绘制）的一系列数据点。最常见的是，时间序列是在连续的等时间间隔点上获取的序列。”时间序列的一个例子是[道琼斯工业平均指数](https://wikipedia.org/wiki/Time_series)的每日收盘价。时间序列图和统计建模的应用在信号处理、天气预报、地震预测以及其他事件发生且数据点可随时间绘制的领域中经常遇到。
 
-? **时间序列分析**
+**时间序列分析**
 
 时间序列分析是对上述时间序列数据的分析。时间序列数据可以有不同的形式，包括“中断时间序列”，它用于检测时间序列在中断事件前后的演变模式。所需的时间序列分析类型取决于数据的性质。时间序列数据本身可以是数字或字符序列的形式。
 
 分析可以使用多种方法，包括频域和时域方法、线性和非线性方法等。[了解更多](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm)关于分析这类数据的多种方式。
 
-? **时间序列预测**
+**时间序列预测**
 
 时间序列预测是使用模型基于先前收集的数据所呈现的模式来预测未来值。虽然可以使用回归模型探索时间序列数据（将时间索引作为图上的x变量），但这类数据最好使用特殊类型的模型进行分析。
 
@@ -69,7 +69,7 @@
 | 329.25   | 1975.88 | 1975 | 11   |
 | 330.97   | 1975.96 | 1975 | 12   |
 
-? 找出这个数据集中随时间变化的变量
+找出这个数据集中随时间变化的变量
 
 ## 需要考虑的时间序列数据特征
 
@@ -77,31 +77,31 @@
 
 以下是处理时间序列时需要了解的一些概念：
 
-? **趋势（Trends）**
+**趋势（Trends）**
 
 趋势被定义为随时间的可测量增减。[了解更多](https://machinelearningmastery.com/time-series-trends-in-python)。在时间序列的背景下，是关于如何使用趋势以及在必要时从时间序列中去除趋势。
 
-? **[季节性（Seasonality）](https://machinelearningmastery.com/time-series-seasonality-with-python/)**
+**[季节性（Seasonality）](https://machinelearningmastery.com/time-series-seasonality-with-python/)**
 
 季节性被定义为周期性波动，例如可能影响销售的假日旺季。[看看](https://itl.nist.gov/div898/handbook/pmc/section4/pmc443.htm)不同类型的图如何显示数据中的季节性。
 
-? **异常值（Outliers）**
+**异常值（Outliers）**
 
 异常值是远离标准数据方差的数据点。
 
-? **长期周期（Long-run cycle）**
+**长期周期（Long-run cycle）**
 
 与季节性无关，数据可能显示长期周期，例如持续一年以上的经济衰退。
 
-? **恒定方差（Constant variance）**
+**恒定方差（Constant variance）**
 
 随着时间的推移，一些数据表现出恒定的波动，例如每天和每晚的能源使用量。
 
-? **突变（Abrupt changes）**
+**突变（Abrupt changes）**
 
 数据可能会出现需要进一步分析的突变。例如，由于COVID导致的企业突然关闭，引起了数据变化。
 
-? 这里有一个[时间序列样本图](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)，显示了几年内每日的游戏内货币支出。你能在这个数据中识别出上面列出的任何特征吗？
+这里有一个[时间序列样本图](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)，显示了几年内每日的游戏内货币支出。你能在这个数据中识别出上面列出的任何特征吗？
 
 ![游戏内货币支出](./images/currency.png)
 
