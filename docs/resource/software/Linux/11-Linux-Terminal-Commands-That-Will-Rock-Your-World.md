@@ -4,9 +4,9 @@ comments: true
 
 # 11个让你吃惊的 Linux 终端命令
 
-作者： [Gary Newell](http://linux.about.com/od/commands/tp/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.htm) 译者： [LCTT](https://linux.cn/lctt/) [Martin♡Adele](https://linux.cn/lctt/martin2011qi) 
+作者： [Gary Newell](http://linux.about.com/od/commands/tp/11-Linux-Terminal-Commands-That-Will-Rock-Your-World.htm) 译者： [LCTT](https://linux.net.cn/lctt/) [Martin♡Adele](https://linux.net.cn/lctt/martin2011qi) 
 
-| 2015-05-13 07:28  评论: [*13*](https://linux.cn/portal.php?mod=comment&id=5438&idtype=aid) 收藏: *22*  
+| 2015-05-13 07:28  评论: [*13*](https://linux.net.cn/portal.php?mod=comment&id=5438&idtype=aid) 收藏: *22*  
 
 我已经用了十年的Linux了，通过今天这篇文章我将向大家展示一系列的命令、工具和技巧，我希望一开始就有人告诉我这些，而不是曾在我成长道路上绊住我。
 
@@ -252,4 +252,4 @@ youtube-dl url-to-video
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.cn/article-5438-1.html) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.net.cn/article-5438-1.html) 荣誉推出

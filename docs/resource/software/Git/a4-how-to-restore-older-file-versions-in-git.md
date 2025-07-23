@@ -181,4 +181,4 @@ $ git merge contributor
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

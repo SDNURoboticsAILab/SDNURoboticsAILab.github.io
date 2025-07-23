@@ -5,7 +5,7 @@ comments: true
 Git 系列（二）：初步了解 Git
 =========================
 
-在这个系列的[介绍篇](https://linux.cn/article-7639-1.html)中，我们学习到了谁应该使用 Git，以及 Git 是用来做什么的。今天，我们将学习如何克隆公共 Git 仓库，以及如何提取出独立的文件而不用克隆整个仓库。
+在这个系列的[介绍篇](https://linux.net.cn/article-7639-1.html)中，我们学习到了谁应该使用 Git，以及 Git 是用来做什么的。今天，我们将学习如何克隆公共 Git 仓库，以及如何提取出独立的文件而不用克隆整个仓库。
 
 由于 Git 如此流行，因而如果你能够至少熟悉一些基础的 Git 知识也能为你的生活带来很多便捷。如果你可以掌握 Git 基础（你可以的，我发誓！），那么你将能够下载任何你需要的东西，甚至还可能做一些贡献作为回馈。毕竟，那就是开源的精髓所在：你拥有获取你使用的软件代码的权利，拥有和他人分享的自由，以及只要你愿意就可以修改它的权利。只要你熟悉了 Git，它就可以让这一切都变得很容易。
 
@@ -134,4 +134,4 @@ $ git pull
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](https://linux.net.cn/) 荣誉推出

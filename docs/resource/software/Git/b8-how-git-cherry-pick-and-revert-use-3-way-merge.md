@@ -276,8 +276,8 @@ error: repository lacks the necessary blob to perform 3-way merge.
 >
 >选题：[lujun9972](https://github.com/lujun9972)
 >
->译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>译者：[ChatGPT](https://linux.net.cn/lctt/ChatGPT)
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

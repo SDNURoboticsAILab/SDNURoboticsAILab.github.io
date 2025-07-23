@@ -135,4 +135,4 @@ source /usr/share/powerlevel9k/powerlevel9k.zsh-themesource /usr/share/zsh-autos
 
 作者： [Chao-zhi](https://www.insidentally.com/2020/10/config-zsh/) 
 
-原文：[https://linux.cn/article-13030-1.html](https://linux.cn/article-13030-1.html)
+原文：[https://linux.net.cn/article-13030-1.html](https://linux.net.cn/article-13030-1.html)

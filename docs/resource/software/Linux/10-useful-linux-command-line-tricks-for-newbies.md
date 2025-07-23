@@ -4,9 +4,9 @@ comments: true
 
 # 给新手的 10 个有用 Linux 命令行技巧
 
-作者： [Marin Todorov](http://www.tecmint.com/10-useful-linux-command-line-tricks-for-newbies/) 译者： [LCTT](https://linux.cn/lctt/) [나원호](https://linux.cn/lctt/ictlyh) 
+作者： [Marin Todorov](http://www.tecmint.com/10-useful-linux-command-line-tricks-for-newbies/) 译者： [LCTT](https://linux.net.cn/lctt/) [나원호](https://linux.net.cn/lctt/ictlyh) 
 
-| 2015-09-29 08:44  评论: [*2*](https://linux.cn/portal.php?mod=comment&id=6314&idtype=aid) 收藏: *10*  
+| 2015-09-29 08:44  评论: [*2*](https://linux.net.cn/portal.php?mod=comment&id=6314&idtype=aid) 收藏: *10*  
 
 我记得我第一次使用 Linux 的时候，我还习惯于 Windows 的图形界面，我真的很讨厌 Linux 终端。那时候我觉得命令难以记忆，不能正确使用它们。随着时间推移，我意识到了 Linux 终端的优美、灵活和可用性，说实话，我没有一天不使用它。今天，我很高兴和刚开始接触 Linux 的人一起来分享一些有用的技巧和提示，希望能帮助他们更好的向 Linux 过渡，并帮助他们学到一些新的东西（希望如此）。
 
@@ -14,7 +14,7 @@ comments: true
 
 *10 个 Linux 命令行技巧*
 
-- [5 个有趣的 Linux 命令行技巧](https://linux.cn/article-5485-1.html)
+- [5 个有趣的 Linux 命令行技巧](https://linux.net.cn/article-5485-1.html)
 - [管理 Linux 文件类型的 5 个有用命令](http://www.tecmint.com/manage-file-types-and-set-system-time-in-linux/)
 
 这篇文章希望向你展示一些不需要很高的技术就可以像一个高手一样使用 Linux 终端的有用技巧。你只需要一个 Linux 终端和一些自由时间来体会这些命令。
@@ -225,7 +225,7 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 # for in $i(cat list.txt); do ssh user@$i 'bash command'; done
 ```
 
-上面的命令中你需要用实际登录的用户替换 “user”，用你希望执行的实际命令替换 “bash command”。这个方法非常适用于通过[使用 SSH 密钥进行无密码验证](https://linux.cn/article-5202-1.html)，因为这样你不需要每次都为用户输入密码。
+上面的命令中你需要用实际登录的用户替换 “user”，用你希望执行的实际命令替换 “bash command”。这个方法非常适用于通过[使用 SSH 密钥进行无密码验证](https://linux.net.cn/article-5202-1.html)，因为这样你不需要每次都为用户输入密码。
 
 注意取决于你 Linux 系统的设置，你可能还需要传递一些额外的参数给 SSH 命令。
 
@@ -243,4 +243,4 @@ UID USER PWD-LOCK PWD-DENY LAST-LOGIN GECOS0 root 0 0 Apr29/11:35 root1 bin 0 1 
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/article-6314-1.html) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/article-6314-1.html) 荣誉推出

@@ -6,8 +6,8 @@ comments: true
 
 到目前为止，在这个终端基础系列中，你已经学会了：
 
-- [更改目录](https://linux.cn/article-16304-1.html)
-- [创建新目录](https://linux.cn/article-15595-1.html)
+- [更改目录](https://linux.net.cn/article-16304-1.html)
+- [创建新目录](https://linux.net.cn/article-15595-1.html)
 - [列出目录内容](https://cn.linux-console.net/?p=17707)
 
 现在让我们学习如何在 Linux 命令行中创建文件。我将简要讨论向文件添加内容。但是，稍后将介绍有关编辑文本文件的详细信息。
@@ -115,7 +115,7 @@ touch other_new_file
 
 --------------------------------------------------------------------------------
 
->via: [https://linux.cn/article-15643-1.html](https://linux.cn/article-15643-1.html)
+>via: [https://linux.net.cn/article-15643-1.html](https://linux.net.cn/article-15643-1.html)
 >
 >source: [https://itsfoss.com/create-files/](https://itsfoss.com/create-files/)
 >
@@ -124,4 +124,4 @@ touch other_new_file
 >译者：[geekpi](https://github.com/geekpi)
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出
