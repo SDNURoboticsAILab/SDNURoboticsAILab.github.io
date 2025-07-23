@@ -338,7 +338,7 @@ Markdown可以广泛用于文档、博客、论坛等带格式文本内容的创
 
 [机器人实验室Wiki教学资源模块](https://sdnuroboticsailab.github.io/)
 
-[Linux 中国](https://linux.cn/)
+[Linux 中国](https://linux.net.cn/)
 
 [It's FOSS ](https://itsfoss.com/)
 
