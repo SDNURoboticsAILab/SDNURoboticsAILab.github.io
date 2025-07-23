@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #7：If Else 语句
-======
+# Bash 基础知识系列 #7：If Else 语句
 
 > 如果这样，那就那样，否则就……。还不明白吗？了解了 Bash Shell 脚本中的 if-else 语句后就明白了。
 
@@ -202,4 +201,4 @@ fi
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出>

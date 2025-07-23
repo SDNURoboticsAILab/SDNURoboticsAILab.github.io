@@ -2,8 +2,7 @@
 comments: true
 ---
 
-终端基础：在 Linux 中删除文件和文件夹
-======
+# 终端基础：在 Linux 中删除文件和文件夹
 
 > 你已经学会了创建文件和目录。现在是时候学习如何在命令行中删除文件和文件夹了。
 
@@ -208,7 +207,7 @@ rm-ri dir_name
 
 --------------------------------------------------------------------------------
 
->via: [https://linux.cn/article-15809-1.html](https://linux.cn/article-15809-1.html)
+>via: [https://linux.net.cn/article-15809-1.html](https://linux.net.cn/article-15809-1.html)
 >
 >source: [https://itsfoss.com/delete-files-folders-linux/](https://itsfoss.com/delete-files-folders-linux/)
 >
@@ -220,4 +219,4 @@ rm-ri dir_name
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

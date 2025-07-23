@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本
-======
+# Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本
 
 > 这是一个新教程系列的开始。在这一篇中，你将熟悉 Bash 脚本。
 
@@ -168,4 +167,4 @@ echo Hello World
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出>
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出>

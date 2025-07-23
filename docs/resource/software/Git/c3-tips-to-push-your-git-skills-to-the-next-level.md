@@ -2,8 +2,7 @@
 comments: true
 ---
 
-已经会用Git了？不会这十招怎么行
-================================================================================
+# 已经会用Git了？不会这十招怎么行
 
 之前我们发了一些教程让你熟悉[Git基础](http://www.sitepoint.com/git-for-beginners/)和[在团队合作环境中使用Git](http://www.sitepoint.com/getting-started-git-team-environment/).我们讨论的这些Git命令足够让一个开发者在Git的世界里生存下去。在这篇教程里，我们试着探索如何高效地管理你的时间以及如何充分利用Git提供的特性。
 
@@ -188,4 +187,4 @@ comments: true
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.net.cn/) 荣誉推出

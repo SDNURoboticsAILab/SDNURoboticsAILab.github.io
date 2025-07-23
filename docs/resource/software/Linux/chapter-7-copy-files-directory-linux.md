@@ -2,8 +2,7 @@
 comments: true
 ---
 
-终端基础：在 Linux 中复制文件和目录
-======
+# 终端基础：在 Linux 中复制文件和目录
 
 > 在终端基础知识系列的这一部分中，学习如何在 Linux 中使用命令行复制文件和目录。
 
@@ -193,7 +192,7 @@ cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 
 --------------------------------------------------------------------------------
 
->via: [https://linux.cn/article-15809-1.html](https://linux.cn/article-15809-1.html)
+>via: [https://linux.net.cn/article-15809-1.html](https://linux.net.cn/article-15809-1.html)
 >
 >source: [https://itsfoss.com/copy-files-directory-linux/](https://itsfoss.com/copy-files-directory-linux/)
 >
@@ -205,4 +204,4 @@ cp -r 目录1/. 目录2/. 目录3/. 目录N/. 目标目录
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

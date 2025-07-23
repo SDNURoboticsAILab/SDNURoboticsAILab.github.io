@@ -6,7 +6,7 @@ comments: true
 
 > 本篇文章作为终端基础教程系列的一部分，介绍如何在 Linux 命令行中，利用绝对路径和相对路径实现目录切换。
 
-Linux 的 [`cd` 命令](https://linux.cn/article-15967-1.html) 让你可以轻松切换文件夹（即目录）。只需提供你要切换到的文件夹路径即可。
+Linux 的 [`cd` 命令](https://linux.net.cn/article-15967-1.html) 让你可以轻松切换文件夹（即目录）。只需提供你要切换到的文件夹路径即可。
 
 ```Bash
 cd path_to_directory
@@ -208,7 +208,7 @@ mkdir -p sample/dir1/dir2/dir3
 
 --------------------------------------------------------------------------------
 
->via: [https://linux.cn/article-16304-1.html](https://linux.cn/article-16304-1.html)
+>via: [https://linux.net.cn/article-16304-1.html](https://linux.net.cn/article-16304-1.html)
 >
 >source: [https://itsfoss.com/change-directories/](https://itsfoss.com/change-directories/)
 >
@@ -216,8 +216,8 @@ mkdir -p sample/dir1/dir2/dir3
 >
 >选题：[lkxed](https://github.com/lkxed/)
 >
->译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>译者：[ChatGPT](https://linux.net.cn/lctt/ChatGPT)
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

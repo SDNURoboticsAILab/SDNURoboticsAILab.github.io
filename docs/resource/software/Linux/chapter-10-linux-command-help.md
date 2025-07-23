@@ -76,7 +76,7 @@ man command_name
 
 man pages 的内容远不止这些。我无法在这里全部涵盖，但我们有一份详细的指南。欢迎参考。
 
-[RTFM！如何阅读（和理解）Linux 中神奇的手册页](https://linux.cn/article-13478-1.html)
+[RTFM！如何阅读（和理解）Linux 中神奇的手册页](https://linux.net.cn/article-13478-1.html)
 
 ### 使用 help 命令获取 shell 内置命令的帮助
 
@@ -106,15 +106,15 @@ help command_name
 
 如果你觉得 man pages 难以理解，有一些第三方工具可以简化 man pages 的内容，使其对初学者更友好。TLDR 就是这样一个你可以使用的包。
 
-[TLDR 页：Linux 手册页的简化替代品](https://linux.cn/article-10355-1.html)
+[TLDR 页：Linux 手册页的简化替代品](https://linux.net.cn/article-10355-1.html)
 
 换句话说，帮助只需按几下键即可获得。
 
 并不是只有新的 Linux 用户需要帮助。经验丰富的 Linux 用户特别依赖 manpages。所以不要回避在终端中使用帮助。
 
-我还建议 [使用 history 命令](https://linux.cn/article-9780-1.html)。这样，你可以搜索之前输入的命令。
+我还建议 [使用 history 命令](https://linux.net.cn/article-9780-1.html)。这样，你可以搜索之前输入的命令。
 
-[5 个有趣的 Linux 命令行技巧](https://linux.cn/article-5485-1.html)
+[5 个有趣的 Linux 命令行技巧](https://linux.net.cn/article-5485-1.html)
 
 ## 这是结束... 或开始
 

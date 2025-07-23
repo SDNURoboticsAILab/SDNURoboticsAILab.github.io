@@ -2,8 +2,7 @@
 comments: true
 ---
 
-6 个最佳的 Git 仓库管理实践
-======
+# 6 个最佳的 Git 仓库管理实践
 
 > 抵制在 Git 中添加一些会增加管理难度的东西的冲动；这里有替代方法。
 
@@ -117,4 +116,4 @@ $ git diff --numstat /dev/null file.txt | tee
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

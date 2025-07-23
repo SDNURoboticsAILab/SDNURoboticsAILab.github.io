@@ -2,8 +2,7 @@
 comments: true
 ---
 
-在 Git 仓库中，文件究竟被存储在哪里？
-======
+# 在 Git 仓库中，文件究竟被存储在哪里？
 
 大家好！今天我和一个朋友讨论 Git 的工作原理，我们感到奇怪，Git 是如何存储你的文件的？我们知道它存储在 `.git` 目录中，但具体到 `.git` 中的哪个位置，各个版本的历史文件又被存储在哪里呢？
 
@@ -317,4 +316,4 @@ $ find .git/objects/ -type f | wc -l
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

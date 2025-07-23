@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Git 系列（一）：什么是 Git
-===========
+# Git 系列（一）：什么是 Git
 
 欢迎阅读本系列关于如何使用 Git 版本控制系统的教程！通过本文的介绍，你将会了解到 Git 的用途及谁该使用 Git。
 
@@ -112,4 +111,4 @@ $ head ~/path/to/my-file.blah
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Git 的遴选和撤销操作是如何利用三路合并的
-======
+# Git 的遴选和撤销操作是如何利用三路合并的
 
 大家好！几天前，我尝试向其他人解释 Git 遴选（`git cherry-pick`）的工作原理，结果发现自己反而更混淆了。
 
@@ -276,8 +275,8 @@ error: repository lacks the necessary blob to perform 3-way merge.
 >
 >选题：[lujun9972](https://github.com/lujun9972)
 >
->译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>译者：[ChatGPT](https://linux.net.cn/lctt/ChatGPT)
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

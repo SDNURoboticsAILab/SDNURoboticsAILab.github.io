@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #4：算术运算
-======
+# Bash 基础知识系列 #4：算术运算
 
 > 在本系列的第四章，学习在 Bash 中使用基本数学运算。
 
@@ -209,4 +208,4 @@ echo "The substraction of $num2 from $num1 is $sub"
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

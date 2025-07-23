@@ -2,8 +2,7 @@
 comments: true
 ---
 
-用 Jekyll 和 Git 展示你的源码
-======
+# 用 Jekyll 和 Git 展示你的源码
 
 > 我是如何通过链接每个页面回到其原始源代码来保持我的网站开放的。
 
@@ -59,4 +58,4 @@ https://example.com/ayushsharma-in/-/blob/master/_posts/2021-10-10-example.md
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

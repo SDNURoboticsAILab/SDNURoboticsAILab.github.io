@@ -2,8 +2,7 @@
 comments: true
 ---
 
-初学者指南：在 Ubuntu Linux 上安装和使用 Git 和 GitHub
-======
+# 初学者指南：在 Ubuntu Linux 上安装和使用 Git 和 GitHub
 
 Github 是一个存放着世界上最棒的一些软件项目的宝藏，这些软件项目由全世界的开发者无私贡献。这个看似简单，实则非常强大的平台因为大大帮助了那些对开发大规模软件感兴趣的开发者而被开源社区所称道。
 
@@ -149,4 +148,4 @@ git push origin master
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

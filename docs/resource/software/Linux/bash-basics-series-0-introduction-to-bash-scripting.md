@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 脚本编程入门
-=====
+# Bash 脚本编程入门
 
 > 初学者们，让我们在这个大型的教程中来认识一下 Bash 脚本编程。
 
@@ -96,7 +95,7 @@ fi
 
 接下来，这个教程系列会给你介绍目录导航和文件操作的基本知识。
 
-> **[终端基础：Linux 终端入门](https://linux.cn/article-16104-1.html)**
+> **[终端基础：Linux 终端入门](https://linux.net.cn/article-16104-1.html)**
 
 ## 1、编写你的第一个 Bash Shell 脚本
 
@@ -143,7 +142,7 @@ chmod u+x hello.sh
 
 恭喜！你刚刚运行了你的第一个 Bash 脚本。
 
-> **[Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本](https://linux.cn/article-15921-1.html)**
+> **[Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本](https://linux.net.cn/article-15921-1.html)**
 
 ## 2、在 Bash 脚本中使用变量
 
@@ -175,7 +174,7 @@ echo $message
 Hello World
 ```
 
-> **[Bash 基础知识系列 #2：在 Bash 中使用变量](https://linux.cn/article-15991-1.html)**
+> **[Bash 基础知识系列 #2：在 Bash 中使用变量](https://linux.net.cn/article-15991-1.html)**
 
 ## 3、向 Bash 脚本传递参数
 
@@ -242,7 +241,7 @@ What's your full name, abhishek? abhishek prakash
 Welcome, abhishek prakash
 ```
 
-> **[Bash 基础知识系列 #3：传递参数和接受用户输入](https://linux.cn/article-16001-1.html)**
+> **[Bash 基础知识系列 #3：传递参数和接受用户输入](https://linux.net.cn/article-16001-1.html)**
 
 ## 4、执行算术运算
 
@@ -302,7 +301,7 @@ echo "The result is $result"
 
 ```
 
-> **[Bash 基础知识系列 #4：算术运算](https://linux.cn/article-16006-1.html)**
+> **[Bash 基础知识系列 #4：算术运算](https://linux.net.cn/article-16006-1.html)**
 
 ## 5、在 Bash 脚本中使用数组
 
@@ -334,7 +333,7 @@ ${array[*]}
 ${#array_name[@]}
 ```
 
-> **[Bash 基础知识系列 #5：在 Bash 中使用数组](https://linux.cn/article-16016-1.html)**
+> **[Bash 基础知识系列 #5：在 Bash 中使用数组](https://linux.net.cn/article-16016-1.html)**
 
 ## 6、Bash 中的基础字符串操作
 
@@ -373,7 +372,7 @@ ${string/substr1/substr2}
 
 ```
 
-> **[Bash 基础知识系列 #6：处理字符串操作](https://linux.cn/article-16047-1.html)**
+> **[Bash 基础知识系列 #6：处理字符串操作](https://linux.net.cn/article-16047-1.html)**
 
 ## 7、在 Bash 中使用条件语句
 
@@ -448,7 +447,7 @@ fi
 
 > 🚧 要特别注意空格。开括号和闭括号、条件之间必须有空格。同样地，条件操作符（`-le`、`==` 等）之前和之后必须有空格。
 
-> **[Bash 基础知识系列 #7：If-Else 语句](https://linux.cn/article-16083-1.html)**
+> **[Bash 基础知识系列 #7：If-Else 语句](https://linux.net.cn/article-16083-1.html)**
 
 ## 8、使用 Bash 脚本中的循环
 
@@ -504,7 +503,7 @@ done
 
 > 💡 `while` 循环和 `until` 循环非常相似。区别在于：`while` 循环在条件为真时运行，而 `until` 循环在条件为假时运行。
 
-> **[Bash 基础知识系列 #8：For、While 和 Until 循环](https://linux.cn/article-16114-1.html)**
+> **[Bash 基础知识系列 #8：For、While 和 Until 循环](https://linux.net.cn/article-16114-1.html)**
 
 ## 9、在 Bash 脚本中使用函数
 
@@ -539,7 +538,7 @@ Let's use the sum function
 The sum of 1 and 5 is: 6
 ```
 
-> **[Bash 基础知识系列 #9：Bash 中的函数](https://linux.cn/article-16116-1.html)**
+> **[Bash 基础知识系列 #9：Bash 中的函数](https://linux.net.cn/article-16116-1.html)**
 
 ## 接下来呢？
 
@@ -574,4 +573,4 @@ GNU Bash 参考是一份优秀的在线资源，可以解答你的 Bash 疑问�
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

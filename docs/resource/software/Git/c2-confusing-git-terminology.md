@@ -2,8 +2,7 @@
 comments: true
 ---
 
-解读那些令人困惑 Git 术语
-======
+# 解读那些令人困惑 Git 术语
 
 我正在一步步解释 Git 的方方面面。在使用 Git 近 15 年后，我已经非常习惯于 Git 的特性，很容易忘记它令人困惑的地方。
 
@@ -435,8 +434,8 @@ A - B - C (main)
 >
 >选题：[lujun9972](https://github.com/lujun9972)
 >
->译者：[ChatGPT](https://linux.cn/lctt/ChatGPT)
+>译者：[ChatGPT](https://linux.net.cn/lctt/ChatGPT)
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

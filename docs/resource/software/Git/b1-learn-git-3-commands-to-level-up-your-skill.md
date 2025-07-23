@@ -2,8 +2,7 @@
 comments: true
 ---
 
-掌握强大的 Git 变基命令
-======
+# 掌握强大的 Git 变基命令
 
 > 学习如何使用 Git 来压扁、变基和精选。
 
@@ -145,4 +144,4 @@ $ git cherry-pick --abort
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

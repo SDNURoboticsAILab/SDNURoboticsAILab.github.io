@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #5：在 Bash 中使用数组
-======
+# Bash 基础知识系列 #5：在 Bash 中使用数组
 
 > 本章将介绍如何在 Bash Shell 脚本中使用数组。学习添加元素、删除元素和获取数组长度。
 
@@ -154,4 +153,4 @@ Numbers in reverse order are: 44 23 12
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

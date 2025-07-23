@@ -2,8 +2,7 @@
 comments: true
 ---
 
-使用 Git 来管理 Git 服务器
-======
+# 使用 Git 来管理 Git 服务器
 
 > 借助 Gitolite，你可以使用 Git 来管理 Git 服务器。在我们的系列文章中了解这些鲜为人知的 Git 用途。
 
@@ -210,4 +209,4 @@ Gitolite 具有比此介绍性文章所涵盖的更多功能，因此请尝试�
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

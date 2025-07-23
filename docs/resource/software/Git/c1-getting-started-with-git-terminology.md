@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Git 入门：术语基础
-======
+# Git 入门：术语基础
 
 > 想学习 Git？看看这个最重要的术语和命令的快速总结。
 
@@ -109,4 +108,4 @@ Git 里面有各种比喻。当我想到 `HEAD` 是哪里的时候，我就会�
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

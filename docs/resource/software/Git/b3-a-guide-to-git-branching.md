@@ -2,14 +2,13 @@
 comments: true
 ---
 
-Git 分支操作介绍
-======
+# Git 分支操作介绍
 
 > 在这个 Git 入门系列的第三篇中，我们来学习一下如何添加和删除 Git 分支。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/arrows_translation_lead.jpg)
 
-在本系列的前两篇文章中，我们[开始使用 Git](https://linux.cn/article-9319-1.html)，学会如何[克隆项目，修改、增加和删除内容](https://linux.cn/article-9517-1.html)。在这第三篇文章中，我将介绍 Git 分支，为何以及如何使用分支。
+在本系列的前两篇文章中，我们[开始使用 Git](https://linux.net.cn/article-9319-1.html)，学会如何[克隆项目，修改、增加和删除内容](https://linux.net.cn/article-9517-1.html)。在这第三篇文章中，我将介绍 Git 分支，为何以及如何使用分支。
 
 ![树枝](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/tree-branches.jpg)
 
@@ -24,7 +23,7 @@ Git 分支操作介绍
 
 ## 创建分支
 
-让我们回顾[本系列上一篇文章](https://linux.cn/article-9517-1.html)，看一下在我们的 Demo 目录中分支是怎样的。如果你没有完成上述操作，请按照文章中的指示从 GitHub 克隆代码并进入 Demo 目录。运行如下命令：
+让我们回顾[本系列上一篇文章](https://linux.net.cn/article-9517-1.html)，看一下在我们的 Demo 目录中分支是怎样的。如果你没有完成上述操作，请按照文章中的指示从 GitHub 克隆代码并进入 Demo 目录。运行如下命令：
 
 ```Bash
 pwd
@@ -149,4 +148,4 @@ git push -d origin myBranch
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

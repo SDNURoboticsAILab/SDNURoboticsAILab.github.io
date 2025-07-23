@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #3：传递参数和接受用户输入
-======
+# Bash 基础知识系列 #3：传递参数和接受用户输入
 
 > 在 Bash 基础系列的这一章中，学习如何向 Bash 脚本传递参数并使它们具有交互性。
 
@@ -162,4 +161,4 @@ Total number of arguments: 5
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

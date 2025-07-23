@@ -2,16 +2,15 @@
 comments: true
 ---
 
-在 Git 中怎样克隆、修改、添加和删除文件？
-=====
+# 在 Git 中怎样克隆、修改、添加和删除文件？
 
-在 [本系列的第一篇文章](https://linux.cn/article-9319-1.html) 开始使用 Git 时，我们创建了一个简单的 Git 仓库，并用我们的计算机连接到它，向其中添加一个文件。在本文中，我们将学习一些关于 Git 的其他内容，即如何克隆（下载）、修改、添加和删除 Git 仓库中的文件。
+在 [本系列的第一篇文章](https://linux.net.cn/article-9319-1.html) 开始使用 Git 时，我们创建了一个简单的 Git 仓库，并用我们的计算机连接到它，向其中添加一个文件。在本文中，我们将学习一些关于 Git 的其他内容，即如何克隆（下载）、修改、添加和删除 Git 仓库中的文件。
 
 ## 让我们来克隆一下
 
 假设你在 GitHub 上已经有一个 Git 仓库，并且想从它那里获取你的文件——也许你在你的计算机上丢失了本地副本，或者你正在另一台计算机上工作，但是想访问仓库中的文件，你该怎么办？从 GitHub 下载你的文件？没错！在 Git 术语中我们称之为“<ruby>克隆<rt>clone</rt></ruby>”。（你也可以将仓库作为 ZIP 文件下载，但我们将在本文中探讨克隆方式。）
 
-让我们克隆在上一篇文章中创建的名为 Demo 的仓库。（如果你还没有创建 Demo 仓库，请跳回到[那篇文章](https://linux.cn/article-9319-1.html)并在继续之前执行那些步骤）要克隆文件，只需打开浏览器并导航到 `https://github.com/<your_username>/Demo` (其中 `<your_username>` 是你仓库的名称。例如，我的仓库是 `https://github.com/kedark3/Demo`)。一旦你导航到该 URL，点击“<ruby>克隆或下载<rt>Clone or download</rt></ruby>”按钮，你的浏览器看起来应该是这样的：
+让我们克隆在上一篇文章中创建的名为 Demo 的仓库。（如果你还没有创建 Demo 仓库，请跳回到[那篇文章](https://linux.net.cn/article-9319-1.html)并在继续之前执行那些步骤）要克隆文件，只需打开浏览器并导航到 `https://github.com/<your_username>/Demo` (其中 `<your_username>` 是你仓库的名称。例如，我的仓库是 `https://github.com/kedark3/Demo`)。一旦你导航到该 URL，点击“<ruby>克隆或下载<rt>Clone or download</rt></ruby>”按钮，你的浏览器看起来应该是这样的：
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/git_guide11.png)
 
@@ -191,4 +190,4 @@ git push -u origin master
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

@@ -2,8 +2,7 @@
 comments: true
 ---
 
-GitHub 的 DNS 基础设施
-============================================================
+# GitHub 的 DNS 基础设施
 
 在 GitHub，我们最近从头改进了 DNS。这包括了我们[如何与外部 DNS 提供商交互](https://githubengineering.com/enabling-split-authority-dns-with-octodns/)以及我们如何在内部向我们的主机提供记录。为此，我们必须设计和构建一个新的 DNS 基础设施，它可以随着 GitHub 的增长扩展并跨越多个数据中心。
 
@@ -68,4 +67,4 @@ $ dig +short time.github.net
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

@@ -120,7 +120,7 @@ mkdir -p dir1/subdir1/subdir2
 
 --------------------------------------------------------------------------------
 
->via: [https://linux.cn/article-15595-1.html](https://linux.cn/article-15595-1.html)
+>via: [https://linux.net.cn/article-15595-1.html](https://linux.net.cn/article-15595-1.html)
 >
 >source: [https://itsfoss.com/make-directories/](https://itsfoss.com/make-directories/)
 >
@@ -132,4 +132,4 @@ mkdir -p dir1/subdir1/subdir2
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出

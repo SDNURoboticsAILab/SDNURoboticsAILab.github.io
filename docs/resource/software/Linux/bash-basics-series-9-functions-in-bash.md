@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #9：Bash 中的函数
-======
+# Bash 基础知识系列 #9：Bash 中的函数
 
 > 在 Bash 基础系列的最后一章中学习函数的全部知识。
 
@@ -194,4 +193,4 @@ Factorial of 5 is: 120
 >
 >校对：[wxy](https://github.com/wxy)
 >
->本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.cn/) 荣誉推出
+>本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创编译，[Linux中国](https://linux.net.cn/) 荣誉推出
