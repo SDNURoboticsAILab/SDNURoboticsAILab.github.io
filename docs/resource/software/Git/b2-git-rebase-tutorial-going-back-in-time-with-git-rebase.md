@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Git Rebase教程： 用Git Rebase让时光倒流
-================================================================================
+# Git Rebase教程： 用Git Rebase让时光倒流
 
 ## 教程: Git Rebase ###
 

@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Git 教程：重命名分支、删除分支、查看分支作者
-======
+# Git 教程：重命名分支、删除分支、查看分支作者
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/161618nt30jqe10nqtlzlj.jpg)
 

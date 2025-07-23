@@ -2,8 +2,7 @@
 comments: true
 ---
 
-GIT 命令“从初学到专业”完整进阶指南 
-=========== 
+# GIT 命令“从初学到专业”完整进阶指南 
 
 在[之前的教程](http://linuxtechlab.com/install-git-linux-ubuntu-centos/)中，我们已经学习了在机器上安装 git。本教程，我们将讨论如何使用 git，比如与 git 一起使用的各种命令。所以我们开始吧，
 

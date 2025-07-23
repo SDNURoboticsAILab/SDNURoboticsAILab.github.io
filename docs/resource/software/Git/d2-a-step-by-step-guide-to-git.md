@@ -2,8 +2,7 @@
 comments: true
 ---
 
-手把手指导您使用 Git
-======
+# 手把手指导您使用 Git
 
 如果您从未使用过 [Git](https://opensource.com/resources/what-is-git)，甚至可能从未听说过它。莫慌张，只需要一步步地跟着这篇入门教程，很快您就会在 [GitHub](https://opensource.com/life/15/11/short-introduction-github) 上拥有一个全新的 Git 仓库。
 

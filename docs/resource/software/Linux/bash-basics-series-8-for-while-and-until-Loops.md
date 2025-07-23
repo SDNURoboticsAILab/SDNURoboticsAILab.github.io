@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #8：For、While 和 Until 循环
-======
+# Bash 基础知识系列 #8：For、While 和 Until 循环
 
 > 在 Bash 基础知识系列的倒数第二章节，学习 `for`、`while` 和 `until` 循环。
 

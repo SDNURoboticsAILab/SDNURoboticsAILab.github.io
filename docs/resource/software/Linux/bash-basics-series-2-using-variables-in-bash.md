@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #2：在 Bash 中使用变量
-======
+# Bash 基础知识系列 #2：在 Bash 中使用变量
 
 > 在本章的 Bash 基础知识系列中，学习在 Bash 脚本中使用变量。
 

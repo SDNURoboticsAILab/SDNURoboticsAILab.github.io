@@ -2,8 +2,7 @@
 comments: true
 ---
 
-Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本
-======
+# Bash 基础知识系列 #1：创建并运行你的第一个 Bash Shell 脚本
 
 > 这是一个新教程系列的开始。在这一篇中，你将熟悉 Bash 脚本。
 

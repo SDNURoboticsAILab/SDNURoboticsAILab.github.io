@@ -2,8 +2,8 @@
 comments: true
 ---
 
-6 个托管 git 仓库的地方
-======
+# 6 个托管 git 仓库的地方
+
 > GitHub 被收购导致一些用户去寻找这个流行的代码仓库的替代品。这里有一些你可以考虑一下。
 
 ![](https://cdn.jsdelivr.net/gh/SDNURoboticsAILab/ImageBed@master/img/resources/git/house_home_colors_live_building.jpg)
