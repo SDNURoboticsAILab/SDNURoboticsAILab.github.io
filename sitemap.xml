@@ -134,6 +134,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations/"/>
     </url>
     <url>
+        <loc>Noneawards/XiaomiCup%20en/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup%20en/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup%20en/"/>
+    </url>
+    <url>
         <loc>Noneawards/XiaomiCup-2025/</loc>
         <lastmod>2025-09-01</lastmod>
         <changefreq>daily</changefreq>
@@ -146,6 +153,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup-2025en/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup-2025en/"/>
+    </url>
+    <url>
+        <loc>Noneawards/XiaomiCup/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup/"/>
     </url>
     <url>
         <loc>Nonecommercial/commercial/</loc>
@@ -2444,6 +2458,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/Shandong-Provincial-University-Contest-on-Intelligent-Robotic-Innovations/"/>
     </url>
     <url>
+        <loc>Noneen/awards/XiaomiCup%20en/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup%20en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup%20en/"/>
+    </url>
+    <url>
         <loc>Noneen/awards/XiaomiCup-2025/</loc>
         <lastmod>2025-09-01</lastmod>
         <changefreq>daily</changefreq>
@@ -2456,6 +2477,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup-2025en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup-2025en/"/>
+    </url>
+    <url>
+        <loc>Noneen/awards/XiaomiCup/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/awards/XiaomiCup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneawards/XiaomiCup/"/>
     </url>
     <url>
         <loc>Noneen/commercial/commercial/</loc>
