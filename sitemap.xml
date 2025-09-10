@@ -274,6 +274,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025-autumn-engineering-challenges/"/>
     </url>
     <url>
+        <loc>Noneothers/2025-q-and-a/</loc>
+        <lastmod>2025-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2025-q-and-a/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025-q-and-a/"/>
+    </url>
+    <url>
         <loc>Noneothers/2025new/</loc>
         <lastmod>2025-09-10</lastmod>
         <changefreq>daily</changefreq>
@@ -2624,6 +2631,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025-autumn-engineering-challenges/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2025-autumn-engineering-challenges/"/>
+    </url>
+    <url>
+        <loc>Noneen/others/2025-q-and-a/</loc>
+        <lastmod>2025-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/others/2025-q-and-a/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneothers/2025-q-and-a/"/>
     </url>
     <url>
         <loc>Noneen/others/2025new/</loc>
