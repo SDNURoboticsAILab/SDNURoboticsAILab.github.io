@@ -400,6 +400,9 @@ nav:
   - 其他:
     - 如何贡献: others/htc.md
     - 有趣的东西: others/interesting.md
+    
+  - 2025秋纳新:
+    - Q&A: others/2025-q-and-a.md
     - 机器人实验室2025工程实践能力考核说明: others/2025-autumn-engineering-challenges.md
     - 项目一：基于 YOLO 的车牌号识别系统: others/2025-aec-01-yolo.md
     - 项目二：基于树莓派和OpenCV 的人脸识别门禁系统: others/2025-aec-02-raspi.md
