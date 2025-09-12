@@ -156,6 +156,8 @@ NAO机器人：提供NAO机器人从入门到进阶的完整学习资料，包�
 
 最有价值的不是完美程序，而是详尽记录的学习过程与思考！快来看看题目详情吧～如有问题可以在群里和师哥师姐讨论。
 
+考核说明、提交要求和截止时间详见“题目说明”。
+
 题目说明：https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/
 
 代码仓库：https://github.com/SDNURoboticsAILab/2025AutumnEngineeringChallenges
