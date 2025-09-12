@@ -107,6 +107,8 @@ graph
 
 > [!NOTE]
 >
+> 
+>
 > 建议选择`n`系列模型，模型小，需要算力少，训练时间短
 
 ## Level 4：使用训练好的模型进行推理
@@ -149,9 +151,9 @@ OCR：[什么是OCR - 知乎](https://zhuanlan.zhihu.com/p/144919420)
 
 YOLO v8 + OCR：[yolov8与OCR结合使用_yolo+ocr-CSDN博客](https://blog.csdn.net/varda8899/article/details/147108041)
 
-YOLO v11 + PaddleOCR：https://blog.csdn.net/ldlno/article/details/147252128
+YOLO v11 + PaddleOCR：[https://blog.csdn.net/ldlno/article/details/147252128](https://blog.csdn.net/ldlno/article/details/147252128)
 
-YOLO v11 + EasyOCR：https://blog.csdn.net/qq_42589613/article/details/144276341
+YOLO v11 + EasyOCR：[https://blog.csdn.net/qq_42589613/article/details/144276341](https://blog.csdn.net/qq_42589613/article/details/144276341)
 
 ## Level 6：实现图形化界面
 

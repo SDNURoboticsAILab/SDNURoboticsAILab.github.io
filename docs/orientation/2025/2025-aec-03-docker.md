@@ -39,34 +39,34 @@
 
 1. #### 系统培训课程
 
-  * 机器人实验室往年Linux、Git、Python培新：https://space.bilibili.com/3546615520430884
-  * 红岩网校运维安全部课程：https://space.bilibili.com/1504551074/lists/4139430?type=season
+  * 机器人实验室往年Linux、Git、Python培新：[https://space.bilibili.com/3546615520430884](https://space.bilibili.com/3546615520430884)
+  * 红岩网校运维安全部课程：[https://space.bilibili.com/1504551074/lists/4139430?type=season](https://space.bilibili.com/1504551074/lists/4139430?type=season)
 
 2. #### 学习教程
 
-- Git学习教程：https://sdnuroboticsailab.github.io/resource/software/Git/Git_Introduction/
-- Git 使用攻略：https://www.bilibili.com/video/BV1u94y1n73L
-- Git使用攻略2：https://www.bilibili.com/video/BV1d6XVYqEuy
-- Linux 入门教程：https://sdnuroboticsailab.github.io/resource/software/Linux/getting-started-with-linux-terminal/
-- Docker 入门教程：https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html
-- Docker 实践攻略：https://www.bilibili.com/video/BV1THKyzBER6
+- Git学习教程：[https://sdnuroboticsailab.github.io/resource/software/Git/Git_Introduction/](https://sdnuroboticsailab.github.io/resource/software/Git/Git_Introduction/)
+- Git 使用攻略：[https://www.bilibili.com/video/BV1u94y1n73L](https://www.bilibili.com/video/BV1u94y1n73L)
+- Git使用攻略2：[https://www.bilibili.com/video/BV1d6XVYqEuy](https://www.bilibili.com/video/BV1d6XVYqEuy)
+- Linux 入门教程：[https://sdnuroboticsailab.github.io/resource/software/Linux/getting-started-with-linux-terminal/](https://sdnuroboticsailab.github.io/resource/software/Linux/getting-started-with-linux-terminal/)
+- Docker 入门教程：[https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html](https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
+- Docker 实践攻略：[https://www.bilibili.com/video/BV1THKyzBER6](https://www.bilibili.com/video/BV1THKyzBER6)
 
 3. #### 双系统安装、软件安装、环境配置
 
-  * 使用 WSL 安装 Ubuntu 教程：https://sdnuroboticsailab.github.io/resource/software/Linux/first-vm-2024/#wsl-ubuntu
-  * 安装 Ubuntu 24.04 双系统：https://hs.cnies.org/archives/dual-boot-ubuntu2404-win11
-  * Ubuntu 软件安装、使用技巧、系统优化教程：https://hs.cnies.org/archives/ubuntu2404-optimize
-  * Anaconda 安装和配置：https://hs.cnies.org/archives/conda-win
-  * wsl安装Docker教程1：https://blog.jojo.host/posts/dxdhlMjMt/
-  * wsl安装Docker教程2：https://seepine.com/docker/wsl-install/
-  * Ubuntu24.04 安装docker：https://www.liuwg.com/archives/ubuntu24.04-an-zhuang-docker
+  * 使用 WSL 安装 Ubuntu 教程：[https://sdnuroboticsailab.github.io/resource/software/Linux/first-vm-2024/#wsl-ubuntu](https://sdnuroboticsailab.github.io/resource/software/Linux/first-vm-2024/#wsl-ubuntu)
+  * 安装 Ubuntu 24.04 双系统：[https://hs.cnies.org/archives/dual-boot-ubuntu2404-win11](https://hs.cnies.org/archives/dual-boot-ubuntu2404-win11)
+  * Ubuntu 软件安装、使用技巧、系统优化教程：[https://hs.cnies.org/archives/ubuntu2404-optimize](https://hs.cnies.org/archives/ubuntu2404-optimize)
+  * Anaconda 安装和配置：[https://hs.cnies.org/archives/conda-win](https://hs.cnies.org/archives/conda-win)
+  * wsl安装Docker教程1：[https://blog.jojo.host/posts/dxdhlMjMt/](https://blog.jojo.host/posts/dxdhlMjMt/)
+  * wsl安装Docker教程2：[https://seepine.com/docker/wsl-install/](https://seepine.com/docker/wsl-install/)
+  * Ubuntu24.04 安装docker：[https://www.liuwg.com/archives/ubuntu24.04-an-zhuang-docker](https://www.liuwg.com/archives/ubuntu24.04-an-zhuang-docker)
 
 4. #### vllm 部署文档
 
-  * vllm 中文文档：https://vllm.hyper.ai/docs/getting-started/quickstart/
-  * vllm 部署模型调用：https://qwen.readthedocs.io/zh-cn/latest/deployment/vllm.html
-  * vllm部署Qwen大模型：https://www.cnblogs.com/tangwc/p/18905590
-  * vllm部署Qwen3大模型：https://zhuanlan.zhihu.com/p/1902835927396652806
+  * vllm 中文文档：[https://vllm.hyper.ai/docs/getting-started/quickstart/](https://vllm.hyper.ai/docs/getting-started/quickstart/)
+  * vllm 部署模型调用：[https://qwen.readthedocs.io/zh-cn/latest/deployment/vllm.html](https://qwen.readthedocs.io/zh-cn/latest/deployment/vllm.html)
+  * vllm部署Qwen大模型：[https://www.cnblogs.com/tangwc/p/18905590](https://www.cnblogs.com/tangwc/p/18905590)
+  * vllm部署Qwen3大模型：[https://zhuanlan.zhihu.com/p/1902835927396652806](https://zhuanlan.zhihu.com/p/1902835927396652806)
 
 ## Level 1：解读Dockerfile并运行第一个Web服务
 
@@ -148,6 +148,8 @@ CMD ["python", "app.py"]
 
 > [!NOTE]
 >
+> 
+>
 > 构建镜像时使用 `docker build -t my-first-app .` 命令，`-t` 参数用于给镜像打标签，方便后续使用。
 
 ## Level 2：搭建GPU加速的Docker环境
@@ -220,6 +222,9 @@ CMD ["python3", "gpu_test.py"]
 - CUDA兼容性：[CUDA Compatibility :: NVIDIA Data Center GPU Driver Documentation](https://docs.nvidia.com/deploy/cuda-compatibility/)
 
 > [!NOTE]
+>
+> 
+>
 > 如果没有NVIDIA GPU，可以跳过此步骤，但后续模型推理速度会明显降低。Apple Silicon Mac用户可以使用Metal Performance Shaders (MPS) 作为替代。
 
 ## Level 3：使用Docker部署vLLM推理服务
