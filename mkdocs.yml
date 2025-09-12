@@ -613,7 +613,11 @@ markdown_extensions:
       linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   #使用时间轴
   - neoteroi.timeline
   # 使用icon图标
