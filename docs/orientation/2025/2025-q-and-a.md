@@ -80,7 +80,7 @@ NAO机器人：提供NAO机器人从入门到进阶的完整学习资料，包�
 
 发表国际学术会议论文1篇；
 
-申请发明专利1项；
+申请发明专利2项；
 
 授权软件著作权4项；
 
@@ -253,7 +253,7 @@ NAO机器人：提供NAO机器人从入门到进阶的完整学习资料，包�
 
 福利来袭！ 即日起至9月29日转发实验室频道/微信公众号推文并集赞满28个，你的幸运时刻即将到来!
 
-公众号文章：https://mp.weixin.qq.com/s/MNByhTvgSafiNHUYCqF-Mg
+公众号文章：https://mp.weixin.qq.com/s/1t6vAOlaRQLsltHVXKUKEA
 
 奖品清单：
 
