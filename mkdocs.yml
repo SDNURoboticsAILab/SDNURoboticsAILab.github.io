@@ -402,17 +402,17 @@ nav:
     - 有趣的东西: others/interesting.md
     
   - 2025秋纳新:
-    - Q&A: others/2025-q-and-a.md
-    - 机器人实验室2025工程实践能力考核说明: others/2025-autumn-engineering-challenges.md
-    - 项目一：基于 YOLO 的车牌号识别系统: others/2025-aec-01-yolo.md
-    - 项目二：基于树莓派和OpenCV 的人脸识别门禁系统: others/2025-aec-02-raspi.md
-    - 项目三：基于 Docker+vLLM 的翻译大模型部署实践: others/2025-aec-03-docker.md
+    - Q&A: orientation/2025/2025-q-and-a.md
+    - 机器人实验室2025工程实践能力考核说明: orientation/2025/2025-autumn-engineering-challenges.md
+    - 项目一：基于 YOLO 的车牌号识别系统: orientation/2025/2025-aec-01-yolo.md
+    - 项目二：基于树莓派和OpenCV 的人脸识别门禁系统: orientation/2025/2025-aec-02-raspi.md
+    - 项目三：基于 Docker+vLLM 的翻译大模型部署实践: orientation/2025/2025-aec-03-docker.md
 
-    # - 机器人实验室新媒体纳新通知: others/orientation2024-wiki-pub.md
-    # - 机器人实验室技术部纳新通知: others/orientation2024-wiki-tek.md
-    # - 机器人实验室2024-2025纳新须知: others/2025new.md
-    # - 机器人实验室2023级纳新测试: others/2023test.md
-    # - 纳新抽奖活动: others/Sweepstakes.md
+    # - 机器人实验室新媒体纳新通知: orientation/2024/orientation2024-wiki-pub.md
+    # - 机器人实验室技术部纳新通知: orientation/2024/orientation2024-wiki-tek.md
+    # - 机器人实验室2024-2025纳新须知: orientation/2024/2025new.md
+    # - 机器人实验室2023级纳新测试: orientation/2024/2023test.md
+    # - 纳新抽奖活动: orientation/2024/Sweepstakes.md
   
 
 #[UI]
