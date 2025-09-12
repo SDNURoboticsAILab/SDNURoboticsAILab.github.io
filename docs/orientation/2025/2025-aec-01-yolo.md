@@ -105,11 +105,9 @@ graph
 
 训练模型：[使用 Ultralytics YOLO 进行模型训练 - Ultralytics YOLO 文档](https://docs.ultralytics.com/zh/modes/train/#usage-examples)
 
-> [!NOTE]
->
-> 
->
-> 建议选择`n`系列模型，模型小，需要算力少，训练时间短
+!!! note "笔记"
+
+    建议选择`n`系列模型，模型小，需要算力少，训练时间短
 
 ## Level 4：使用训练好的模型进行推理
 

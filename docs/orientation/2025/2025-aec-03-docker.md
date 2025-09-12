@@ -146,11 +146,9 @@ CMD ["python", "app.py"]
 1. 运行成功日志
 2. 运行成功截图
 
-> [!NOTE]
->
-> 
->
-> 构建镜像时使用 `docker build -t my-first-app .` 命令，`-t` 参数用于给镜像打标签，方便后续使用。
+!!! note "笔记"
+
+    构建镜像时使用 `docker build -t my-first-app .` 命令，`-t` 参数用于给镜像打标签，方便后续使用。
 
 ## Level 2：搭建GPU加速的Docker环境
 
@@ -221,11 +219,9 @@ CMD ["python3", "gpu_test.py"]
 - Docker GPU支持：[GPU support | Docker Docs](https://docs.docker.com/config/containers/resource_constraints/#gpu)
 - CUDA兼容性：[CUDA Compatibility :: NVIDIA Data Center GPU Driver Documentation](https://docs.nvidia.com/deploy/cuda-compatibility/)
 
-> [!NOTE]
->
-> 
->
-> 如果没有NVIDIA GPU，可以跳过此步骤，但后续模型推理速度会明显降低。Apple Silicon Mac用户可以使用Metal Performance Shaders (MPS) 作为替代。
+!!! note "笔记"
+
+    如果没有NVIDIA GPU，可以跳过此步骤，但后续模型推理速度会明显降低。Apple Silicon Mac用户可以使用Metal Performance Shaders (MPS) 作为替代。
 
 ## Level 3：使用Docker部署vLLM推理服务
 
