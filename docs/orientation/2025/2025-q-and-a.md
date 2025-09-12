@@ -158,15 +158,15 @@ NAO机器人：提供NAO机器人从入门到进阶的完整学习资料，包�
 
 考核说明、提交要求和截止时间详见“题目说明”。
 
-题目说明：https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/
+题目说明：https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/
 
 代码仓库：https://github.com/SDNURoboticsAILab/2025AutumnEngineeringChallenges
 
-题目一：https://sdnuroboticsailab.github.io/others/2025-aec-01-yolo/
+题目一：https://sdnuroboticsailab.github.io/orientation/2025/2025-aec-01-yolo/
 
-题目二：https://sdnuroboticsailab.github.io/others/2025-aec-02-raspi/
+题目二：https://sdnuroboticsailab.github.io/orientation/2025/2025-aec-02-raspi/
 
-题目三：https://sdnuroboticsailab.github.io/others/2025-aec-03-docker/
+题目三：https://sdnuroboticsailab.github.io/orientation/2025/2025-aec-03-docker/
 
 ## 加入实验室前准备什么
 
