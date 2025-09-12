@@ -56,11 +56,11 @@
 
 可以参考CSDN的博客：[树莓派官方烧录工具Raspberry Pi Imager-CSDN博客](https://blog.csdn.net/qq_58018816/article/details/136131968?ops_request_misc=%7B%22request%5Fid%22%3A%22fae4f3342ea9824ffc2dc928208a7d36%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=fae4f3342ea9824ffc2dc928208a7d36&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-136131968-null-null.142^v102^pc_search_result_base7&utm_term=树莓派烧录系统到sd卡&spm=1018.2226.3001.4187)
 
-相关软件的官网：https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.htm
+相关软件的官网：[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 [Download VNC Viewer by RealVNC®](https://www.realvnc.com/en/connect/download/viewer/?lai_vid=aqJqr8NB0iQr&lai_sr=5-9&lai_sl=l)
 
-https://www.raspberrypi.com/software/
+[https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
 
 ## Level 2：获取摄像头实时画面
 
