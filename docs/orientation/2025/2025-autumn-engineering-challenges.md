@@ -51,12 +51,16 @@
 
 ## 三、提交要求
 
-请将你的所有相关成果整理后，在代码仓库（https://github.com/SDNURoboticsAILab/2025AutumnEngineeringChallenges）的相应题目目录创建一个自己学号命名的文件夹，并提交 Pull Request（PR）。提交PR时在标题备注专业+班级+姓名（如`feat(YOLO): 计工本2303赵恒堂提交项目一成果`），**内容应至少包括**：
+请将你的所有相关成果整理后，在代码仓库（[https://github.com/SDNURoboticsAILab/2025AutumnEngineeringChallenges](https://github.com/SDNURoboticsAILab/2025AutumnEngineeringChallenges)）的相应题目目录创建一个自己学号命名的文件夹，并提交 Pull Request（PR）。
+
+提交PR时在标题备注专业+班级+姓名（如`feat(YOLO): 计工本2303赵恒堂提交项目一成果`），**内容应至少包括**：
 
 *   **完整的项目源代码：** 包含所有必要的配置文件和说明。
 *   **详细的项目报告（Markdown 格式）：** 这是你整个学习和实践过程的全面展现，请认真撰写。
 *   **最终成果展示：** 附上清晰的运行截图或简短的演示视频。
 *   **提交格式**：提交消息和 Pull Request 标题符合[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)格式。
+
+提交时间为即日起到**2025年10月8日0时**，**截止后不再接受新的Pull Request**。
 
 最后，希望这次工程实践挑战能成为你技术成长道路上一次宝贵的经历。请记住，过程比结果更重要。我们期待看到你充满热情与思考的实践成果！
 
