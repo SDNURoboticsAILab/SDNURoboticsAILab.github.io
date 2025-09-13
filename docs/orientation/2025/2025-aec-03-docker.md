@@ -239,6 +239,7 @@ CMD ["python3", "gpu_test.py"]
 - NVIDIA Container Toolkit安装：[Installation Guide — NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 - Docker GPU支持：[GPU support | Docker Docs](https://docs.docker.com/config/containers/resource_constraints/#gpu)
 - CUDA兼容性：[CUDA Compatibility :: NVIDIA Data Center GPU Driver Documentation](https://docs.nvidia.com/deploy/cuda-compatibility/)
+- WSL2+Docker配置CUDA环境：[https://blog.csdn.net/m0_63070489/category_12565087.html](https://blog.csdn.net/m0_63070489/category_12565087.html)
 
 !!! note "笔记"
 
