@@ -17,7 +17,8 @@
 
 1. 考虑到大模型对硬件资源，特别是显存（VRAM）的高要求。普通游戏本基本满足部署 7B（70 亿参数）级别模型所需的基本显存，但是想要更快的推理速度，**推荐使用配备有高性能 NVIDIA 显卡的个人电脑（或者搭载 M 系列处理器的苹果电脑）或 GPU 服务器来完成此项目**。
 2. 目前 Docker 国内镜像源无法正常使用，慎选。有条件的同学请自行了解如何使用科学上网。
-3. 想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/)
+3. 所有给出的脚本均**作为参考**，请根据实际情况进行调整。
+4. 想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/)
 
 ## Level 0： 认识核心工具链
 
@@ -117,7 +118,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # 安装依赖 - 就像安装软件
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install flask
 
 # 复制应用代码
 COPY app.py .
@@ -156,7 +157,7 @@ CMD ["python", "app.py"]
 
 ### 任务目标：
 
-1. 安装NVIDIA驱动和CUDA（如果尚未安装）
+1. 安装NVIDIA驱动和CUDA（如果尚未安装），CUDA版本推荐12.4-12.6。
 2. 配置NVIDIA Container Toolkit
 3. 验证Docker容器可以访问GPU
 
@@ -177,24 +178,28 @@ flowchart LR
 nvidia-smi
 
 # 2. 安装NVIDIA Container Toolkit
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
-curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
-curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+sudo apt-get install -y curl
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 
 sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
 
 # 3. 重启Docker
+sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 
-# 4. 测试GPU访问
-docker run --rm --gpus all nvidia/cuda:11.8.0-base-ubuntu22.04 nvidia-smi
+# 4. 测试GPU访问，注意请根据实际CUDA版本进行测试
+docker run --rm --gpus all nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
 ```
 
 ### 创建GPU测试Dockerfile：
 
 ```dockerfile
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+FROM nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
 
 RUN apt-get update && apt-get install -y python3 python3-pip
 
@@ -207,11 +212,27 @@ WORKDIR /app
 CMD ["python3", "gpu_test.py"]
 ```
 
+请自行编写 `gpu_test.py`。测试内容包括但不限于：
+
+- 是否正常运行
+
+- torch 是否可以检测到 CUDA 和正确的 GPU 数量
+  ```python
+  # 参考脚本
+  import torch
+  
+  print(f"torch.cuda.is_available(): {torch.cuda.is_available()}")
+  print(f"torch.cuda.device_count(): {torch.cuda.device_count()}")
+  print(f"os.environ['CUDA_VISIBLE_DEVICES']: {os.environ['CUDA_VISIBLE_DEVICES']}")
+  ```
+
+- 进行简单的张量创建和移动、矩阵运算等，检测是否成功。
+
 ### 提交截图：
 
-- `nvidia-smi` 命令在容器内正常运行
-- PyTorch能够检测到GPU设备
-- 显示正确的GPU型号和显存信息
+- `nvidia-smi`和 `nvcc -V` 命令在容器内正常运行
+- 测试脚本`gpu_test.py`
+- 测试结果，比如PyTorch能够检测到GPU设备，显示正确的GPU型号和显存信息等
 
 ### 参考文档：
 
@@ -225,17 +246,17 @@ CMD ["python3", "gpu_test.py"]
 
 ## Level 3：使用Docker部署vLLM推理服务
 
-现在让我们部署vLLM —— 这个为大语言模型而生的高性能推理引擎！vLLM的PagedAttention技术能够让模型推理速度提升2-4倍。
+现在让我们部署vLLM —— 这个为大语言模型而生的高性能推理引擎！vLLM的 PagedAttention 技术能够让模型推理速度提升2-4倍。
 
 ### 任务目标：
 
-1. 使用Docker部署vLLM服务
-2. 测试vLLM的OpenAI兼容API
+1. 使用 Docker 部署 vLLM 服务
+2. 测试 vLLM 的 OpenAI 兼容API
 
 ### 创建vLLM服务的Dockerfile：
 
 ```dockerfile
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+FROM nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
 
 # 安装Python和必要的系统依赖
 RUN apt-get update && apt-get install -y \
