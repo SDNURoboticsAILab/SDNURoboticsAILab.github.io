@@ -442,7 +442,7 @@ docker run --gpus all -v ./Hunyuan-MT-7B:/models \
 
 ### 提交内容：
 
-1. Dockerfile 源代码
+1. `docker-compose.yml` 源代码
 2. 启动日志
 
 ### 推荐资源:
