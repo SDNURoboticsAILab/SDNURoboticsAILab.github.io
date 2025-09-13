@@ -19,7 +19,7 @@
 2. **耐心与毅力**：硬件项目与纯软件开发不同，可能会遇到驱动不兼容、线路接触不良等问题。请保持耐心，学会通过查阅资料和动手尝试来解决问题。
 3. **学习资源**：善用搜索引擎（Google/Bing）、CSDN、哔哩哔哩等平台查找教程。遇到问题时，先尝试自己解决，这也是工程师必备的核心能力。
 4. **前置知识**：建议具备基础的 Python 编程和 Linux 命令行操作知识。如果不熟悉，请参考下方 Level 0 的资料先行学习。
-5. **及格线**：想要通过考核，你至少要完成 **Level 3**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/)
+5. **及格线**：想要通过考核，你至少要完成 **Level 3**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/)
 
 ## Level 0：了解树莓派使用
 

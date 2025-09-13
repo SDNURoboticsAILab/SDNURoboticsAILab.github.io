@@ -18,7 +18,7 @@
 1. 考虑到大模型对硬件资源，特别是显存（VRAM）的高要求。普通游戏本基本满足部署 7B（70 亿参数）级别模型所需的基本显存，但是想要更快的推理速度，**推荐使用配备有高性能 NVIDIA 显卡的个人电脑（或者搭载 M 系列处理器的苹果电脑）或 GPU 服务器来完成此项目**。
 2. 目前 Docker 国内镜像源无法正常使用，慎选。有条件的同学请自行了解如何使用科学上网。
 3. 所有给出的脚本均**作为参考**，请根据实际情况进行调整。
-4. 想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/)
+4. 想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/)
 
 ## Level 0： 认识核心工具链
 
