@@ -199,7 +199,7 @@ docker run --rm --gpus all nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
 ### 创建GPU测试Dockerfile：
 
 ```dockerfile
-FROM nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
+FROM nvidia/cuda:12.6.0-base-ubuntu24.04
 
 RUN apt-get update && apt-get install -y python3 python3-pip
 
@@ -257,7 +257,7 @@ CMD ["python3", "gpu_test.py"]
 ### 创建vLLM服务的Dockerfile：
 
 ```dockerfile
-FROM nvidia/cuda:12.6.0-base-ubuntu24.04 nvidia-smi
+FROM nvidia/cuda:12.6.0-base-ubuntu24.04
 
 # 安装Python和必要的系统依赖
 RUN apt-get update && apt-get install -y \
