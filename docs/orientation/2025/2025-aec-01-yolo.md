@@ -13,7 +13,7 @@
 
 让我们从这个贴近生活的项目开始，一起探索更广阔的专业世界。
 
-想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/others/2025-autumn-engineering-challenges/)
+想要通过考核，你至少要完成 **Level 4**。考核说明和提交要求详见：[https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/](https://sdnuroboticsailab.github.io/orientation/2025/2025-autumn-engineering-challenges/)
 
 ## Level 0：初识 YOLO（“You Only Look Once”）
 
