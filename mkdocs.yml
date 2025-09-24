@@ -1,9 +1,9 @@
 #[Info]
-site_name: SDNU机器人与人工智能实验室
+site_name: SDNU机器人实验室
 docs_dir: 'docs'
 site_dir: 'site'
 site_description: >-
-  山东师范大学信息科学与工程学院机器人与人工智能实验室
+  山东师范大学信息科学与工程学院机器人实验室
 
 repo_name: SDNURoboticsAILab.github.io
 repo_url: https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io
