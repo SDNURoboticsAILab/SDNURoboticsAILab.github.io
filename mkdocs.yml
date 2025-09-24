@@ -1,9 +1,9 @@
 #[Info]
-site_name: SDNU机器人与人工智能实验室
+site_name: SDNU机器人实验室
 docs_dir: 'docs'
 site_dir: 'site'
 site_description: >-
-  山东师范大学信息科学与工程学院机器人与人工智能实验室
+  山东师范大学信息科学与工程学院机器人实验室
 
 repo_name: SDNURoboticsAILab.github.io
 repo_url: https://github.com/SDNURoboticsAILab/SDNURoboticsAILab.github.io
@@ -22,7 +22,7 @@ nav:
   - 教学资源:
     - 编程基础:
       - Python语法基础:
-        - Python简介: resource/programming/Python/Python_Introduction.md
+        - Python简介: !ENV ['LAB_PYTHON_INTRO_PATH', 'resource/programming/Python/Python_Introduction.md']
       - C++语法基础:
         - C++目录: resource/programming/CPP/c-plus-plus.md
         - C++概述:
@@ -99,14 +99,14 @@ nav:
     - 理论基础:
       - 数据结构与算法:
         - 数据结构与算法简介: resource/theory/Algorithm&DS/Algorithm&DS_Introduction.md
-      - 线性代数相关补充:
-        - 线性代数相关补充简介: resource/theory/Linear_Algebra/Linear_Algebra_Introduction.md
+      - 线性代数:
+        - 线性代数相关补充简介: !ENV ['LAB_LINEAR_ALGEBRA_INTRO_PATH', 'resource/theory/Linear_Algebra/Linear_Algebra_Introduction.md']
       - 机器人运动学:
         - 机器人运动学简介: resource/theory/Robot_Kinematics/Robot_Kinematics_Introduction.md
       - 数字图像处理(基于OpenCV C++):
         - 数字图像处理简介: resource/theory/CV/CV_Introduction.md
       - 机器学习:
-        - 机器学习简介: resource/theory/Machine_Learning/Machine_Learning_Introduction.md
+        - 机器学习简介: !ENV ['LAB_ML_INTRO_PATH', 'resource/theory/Machine_Learning/Machine_Learning_Introduction.md']
     - NAO机器人:
       - NAO机器人简介:
         - 基本简述: resource/NAO/Introduction/Basic_Introduction.md
@@ -129,11 +129,12 @@ nav:
         - NAOqi People Perception: resource/NAO/APIs/NAOqi_People_Perception.md
         - NAOqi Sensors & LEDs: resource/NAO/APIs/NAOqi_Sensors_and_LEDs.md
     - 实用软件基础:
-      - Git版本控制系统:
-        - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - Linux指令基础:
-        - Linux指令基础简介: resource/software/Linux/Linux_Introduction.md
+        - Linux指令基础简介: !ENV ['LAB_LINUX_INTRO_PATH', 'resource/software/Linux/Linux_Introduction.md']
+        - 安装Win11和Ubuntu22.04双系统: !ENV ['LAB_WIN11_UBUNTU_DUAL_BOOT_URL', 'https://www.bing.com/search?q=%E5%AE%89%E8%A3%85Win11%E5%92%8CUbuntu22.04%E5%8F%8C%E7%B3%BB%E7%BB%9F+site%3Acnies.org']
+        - 搭建年轻人的第一个虚拟机: !ENV ['LAB_FIRST_VM_2024_URL', 'https://www.bing.com/search?q=%E6%90%AD%E5%BB%BA%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8F%B0%E8%99%9A%E6%8B%9F%E6%9C%BA+site%3Ahxcn.space']
       - Git版本控制:
+        - Git版本控制简介: !ENV ['LAB_GIT_INTRO_PATH', 'resource/software/Git/Git_Introduction.md']
       - GNU Make编译工具:
         - GNU Make编译工具简介: resource/software/GNU_Make/GNU_Make_Introduction.md
       - CMake编译工具:
@@ -141,9 +142,9 @@ nav:
       - GDB调试工具:
         - GDB调试工具简介: resource/software/GDB/GDB_Introduction.md
       - LaTeX:
+        - LaTeX简介: !ENV ['LAB_LATEX_INTRO_PATH', 'resource/software/LaTeX/LaTeX_Introduction.md']
       - Docker:
         - Docker简介: resource/software/Docker/Docker_Introduction.md
-      - 软件工程与现代软件开发:
       - Misc:
         - 2024级技术部第0节课: resource/software/Misc/2024-tech-lesson0.md
   - 培养计划:
@@ -224,8 +225,7 @@ theme:
   static_templates:
     - 404.html
   favicon: favicon.ico
-  icon:
-    logo: images/logo.png
+  logo: images/logo.png
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
@@ -342,6 +342,8 @@ plugins:
             Linux终端入门: Getting Started With Linux Terminal
             第1章：Linux 终端中的目录切换: Chapter 1:Changing Directories in Linux Terminal
             第2章：在 Linux 终端中创建目录: Chapter 2:Making Directories in Linux Terminal
+            安装Win11和Ubuntu22.04双系统: Install Win11 and Ubuntu 22.04 Dual Boot
+            搭建年轻人的第一个虚拟机: Build Your First VM
             Git版本控制系统: Git, Version Control System
             Git秘籍: Git Cheat sheet
             GNU Make编译工具: GNU Make, Compilation Tool
@@ -379,11 +381,14 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-committers:
-      repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
-      branch: master
-      token: !ENV ['MKDOCS_GIT_COMMITTERS_APIKEY']
-  # - git-authors
+  - git-authors
+  # - git-committers:
+  #     repository: SDNURoboticsAILab/SDNURoboticsAILab.github.io
+  #     branch: master
+  #     token: !ENV ['MKDOCS_GIT_COMMITTERS_APIKEY']
+
+extra_css:
+  - css/logo-fix.css
 
 extra_javascript:
   # 使用mathjax进行数学公式渲染
