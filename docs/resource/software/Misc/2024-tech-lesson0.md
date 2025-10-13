@@ -36,9 +36,9 @@ comments: true
 是不是解决方案都有啦
   **PS：所谓的百度，通常是使用搜索引擎进行检索信息的代称，推荐大家使用Bing、Google。**
 
-3. 问ChatGPT(**详情见后文“必备工具”**)
+3. 问ai(**详情见后文“必备工具”**)
 
-4. 看官方文档，大家不要觉得看文档很难就不去看了，我们gopher不像学Java的，与 Java 能用到退休的教程和生态相比，Go虽然也不是很年轻了，但是肯定也是会遇到没有教程的时候。这时候，看文档甚至看源码的能力就非常重要了(**详见后文**)
+4. 看官方文档，大家不要觉得看文档很难就不去看了，有时也是会遇到没有教程的时候。这时候，看文档甚至看源码的能力就非常重要了(**详见后文**)
 
 5. 向学长/姐提问
 
@@ -159,7 +159,7 @@ AI从23年初开始流行，到现在已经不是一个新鲜玩意儿了，也�
 
 AI可以帮助程序员解决非常多的问题，尤其是针对初学者来说。
 
-而且现在使用AI的门槛也低了很多，国内也出现了不少好用的大模型，。也可以直接去使用ChatGPT等国外的模型。
+而且现在使用AI的门槛也低了很多，国内也出现了不少好用的大模型，。也可以直接去使用ChatGPT，Gemini，Cursor等国外的模型。
 
 在提问时，尽可能提供你的代码、报错或者软件运行日志；如果你知道代码的运行过程，也可以告诉AI；如果有多个问题最好将问题拆解后提问：
 
@@ -169,21 +169,21 @@ AI可以帮助程序员解决非常多的问题，尤其是针对初学者来说
 
 #### 一些推荐的AI大语言模型
 
-*[ChatGPT（4.0/4o/o1/o1mini）——毫无悬念的最强](https://chatgpt.com/)*
+*[ChatGPT](https://chatgpt.com/)*
 
-[通义千问——国内最强](https://tongyi.aliyun.com/)
+[通义千问](https://tongyi.aliyun.com/)
 
-[智谱清言——国内最强](https://chatglm.cn/?lang=zh)
+[智谱清言](https://chatglm.cn/?lang=zh)
 
 [Kimi——长文本、多模态、写作](https://kimi.moonshot.cn/)
 
-*[Claude（Claude-3-Haiku/Claude-3.5-Sonnet/Claude-3-Opus）——代码强](https://claude.ai/)*
+*[Claude——代码强](https://claude.ai/)*
 
 [RawChat公益站点——Claude账号共享](https://kelaode.ai/)
 
 [DeepSeek——代码很强](https://chat.deepseek.com/sign_in)
 
-*[‎Gemini——善于总结](https://gemini.google.com/)*
+*[‎Gemini——善于总结](https://aistudio.google.com/)*
 
 *[Gamma——生成PPT和网页](https://gamma.app/)*
 
@@ -194,6 +194,8 @@ AI可以帮助程序员解决非常多的问题，尤其是针对初学者来说
 *[Poe——大语言模型合集](https://poe.com/login)*
 
 [HuggingChat ——大语言模型合集](https://huggingface.co/chat/)
+
+[豆包 - 字节跳动旗下 AI 智能助手](https://www.doubao.com/chat/)
 
 ### GitHub
 
@@ -286,6 +288,8 @@ Markdown是一门标记语言。假如你们知道HTML的话，Markdown和HTML�
 
 Markdown 编写的文档后缀为 `.md`, `.markdown`
 
+Markdown语法：https://markdown.com.cn/basic-syntax/
+
 #### 什么地方会用到markdown？
 
 Markdown可以广泛用于文档、博客、论坛等带格式文本内容的创作，习惯后使用起来会比所见即所得的HTML编辑器更加方便快捷，较Word等格式又有纯文本这一优势。
@@ -319,6 +323,8 @@ Markdown可以广泛用于文档、博客、论坛等带格式文本内容的创
 ### 学习编程的一些资源
 
 [OI Wiki](https://oi-wiki.org/)
+
+[cs-self-learning](https://csdiy.wiki/)
 
 [学堂在线](https://www.xuetangx.com/)
 
@@ -415,18 +421,6 @@ Markdown可以广泛用于文档、博客、论坛等带格式文本内容的创
 考研的话其实和上面差别不大，只是不能抱着只是为了通过考试的心态了，要正儿八经好好学**想考专业的专业课**。
 
 但是保研的话就不一样了，我反正觉得挺坐牢的😭，每门课你都得认真对待，平时分考试分都不能落下。上课该回答问题就回答问题🙋
-
-### 考研篇
-
-
-
-### 保研篇
-
-
-
-### 就业篇
-
-
 
 ## 后记
 
