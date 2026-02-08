@@ -1,0 +1,11 @@
+/* Keep header logo visible even if other styles accidentally hide it. */
+.md-header__button.md-logo {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.md-header__button.md-logo img,
+.md-logo img {
+  display: block !important;
+}
